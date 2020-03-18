@@ -1,0 +1,216 @@
+<html>
+<style rel="stylesheet" type="text/css">
+  #glx-18000-container {
+    --fontColor: #404040;
+    --backgroundColor: #f5f5f5;
+  }
+
+  #glx-18000-container {
+    z-index: 2147483646;
+    padding: 0;
+    position: relative;
+  }
+
+  #glx-18000-container .glx-close {
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2147483647;
+    cursor: pointer;
+  }
+
+  #glx-18000-container .glx-close-with-text {
+    width: auto;
+  }
+
+  #glx-18000-container .glx-close>svg {
+    vertical-align: top;
+  }
+
+  #glx-18000-container #glx-close-icon {
+    fill: grey;
+  }
+
+
+  #glx-18000-container .glx-teaser {
+    position: relative;
+    text-decoration: none;
+    background-color: var(--backgroundColor);
+    transition: transform .3s;
+  }
+
+  #glx-18000-container .glx-image {
+    margin: 0;
+    padding: 0;
+  }
+
+  #glx-18000-container .glx-text {
+    margin: 0;
+    padding: 3px;
+    z-index: 2;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #glx-18000-container .glx-header {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--fontColor);
+  }
+
+  #glx-18000-container .glx-description {
+    font-size: 12px;
+    color: var(--fontColor);
+  }
+
+  #glx-18000-container .glx-cta {
+    padding: 4px 8px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e53935;
+    box-shadow: 0 0 3px 1px rgba(140, 140, 140, .3);
+  }
+
+  #glx-18000-container .glx-main-link {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  #glx-18000-container .glx-watermark-container {
+    grid-column: 1 / -1;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: -12px;
+  }
+
+  #glx-18000-container .glx-watermark {
+    text-decoration: none;
+  }
+
+  #glx-18000-container .glx-teaser {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgba(250, 250, 250, 100%);
+    box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+    z-index: 10;
+    transform: translate(384px, 0);
+    visibility: hidden;
+    position: relative;
+  }
+
+  #glx-18000-container .glx-teaser:hover .glx-ctrls {
+    opacity: 1;
+  }
+
+  #glx-18000-container .glx-teaser.visible {
+    transition: transform .5s ease-in;
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+
+  #glx-18000-container .glx-image {
+    margin-right: 9px;
+  }
+
+  #glx-18000-container .glx-text {
+    background-color: transparent;
+  }
+
+  #glx-18000-container .glx-header {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: blue;
+  }
+
+  #glx-18000-container .glx-description {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+  }
+
+  #glx-18000-container .glx-ctrls {
+    margin: -12px -12px -12px 0;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity .25s ease-in;
+  }
+
+  #glx-18000-container .glx-ctrls-button {
+    width: 100%;
+    min-width: 48px;
+    margin: 0;
+    padding: 4px 12px;
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    flex-grow: 1;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: color .25s;
+  }
+
+  #glx-18000-container .glx-cls {
+    color: #b1b1b1;
+  }
+
+  #glx-18000-container .glx-ok {
+    border-top: 1px solid #e0e0e0;
+    color: #b1b1b1;
+  }
+
+  #glx-18000-container .glx-ctrls-button:hover {
+    color: magenta;
+  }
+
+  #glx-18000-container .glx-watermark {
+    padding: 2px;
+    position: absolute;4
+    top: -4px;
+    left: -4px;
+    font-size: 10px;
+    z-index: 2147483647;
+    border-radius: 3px;
+    background: #6699ff;
+    color: white;
+  }
+</style>
+
+<body>
+  <div class="glx-slider-container-18000" style="max-width: 360px; box-sizing: border-box; padding: 12px; position: fixed; display: flex; inset: 0px 0px auto auto; flex-direction: column; justify-content: flex-start; z-index: 2147483647;">
+    <div id="glx-18000-container" style="display: flex; flex-flow: column nowrap; box-sizing: border-box; visibility: visible; clear: both;"><a href="google.com" target="_blank" class="glx-teaser visible"
+        style="display: flex; box-sizing: border-box; flex-flow: row nowrap; max-width: 100%; max-height: 88px; margin-bottom: 12px;"><img
+          src="https://juliedotwav.github.io/PCoTandy/GoogleFingers.gif" g-role="img" class="glx-image"
+          style="width: 15%; height: 47px; object-fit: cover; flex-grow: 0; flex-shrink: 0; box-sizing: border-box;">
+        <div g-role="text" class="glx-text" style="width: 85%; display: flex; flex-direction: column; overflow: hidden; box-sizing: border-box; max-height: 47px;">
+          <div g-role="header" class="glx-header">Sync your tetso cube now!</div>
+          <div g-role="description" class="glx-description">One trick for mycelial health!</div>
+        </div>
+        <div g-role="ctrls" class="glx-ctrls"><button class="glx-ctrls-button glx-cls" g-role="cls">close</button><button class="glx-ctrls-button glx-ok" g-role="ok">OK</button></div><a href="//trahes.site/ip1C3nqg8VCvZ/12337?param=18000"
+          target="_blank" class="glx-main-link"></a>
+      </a><a href="google.com" target="_blank" class="glx-teaser visible" style="display: flex; box-sizing: border-box; flex-flow: row nowrap; max-width: 100%; max-height: 88px; margin-bottom: 12px;"><img
+          src="https://juliedotwav.github.io/PCoTandy/GoogleFingers.gif" g-role="img" class="glx-image"
+          style="width: 15%; height: 47px; object-fit: cover; flex-grow: 0; flex-shrink: 0; box-sizing: border-box;">
+        <div g-role="text" class="glx-text" style="width: 85%; display: flex; flex-direction: column; overflow: hidden; box-sizing: border-box; max-height: 47px;">
+          <div g-role="header" class="glx-header">Drink water!</div>
+          <div g-role="description" class="glx-description">Click here to hydrate</div>
+        </div>
+        <div g-role="ctrls" class="glx-ctrls"><button class="glx-ctrls-button glx-cls" g-role="cls">close</button><button class="glx-ctrls-button glx-ok" g-role="ok">OK</button></div><a href="google.com"
+          target="_blank" class="glx-main-link"></a>
+      </a></div>
+  </div>
+</body>
+</html>
