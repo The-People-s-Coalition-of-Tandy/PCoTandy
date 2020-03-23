@@ -1,76 +1,261 @@
+<html>
+<style rel="stylesheet" type="text/css">
+
+/* Begin ad styles */
+  #glx-18000-container {
+    --fontColor: #404040;
+    --backgroundColor: #f5f5f5;
+  }
+
+  #glx-18000-container {
+    z-index: 2147483646;
+    padding: 0;
+    position: relative;
+  }
+
+  #glx-18000-container .glx-close {
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2147483647;
+    cursor: pointer;
+  }
+
+  #glx-18000-container .glx-close-with-text {
+    width: auto;
+  }
+
+  #glx-18000-container .glx-close>svg {
+    vertical-align: top;
+  }
+
+  #glx-18000-container #glx-close-icon {
+    fill: grey;
+  }
+
+
+  #glx-18000-container .glx-teaser {
+    position: relative;
+    text-decoration: none;
+    background-color: var(--backgroundColor);
+    transition: transform .3s;
+  }
+
+  #glx-18000-container .glx-image {
+    margin: 0;
+    padding: 0;
+  }
+
+  #glx-18000-container .glx-text {
+    margin: 0;
+    padding: 3px;
+    z-index: 2;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #glx-18000-container .glx-header {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--fontColor);
+  }
+
+  #glx-18000-container .glx-description {
+    font-size: 12px;
+    color: var(--fontColor);
+  }
+
+  #glx-18000-container .glx-cta {
+    padding: 4px 8px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e53935;
+    box-shadow: 0 0 3px 1px rgba(140, 140, 140, .3);
+  }
+
+  #glx-18000-container .glx-main-link {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  #glx-18000-container .glx-watermark-container {
+    grid-column: 1 / -1;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: -12px;
+  }
+
+  #glx-18000-container .glx-watermark {
+    text-decoration: none;
+  }
+
+  #glx-18000-container .glx-teaser {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgba(250, 250, 250, 100%);
+    box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+    z-index: 10;
+    transform: translate(384px, 0);
+    visibility: hidden;
+    position: relative;
+  }
+
+  #glx-18000-container .glx-teaser:hover .glx-ctrls {
+    opacity: 1;
+  }
+
+  #glx-18000-container .glx-teaser.visible {
+    transition: transform .5s ease-in;
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+
+  #glx-18000-container .glx-image {
+    margin-right: 9px;
+  }
+
+  #glx-18000-container .glx-text {
+    background-color: transparent;
+  }
+
+  #glx-18000-container .glx-header {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: blue;
+  }
+
+  #glx-18000-container .glx-description {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+  }
+
+  #glx-18000-container .glx-ctrls {
+    margin: -12px -12px -12px 0;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity .25s ease-in;
+  }
+
+  #glx-18000-container .glx-ctrls-button {
+    width: 100%;
+    min-width: 48px;
+    margin: 0;
+    padding: 4px 12px;
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    flex-grow: 1;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: color .25s;
+  }
+
+  #glx-18000-container .glx-cls {
+    color: #b1b1b1;
+  }
+
+  #glx-18000-container .glx-ok {
+    border-top: 1px solid #e0e0e0;
+    color: #b1b1b1;
+  }
+
+  #glx-18000-container .glx-ctrls-button:hover {
+    color: magenta;
+  }
+
+  #glx-18000-container .glx-watermark {
+    padding: 2px;
+    position: absolute;4
+    top: -4px;
+    left: -4px;
+    font-size: 10px;
+    z-index: 2147483647;
+    border-radius: 3px;
+    background: #6699ff;
+    color: white;
+  }
+
+/* End ad styles! */
+</style>
 
 <body background="tandyhourPurp.gif">
+
   <p align="center">
-<img src="TandyCorp.jpg" area shape="rect" height="100" width="1000" border="0"> <br>
-</p>
-<map name="tandymap">
-
-<area shape="rect" coords="0,0,560,137" href="https://web.archive.org/web/19971022161340/http://www.tandy.com/tandy.html">
-<area shape="rect" coords="7,138,166,198" href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/">
-<area shape="rect" coords="190,146,329,195" href="https://web.archive.org/web/19971022161340/http://www.computercity.com/">
-<area shape="rect" coords="372,140,423,196" href="https://web.archive.org/web/19971022161340/http://www.tandy.com/tandy.html">
-<area shape="rect" coords="459,143,560,196" href="https://web.archive.org/web/19971022161340/http://www.techam.com/">
-</map>
-<br><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/">RadioShack</a> - <a href="https://web.archive.org/web/19971022161340/http://www.computercity.com/">Computer
-City</a>
-- <a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/tandy.html">Tandy</a>
-- <a href="https://web.archive.org/web/19971022161340/http://www.techam.com/">TechAmerica</a>
-<br>
-<hr width="50%"><p></p></center>
-
-<h1 align="center">What's New: </h1>
-
-<h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/html/steve&#39;s_work_bench.html">Steve's Workbench</a></h4>
-
-<h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.unitedagainst.com/">United Against Crime</a></h4>
-
-<h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/howto/reception/">TV/FM Reception</a></h4>
-
-<h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/howto/security/">Home Security</a></h4>
-
-<h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/RepairShop">Electronics
-Repair</a></h4>
-
-<h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/afh.html#Financial">Tandy Annual Report</a></h4>
-
-<h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/scholars/">Tandy Technology Scholars</a></h4>
-
-<h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/employment/employmentmain.html">Tandy
-Employment Opportunities</a></h4>
-
-<h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/locator">RadioShack
-Store Locator</a></h4>
-
-<p>
-</p><hr width="25%" noshade=""><p></p>
-
-<center><p><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/trademark.html">Copyright ©</a>
-Tandy Corporation 1996. All rights reserved. </p>
-
-<img height="45" src="GoogleFingers.gif" width="45" data-iml="1584554013538" data-atf="1">
-<img height="45" src="GoogleFingers.gif" width="45" data-iml="1584554013538" data-atf="1">
-<img height="45" src="GoogleFingers.gif" width="45" data-iml="1584554013538" data-atf="1">
-<img height="45" src="GoogleFingers.gif" width="45" data-iml="1584554013538" data-atf="1">
-<img height="45" src="GoogleFingers.gif" width="45" data-iml="1584554013538" data-atf="1">
+    <img src="TandyCorp.jpg" area shape="rect" height="100" width="1000" border="0"> <br>
+  </p>
+<center>
+  <img src="TandyBanner.png">
 </center>
-<!--
-     FILE ARCHIVED ON 16:13:40 Oct 22, 1997 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 16:38:48 Mar 18, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
 
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  RedisCDXSource: 66.126
-  LoadShardBlock: 1727.032 (3)
-  esindex: 0.016
-  PetaboxLoader3.resolve: 284.528
-  PetaboxLoader3.datanode: 1474.083 (4)
-  exclusion.robots: 0.378
-  exclusion.robots.policy: 0.363
-  CDXLines.iter: 12.438 (3)
-  load_resource: 457.659
-  captures_list: 1809.618
---></body></html>
+  <map name="tandymap">
+    <area shape="rect" coords="0,0,560,137" href="https://web.archive.org/web/19971022161340/http://www.tandy.com/tandy.html">
+    <area shape="rect" coords="7,138,166,198" href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/">
+    <area shape="rect" coords="190,146,329,195" href="https://web.archive.org/web/19971022161340/http://www.computercity.com/">
+    <area shape="rect" coords="372,140,423,196" href="https://web.archive.org/web/19971022161340/http://www.tandy.com/tandy.html">
+    <area shape="rect" coords="459,143,560,196" href="https://web.archive.org/web/19971022161340/http://www.techam.com/">
+  </map>
+  <br>
+  <a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/">RadioShack</a>
+  <a href="https://web.archive.org/web/19971022161340/http://www.computercity.com/">Computer City</a>
+  <a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/tandy.html">Tandy</a>
+  <a href="https://web.archive.org/web/19971022161340/http://www.techam.com/">TechAmerica</a>
+  <br>
+  <hr width="50%">
+
+  <h1 align="center">What's New: </h1>
+
+  <h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/html/steve&#39;s_work_bench.html">Steve's Workbench</a></h4>
+
+  <h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.unitedagainst.com/">United Against Crime</a></h4>
+
+  <h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/howto/reception/">TV/FM Reception</a></h4>
+
+  <h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/howto/security/">Home Security</a></h4>
+
+  <h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/RepairShop">Electronics
+      Repair</a></h4>
+
+  <h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/afh.html#Financial">Tandy Annual Report</a></h4>
+
+  <h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/scholars/">Tandy Technology Scholars</a></h4>
+
+  <h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/employment/employmentmain.html">Tandy
+      Employment Opportunities</a></h4>
+
+  <h4 align="center"><a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/locator">RadioShack
+      Store Locator</a></h4>
+
+  <p>
+  </p>
+  <hr width="25%" noshade="">
+
+
+  <center>
+    <p><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/trademark.html">Copyright ©</a>
+      People's Coalition of Tandy 2020 </p>
+
+    <img height="45" src="GoogleFingers.gif" width="45" data-iml="1584554013538" data-atf="1">
+    <img height="45" src="GoogleFingers.gif" width="45" data-iml="1584554013538" data-atf="1">
+    <img height="45" src="GoogleFingers.gif" width="45" data-iml="1584554013538" data-atf="1">
+    <img height="45" src="GoogleFingers.gif" width="45" data-iml="1584554013538" data-atf="1">
+    <img height="45" src="GoogleFingers.gif" width="45" data-iml="1584554013538" data-atf="1">
+  </center>
+
+</body>
+
+</html>
