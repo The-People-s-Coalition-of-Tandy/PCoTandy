@@ -5,6 +5,11 @@
   #glx-18000-container {
     --fontColor: #404040;
     --backgroundColor: #f5f5f5;
+    position: relative;
+    cursor: pointer;
+    animation-duration:  10s;
+    animation-name: cooltoast;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
   #glx-18000-container {
@@ -206,14 +211,14 @@
   background: #F5F5F5;
   cursor: pointer;
   box-shadow: 0 1px 6px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.19);
-  animation-duration:  .3s;
+  animation-duration:  .7s;
   animation-name: cooltoast;
   animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
 }
 
 .cooltoast-fadeOut {
   animation-name: cooltoastFadeOut;
-  animation-duration: .3s;
+  animation-duration: .5s;
   animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   animation-fill-mode: forwards;
 }
@@ -293,7 +298,6 @@
 
 <body background="tandyhourPurp.gif">
 
-<div id="cooltoast-container"><div id="toast-2" class="cooltoast-toast"><h4 class="cooltoast-title">Some title</h4><p class="cooltoast-text">Some text</p></div></div>
 
   <div class="glx-slider-container-18000" style="max-width: 360px; box-sizing: border-box; padding: 12px; position: fixed; display: flex; inset: 0px 0px auto auto; flex-direction: column; justify-content: flex-start; z-index: 2147483647;">
     <div id="glx-18000-container" style="display: flex; flex-flow: column nowrap; box-sizing: border-box; visibility: visible; clear: both;"><a href="google.com" target="_blank" class="glx-teaser visible"
