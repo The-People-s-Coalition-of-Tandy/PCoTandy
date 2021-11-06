@@ -53,7 +53,7 @@ li {
   0%   { width: 1px; }
   100% { width: 1000px; }
 } */
-li:hover .line-draw {
+.active-album .line-draw {
   width: 1000px;
   visibility: visible;
   transition: width .5s ease-out;
@@ -95,8 +95,18 @@ li:hover .line-draw {
   transition: height .1s ease-out;
 }
 
-li:hover .overlay {
+.active-album .overlay {
   height: 0px;
   transition: height 1s ease-out;
   transition-delay: .5s;
+}
+
+@keyframes spin {
+  0%{transform:rotate(0deg);}
+  /* 50%{transform: rotate(180deg);} */
+  100%{transform: rotate(360deg);}
+}
+
+p:hover {
+  animation: spin .8s ease-out;
 }

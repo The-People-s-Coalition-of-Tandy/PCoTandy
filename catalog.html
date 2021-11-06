@@ -22,10 +22,13 @@
 
 
 function showContent(e) {
-  // console.log(e);
- var x =   e.querySelector(".line-draw");
-  console.log(x);
+  var currentActive = document.querySelector(".active-album");
 
+  if(currentActive) {
+    currentActive.classList.remove('active-album');
+  }
+
+  var x = e.classList.add('active-album');
 }
 </script>
 
@@ -60,8 +63,8 @@ function showContent(e) {
 
 <body>
   <ul>
-    <li class="fun-list-items" onclick="showContent(this)" >
-      PCoT 0001
+    <li onclick="showContent(this)" >
+      <p>PCoT 0001</p>
       <div class="line-draw" />
       <div class="img-container"><img src="https://f4.bcbits.com/img/a0845889841_16.jpg" width="300px" />
         <div class="overlay"></div>
@@ -69,8 +72,8 @@ function showContent(e) {
     </li>
 
 
-    <li>
-      PCoT 0002
+    <li onclick="showContent(this)">
+      <p>PCoT 0002</p>
       <div class="line-draw" />
       <div class="img-container"><img src="https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg" width="300px" />
         <div class="overlay"></div>
