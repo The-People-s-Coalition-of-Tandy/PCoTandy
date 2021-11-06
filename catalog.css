@@ -1,10 +1,7 @@
 li {
   display: flex;
   font-family: "Times New Roman", Times, serif;
-
 }
-
-
 
 /* a::after {
   margin: 3px 0px;
@@ -53,7 +50,7 @@ li {
   0%   { width: 1px; }
   100% { width: 1000px; }
 } */
-li:hover .line-draw {
+.active-album .line-draw {
   width: 1000px;
   visibility: visible;
   transition: width .5s ease-out;
@@ -65,10 +62,18 @@ li:hover .line-draw {
   top: 15%;
   left: 50%;
   transform: translateX(-50%);
-  width: 600px;
-  height: 400px;
+  width: 390px;
+  height: 390px;
   border-radius: 2px;
   overflow: hidden;
+}
+
+.album-info-section {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 500px;
+  transform: translateX(-50%);
 }
 
 .img-container img {
@@ -95,8 +100,23 @@ li:hover .line-draw {
   transition: height .1s ease-out;
 }
 
-li:hover .overlay {
+.active-album .overlay {
   height: 0px;
   transition: height 1s ease-out;
   transition-delay: .5s;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* 50%{transform: rotate(180deg);} */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+p:hover {
+  animation: spin .8s ease-out;
 }

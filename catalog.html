@@ -2,13 +2,13 @@
 
 
 <style>
-#myDIV {
-  width: 100%;
-  padding: 50px 0;
-  text-align: center;
-  background-color: lightblue;
-  margin-top: 20px;
-}
+  #myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+  }
 </style>
 
 
@@ -16,17 +16,20 @@
 
 
 <script type="text/javascript">
-//https://www.w3schools.com/jsref/prop_style_display.asp
-//change the x.style.display to something
-// else in the list of Property Values of the above website
+  //https://www.w3schools.com/jsref/prop_style_display.asp
+  //change the x.style.display to something
+  // else in the list of Property Values of the above website
 
 
-function showContent(e) {
-  // console.log(e);
- var x =   e.querySelector(".line-draw");
-  console.log(x);
+  function showContent(e) {
+    var currentActive = document.querySelector(".active-album");
 
-}
+    if (currentActive) {
+      currentActive.classList.remove('active-album');
+    }
+
+    var x = e.classList.add('active-album');
+  }
 </script>
 
 
@@ -41,7 +44,7 @@ function showContent(e) {
 }
 </script> -->
 
-    <!-- <li onclick="showContent()">Try it</li>
+<!-- <li onclick="showContent()">Try it</li>
 
     <div id="listContent">
     This is my DIV element.
@@ -60,23 +63,31 @@ function showContent(e) {
 
 <body>
   <ul>
-    <li class="fun-list-items" onclick="showContent(this)" >
-      PCoT 0001
+    <li onclick="showContent(this)">
+      <p>PCoT 0001</p>
       <div class="line-draw" />
-      <div class="img-container"><img src="https://f4.bcbits.com/img/a0845889841_16.jpg" width="300px" />
-        <div class="overlay"></div>
+      <div class="album-info-section">
+
+        <div class="img-container" data-tilt data-tilt-glare><img src="https://f4.bcbits.com/img/a0845889841_16.jpg" width="300px" />
+          <div class="overlay"></div>
+          <p>helllooooo test test test</p>
+        </div>
+        hello this is a text
       </div>
     </li>
 
 
-    <li>
-      PCoT 0002
+    <li onclick="showContent(this)">
+      <p>PCoT 0002</p>
       <div class="line-draw" />
-      <div class="img-container"><img src="https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg" width="300px" />
+      <div class="img-container" data-tilt data-tilt-glare><img src="https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg" width="300px" />
         <div class="overlay"></div>
       </div>
     </li>
   </ul>
+
+  <!-- at the end of the body -->
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
 
 </body>
 
