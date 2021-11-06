@@ -1,6 +1,10 @@
 li {
   display: flex;
+  font-family: "Times New Roman", Times, serif;
+
 }
+
+
 
 /* a::after {
   margin: 3px 0px;

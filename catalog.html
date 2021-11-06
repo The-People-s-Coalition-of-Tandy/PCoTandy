@@ -1,20 +1,76 @@
 <html>
 
+
+<style>
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+</style>
+
+
+
+
+
+<script type="text/javascript">
+//https://www.w3schools.com/jsref/prop_style_display.asp
+//change the x.style.display to something
+// else in the list of Property Values of the above website
+
+
+function showContent(e) {
+  // console.log(e);
+ var x =   e.querySelector(".line-draw");
+  console.log(x);
+
+}
+</script>
+
+
+
+<!-- function showContent(e) {
+  var x = document.getElementById("listContent");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script> -->
+
+    <!-- <li onclick="showContent()">Try it</li>
+
+    <div id="listContent">
+    This is my DIV element.
+    </div> -->
+
+
+
+
+
+
+
+
 <head>
   <link rel="stylesheet" href="catalog.css">
 </head>
 
 <body>
   <ul>
-    <li class="fun-list-items">
-      PCoT 1
+    <li class="fun-list-items" onclick="showContent(this)" >
+      PCoT 0001
       <div class="line-draw" />
       <div class="img-container"><img src="https://f4.bcbits.com/img/a0845889841_16.jpg" width="300px" />
         <div class="overlay"></div>
       </div>
     </li>
+
+
     <li>
-      PCoT 2
+      PCoT 0002
       <div class="line-draw" />
       <div class="img-container"><img src="https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg" width="300px" />
         <div class="overlay"></div>
