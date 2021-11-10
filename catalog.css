@@ -37,11 +37,11 @@ li {
 .line-draw {
   border: .5px solid #FF00FF;
   background-color: purple;
-  height: 1px;
+  height: .8px;
   visibility: hidden;
-  margin-top: 5px;
+  margin-top: 25px;
   width: 0px;
-  transition: width .5s ease-out, visibility .5s linear;
+  transition: width 3.5s ease-out, visibility .5s linear;
   animation: rainbow 1.5s linear infinite alternate;
 }
 
@@ -53,15 +53,15 @@ li {
 .active-album .line-draw {
   width: 1000px;
   visibility: visible;
-  transition: width .5s ease-out;
+  transition: width .75s ease-out;
   /* animation: show-album .5s ease-out; */
 }
 
 .img-container {
   position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 12%;
+  left: 25%;
+  transform: translateX(-10%);
   width: 390px;
   height: 390px;
   border-radius: 2px;
