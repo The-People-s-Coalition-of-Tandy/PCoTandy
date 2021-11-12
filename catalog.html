@@ -16,9 +16,6 @@
 
 
 <script type="text/javascript">
-  //https://www.w3schools.com/jsref/prop_style_display.asp
-  //change the x.style.display to something
-  // else in the list of Property Values of the above website
   function showContent(e) {
     var currentActive = document.querySelector(".active-album");
 
@@ -30,63 +27,36 @@
   }
 </script>
 
-
-
-<!-- function showContent(e) {
-  var x = document.getElementById("listContent");
-  if (x.style.display === "none") {
-    x.style.display = "flex";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script> -->
-
-<!-- <li onclick="showContent()">Try it</li>
-
-    <div id="listContent">
-    This is my DIV element.
-    </div> -->
-
-
-
-
-
-
-
-
 <head>
   <link rel="stylesheet" href="catalog.css">
 </head>
 
 <body>
-
   <ul>
-
     <li onclick="showContent(this)">
-      <div class="release-list-text"><p>PCoT 0001</p></div>
+      <div class="release-list-text">
+        <p>PCoT 0001</p>
+      </div>
       <div class="line-draw" />
+
+      <div class="img-container" data-tilt data-tilt-glare><img src="https://f4.bcbits.com/img/a0845889841_16.jpg" width="300px" />
+        <div class="overlay"></div>
+        <p>helllooooo test test test</p>
+      </div>
       <div class="album-info-section">
 
-        <div class="img-container" data-tilt data-tilt-glare><img src="https://f4.bcbits.com/img/a0845889841_16.jpg" width="300px" />
-          <div class="overlay"></div>
-          <p>helllooooo test test test</p>
-
-
-        </div>
         hello this is a text
       </div>
     </li>
 
 
     <li onclick="showContent(this)">
-      <div class="release-list-text"> <p>PCoT 0002</p></div>
+      <div class="release-list-text">
+        <p>PCoT 0002</p>
+      </div>
       <div class="line-draw" />
       <div class="img-container" data-tilt data-tilt-glare><img src="https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg" width="300px" />
-        <div class="overlay" style="color:pink"> Tandy </div>
-        <div class="album-info-section">
-              askdlfjskldf
-        </div>
+        <div class="overlay"></div>
       </div>
     </li>
   </ul>
