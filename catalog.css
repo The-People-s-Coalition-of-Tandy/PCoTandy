@@ -34,6 +34,33 @@ li {
   }
 }
 
+@keyframes rainbow-text {
+  0% {
+    color: red;
+    border-color: green;
+  }
+
+  25% {
+  color: yellow;
+    border-color: blue;
+  }
+
+  50% {
+  color: green;
+    border-color: red;
+  }
+
+  75% {
+    color: blue;
+    border-color: yellow;
+  }
+
+  100% {
+    color: red;
+    border-color: yellow;
+  }
+}
+
 .line-draw {
   border: .5px solid #FF00FF;
   background-color: purple;
@@ -112,6 +139,10 @@ li {
   100%{transform: rotate(360deg);}
 }
 
-p:hover {
-  animation: spin .8s ease-out;
+.release-list-text:hover {
+  animation: spin .5s ease-out;
+}
+
+.release-list-text:hover p {
+  animation: rainbow-text .5s linear infinite alternate;
 }
