@@ -25,43 +25,47 @@
 
     var x = e.classList.add('active-album');
   }
+
+  function createList() {
+    const albumList = ["https://f4.bcbits.com/img/a0845889841_16.jpg", "https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg"]
+    var output = '<ul>';
+    albumList.forEach((album, i) => {
+      const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString()}`;
+      output +=
+      `
+      <li onclick="showContent(this)">
+        <div class="release-list-text">
+          <p>PCoT ${releaseNumber}</p>
+        </div>
+        <div class="line-draw" />
+
+        <div class="img-container" data-tilt-scale="1.1" data-tilt data-tilt-glare data-tilt-perspective="700"><img src="${album}" width="300px"> <p>hello<p></img>
+
+          <div class="overlay"></div>
+          <p>helllooooo test test test</p>
+        </div>
+        <div class="album-info-section">
+
+          hello this is a text
+        </div>
+      </li>
+      `;
+    });
+
+    output += '</ul>';
+    document.getElementById("catalog-container").innerHTML = output;
+
+  }
 </script>
 
 <head>
   <link rel="stylesheet" href="catalog.css">
 </head>
 
-<body>
-  <ul>
-    <li onclick="showContent(this)">
-      <div class="release-list-text">
-        <p>PCoT 0001</p>
-      </div>
-      <div class="line-draw" />
+<body onload="createList()">
+  <div id="catalog-container">
+  </div>
 
-      <div class="img-container" data-tilt data-tilt-glare><img src="https://f4.bcbits.com/img/a0845889841_16.jpg" width="300px" />
-        <div class="overlay"></div>
-        <p>helllooooo test test test</p>
-      </div>
-      <div class="album-info-section">
-
-        hello this is a text
-      </div>
-    </li>
-
-
-    <li onclick="showContent(this)">
-      <div class="release-list-text">
-        <p>PCoT 0002</p>
-      </div>
-      <div class="line-draw" />
-      <div class="img-container" data-tilt data-tilt-glare><img src="https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg" width="300px" />
-        <div class="overlay"></div>
-      </div>
-    </li>
-  </ul>
-
-  <!-- at the end of the body -->
   <script type="text/javascript" src="vanilla-tilt.js"></script>
 
 </body>
