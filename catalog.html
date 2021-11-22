@@ -30,13 +30,6 @@
     var x = e.classList.add('active-album');
   }
 
-  function addTilt() {
-    setTimeout(()=>{VanillaTilt.init(document.querySelectorAll(".img-container img"), {
-      glare: true,
-      perspective: 700
-    })},200);
-  }
-
   function test() {
     const albumList = [{
         cover: "https://f4.bcbits.com/img/a0845889841_16.jpg",
@@ -72,6 +65,10 @@
 
     output += '</ul>';
     document.getElementById("catalog-container").innerHTML = output;
+    VanillaTilt.init(document.querySelectorAll(".img-container img"), {
+      glare: true,
+      perspective: 700
+    })
   }
 </script>
 
