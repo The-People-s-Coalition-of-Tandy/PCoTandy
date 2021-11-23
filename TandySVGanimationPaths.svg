@@ -1,0 +1,26 @@
+
+
+<!-- USE THIS AS ANIMATION PATHS FOR TANDY.SVG -->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 971.51 651.64">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-1,.cls-2{stroke:#000;stroke-miterlimit:10;}.cls-2{fill:none;}</style>
+  </defs>
+  <g id="BlackBarsPaths">
+    <line id="_1Top" data-name="1Top" class="cls-1" x1="970.92" y1="392.79" y2="392.79"/>
+    <line id="_2" data-name="2" class="cls-1" x1="970.58" y1="422.25" y2="422.25"/>
+    <line id="_3" data-name="3" class="cls-1" x1="970.76" y1="463.16" y2="463.16"/>
+    <line id="_4" data-name="4" class="cls-1" y1="502.51" x2="970.76" y2="502.51"/>
+    <line id="_5" data-name="5" class="cls-1" x1="970.76" y1="541.42" y2="541.42"/>
+    <line id="_6" data-name="6" class="cls-1" x1="970.76" y1="582.08" y2="582.08"/>
+    <line id="_7" data-name="7" class="cls-1" x1="970.76" y1="619.74" y2="619.74"/>
+    <line id="_8Bottom" data-name="8Bottom" class="cls-1" x1="970.76" y1="651.14" y2="651.14"/>
+  </g>
+  <g id="HourglassPath">
+    <polyline id="Hourglass" class="cls-2" points="238.31 0 238.31 519 970.92 519"/>
+  </g>
+  <g id="T">
+    <line id="T-2" data-name="T" class="cls-2" x1="971.51" y1="466.46" y2="466.46"/>
+  </g><g id="C"><line id="C-2" data-name="C" class="cls-2" x1="970.92" y1="572.47" y2="572.47"/>
+</g>
+</svg>
