@@ -1,0 +1,33 @@
+
+
+
+
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+  version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+   viewBox="0 0 103.42 114.14">
+  <defs>
+    <style>.cls-1{fill:#ffeb5a;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:5px;}
+    </style>
+  </defs>
+  <rect x="0.31" y="91.59" width="103.1" height="11.7">
+
+    <animateMotion dur="10s" repeatCount="indefinite"
+      path="M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z" />
+
+
+
+  </rect>
+  <rect x="0.34" y="75.34" width="103.08" height="12.65"/>
+  <rect x="0.34" y="58.38" width="103.08" height="13.53"/>
+  <rect x="0.34" y="43.19" width="103.08" height="12.47"/>
+  <rect x="0.34" y="27.22" width="103.08" height="12.38"/>
+  <rect y="11.02" width="103.08" height="11.66"/>
+  <path d="M631.58,335.5H734.66a8.29,8.29,0,0,0-8.29-8.29h-86.5A8.29,8.29,0,0,0,631.58,335.5Z" transform="translate(-631.58 -327.21)"/>
+  <path d="M735,433.05H631.92a8.29,8.29,0,0,0,8.29,8.29h86.5A8.29,8.29,0,0,0,735,433.05Z" transform="translate(-631.58 -327.21)"/>
+  <polygon id="Hourglass" class="cls-1" points="91.67 100.08 76.77 56.39 91.67 13.3 11.28 13.3 27.12 56.69 11.28 100.07 91.67 100.08"/>
+  <path id="C" class="cls-2" d="M699.24,396.18c-9.89-8.06-35.65-5.48-33.06,11.18a4.75,4.75,0,0,0,.27,1c5.94,11.43,26.86,12.15,34.34,2.08" transform="translate(-631.58 -327.21)"/>
+  <g id="T">
+    <line class="cls-2" x1="31.9" y1="24.82" x2="71.18" y2="24.82"/>
+    <line class="cls-2" x1="51.54" y1="52.83" x2="51.54" y2="24.82"/>
+  </g>
+</svg>
