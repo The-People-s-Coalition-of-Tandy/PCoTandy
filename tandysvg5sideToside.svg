@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFEB5A;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
+	.st2{fill:none;}
+</style>
+<g id="Layer_1">
+	<g id="BlackBars">
+		<path d="M631.4,338.4h103.1c0-4.6-3.7-8.3-8.3-8.3h-86.5C635.1,330.1,631.4,333.8,631.4,338.4z		">
+<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="1.8s" fill="freeze" path="m-631.4,0 L0,0" restart="always">
+				</animateMotion>
+		</path>
+		<rect width="103.1" height="11.7">
+		
+			<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="2.3s" fill="freeze" path="M0,421.7 L631.4,421.7" restart="always">
+			</animateMotion>
+		</rect>
+		<rect width="103.1" height="12.7">
+		
+			<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="2.6s" fill="freeze" path="M0,405.4 L631.4,405.4" restart="always">
+			</animateMotion>
+		</rect>
+		<rect width="103.1" height="13.5">
+		
+			<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="2.1s" fill="freeze" path="M0,388.5 L631.4,388.5" restart="always">
+			</animateMotion>
+		</rect>
+		<rect width="103.1" height="12.5">
+		
+			<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="2.s" fill="freeze" path="M0,373.3 L631.4,373.3" restart="always">
+			</animateMotion>
+		</rect>
+		<rect width="103.1" height="12.4">
+		
+			<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="1.9s" fill="freeze" path="M0,357.3 L631.4,357.3" restart="always">
+			</animateMotion>
+		</rect>
+		<rect width="103.1" height="11.7">
+		
+			<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="2.05s" fill="freeze" path="M0,341.1 L631.4,341.1" restart="always">
+			</animateMotion>
+		</rect>
+		<path d="M734.5,435.9H631.4c0,4.6,3.7,8.3,8.3,8.3h86.5C730.8,444.2,734.5,440.5,734.5,435.9L734.5,435.9z		">
+<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="2s" fill="freeze" path="m-631.4,0 L0,0" restart="always">
+				</animateMotion>
+		</path>
+		<polygon id="Hourglass_1_" class="st0" points="723.2,430.2 708.3,386.5 723.2,343.4 642.8,343.4 658.6,386.8 642.8,430.2 		">
+		
+			<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="2.8s" fill="freeze" path="m800,0 L0,0" restart="always">
+			</animateMotion>
+		</polygon>
+		<path id="C_1_" class="st1" d="M698.8,399.1c-9.9-8.1-35.7-5.5-33.1,11.2c0.1,0.3,0.1,0.7,0.3,1c5.9,11.4,26.9,12.1,34.3,2.1		">
+<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="3s" fill="freeze" path="m-1262.8,0 L0,0" restart="always">
+				</animateMotion>
+		</path>
+		<g id="T_1_">
+			<line class="st1" x1="663.3" y1="354.9" x2="702.6" y2="354.9"/>
+			<line class="st1" x1="683" y1="382.9" x2="683" y2="354.9"/>
+			
+				<animateMotion  accumulate="none" additive="replace" calcMode="paced" dur="3.s" fill="freeze" path="m-1262.8,0 L0,0" restart="always">
+				</animateMotion>
+		</g>
+	</g>
+	<rect class="st2" width="1366" height="768"/>
+</g>
+<g id="Layer_2">
+</g>
+</svg>
