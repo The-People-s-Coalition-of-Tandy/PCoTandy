@@ -30,7 +30,7 @@
 
   } */
 
-  .sparkle1 {
+.sparkle1 {
       /* transform: scale(2.5); */
       animation: sparkle-a 4s ease-in-out forwards;
 
