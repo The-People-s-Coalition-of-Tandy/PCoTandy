@@ -1,51 +1,88 @@
 @keyframes sparkle-a {
+
   /* syntax = rotate (degrees, xOrigin, yOrigin) */
-  0% {transform:  rotate(0deg) scale(0);}
-  75% {transform:  rotate(0deg) scale(0);}
-  85% {transform: rotate(340deg) scale(5.5);}
-  100% {transform:  rotate(365deg) scale(1.5);}
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  75% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  85% {
+    transform: rotate(340deg) scale(5.5);
+  }
+
+  100% {
+    transform: rotate(365deg) scale(1.5);
+  }
 }
 
 @keyframes sparkle-b {
+
   /* syntax = rotate (degrees, xOrigin, yOrigin) */
-  0% {transform:  rotate(0deg) scale(0);}
-  75% {transform:  rotate(0deg) scale(0);}
-  85% {transform: rotate(340deg) scale(2);}
-  100% {transform:  rotate(365deg) scale(1);}
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  75% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  85% {
+    transform: rotate(340deg) scale(2);
+  }
+
+  100% {
+    transform: rotate(365deg) scale(1);
+  }
 }
 
-
 @keyframes sparkle-c {
+
   /* syntax = rotate (degrees, xOrigin, yOrigin) */
-  0% {transform:  rotate(0deg) scale(0);}
-  75% {transform:  rotate(0deg) scale(0);}
-  85% {transform: rotate(340deg) scale(3);}
-  100% {transform:  rotate(365deg) scale(2);}
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  75% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  85% {
+    transform: rotate(340deg) scale(3);
+  }
+
+  100% {
+    transform: rotate(365deg) scale(2);
+  }
 }
 
 @keyframes fade {
-  0%,65% { opacity: 1 }
-  100% { opacity: 0 }
+  0%, 65% {
+    opacity: 1
+  }
+
+  100% {
+    opacity: 0
+  }
 }
 
-
-.loaderWrapper{
-width: 100%;
-height: 100%;
-position: absolute;
-top: 0;
-left: 0;
-display: flex;
-justify-content: center;
-align-items: center;
+.loaderWrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .elementToFadeInAndOut {
-    opacity: 0;
-    animation: fade 5.5s linear;
-      position: absolute;
-
+  opacity: 0;
+  animation: fade 5.5s linear;
+  position: absolute;
 }
 
 /*
@@ -53,50 +90,53 @@ align-items: center;
       animation-name: sparkle-a 2s ease-in-out forwards;
 
   } */
-
 .sparkle1 {
-      /* transform: scale(2.5); */
-      animation: sparkle-a 4s ease-in-out forwards;
-
-/* RIGHT ON ORGIINAL
+  /* transform: scale(2.5); */
+  animation: sparkle-a 4s ease-in-out forwards;
+  /* RIGHT ON ORGIINAL
 transform-origin: 720px 345px; */
-      transform-origin: 720px 345px;
-
+  transform-origin: 720px 345px;
 }
 
 .sparkle2 {
   /* transform: scale(2.5); */
   animation: sparkle-b 4.2s ease-in-out forwards;
-
   transform-origin: 715px 345px;
-
 }
 
 .sparkle3 {
   /* transform: scale(2.5); */
   animation: sparkle-c 4.4s ease-in-out forwards;
-
-
-/* RIGHT ON ORGIINAL
+  /* RIGHT ON ORGIINAL
 transform-origin: 720px 345px; */
   transform-origin: 700px 345px;
 }
 
+.svgbg {
+  fill: blue;
+}
 
-
-.svgbg{fill:blue;}
 /*  hourglass yellow
 .st1{fill:#FFEB5A;}*/
 /* HOURGLASS FILL COLOR */
-.st1{fill:#FFEB5A;}
+.st1 {
+  fill: #FFEB5A;
+}
 
 /* T and C fill */
-.st2{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
+.st2 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
 
-.cls-1{stroke:#000;stroke-miterlimit:10;stroke-width:0.1px;}
+.cls-1 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 0.1px;
+}
 
-
-
-.polygonScale{
+.polygonScale {
   transform: scale(2.5);
 }
