@@ -68,6 +68,21 @@
   }
 }
 
+@keyframes zindex {
+  0% {
+    z-index: : 100
+  }
+
+  1% {
+    z-index: : 0
+  }
+
+  100%{
+    z-index: 0
+  }
+}
+
+
 .loaderWrapper {
   width: 100%;
   height: 100%;
@@ -85,11 +100,17 @@
   position: absolute;
 }
 
-/*
-  .sparkle {
-      animation-name: sparkle-a 2s ease-in-out forwards;
 
-  } */
+.loaderWrapperDisappear {
+  opacity: 1;
+  animation: zindex 5.5s linear;
+  animation-delay: 5.5s;
+  z-index: 1000;
+}
+
+
+
+
 .sparkle1 {
   /* transform: scale(2.5); */
   animation: sparkle-a 4s ease-in-out forwards;
