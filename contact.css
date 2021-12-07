@@ -10,7 +10,10 @@ div.title{
 div.bg{
   background-color: #cccccc;
   padding: 30px;
-
+  opacity: 75%;
+  width: 25%;
+  margin: auto;
+  border: double;
 }
 
 div.content {
@@ -18,6 +21,19 @@ div.content {
   text-align: center;
   opacity: 100%;
   filter: blur(1px);
+  animation: blur 10s linear infinite;
+}
+
+@-webkit-keyframes blur {
+  0% {filter: blur(0px);
+  }
+
+   50% {filter: blur(1px);
+
+   }
+
+   100% {filter: blur(0px);
+   }
 }
 
 .center {
@@ -254,4 +270,6 @@ body{
 
     .home{
       float: right;
+      margin: 0% 10% 0% 10%;
+
     }
