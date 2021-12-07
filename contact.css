@@ -18,10 +18,14 @@ div.content {
   text-align: center;
   opacity: 100%;
   filter: blur(1px);
-
-
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:10%;
+}
 
 body{
     background: url("tandyhour.gif") repeat;
