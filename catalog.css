@@ -115,7 +115,7 @@ li {
 }
 
 .img-container .overlay {
-  background-color: #cccccc;
+  background-color: #ffe3f7;
   grid-column-start: 1;
   grid-row-start: 1;
   height: 400px;
