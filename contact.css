@@ -59,7 +59,7 @@ div.content {
 }
 
 body{
-    background: url("tandyhour.gif") repeat;
+    background: url("./Assets/tandyhour.gif") repeat;
     backdrop-filter: hue-rotate(120deg);
     opacity: 100%;
     /* filter: blur(1px); */
