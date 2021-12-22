@@ -1,13 +1,9 @@
-
-
-
-
-div.title{
+div.title {
   padding: 5px;
   text-align: center;
 }
 
-div.bg{
+div.bg {
   background-color: #cccccc;
   padding: 30px;
   opacity: 75%;
@@ -25,86 +21,121 @@ div.content {
 }
 
 @-webkit-keyframes blur {
-  0% {filter: blur(0px);
+  0% {
+    filter: blur(0px);
   }
 
-   50% {filter: blur(1px);
+  50% {
+    filter: blur(1px);
 
-   }
+  }
 
-   100% {filter: blur(0px);
-   }
+  100% {
+    filter: blur(0px);
+  }
 }
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:10%;
+  width: 10%;
 }
 
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:10%;
-     overflow: hidden;
+  width: 10%;
+  overflow: hidden;
 }
 
 .metal {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:20%;
+  width: 20%;
 }
 
-body{
-    background: url("./Assets/tandyhour.gif") repeat;
-    backdrop-filter: hue-rotate(120deg);
-    opacity: 100%;
-    /* filter: blur(1px); */
+body {
+  background: url("./Assets/tandyhour.gif") repeat;
+  backdrop-filter: hue-rotate(120deg);
+  opacity: 100%;
+  margin: 0px;
+  /* filter: blur(1px); */
 
-    /* -webkit-animation: scrolling 5s linear infinite; */
-    /* -moz-animation: scrolling 5s linear infinite; */
-    /* -o-animation: scrolling 5s linear infinite; */
-    animation: hueAnim 10s linear infinite;
+  /* -webkit-animation: scrolling 5s linear infinite; */
+  /* -moz-animation: scrolling 5s linear infinite; */
+  /* -o-animation: scrolling 5s linear infinite; */
+  animation: hueAnim 10s linear infinite;
 }
 
 
 @-webkit-keyframes hueAnim {
-  0% {backdrop-filter: hue-rotate(0deg);
+  0% {
+    backdrop-filter: hue-rotate(0deg);
     background-position: 0 0;
-}
+  }
 
-   100% {backdrop-filter: hue-rotate(360deg);
-     background-position: -100% 0%;
+  100% {
+    backdrop-filter: hue-rotate(360deg);
+    background-position: -100% 0%;
 
-   }
+  }
 }
 
 
 @keyframes bar-animation {
-  0% {transform: translateX(-60vw);}
-  100% {transform: translateX(0);}
+  0% {
+    transform: translateX(-60vw);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @keyframes hg-animation {
-  0% {transform: translateX(80vw) rotate(0deg) scale(.1);}
-  55% {transform: translateX(-3.5vw) rotate(1485deg) scale(1);}
-  70% {transform: translateX(1vw) translateY(-.5vw) rotate(1420deg) scale(1);}
-  85% {transform: translateX(-.2vw) rotate(1445deg) scale(1);}
-  100% {transform: translateX(0) rotate(1440deg) scale(1);}
+  0% {
+    transform: translateX(80vw) rotate(0deg) scale(.1);
+  }
+
+  55% {
+    transform: translateX(-3.5vw) rotate(1485deg) scale(1);
+  }
+
+  70% {
+    transform: translateX(1vw) translateY(-.5vw) rotate(1420deg) scale(1);
+  }
+
+  85% {
+    transform: translateX(-.2vw) rotate(1445deg) scale(1);
+  }
+
+  100% {
+    transform: translateX(0) rotate(1440deg) scale(1);
+  }
 
 }
 
 @keyframes t-animation {
-  0% {transform: translateX(-80vw)translateY(-80vw);}
-  100% {transform: translateX(0)translateY(0);}
+  0% {
+    transform: translateX(-80vw)translateY(-80vw);
+  }
+
+  100% {
+    transform: translateX(0)translateY(0);
+  }
 }
 
 @keyframes c-animation {
-  0% {transform: translateX(80vw)translateY(80vw);}
-  100% {transform: translateX(0)translateY(0);}
+  0% {
+    transform: translateX(80vw)translateY(80vw);
+  }
+
+  100% {
+    transform: translateX(0)translateY(0);
+  }
 }
 
 /* @keyframes sparkles-animation {
@@ -113,34 +144,70 @@ body{
 } */
 
 @keyframes sparkle-a {
+
   /* syntax = rotate (degrees, xOrigin, yOrigin) */
-  0% {transform:  rotate(0deg) scale(0);}
-  75% {transform:  rotate(0deg) scale(0);}
-  85% {transform: rotate(340deg) scale(1.5);}
-  100% {transform:  rotate(365deg) scale(1.5);}
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  75% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  85% {
+    transform: rotate(340deg) scale(1.5);
+  }
+
+  100% {
+    transform: rotate(365deg) scale(1.5);
+  }
 }
 
 @keyframes sparkle-b {
+
   /* syntax = rotate (degrees, xOrigin, yOrigin) */
-  0% {transform:  rotate(0deg) scale(0);}
-  75% {transform:  rotate(0deg) scale(0);}
-  85% {transform: rotate(15deg) scale(2);}
-  100% {transform:  rotate(20deg) scale(1.5);}
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  75% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  85% {
+    transform: rotate(15deg) scale(2);
+  }
+
+  100% {
+    transform: rotate(20deg) scale(1.5);
+  }
 }
 
 @keyframes sparkle-c {
+
   /* syntax = rotate (degrees, xOrigin, yOrigin) */
-  0% {transform:  rotate(0deg) scale(0);}
-  75% {transform:  rotate(0deg) scale(0);}
-  85% {transform: rotate(0deg) scale(1.5);}
-  100% {transform:  rotate(0deg) scale(1.5);}
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  75% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  85% {
+    transform: rotate(0deg) scale(1.5);
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1.5);
+  }
 }
 
 
 .bars {
-    animation-name: bar-animation;
-    animation-timing-function: linear;
-    fill: white;
+  animation-name: bar-animation;
+  animation-timing-function: linear;
+  fill: white;
 }
 
 
@@ -178,8 +245,8 @@ body{
 }
 
 
-.hourglass{
-  animation: hg-animation 4s cubic-bezier(0,0,.36,1);
+.hourglass {
+  animation: hg-animation 4s cubic-bezier(0, 0, .36, 1);
   animation-delay: 0s;
   transform-origin: center;
   fill: black;
@@ -189,102 +256,109 @@ body{
 .t {
   animation: t-animation 3.5s ease-out;
   stroke: white;
-  stroke-width: 6px ;
+  stroke-width: 6px;
 
 }
 
 .c {
   animation: c-animation 3.5s ease-out;
   stroke: white;
-  stroke-width: 6px ;
+  stroke-width: 6px;
   fill: none;
 }
 
 .sparkleA {
-        /* transform: scale(2.5); */
-        animation: sparkle-a 4s ease-in-out forwards;
+  /* transform: scale(2.5); */
+  animation: sparkle-a 4s ease-in-out forwards;
 
   /* RIGHT ON ORGIINAL
   transform-origin: 720px 345px; */
-        transform-origin: 720px 345px;
-    fill: #FFFF00;
-    stroke: #FFFFFF;
-    stroke-width: .1px ;
+  transform-origin: 720px 345px;
+  fill: #FFFF00;
+  stroke: #FFFFFF;
+  stroke-width: .1px;
 
 }
 
 .sparkleB {
-        /* transform: scale(2.5); */
-        animation: sparkle-b 4.5s ease-in-out forwards;
+  /* transform: scale(2.5); */
+  animation: sparkle-b 4.5s ease-in-out forwards;
   /* RIGHT ON ORGIINAL
   transform-origin: 720px 345px; */
-        transform-origin: 720px 345px;
-    fill: #FFFF00;
-    stroke: #FFFFFF;
-    stroke-width: .1px ;
+  transform-origin: 720px 345px;
+  fill: #FFFF00;
+  stroke: #FFFFFF;
+  stroke-width: .1px;
 
 }
 
 
 .sparkleC {
-            /* transform: scale(2.5); */
-            animation: sparkle-c 4.7s ease-in-out forwards;
-      /* RIGHT ON ORGIINAL
+  /* transform: scale(2.5); */
+  animation: sparkle-c 4.7s ease-in-out forwards;
+  /* RIGHT ON ORGIINAL
       transform-origin: 720px 345px; */
-            transform-origin: 720px 345px;
-        fill: #FFFF00;
-        stroke: #FFFFFF;
-        stroke-width: .1px ;
+  transform-origin: 720px 345px;
+  fill: #FFFF00;
+  stroke: #FFFFFF;
+  stroke-width: .1px;
 
-    }
+}
 
 
-    @keyframes fade {
-      0%,65% {
-        opacity: 1;
-        z-index: 100;
-      }
-    65%,99% {
-      z-index: 100;
-    }
-      100% {
-        opacity: 0;
-        z-index: -1;
-      }
-    }
+@keyframes fade {
 
-    /* The hourglass was flashing in the wrong spot before animating.
+  0%,
+  65% {
+    opacity: 1;
+    z-index: 100;
+  }
+
+  65%,
+  99% {
+    z-index: 100;
+  }
+
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+/* The hourglass was flashing in the wrong spot before animating.
     this might be fixable by adjusting the actual inline svg animation path, but this is easier for now */
-    @keyframes prevent-flash {
-      0%,99% {
-        visibility: hidden;
-      }
-      100% {
-        visibility: visible;
-      }
-    }
+@keyframes prevent-flash {
 
-    .loaderWrapper {
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      z-index: -1;
-      position: absolute;
-      top: 0;
-      left: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: black;
-      animation: fade 5.5s linear;
-    }
+  0%,
+  99% {
+    visibility: hidden;
+  }
 
-    .splash {
-      animation: prevent-flash .2s linear;
-    }
+  100% {
+    visibility: visible;
+  }
+}
 
-    .home{
-      float: right;
-      margin: 0% 10% 0% 10%;
+.loaderWrapper {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  animation: fade 5.5s linear;
+}
 
-    }
+.splash {
+  animation: prevent-flash .2s linear;
+}
+
+.home {
+  float: right;
+  margin: 0% 10% 0% 10%;
+}

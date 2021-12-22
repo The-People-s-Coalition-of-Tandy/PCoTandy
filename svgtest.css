@@ -59,13 +59,18 @@
 }
 
 @keyframes fade {
-  0%,65% {
+
+  0%,
+  65% {
     opacity: 1;
     z-index: 100;
   }
-65%,99% {
-  z-index: 100;
-}
+
+  65%,
+  99% {
+    z-index: 100;
+  }
+
   100% {
     opacity: 0;
     z-index: -1;
@@ -75,9 +80,12 @@
 /* The hourglass was flashing in the wrong spot before animating.
 this might be fixable by adjusting the actual inline svg animation path, but this is easier for now */
 @keyframes prevent-flash {
-  0%,99% {
+
+  0%,
+  99% {
     visibility: hidden;
   }
+
   100% {
     visibility: visible;
   }
