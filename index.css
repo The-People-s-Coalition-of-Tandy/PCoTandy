@@ -287,6 +287,31 @@ body {
     border-bottom: 2px solid #27ABDB;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6%;
+  /* border: 3px solid green;  */
+}
+
+button.bc {
+  background-color: teal;
+}
+
+button.in {
+  background-color: pink;
+}
+
+button.tw {
+  background-color: cyan;
+}
+
+button.yt {
+  background-color: red;
+}
+
+
 @keyframes cooltoast {
     from {
         transform: translate3d(400px, 0, 0);
