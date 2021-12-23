@@ -1,13 +1,8 @@
 <html>
 
-
 <!-- ELIE's SHADER Library INIT: glslCanvas library load -->
 <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js">
 </script>
-
-
-
-
 
 <script type="text/javascript">
   function showContent(e) {
@@ -20,7 +15,18 @@
     var x = e.classList.add('active-album');
   }
 
-  function test() {
+  function spanify(text) {
+    console.log("start");
+    let result="";
+    for(let i in text) {
+      console.log(text[i]);
+      text[i] === " " ? result += `<span>&nbsp</span>` : result += `<span>${text[i]}</span>`
+    }
+    console.log(result);
+    return result;
+  }
+
+  function generateCatalog() {
     const albumList = [{
         cover: "https://f4.bcbits.com/img/a0845889841_16.jpg",
         name: "Out of the Blue",
@@ -37,7 +43,8 @@
       const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
       output += `<li onclick="showContent(this)">
         <div class="release-list-text">
-          <p>|</p><p>PCoT 000${i}</p>
+          <div class="catalog-number" tabindex="${i}"><p>PCoT 000${i}</p></div>
+          <div class="animate four"><span class="first-span">▣</span>${spanify && spanify(album.name)}<span class="last-span">▣</span></div>
         </div>
         <div class="line-draw" />
 
@@ -64,26 +71,22 @@
 
 <head>
   <link rel="stylesheet" href="catalog.css">
+  <link rel="stylesheet" href="textAnimations.css">
   <!-- for svg animation elie made -->
-  <link rel="stylesheet" href="svgtest.css" />
-
+  <link rel="stylesheet" href="svgSplash.css" />
 </head>
-
-
-
-
 
 <!-- SVG END -->
 
-<body onload="test()" position="relative">
-
-
-
+<body onload="generateCatalog()" position="relative">
   <hr size="1" />
   <hr size="2" />
   <hr size="3" />
   <hr size="4" />
   <hr size="5" />
+  <button class="home">
+    <a href="index.html" rel="noopener noreferrer">Home</a>
+  </button>
   <div class="logo-shader-container">
     <canvas class="glslCanvas logo-shader" data-fragment="
   // Author @patriciogv - 2015
@@ -127,6 +130,7 @@
   " data-textures="./Assets/PCoTandyLogo.png"></canvas>
 
   </div>
+
   <div id="catalog-container">
   </div>
 
