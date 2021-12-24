@@ -79,7 +79,7 @@ body {
 
   100% {
     backdrop-filter: hue-rotate(360deg);
-    background-position: -100% 0%;
+    background-position: -600px 0;
 
   }
 }
