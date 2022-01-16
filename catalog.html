@@ -29,15 +29,24 @@
   function generateCatalog() {
     const albumList = [{
         cover: "https://f4.bcbits.com/img/a0845889841_16.jpg",
+        color: "blue",
         name: "Out of the Blue",
         artists: "Blue Dish",
         description: "Drawing upon a vast array of influences - from Jazz to Blues - Blue Dish’s eclectic sound is seemingly boundless, defying genre at every moment."
       },
       {
         cover: "https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg",
+        color: "purple",
         name: "Tetso Cube Light Ride",
         artists: "Elie Mcafee-Hahn",
         description: "Elie is cool :)"
+      },
+      {
+        cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
+        color: "green",
+        name: "Birfth",
+        artists: "Katarina Mazur",
+        description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)"
       }
     ]
     var output = '<ul>';
@@ -52,7 +61,7 @@
 
         <div class="album-expansion">
           <div class="img-container"><img src="${album.cover}"></div>
-          <div class="album-info-section">
+          <div class="album-info-section ${album.color}">
             <h1 class="title">${album.name}</h1>
             <h4 class="artist-name">${album.artists}</h4>
             <p class="album-copy">${album.description}</p>
