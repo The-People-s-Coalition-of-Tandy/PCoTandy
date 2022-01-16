@@ -1,9 +1,5 @@
 <html>
 
-<!-- ELIE's SHADER Library INIT: glslCanvas library load -->
-<script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js">
-</script>
-
 <script type="text/javascript">
   function showContent(e) {
     var currentActive = document.querySelector(".active-album");
@@ -15,18 +11,7 @@
     var x = e.classList.add('active-album');
   }
 
-  function spanify(text) {
-    console.log("start");
-    let result="";
-    for(let i in text) {
-      console.log(text[i]);
-      text[i] === " " ? result += `<span>&nbsp</span>` : result += `<span>${text[i]}</span>`
-    }
-    console.log(result);
-    return result;
-  }
-
-  function generateCatalog() {
+  function test() {
     const albumList = [{
         cover: "https://f4.bcbits.com/img/a0845889841_16.jpg",
         name: "Out of the Blue",
@@ -43,15 +28,15 @@
       const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
       output += `<li onclick="showContent(this)">
         <div class="release-list-text">
-          <div class="catalog-number" tabindex="${i}"><p>PCoT 000${i}</p></div>
-          <div class="animate four"><span class="first-span">▣</span>${spanify && spanify(album.name)}<span class="last-span">▣</span></div>
+          <p>|</p><p>PCoT 000${i}</p>
         </div>
         <div class="line-draw" />
 
-        <div class="album-expansion">
-          <div class="img-container"><img src="${album.cover}"></div>
+        <div class="img-container">
+          <img src="${album.cover}" width="300px">
+          <div class="overlay"></div>
           <div class="album-info-section">
-            <h1 class="title">${album.name}</h1>
+            <h1>${album.name}</h1>
             <h4>${album.artists}</h4>
           </div>
         </div>
@@ -60,6 +45,7 @@
     });
 
     output += '</ul>';
+    console.log(output);
     document.getElementById("catalog-container").innerHTML = output;
     VanillaTilt.init(document.querySelectorAll(".img-container img"), {
       glare: true,
@@ -69,27 +55,32 @@
 </script>
 
 <head>
-  <link rel="stylesheet" href="catalog.css">
-  <link rel="stylesheet" href="textAnimations.css">
+  <link rel="stylesheet" href="newCatalog.css">
+  <!-- for svg splash animation -->
+  <link rel="stylesheet" href="splashAnimationDev.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chakra+Petch">
-  <!-- for svg animation elie made -->
-  <link rel="stylesheet" href="svgSplashDev.css" />
 </head>
 
 <!-- SVG END -->
 
-<body onload="generateCatalog()" position="relative">
+<body onload="test()" position="relative" background="./Assets/tandyhourPurp.gif">
+
   <hr size="1" />
   <hr size="2" />
   <hr size="3" />
   <hr size="4" />
   <hr size="5" />
-  <button class="home">
-    <a href="index.html" rel="noopener noreferrer">Home</a>
-  </button>
 
+
+  
   <div id="catalog-container">
   </div>
+
+
+
+
+
+
 
   <!-- svg wrapper -->
   <div class="loaderWrapper">

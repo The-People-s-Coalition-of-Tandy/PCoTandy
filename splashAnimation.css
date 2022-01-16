@@ -1,0 +1,168 @@
+@keyframes sparkle-a {
+
+  /* syntax = rotate (degrees, xOrigin, yOrigin) */
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  75% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  85% {
+    transform: rotate(340deg) scale(5.5);
+  }
+
+  100% {
+    transform: rotate(365deg) scale(1.5);
+  }
+}
+
+@keyframes sparkle-b {
+
+  /* syntax = rotate (degrees, xOrigin, yOrigin) */
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  75% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  85% {
+    transform: rotate(340deg) scale(2);
+  }
+
+  100% {
+    transform: rotate(365deg) scale(1);
+  }
+}
+
+@keyframes sparkle-c {
+
+  /* syntax = rotate (degrees, xOrigin, yOrigin) */
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  75% {
+    transform: rotate(0deg) scale(0);
+  }
+
+  85% {
+    transform: rotate(340deg) scale(3);
+  }
+
+  100% {
+    transform: rotate(365deg) scale(2);
+  }
+}
+
+@keyframes fade {
+
+  0%,
+  65% {
+    opacity: 1;
+    z-index: 100;
+  }
+
+  65%,
+  99% {
+    z-index: 100;
+  }
+
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+/* The hourglass was flashing in the wrong spot before animating.
+this might be fixable by adjusting the actual inline svg animation path, but this is easier for now */
+@keyframes prevent-flash {
+
+  0%,
+  99% {
+    visibility: hidden;
+  }
+
+  100% {
+    visibility: visible;
+  }
+}
+
+.loaderWrapper {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  animation: fade 5.5s linear;
+}
+
+.splash {
+  animation: prevent-flash .2s linear;
+}
+
+.elementToFadeInAndOut {
+  opacity: 0;
+  animation: fade 5.5s linear;
+  position: absolute;
+}
+
+.sparkle1 {
+  /* transform: scale(2.5); */
+  animation: sparkle-a 4s ease-in-out forwards;
+  /* RIGHT ON ORGIINAL
+transform-origin: 720px 345px; */
+  transform-origin: 720px 345px;
+}
+
+.sparkle2 {
+  /* transform: scale(2.5); */
+  animation: sparkle-b 4.2s ease-in-out forwards;
+  transform-origin: 715px 345px;
+}
+
+.sparkle3 {
+  /* transform: scale(2.5); */
+  animation: sparkle-c 4.4s ease-in-out forwards;
+  /* RIGHT ON ORGIINAL
+transform-origin: 720px 345px; */
+  transform-origin: 700px 345px;
+}
+
+.svgbg {
+  fill: blue;
+}
+
+/*  hourglass yellow
+.st1{fill:#FFEB5A;}*/
+/* HOURGLASS FILL COLOR */
+.st1 {
+  fill: #FFEB5A;
+}
+
+/* T and C fill */
+.st2 {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 5;
+  stroke-miterlimit: 10;
+}
+
+.cls-1 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 0.1px;
+}
+
+.polygonScale {
+  transform: scale(2.5);
+}

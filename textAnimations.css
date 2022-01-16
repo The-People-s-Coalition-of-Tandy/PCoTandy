@@ -1,5 +1,6 @@
 .animate {
 	margin-left: 10px;
+	position: absolute;
 }
 
 .animate span {
@@ -28,18 +29,18 @@
 	font-size: xx-small;
 	vertical-align: middle;
 	margin-right: 5px;
-	color: purple;
+	color: navy;
 }
 
-.catalog-number:hover+.four span.first-span {
-	animation: revolveDrop .3s forwards, blink-animation .6s linear infinite alternate;
+.catalog-number:hover+.four span.first-span, .active-album .four {
+	animation: revolveDrop .3s forwards;
 }
 
 .four span.last-span {
 	font-size: xx-small;
 	vertical-align: middle;
 	padding-left: 5px;
-	color: purple;
+	color: navy;
 }
 
 .catalog-number:hover+.four span.last-span {
@@ -205,7 +206,7 @@
 	visibility: hidden;
 }
 
-.catalog-number:hover+.animate span {
+.catalog-number:hover+.animate span, .active-album .animate span {
 	visibility: visible;
 }
 
@@ -232,7 +233,7 @@
 
 
 .catalog-number:hover+.three span {
-	color: #b10e81;
+	color: navy;
 	opacity: 0;
 	transform: translate(-300px, 0) scale(0);
 	animation: sideSlide .5s forwards;
@@ -264,7 +265,7 @@
 
 /* Animation Four */
 .four span {
-	color: #c066ed;
+	color: navy;
 	opacity: 0;
 	transform: translate(0, -10px) rotate(360deg) scale(0);
 }

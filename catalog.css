@@ -1,11 +1,24 @@
 body {
-  background-color: #ffe3f7;
-  background-image: url("tile4.jpeg");
+  background: url("./Assets/tandyhourPurp.gif") repeat;
+  /* -webkit-animation: scrolling 5s linear infinite; */
+  /* -moz-animation: scrolling 5s linear infinite; */
+  /* -o-animation: scrolling 5s linear infinite; */
+  animation: scrolling 5s linear infinite;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+@-webkit-keyframes scrolling {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0 100%;
+  }
 }
 
 li {
   display: flex;
-  font-family: "Times New Roman", Times, serif;
 }
 
 @keyframes rainbow {
@@ -83,6 +96,7 @@ li {
   width: 0px;
   transition: width .1s ease-out, visibility .1s linear;
   animation: rainbow 1.5s linear infinite alternate;
+  margin-top: -15px;
 }
 
 .active-album .line-draw {
@@ -91,7 +105,7 @@ li {
   transition: width .5s ease-out;
 }
 
-.img-container {
+.album-expansion {
   display: grid;
   grid-template-columns: 400px auto;
   grid-gap: 20px;
@@ -100,36 +114,58 @@ li {
   visibility: hidden;
 }
 
-.active-album .img-container {
+.img-container {
+  height: 0px;
+  overflow: hidden;
+}
+
+@keyframes image-scroll {
+  0% {
+    height: 0px;
+  }
+
+  100% {
+    height: 400px;
+  }
+}
+
+.active-album .album-expansion {
   visibility: visible;
   transition: visibility .1s linear;
-  transition-delay: .1s;
+  transition-delay: .5s;
+}
+
+.active-album .img-container {
+  animation: image-scroll .75s ease-out .5s;
+  position:relative;
+
+  height: 400px;
 }
 
 .img-container img {
-  grid-column-start: 1;
-  grid-row-start: 1;
   width: 400px;
   height: 400px;
   z-index: 1;
+  position: absolute;
 }
 
-.img-container .overlay {
+/* .img-container .overlay {
   background-color: #ffe3f7;
-  grid-column-start: 1;
-  grid-row-start: 1;
   height: 400px;
   width: 400px;
   z-index: 100;
   align-self: end;
   transition: height .1s ease-out;
-}
+  visibility: hidden;
+} */
 
-.active-album .overlay {
+/* .active-album .overlay {
   height: 0px;
   transition: height .75s ease-out;
   transition-delay: .5s;
-}
+  visibility: hidden;
+
+} */
 
 .album-info-section {
   margin-left: -400px;
@@ -153,14 +189,15 @@ li {
   }
 }
 
-.catalog-number:hover, .catalog-number:focus, .catalog-number:active {
+.catalog-number:hover,
+.catalog-number:focus,
+.catalog-number:active {
   /* background-color: #FF00FF; */
-  text-decoration: underline overline wavy #FF3028;
+  /* text-decoration: underline overline wavy #FF3028; */
   cursor: pointer;
-  /* background-color: black; */
-  /* color: white; */
-  /* padding: 10px; */
-  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
   vertical-align: middle;
   text-underline-offset: 3px;
 }
@@ -172,10 +209,11 @@ li {
 }
 
 .catalog-number {
-  padding: 5px;
+  padding: 9px;
 }
 
-.catalog-number:hover+.album-name, .catalog-number:focus+.album-name,
+.catalog-number:hover+.album-name,
+.catalog-number:focus+.album-name,
 .active-album .album-name {
   visibility: visible;
   animation: subtext .3s ease-out;
@@ -183,12 +221,16 @@ li {
 
 .album-name {
   visibility: hidden;
-  font-size: large;
+  /* font-size: large; */
+}
+
+.title {
+  white-space: nowrap;
 }
 
 .release-list-text {
-  font-size: x-large;
-  margin-bottom: 15px;
+  /* font-size: x-large; */
+  margin-bottom: 20px;
 }
 
 .release-list-text p {
