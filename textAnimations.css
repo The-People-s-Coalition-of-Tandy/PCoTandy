@@ -32,7 +32,8 @@
 	color: navy;
 }
 
-.catalog-number:hover+.four span.first-span, .active-album .four {
+.catalog-number:hover+.four span.first-span,
+.active-album .four {
 	animation: revolveDrop .3s forwards;
 }
 
@@ -44,6 +45,10 @@
 }
 
 .catalog-number:hover+.four span.last-span {
+	animation: revolveDrop .3s forwards, blink-animation .6s linear infinite alternate-reverse;
+}
+
+.catalog-number:hover+.four span.first-span {
 	animation: revolveDrop .3s forwards, blink-animation .6s linear infinite alternate-reverse;
 }
 
@@ -206,7 +211,9 @@
 	visibility: hidden;
 }
 
-.catalog-number:hover+.animate span, .active-album .animate span {
+.catalog-number:hover+.animate span,
+.catalog-number:active+.animate span,
+.catalog-number:focus+.animate span .active-album .catalog-number+.animate span {
 	visibility: visible;
 }
 
