@@ -11,6 +11,20 @@ body {
   /* -o-animation: scrolling 5s linear infinite; */
   animation: scrolling 5s linear infinite;
   margin: 0px;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  margin: 0;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+#catalog-container {
+  overflow-y: scroll;
+  height: 100%;
+  margin: 0;
 }
 
 @-webkit-keyframes scrolling {
@@ -130,7 +144,7 @@ li {
 
 .img-container {
   height: 0px;
-  overflow: hidden;
+  /* overflow: hidden; Enable to make the album 3d-effect weirder*/
 }
 
 @property --x {
@@ -222,11 +236,11 @@ li {
 }
 
 
-.album-copy {
+.album-copy, .album-credits {
   opacity: 0;
 }
 
-.active-album .album-copy {
+.active-album .album-copy, .active-album .album-credits {
   opacity: 1;
   display: block;
   transition: opacity .3s linear 1.5s;
@@ -245,6 +259,14 @@ li {
   padding-right: 10px;
   border: 3px blue dotted;
   background-color: rgba(255, 255, 255, .5);
+}
+
+strong {
+  font-weight: 600;
+}
+
+.album-credits {
+  font-size: small;
 }
 
 .links a {

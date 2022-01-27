@@ -4,6 +4,8 @@
 <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js">
 </script>
 
+<script type="text/javascript" src="./catalogData.js"></script>
+
 <script type="text/javascript">
   function showContent(e) {
     var currentActive = document.querySelector(".active-album");
@@ -26,41 +28,7 @@
     return result;
   }
 
-  function generateCatalog() {
-    const albumList = [{
-        cover: "https://f4.bcbits.com/img/a0845889841_16.jpg",
-        color: "blue",
-        name: "Out of the Blue",
-        artists: "Blue Dish",
-        description: "Drawing upon a vast array of influences - from Jazz to Blues - Blue Dish’s eclectic sound is seemingly boundless, defying genre at every moment.",
-        youtube: "https://youtu.be/GOlXO-qs61M",
-        spotify: "https://open.spotify.com/album/2aX2eODXtSYV9Sq2uD8J3a?si=l4XZLXdCRuW5wf3LeSHmvQ",
-        bandcamp: "https://bluedish.bandcamp.com/",
-        instagram: ""
-      },
-      {
-        cover: "https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg",
-        color: "purple",
-        name: "Tetso Cube Light Ride",
-        artists: "Elie Mcafee-Hahn",
-        description: "Elie is cool :)",
-        youtube: "https://www.youtube.com/watch?v=H0u_aZUWL-w&ab_channel=baz%2abailey%2a",
-        spotify: "",
-        bandcamp: "https://bandcamp.com/elielielielielie",
-        instagram: "https://www.instagram.com/ellie_modron_kurfwen/?hl=en"
-      },
-      {
-        cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-        color: "green",
-        name: "Birfth",
-        artists: "Katarina Mazur",
-        description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-        youtube: "",
-        spotify: "",
-        bandcamp: "https://soundcloud.com/katmazur",
-        instagram: ""
-      }
-    ]
+  function generateCatalog() { 
     var output = '<ul>';
     albumList.forEach((album, i) => {
       const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
@@ -78,12 +46,14 @@
             <h1 class="title">${album.name}</h1>
             <h4 class="artist-name">${album.artists}</h4>
             <p class="album-copy">${album.description}</p>
+            <br> <br>
+            <p class="album-credits">${album.credits}</p>
             <div class="links">
               <div class="buttons">
                 ${album.bandcamp ? "<a target='_blank' class='bc' href='" + album.bandcamp + "'>bandcamp</a>" : ""}
                 ${album.instagram ? "<a target='_blank' class='in' href='" + album.instagram+ "'>instagram</a>" : ""}
                 ${album.spotify ? "<a target='_blank' class='spotify' href='" + album.spotify + "'>spotify</a>" : ""}
-                ${album.youtube ? "<a target='_blank' class='yt href='" + album.youtube + "'>youtube</a>" : ""}    
+                ${album.youtube ? "<a target='_blank' class='yt' href='" + album.youtube + "'>youtube</a>" : ""}    
               </div>
             </div>
           </div>
@@ -110,7 +80,7 @@
     rel="stylesheet">
 
   <!-- for svg animation elie made -->
-  <link rel="stylesheet" href="svgSplashDev.css" />
+  <link rel="stylesheet" href="svgSplash.css" />
 </head>
 
 <!-- SVG END -->
