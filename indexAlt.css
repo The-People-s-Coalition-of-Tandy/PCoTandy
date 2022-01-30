@@ -24,8 +24,19 @@ body {
     opacity: 75%;
 }
 
+.main-button {
+    font-family: "TandyOS";
+    position: relative;
+}
+
+.main-button > h1 {
+    position: absolute;
+    top: -5px;
+    left: 44%;
+}
+
 .banner {
-    margin-top: 15vh;
+    margin-top: 12vh;
 }
 
 
