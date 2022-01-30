@@ -240,4 +240,6 @@ const albumList = [{
   }
 ];
 
-module.exports = {albumList};
+module.exports = {
+  albumList
+};

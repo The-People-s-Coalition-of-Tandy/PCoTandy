@@ -1,9 +1,5 @@
 <html>
 
-<!-- ELIE's SHADER Library INIT: glslCanvas library load -->
-<script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js">
-</script>
-
 <script type="text/javascript" src="./catalogData.js"></script>
 
 <script type="text/javascript">
@@ -28,7 +24,7 @@
     return result;
   }
 
-  function generateCatalog() { 
+  function generateCatalog() {
     var output = '<ul>';
     albumList.forEach((album, i) => {
       const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
@@ -80,7 +76,7 @@
     rel="stylesheet">
 
   <!-- for svg animation elie made -->
-  <link rel="stylesheet" href="svgSplashDev.css" />
+  <link rel="stylesheet" href="svgSplash.css" />
 </head>
 
 <!-- SVG END -->
@@ -106,7 +102,6 @@
     <svg class="splash" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
       x="0px" y="0px" viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
 
-
       <defs>
         <!-- define star texture image -->
         <pattern id="star" x="80%" y="0" width="100%" height="100%">
@@ -117,14 +112,10 @@
 
       </defs>
 
-
       <!-- fade class  on Black Bars Group // I KNOW that was a bad name for the whole SVG but now i dont wanna change it-->
       <!-- THIS HTML IS CALLING 2 CSS SYLE SHEETS!!! THIS IS IN SVG TEST.CSS -->
       <g id="BlackBars" class="elementToFadeInAndOut">
-
-
         <g id="bg_rect">
-
           <rect id="bg" class="svgbg" x="0" y="0.5" width="1366" height="768" />
         </g>
 
@@ -188,7 +179,6 @@
       </g>
     </svg>
   </div>
-
 
   <script type="text/javascript" src="./Scripts/vanilla-tilt.js"></script>
 </body>

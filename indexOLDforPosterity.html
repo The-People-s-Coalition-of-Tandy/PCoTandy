@@ -1,13 +1,12 @@
 <html>
 <style rel="stylesheet" type="text/css">
-
-/* Begin ad styles */
+  /* Begin ad styles */
   #glx-18000-container {
     --fontColor: #404040;
     --backgroundColor: #f5f5f5;
     position: relative;
     cursor: pointer;
-    animation-duration:  10s;
+    animation-duration: 10s;
     animation-name: cooltoast;
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
@@ -196,163 +195,176 @@
   }
 
   #cooltoast-container {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: auto;
-/*   font-family: 'Helvetica'; */
-}
-
-.cooltoast-toast {
-  position: relative;
-  padding: 8px 12px;
-  margin: 16px;
-  border-radius: 8px;
-  background: #F5F5F5;
-  cursor: pointer;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.08), 0 1px 3px rgba(0,0,0,0.19);
-  animation-duration:  .7s;
-  animation-name: cooltoast;
-  animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-}
-
-.cooltoast-fadeOut {
-  animation-name: cooltoastFadeOut;
-  animation-duration: .5s;
-  animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  animation-fill-mode: forwards;
-}
-
-#cooltoast-container p,
-#cooltoast-container h4 {
-  margin: 3px 0!important;
-}
-
-.cooltoast-title {
-  font-weight: 700;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-
-.cooltoast-text {
-  font-size: 14px;
-  color: #777;
-}
-
-.cooltoast-icon {
-  position: absolute;
-  top: 5px;
-  left: -40px;
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  background: #FFF;
-}
-
-.cooltoast-toast a, .cooltoast-toast a:hover {
-  color: #549EDB !important;
-  text-decoration: none !important;
-}
-
-/** toast types */
-.cooltoast-success {
-  border-bottom: 2px solid #51C625;
-}
-
-.cooltoast-warning {
-  border-bottom: 2px solid #DB9215;
-}
-
-.cooltoast-error {
-  border-bottom: 2px solid #DB2B1D;
-}
-
-.cooltoast-info {
-  border-bottom: 2px solid #27ABDB;
-}
-
-@keyframes cooltoast {
-  from {
-    transform: translate3d(400px, 0, 0);;
-    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: auto;
+    /*   font-family: 'Helvetica'; */
   }
-  to {
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }
-}
 
-@keyframes cooltoastFadeOut {
-  from {
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
+  .cooltoast-toast {
+    position: relative;
+    padding: 8px 12px;
+    margin: 16px;
+    border-radius: 8px;
+    background: #F5F5F5;
+    cursor: pointer;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.19);
+    animation-duration: .7s;
+    animation-name: cooltoast;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
-  to {
-    transform: translate3d(400px, 0, 0);
-    opacity: 0;
-  }
-}
 
-/* End ad styles! */
+  .cooltoast-fadeOut {
+    animation-name: cooltoastFadeOut;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-fill-mode: forwards;
+  }
+
+  #cooltoast-container p,
+  #cooltoast-container h4 {
+    margin: 3px 0 !important;
+  }
+
+  .cooltoast-title {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .cooltoast-text {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .cooltoast-icon {
+    position: absolute;
+    top: 5px;
+    left: -40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #FFF;
+  }
+
+  .cooltoast-toast a,
+  .cooltoast-toast a:hover {
+    color: #549EDB !important;
+    text-decoration: none !important;
+  }
+
+  /** toast types */
+  .cooltoast-success {
+    border-bottom: 2px solid #51C625;
+  }
+
+  .cooltoast-warning {
+    border-bottom: 2px solid #DB9215;
+  }
+
+  .cooltoast-error {
+    border-bottom: 2px solid #DB2B1D;
+  }
+
+  .cooltoast-info {
+    border-bottom: 2px solid #27ABDB;
+  }
+
+  @keyframes cooltoast {
+    from {
+      transform: translate3d(400px, 0, 0);
+      ;
+      opacity: 0;
+    }
+
+    to {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes cooltoastFadeOut {
+    from {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+
+    to {
+      transform: translate3d(400px, 0, 0);
+      opacity: 0;
+    }
+  }
+
+  /* End ad styles! */
 </style>
 
 <body background="./Assets/tandyhourPurp.gif">
 
 
-  <div class="glx-slider-container-18000" style="max-width: 360px; box-sizing: border-box; padding: 12px; position: fixed; display: flex; inset: 0px 0px auto auto; flex-direction: column; justify-content: flex-start; z-index: 2147483647;">
-    <div id="glx-18000-container" style="display: flex; flex-flow: column nowrap; box-sizing: border-box; visibility: visible; clear: both;">
+  <div class="glx-slider-container-18000"
+    style="max-width: 360px; box-sizing: border-box; padding: 12px; position: fixed; display: flex; inset: 0px 0px auto auto; flex-direction: column; justify-content: flex-start; z-index: 2147483647;">
+    <div id="glx-18000-container"
+      style="display: flex; flex-flow: column nowrap; box-sizing: border-box; visibility: visible; clear: both;">
       <a href="google.com" target="_blank" class="glx-teaser visible"
         style="display: flex; box-sizing: border-box; flex-flow: row nowrap; max-width: 100%; max-height: 88px; margin-bottom: 12px;"><img
           src="https://juliedotwav.github.io/PCoTandy/GoogleFingers.gif" g-role="img" class="glx-image"
           style="width: 15%; height: 47px; object-fit: cover; flex-grow: 0; flex-shrink: 0; box-sizing: border-box;">
-        <div g-role="text" class="glx-text" style="width: 85%; display: flex; flex-direction: column; overflow: hidden; box-sizing: border-box; max-height: 47px;">
+        <div g-role="text" class="glx-text"
+          style="width: 85%; display: flex; flex-direction: column; overflow: hidden; box-sizing: border-box; max-height: 47px;">
           <div g-role="header" class="glx-header">Sync your tetso cube now!</div>
           <div g-role="description" class="glx-description">One trick for mycelial health!</div>
         </div>
-        <div g-role="ctrls" class="glx-ctrls"><button class="glx-ctrls-button glx-cls" g-role="cls">close</button><button class="glx-ctrls-button glx-ok" g-role="ok">OK</button></div><a href="//trahes.site/ip1C3nqg8VCvZ/12337?param=18000"
-          target="_blank" class="glx-main-link"></a>
-      </a><a href="https://google.com" target="_blank" class="glx-teaser visible" style="display: flex; box-sizing: border-box; flex-flow: row nowrap; max-width: 100%; max-height: 88px; margin-bottom: 12px;"><img
+        <div g-role="ctrls" class="glx-ctrls"><button class="glx-ctrls-button glx-cls"
+            g-role="cls">close</button><button class="glx-ctrls-button glx-ok" g-role="ok">OK</button></div><a
+          href="//trahes.site/ip1C3nqg8VCvZ/12337?param=18000" target="_blank" class="glx-main-link"></a>
+      </a><a href="https://google.com" target="_blank" class="glx-teaser visible"
+        style="display: flex; box-sizing: border-box; flex-flow: row nowrap; max-width: 100%; max-height: 88px; margin-bottom: 12px;"><img
           src="https://juliedotwav.github.io/PCoTandy/GoogleFingers.gif" g-role="img" class="glx-image"
           style="width: 15%; height: 47px; object-fit: cover; flex-grow: 0; flex-shrink: 0; box-sizing: border-box;">
-        <div g-role="text" class="glx-text" style="width: 85%; display: flex; flex-direction: column; overflow: hidden; box-sizing: border-box; max-height: 47px;">
+        <div g-role="text" class="glx-text"
+          style="width: 85%; display: flex; flex-direction: column; overflow: hidden; box-sizing: border-box; max-height: 47px;">
           <div g-role="header" class="glx-header">Drink water!</div>
           <div g-role="description" class="glx-description">Click here to hydrate</div>
         </div>
-        <div g-role="ctrls" class="glx-ctrls"><button class="glx-ctrls-button glx-cls" g-role="cls">close</button><button class="glx-ctrls-button glx-ok" g-role="ok">OK</button></div><a href="google.com"
-          target="_blank" class="glx-main-link"></a>
+        <div g-role="ctrls" class="glx-ctrls"><button class="glx-ctrls-button glx-cls"
+            g-role="cls">close</button><button class="glx-ctrls-button glx-ok" g-role="ok">OK</button></div><a
+          href="google.com" target="_blank" class="glx-main-link"></a>
       </a></div>
   </div>
 
   <p align="center">
     <img src="./Assets/TandyCorp.jpg" area shape="rect" height="100" width="100%" border="0"> <br>
   </p>
-<center>
-  <img src="./Assets/TandyBanner.png">
-</center>
+  <center>
+    <img src="./Assets/TandyBanner.png">
+  </center>
 
-<center>
-  <a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/">RadioShack</a>
-  <a href="https://web.archive.org/web/19971022161340/http://www.computercity.com/">Computer City</a>
-  <a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/tandy.html">Tandy</a>
-  <a href="https://web.archive.org/web/19971022161340/http://www.techam.com/">TechAmerica</a>
-  <br>
-</center>
-<center>
-  <hr width="50%">
+  <center>
+    <a href="https://web.archive.org/web/19971022161340/http://www.radioshack.com/">RadioShack</a>
+    <a href="https://web.archive.org/web/19971022161340/http://www.computercity.com/">Computer City</a>
+    <a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/tandy.html">Tandy</a>
+    <a href="https://web.archive.org/web/19971022161340/http://www.techam.com/">TechAmerica</a>
+    <br>
+  </center>
+  <center>
+    <hr width="50%">
 
-  <h1>What's New: </h1>
+    <h1>What's New: </h1>
 
-  <h4><a href="">Tetso Cube Inquiries</a></h4>
+    <h4><a href="">Tetso Cube Inquiries</a></h4>
 
-  <h4><a href="">Beak Stew</a></h4>
+    <h4><a href="">Beak Stew</a></h4>
 
-  <h4><a href="https://tandy.bandcamp.com/">Sound City</a></h4>
+    <h4><a href="https://tandy.bandcamp.com/">Sound City</a></h4>
 
-  <h4><a href="catalog">Tandy Annual Report</a></h4>
+    <h4><a href="catalog">Tandy Annual Report</a></h4>
 
-  <h4><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/scholars/">Tandy Technology Scholars</a></h4>
+    <h4><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/scholars/">Tandy Technology
+        Scholars</a></h4>
 
-  <h4><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/employment/employmentmain.html">Tandy Employment Opportunities</a></h4>
+    <h4><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/employment/employmentmain.html">Tandy
+        Employment Opportunities</a></h4>
 
   </center>
   <p>

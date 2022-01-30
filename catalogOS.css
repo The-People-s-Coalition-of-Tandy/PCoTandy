@@ -35,11 +35,11 @@ html {
 
 @-webkit-keyframes scrolling {
   from {
-      background-position: 0 0;
+    background-position: 0 0;
   }
 
   to {
-      background-position: 0 332px;
+    background-position: 0 332px;
   }
 }
 
@@ -188,8 +188,8 @@ li {
 }
 
 .list-column {
-  background-color: rgba(9,0,129,255);
- position: absolute;
+  background-color: rgba(9, 0, 129, 255);
+  position: absolute;
   width: 330px;
   z-index: -1;
   height: 100%;
@@ -201,9 +201,11 @@ li {
     height: 0px;
     overflow: hidden;
   }
+
   99% {
     overflow: hidden;
   }
+
   100% {
     height: 400px;
     overflow: visible;
@@ -242,11 +244,13 @@ li {
 }
 
 
-.album-copy, .album-credits {
+.album-copy,
+.album-credits {
   opacity: 0;
 }
 
-.active-album .album-copy, .active-album .album-credits {
+.active-album .album-copy,
+.active-album .album-credits {
   opacity: 1;
   display: block;
   transition: opacity .3s linear 1.5s;
@@ -384,10 +388,11 @@ strong {
 }
 
 .background-div {
- background-color: rgb(9,0,129);
+  background-color: rgb(9, 0, 129);
   opacity: 90%;
   z-index: -2;
 }
+
 .title {
   white-space: nowrap;
   margin-bottom: 6px;
