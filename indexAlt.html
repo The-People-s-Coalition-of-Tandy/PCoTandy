@@ -6,7 +6,7 @@
 
   <script>
     function buttonClick(e) {
-      var audio = document.getElementById("keypress");
+      var audio = document.getElementById("click");
       audio.play();
       e.src = "./Assets/blankbuttonclicked-overlay.png";
     }
@@ -14,6 +14,9 @@
     function buttonReturn(e) {
       var audio = document.getElementById("clack");
       audio.play();
+      setTimeout(() => {
+        window.location = "annualReport.html";
+      }, 100);
       e.src = "./Assets/blankbutton-overlay.png";
     }
   </script>
@@ -96,12 +99,12 @@
     </div>
     <br>
     <div class="main-button">
-      <a href="annualReport.html"><img onmousedown="buttonClick(this)" onmouseup="buttonReturn(this)"
-          src="./Assets/blankbutton-overlay.png" style="filter: hue-rotate(90deg);"></a>
+      <img onmousedown="buttonClick(this)" onmouseup="buttonReturn(this)"
+          src="./Assets/blankbutton-overlay.png" style="filter: hue-rotate(90deg);">
     </div>
-    <audio id="click" src="./Assets/click.wav"></audio>
-    <audio id="clack" src="./Assets/clack.wav"></audio>
-    <audio id="keypress" src="./Assets/keyclick.wav"></audio>
+    <audio preload="auto" id="click" src="./Assets/click.wav"></audio>
+    <audio preload="auto" id="clack" src="./Assets/clack.wav"></audio>
+    <audio preload="auto" id="keypress" src="./Assets/keyclick.wav"></audio>
 
     <br>
     <!-- <div class="main-button">
