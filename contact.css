@@ -20,6 +20,10 @@ div.content {
   animation: blur 10s linear infinite;
 }
 
+div.content::selection {
+  background: yellow;
+}
+
 @-webkit-keyframes blur {
   0% {
     filter: blur(0px);

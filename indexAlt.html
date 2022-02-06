@@ -11,6 +11,10 @@
       e.src = "./Assets/blankbuttonclicked-overlay.png";
     }
 
+    function buttonNormal(e) {
+      e.src = "./Assets/blankbutton-overlay.png";
+    }
+
     function buttonReturn(e) {
       var audio = document.getElementById("clack");
       audio.play();
@@ -99,8 +103,8 @@
     </div>
     <br>
     <div class="main-button">
-      <img onmousedown="buttonClick(this)" onmouseup="buttonReturn(this)"
-          src="./Assets/blankbutton-overlay.png" style="filter: hue-rotate(90deg);">
+      <img onmousedown="buttonClick(this)" onmouseup="buttonReturn(this)" onmouseout="buttonNormal(this)"
+        src="./Assets/blankbutton-overlay.png" style="filter: hue-rotate(90deg);">
     </div>
     <audio preload="auto" id="click" src="./Assets/click.wav"></audio>
     <audio preload="auto" id="clack" src="./Assets/clack.wav"></audio>
@@ -120,9 +124,9 @@
 
     <!-- <h4><a href="annualReport.html">Tandy Annual Report</a></h4> -->
 
-    <!-- <h4><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/scholars/">Tandy Technology Scholars</a></h4>
+    <!-- <h4><a href="https://web.archive.org/web/19971022161340/https://www.tandy.com/scholars/">Tandy Technology Scholars</a></h4>
 
-  <h4><a href="https://web.archive.org/web/19971022161340/http://www.tandy.com/employment/employmentmain.html">Tandy Employment Opportunities</a></h4> -->
+  <h4><a href="https://web.archive.org/web/19971022161340/https://www.tandy.com/employment/employmentmain.html">Tandy Employment Opportunities</a></h4> -->
   </div>
   <p>
   </p>
