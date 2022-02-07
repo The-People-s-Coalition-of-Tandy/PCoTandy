@@ -1,9 +1,10 @@
 <html>
 
 <head>
+  <title>PCoTandy</title>
   <link rel="stylesheet" href="indexAlt.css">
   <link rel="stylesheet" href="ad.css">
-
+  <script type="text/javascript" src="./Scripts/webring.js"></script>
   <script>
     function buttonClick(e) {
       var audio = document.getElementById("click");
@@ -22,6 +23,10 @@
         window.location = "annualReport.html";
       }, 100);
       e.src = "./Assets/blankbutton-overlay.png";
+    }
+
+    function webring() {
+
     }
   </script>
 </head>
@@ -145,7 +150,9 @@
   <hr width="25%" noshade="">
 
   <div class="center-items">
-    <p class="copyright">Copyright © People's Coalition of Tandy 2022 </p>
+    <!-- <p class="copyright">Copyright © People's Coalition of Tandy 2022 </p> -->
+    <webring-css site="https://the-people-s-coalition-of-tandy.github.io/PCoTandy/">
+    </webring-css>
   </div>
   </div>
 </body>
