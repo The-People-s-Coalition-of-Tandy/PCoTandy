@@ -17,18 +17,24 @@ template.innerHTML = `
     justify-content: center;
     gap: 8px;
 }
+
+#copy {
+  margin-bottom: 10px;
+}
 </style>
 
 <div class="webring">
-    <div id="navigator">
-    </div>
-    <div id="copy">
+  <div id="copy">
+  </div>
+  <div id="navigator">
   </div>
 </div>`;
 
 class WebRing extends HTMLElement {
   connectedCallback() {
-    this.attachShadow({ mode: "open" });
+    this.attachShadow({
+      mode: "open"
+    });
     this.shadowRoot.appendChild(template.content.cloneNode(true));
 
     const thisSite = this.getAttribute("site");
@@ -40,7 +46,6 @@ class WebRing extends HTMLElement {
         const matchedSiteIndex = sites.findIndex(
           (site) => site.url === thisSite
         );
-        const matchedSite = sites[matchedSiteIndex];
 
         let prevSiteIndex = matchedSiteIndex - 1;
         if (prevSiteIndex === -1) prevSiteIndex = sites.length - 1;
@@ -68,14 +73,13 @@ class WebRing extends HTMLElement {
         const copy = `
         <strong>The Tandy Webring</strong>          
       `;
+        this.shadowRoot
+          .querySelector("#copy")
+          .insertAdjacentHTML("afterbegin", copy);
 
         this.shadowRoot
           .querySelector("#navigator")
           .insertAdjacentHTML("afterbegin", navigator);
-          
-        this.shadowRoot
-          .querySelector("#copy")
-          .insertAdjacentHTML("afterbegin", copy);
       });
   }
 
