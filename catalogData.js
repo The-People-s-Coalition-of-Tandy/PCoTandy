@@ -1,4 +1,16 @@
 const albumList = [{
+    cover: "/Users/elie/Documents/GitHub/PCoTandy/Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
+    color: "pink",
+    name: "30th Anniversary GM Smoidi Light General Midi Competition",
+    artists: "Various",
+    description: "Drawing upon a vast array of influences - from Jazz to Blues - Blue Dish’s eclectic sound is seemingly boundless, defying genre at every moment.",
+    credits: "<strong>Mixed + Mastered:</strong> Elie Mcafee-Hahn <br> <strong>Performed By:</strong> Elie Mcafee Hahn & Julie Bodian",
+    youtube: "https://youtu.be/GOlXO-qs61M",
+    spotify: "https://open.spotify.com/album/2aX2eODXtSYV9Sq2uD8J3a?si=l4XZLXdCRuW5wf3LeSHmvQ",
+    bandcamp: "https://bluedish.bandcamp.com/",
+    instagram: ""
+  },
+  {
     cover: "https://f4.bcbits.com/img/a0845889841_16.jpg",
     color: "blue",
     name: "Out of the Blue",
