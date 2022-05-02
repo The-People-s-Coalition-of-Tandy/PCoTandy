@@ -6,23 +6,23 @@
   <link rel="stylesheet" href="ad.css">
   <script type="text/javascript" src="./Scripts/webring.js"></script>
   <script>
-    function buttonClick(e) {
+    function buttonClick(e, filename) {
       var audio = document.getElementById("click");
       audio.play();
-      e.src = "./Assets/blankbuttonclicked-overlay.png";
+      e.src = filename;
     }
 
-    function buttonNormal(e) {
-      e.src = "./Assets/blankbutton-overlay.png";
+    function buttonNormal(e, filename) {
+      e.src = filename;
     }
 
-    function buttonReturn(e) {
+    function buttonReturn(e, filename, link) {
       var audio = document.getElementById("clack");
       audio.play();
       setTimeout(() => {
-        window.location = "annualReport.html";
+        window.location = link;
       }, 100);
-      e.src = "./Assets/blankbutton-overlay.png";
+      e.src = filename;
     }
 
     function webring() {
@@ -95,19 +95,19 @@
   <div class="center-items">
     <hr width="50%" style="margin-bottom: 30px;">
     <div class="main-button">
-      <img src="./Assets/buttonradioshack.gif" style="filter: hue-rotate(180deg);">
+      <img src="./Assets/catalog.png" onmousedown="buttonClick(this, './Assets/catalogClicked.png')" onmouseup="buttonReturn(this, './Assets/catalog.png','catalog.html')" onmouseout="buttonNormal(this, './Assets/catalog.png')">
       <!-- <h1>Catalog</h1> -->
     </div>
 
     <br>
     <div class="main-button">
-      <img src="./Assets/button.gif" style="filter: hue-rotate(45deg);">
+      <img src="./Assets/contact.png" onmousedown="buttonClick(this, './Assets/contactClicked.png')" onmouseup="buttonReturn(this, './Assets/contact.png','contact.html')" onmouseout="buttonNormal(this, './Assets/contact.png')">
       <!-- <h1>Contact</h1> -->
     </div>
     <br>
     <div class="main-button">
-      <img onmousedown="buttonClick(this)" onmouseup="buttonReturn(this)" onmouseout="buttonNormal(this)"
-        src="./Assets/blankbutton-overlay.png" style="filter: hue-rotate(90deg);">
+      <img onmousedown="buttonClick(this, './Assets/blankbuttonclicked-overlay.png')" onmouseup="buttonReturn(this, './Assets/blankbutton-overlay.png', 'annualReport.html')" onmouseout="buttonNormal(this, './Assets/blankbutton-overlay.png')"
+        src="./Assets/blankbutton-overlay.png">
     </div>
     <audio preload="auto" id="click" src="./Assets/click.wav"></audio>
     <audio preload="auto" id="clack" src="./Assets/clack.wav"></audio>
