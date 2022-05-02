@@ -46,9 +46,10 @@
           <div class="album-info-section ${album.color}">
             <h1 class="title">${album.name}</h1>
             <h4 class="artist-name">${album.artists}</h4>
+            <div class="album-copy-container">
             <p class="album-copy">${album.description}</p>
-            <br> <br>
             <p class="album-credits">${album.credits}</p>
+            </div>
             <div class="links">
               <div class="buttons">
                 ${album.bandcamp ? "<a target='_blank' class='bc' href='" + album.bandcamp + "'>bandcamp</a>" : ""}
@@ -81,7 +82,7 @@
     rel="stylesheet">
 
   <!-- for svg animation elie made -->
-  <link rel="stylesheet" href="svgSplash.css" />
+  <link rel="stylesheet" href="svgSplashDev.css" />
 </head>
 
 <!-- SVG END -->

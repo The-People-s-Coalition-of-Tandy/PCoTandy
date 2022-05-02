@@ -143,16 +143,16 @@ li {
   display: grid;
   grid-template-columns: 400px auto;
   grid-gap: 20px;
-  margin-left: 30vw;
+  margin-left: 330px;
   margin-top: 30px;
   visibility: hidden;
 }
 
-@property --x {
+/* @property --x {
   syntax: '<angle>';
   inherits: false;
   initial-value: 0deg;
-}
+} */
 
 @keyframes gradient-shine {
   0% {
@@ -262,6 +262,9 @@ li {
   margin-left: -20;
   position: relative;
   width: 100%;
+  max-width: 500px;
+  min-width: 400px;
+  width: fit-content;
   height: 394px;
   max-height: 394px;
   visibility: visible;
@@ -271,6 +274,11 @@ li {
   padding-right: 10px;
   border: 3px blue dotted;
   background-color: rgba(255, 255, 255, .5);
+}
+
+.album-copy-container {
+  max-height: 208px;
+  overflow: scroll;
 }
 
 strong {
@@ -331,6 +339,10 @@ strong {
   border-color: blue;
 }
 
+.active-album .album-info-section.pink {
+  border-color: pink;
+}
+
 .active-album .album-info-section.green {
   border-color: green;
 }
@@ -388,7 +400,6 @@ strong {
 }
 
 .title {
-  white-space: nowrap;
   margin-bottom: 6px;
 }
 
