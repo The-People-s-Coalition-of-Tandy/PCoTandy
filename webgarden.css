@@ -1,0 +1,30 @@
+body {
+    background: url("./Assets/tandyhourPurp.gif") repeat;
+    -webkit-animation: scrolling-background 5s linear infinite;
+    -moz-animation: scrolling-background 5s linear infinite;
+    -o-animation: scrolling-background 5s linear infinite;
+    animation: scrolling-background 5s linear infinite;
+}
+
+@keyframes scrolling-background {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 332px;
+    }
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center-items {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
