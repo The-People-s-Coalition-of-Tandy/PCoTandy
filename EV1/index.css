@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+html {
+    background-image: url("./assets/3.jpeg");
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+canvas {
+    animation: fade 1s backwards linear;
+    animation-delay: .7s;
+}
