@@ -11,7 +11,12 @@ import {
 
 let camera, scene, renderer;
 let logoMixer, singerOneMixer, singerTwoMixer;
+let startSinging = false;
 let clock = new THREE.Clock();
+
+setTimeout(() => {
+    startSinging = true;
+}, 14000);
 
 init();
 render();
@@ -98,8 +103,10 @@ function init() {
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
     // renderer.setSize(window.innerWidth / 4, window.innerHeight / 4, false); 
-    renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 5; 
-    renderer.outputEncoding = THREE.sRGBEncoding; document.body.appendChild(renderer.domElement);
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 5;
+    renderer.outputEncoding = THREE.sRGBEncoding;
+    document.body.appendChild(renderer.domElement);
 
     const controls = new OrbitControls(camera, renderer.domElement);
     // controls.addEventListener('change', render); // use if there is no animation loop
@@ -125,9 +132,11 @@ function render() {
 
     var delta = clock.getDelta();
     logoMixer.update(delta)
-    singerOneMixer.update(delta)
-    singerTwoMixer.update(delta)
+    if (startSinging) {
+        singerOneMixer.update(delta)
+        singerTwoMixer.update(delta)
+    }
+
     requestAnimationFrame(render);
     renderer.render(scene, camera);
 }
-render();
