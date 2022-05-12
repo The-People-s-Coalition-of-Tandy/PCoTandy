@@ -20,3 +20,7 @@ canvas {
     animation: fade 1s backwards linear;
     animation-delay: .7s;
 }
+
+audio {
+    display: none;
+}
