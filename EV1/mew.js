@@ -14,6 +14,7 @@ let logoMixer, singerOneMixer, singerTwoMixer, singerThreeMixer;
 let startSinging = false;
 let clock = new THREE.Clock();
 var raycaster, mouse;
+let bits = 30;
 
 
 
@@ -118,7 +119,7 @@ function init() {
     });
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize(window.innerWidth, window.innerHeight);
-    // renderer.setSize(window.innerWidth / 4, window.innerHeight / 4, false); 
+    renderer.setSize(window.innerWidth / bits, window.innerHeight / bits, false); 
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
     renderer.toneMappingExposure = 5;
     renderer.outputEncoding = THREE.sRGBEncoding;
@@ -143,7 +144,6 @@ function onWindowResize() {
     camera.updateProjectionMatrix();
 
     renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setSize(window.innerWidth / 2, window.innerHeight / 2, false);
 }
 
 function onClick() {
@@ -183,5 +183,15 @@ function render() {
     }
 
     requestAnimationFrame(render);
+    renderer.setSize(window.innerWidth / bits, window.innerHeight / bits, false); 
+    if(bits>1){
+        if(bits>15){
+            bits-=.1
+        }
+        else {
+            bits -=0.2;
+        }
+    }
     renderer.render(scene, camera);
+
 }
