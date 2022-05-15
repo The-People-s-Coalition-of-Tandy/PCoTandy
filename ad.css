@@ -296,3 +296,21 @@
         opacity: 0;
     }
 }
+
+.glx-slider-container-18000 {
+    max-width: 360px;
+    box-sizing: border-box;
+    padding: 12px;
+    position: fixed;
+    display: flex;
+    inset: 0px 0px auto auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 2147483647;
+}
+
+@media only screen and (max-width: 1000px) {
+    .glx-slider-container-18000.popup {
+        display: none;
+    }
+}

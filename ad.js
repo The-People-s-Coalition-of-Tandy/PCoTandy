@@ -3,8 +3,7 @@ document.write(`
 
   <!-- 1# top popup -->
   <!-- animation info -->
-  <div class="glx-slider-container-18000"
-    style="max-width: 360px; box-sizing: border-box; padding: 12px; position: fixed; display: flex; inset: 0px 0px auto auto; flex-direction: column; justify-content: flex-start; z-index: 2147483647;">
+  <div class="glx-slider-container-18000 popup">
     <div id="glx-18000-container"
       style="display: flex; flex-flow: column nowrap; box-sizing: border-box; visibility: visible; clear: both;">
 

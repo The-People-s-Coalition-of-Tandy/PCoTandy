@@ -43,11 +43,6 @@ body {
     text-align: center;
 }
 
-.tandy-buttons>img {
-    margin-right: 5px;
-    opacity: 75%;
-}
-
 .main-button {
     font-family: "TandyOS";
     position: relative;
@@ -55,6 +50,7 @@ body {
 
 .banner {
     margin-top: 12vh;
+    margin-bottom: -25px;
 }
 
 .links {
@@ -65,7 +61,7 @@ body {
 }
 
 .social-link {
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
 }
 
 button.bc {
@@ -84,4 +80,23 @@ button.tw {
 button.yt {
     background-color: rgb(223, 43, 43);
     color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .banner {
+        width: 100%;
+    }
+
+    .main-button {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .main-button img {
+        width: 100%;
+    }
+
+    .popup {
+        display: none;
+    }
 }
