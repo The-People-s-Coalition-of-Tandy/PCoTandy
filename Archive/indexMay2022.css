@@ -1,0 +1,338 @@
+body {
+    background: url("./Assets/tandyhourPurp.gif") repeat;
+    /* -webkit-animation: scrolling 5s linear infinite; */
+    /* -moz-animation: scrolling 5s linear infinite; */
+    /* -o-animation: scrolling 5s linear infinite; */
+    animation: scrolling 5s linear infinite;
+}
+
+
+@-webkit-keyframes scrolling {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 332px;
+    }
+}
+
+/* Begin ad styles for popup ad */
+#glx-18000-container {
+    --fontColor: #404040;
+    --backgroundColor: #f5f5f5;
+    position: relative;
+    cursor: pointer;
+    animation-duration: 10s;
+    animation-name: cooltoast;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+#glx-18000-container {
+    z-index: 2147483646;
+    padding: 0;
+    position: relative;
+}
+
+#glx-18000-container .glx-close {
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2147483647;
+    cursor: pointer;
+}
+
+#glx-18000-container .glx-close-with-text {
+    width: auto;
+}
+
+#glx-18000-container .glx-close>svg {
+    vertical-align: top;
+}
+
+#glx-18000-container #glx-close-icon {
+    fill: grey;
+}
+
+#glx-18000-container .glx-teaser {
+    position: relative;
+    text-decoration: none;
+    background-color: var(--backgroundColor);
+    transition: transform .3s;
+}
+
+#glx-18000-container .glx-image {
+    margin: 0;
+    padding: 0;
+}
+
+#glx-18000-container .glx-text {
+    margin: 0;
+    padding: 3px;
+    z-index: 2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#glx-18000-container .glx-header {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--fontColor);
+}
+
+#glx-18000-container .glx-description {
+    font-size: 12px;
+    color: var(--fontColor);
+}
+
+#glx-18000-container .glx-cta {
+    padding: 4px 8px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e53935;
+    box-shadow: 0 0 3px 1px rgba(140, 140, 140, .3);
+}
+
+#glx-18000-container .glx-main-link {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#glx-18000-container .glx-watermark-container {
+    grid-column: 1 / -1;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: -12px;
+}
+
+#glx-18000-container .glx-watermark {
+    text-decoration: none;
+}
+
+#glx-18000-container .glx-teaser {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgba(250, 250, 250, 100%);
+    box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+    z-index: 10;
+    transform: translate(384px, 0);
+    visibility: hidden;
+    position: relative;
+}
+
+#glx-18000-container .glx-teaser:hover .glx-ctrls {
+    opacity: 1;
+}
+
+#glx-18000-container .glx-teaser.visible {
+    transition: transform .5s ease-in;
+    visibility: visible;
+    transform: translate(0, 0);
+}
+
+#glx-18000-container .glx-image {
+    margin-right: 9px;
+}
+
+#glx-18000-container .glx-text {
+    background-color: transparent;
+}
+
+#glx-18000-container .glx-header {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: blue;
+}
+
+#glx-18000-container .glx-description {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+#glx-18000-container .glx-ctrls {
+    margin: -12px -12px -12px 0;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity .25s ease-in;
+}
+
+#glx-18000-container .glx-ctrls-button {
+    width: 100%;
+    min-width: 48px;
+    margin: 0;
+    padding: 4px 12px;
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    flex-grow: 1;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 11px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: color .25s;
+}
+
+#glx-18000-container .glx-cls {
+    color: #b1b1b1;
+}
+
+#glx-18000-container .glx-ok {
+    border-top: 1px solid #e0e0e0;
+    color: #b1b1b1;
+}
+
+#glx-18000-container .glx-ctrls-button:hover {
+    color: magenta;
+}
+
+#glx-18000-container .glx-watermark {
+    padding: 2px;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    font-size: 10px;
+    z-index: 2147483647;
+    border-radius: 3px;
+    background: #6699ff;
+    color: white;
+}
+
+#cooltoast-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: auto;
+    /*   font-family: 'Helvetica'; */
+}
+
+.cooltoast-toast {
+    position: relative;
+    padding: 8px 12px;
+    margin: 16px;
+    border-radius: 8px;
+    background: #F5F5F5;
+    cursor: pointer;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.19);
+    animation-duration: .7s;
+    animation-name: cooltoast;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+.cooltoast-fadeOut {
+    animation-name: cooltoastFadeOut;
+    animation-duration: .5s;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-fill-mode: forwards;
+}
+
+#cooltoast-container p,
+#cooltoast-container h4 {
+    margin: 3px 0 !important;
+}
+
+.cooltoast-title {
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.cooltoast-text {
+    font-size: 14px;
+    color: #777;
+}
+
+.cooltoast-icon {
+    position: absolute;
+    top: 5px;
+    left: -40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #FFF;
+}
+
+.cooltoast-toast a,
+.cooltoast-toast a:hover {
+    color: #549EDB !important;
+    text-decoration: none !important;
+}
+
+/** toast types */
+.cooltoast-success {
+    border-bottom: 2px solid #51C625;
+}
+
+.cooltoast-warning {
+    border-bottom: 2px solid #DB9215;
+}
+
+.cooltoast-error {
+    border-bottom: 2px solid #DB2B1D;
+}
+
+.cooltoast-info {
+    border-bottom: 2px solid #27ABDB;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6%;
+    /* border: 3px solid green;  */
+}
+
+button.bc {
+    background-color: teal;
+}
+
+button.in {
+    background-color: pink;
+}
+
+button.tw {
+    background-color: cyan;
+}
+
+button.yt {
+    background-color: red;
+}
+
+
+@keyframes cooltoast {
+    from {
+        transform: translate3d(400px, 0, 0);
+        ;
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes cooltoastFadeOut {
+    from {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translate3d(400px, 0, 0);
+        opacity: 0;
+    }
+}

@@ -2,34 +2,14 @@
 
 <head>
   <title>PCoTandy</title>
-  <link rel="stylesheet" href="indexAlt.css">
-  <link rel="stylesheet" href="ad.css">
-   <script>
-    function buttonClick(e, filename) {
-      var audio = document.getElementById("click");
-      audio.play();
-      e.src = filename;
-    }
-
-    function buttonNormal(e, filename) {
-      e.src = filename;
-    }
-
-    function buttonReturn(e, filename, link) {
-      var audio = document.getElementById("clack");
-      audio.play();
-      setTimeout(() => {
-        window.location = link;
-      }, 100);
-      e.src = filename;
-    }
-  </script>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body background="./Assets/tandyhourPurp.gif">
   <!-- popup ad -->
 
   <!-- 1# top popup -->
+
   <!-- animation info -->
   <div class="glx-slider-container-18000"
     style="max-width: 360px; box-sizing: border-box; padding: 12px; position: fixed; display: flex; inset: 0px 0px auto auto; flex-direction: column; justify-content: flex-start; z-index: 2147483647;">
@@ -78,75 +58,69 @@
         </a></div>
   </div>
 
-  <img class="center-items banner" src="./Assets/TandyBanner.png">
 
-  <div class="center-items tandy-buttons">
-    <img src="./Assets/tandyButton.gif" style="filter: hue-rotate(180deg);">
-    <img src="./Assets/tandyButton.gif" style="filter: hue-rotate(45deg);">
-    <img src="./Assets/tandyButton.gif" style="filter: hue-rotate(90deg);">
-    <img src="./Assets/tandyButton.gif" style="filter: hue-rotate(135deg);">
-    <br>
-  </div>
-  <div class="center-items">
-    <hr width="50%" style="margin-bottom: 30px;">
-    <div class="main-button">
-      <img src="./Assets/catalog.png" onmousedown="buttonClick(this, './Assets/catalogClicked.png')" onmouseup="buttonReturn(this, './Assets/catalog.png','catalog.html')" onmouseout="buttonNormal(this, './Assets/catalog.png')">
-      <!-- <h1>Catalog</h1> -->
-    </div>
 
-    <br>
-    <div class="main-button">
-      <img src="./Assets/contact.png" onmousedown="buttonClick(this, './Assets/contactClicked.png')" onmouseup="buttonReturn(this, './Assets/contact.png','contact.html')" onmouseout="buttonNormal(this, './Assets/contact.png')">
-      <!-- <h1>Contact</h1> -->
-    </div>
-    <br>
-    <div class="main-button">
-      <img onmousedown="buttonClick(this, './Assets/annualReportClicked.png')" onmouseup="buttonReturn(this, './Assets/annualReport.png', 'annualReport.html')" onmouseout="buttonNormal(this, './Assets/annualReport.png')"
-        src="./Assets/annualReport.png">
-    </div>
-    <audio preload="auto" id="click" src="./Assets/click.wav"></audio>
-    <audio preload="auto" id="clack" src="./Assets/clack.wav"></audio>
-    <audio preload="auto" id="keypress" src="./Assets/keyclick.wav"></audio>
 
+  <p align="center">
+    <img src="./Assets/TandyCorp.jpg" area shape="rect" height="100" width="100%" border="0"> <br>
+  </p>
+  <center>
+    <img src="./Assets/TandyBanner.png">
+  </center>
+
+  <!-- <center>
+    <a href="https://web.archive.org/web/19971022161340/https://www.radioshack.com/">RadioShack</a>
+    <a href="https://web.archive.org/web/19971022161340/https://www.computercity.com/">Computer City</a>
+    <a href="https://web.archive.org/web/19971022161340/https://www.tandy.com/tandy.html">Tandy</a>
+    <a href="https://web.archive.org/web/19971022161340/https://www.techam.com/">TechAmerica</a>
     <br>
-    <!-- <div class="main-button">
-    <img src="./Assets/buttonradioshack.png" style="filter: hue-rotate(135deg);">
-    <h1>Holos</h1>
-  </div> -->
-    <!-- <h4><a href="catalog.html">Catalog</a></h4> -->
+  </center> -->
+  <center>
+    <hr width="50%">
+
+    <h1>What's New: </h1>
+
+    <h4><a href="catalog.html">Catalog</a></h4>
 
     <!-- Release date TBD for Tandy Holos -->
     <!-- <h4><a href="TandyHolos.html" target="_blank" rel="noopener noreferrer">Tandy Holos</a></h4> -->
 
-    <!-- <h4><a href="contact.html">Contact</a></h4> -->
+    <h4><a href="contact.html">Contact</a></h4>
 
-    <!-- <h4><a href="annualReport.html">Tandy Annual Report</a></h4> -->
+    <h4><a href="annualReport.html">Tandy Annual Report</a></h4>
 
     <!-- <h4><a href="https://web.archive.org/web/19971022161340/https://www.tandy.com/scholars/">Tandy Technology Scholars</a></h4>
 
   <h4><a href="https://web.archive.org/web/19971022161340/https://www.tandy.com/employment/employmentmain.html">Tandy Employment Opportunities</a></h4> -->
-  </div>
+
+  </center>
   <p>
   </p>
   <hr width="25%" noshade="">
 
+
   <div class="links">
     <div class="buttons">
-      <button class="bc social-link" type="button" name="button" color="blue">bandcamp</button>
-      <button class="in social-link" type="button" name="button">instagram</button>
-      <button class="tw social-link" type="button" name="button">twitter</button>
-      <button class="yt social-link" type="button" name="button">youtube</button>
+      <button class="bc" type="button" name="button" color="blue">bandcamp</button>
+      <button class="in" type="button" name="button">instagram</button>
+      <button class="tw" type="button" name="button">twitter</button>
+      <button class="yt" type="button" name="button">youtube</button>
     </div>
 
   </div>
 
-  <div class="center-items">
-    <div id="tandyWebring">
-      <script type="text/javascript" src="https://webring.pcotandy.org/variables.js"></script>
-      <script type="text/javascript" src="https://webring.pcotandy.github.org/webring.js"></script>
-    </div>
-  </div>
-  </div>
+  <hr width="25%" noshade="">
+
+  <center>
+    <p>Copyright © People's Coalition of Tandy 2021 </p>
+
+    <img height="45" src="./Assets/GoogleFingers.gif" width="45">
+    <img height="45" src="./Assets/GoogleFingers.gif" width="45">
+    <img height="45" src="./Assets/GoogleFingers.gif" width="45">
+    <img height="45" src="./Assets/GoogleFingers.gif" width="45">
+    <img height="45" src="./Assets/GoogleFingers.gif" width="45">
+  </center>
+
 </body>
 
 </html>
