@@ -1,0 +1,28 @@
+main {
+    margin: 20px auto;
+    width: fit-content;
+    line-height: 25px;
+    /* background-image: url("./index_files/RIVITS.GIF"); */
+    background-color: rgb(230, 214, 255);
+    padding: 20px 40px;
+    border: 5px ridge gray;
+}
+
+html {
+    background-image: url("./index_files/tandyhour.gif");
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .center {
+        width: 100%;
+    }
+}

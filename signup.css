@@ -1,0 +1,16 @@
+main {
+    margin: 5% auto;
+    width: fit-content;
+    line-height: 25px;
+}
+
+html {
+    background-image: url("./Assets/tandyhour.gif");
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
