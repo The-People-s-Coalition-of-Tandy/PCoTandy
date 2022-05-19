@@ -133,16 +133,11 @@
 }
 
 #glx-18000-container .glx-header {
-    white-space: nowrap;
     text-overflow: ellipsis;
-    overflow: hidden;
     color: blue;
 }
 
 #glx-18000-container .glx-description {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
     font-size: 14px;
 }
 

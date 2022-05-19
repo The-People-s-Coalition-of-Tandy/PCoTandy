@@ -25,6 +25,7 @@ body {
     0% {
         opacity: 0%;
     }
+
     100% {
         opacity: 100%;
     }
@@ -35,7 +36,7 @@ body {
     max-width: 600px;
     margin: 1rem auto;
     animation: webring-fade 2s linear;
-  }
+}
 
 .center-items {
     display: block;
@@ -46,6 +47,39 @@ body {
 .main-button {
     font-family: "TandyOS";
     position: relative;
+    background-image: url("./Assets/blankbutton.png");
+    background-repeat: no-repeat;
+    width: 294px;
+    /* width: fit-content; */
+    margin: 0 auto;
+    height: 62px;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    cursor: pointer;
+
+}
+
+.main-button:active {
+    background-image: url("./Assets/blankbuttonclicked.png");
+}
+
+.main-button img {
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 18px;
+}
+
+.main-button h1 {
+    cursor: pointer;
+    /* margin-right: 25px; */
+    text-align: center;
+}
+
+.main-button:active>* {
+    transform: scale(.98) translate(3px, 2px);
 }
 
 .banner {
@@ -87,14 +121,7 @@ button.yt {
         width: 100%;
     }
 
-    .main-button {
-        width: 90%;
-        margin: 0 auto;
-    }
 
-    .main-button img {
-        width: 100%;
-    }
 
     .popup {
         display: none;

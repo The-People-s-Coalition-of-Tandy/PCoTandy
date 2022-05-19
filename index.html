@@ -1,28 +1,22 @@
 <html>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
   <title>PCoTandy</title>
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="ad.css">
-   <script>
-    function buttonClick(e, filename) {
+  <script>
+    function buttonClick() {
       var audio = document.getElementById("click");
       audio.play();
-      e.src = filename;
     }
 
-    function buttonNormal(e, filename) {
-      e.src = filename;
-    }
-
-    function buttonReturn(e, filename, link) {
+    function buttonReturn(link) {
       var audio = document.getElementById("clack");
       audio.play();
       setTimeout(() => {
         window.location = link;
       }, 100);
-      e.src = filename;
     }
   </script>
 </head>
@@ -34,43 +28,33 @@
   <img class="center-items banner" src="./Assets/TandyBanner.png">
 
   <div class="center-items">
-    <hr width="50%" style="margin-bottom: 30px;">
-    <div class="main-button">
-      <img src="./Assets/catalog.png" onmousedown="buttonClick(this, './Assets/catalogClicked.png')" onmouseup="buttonReturn(this, './Assets/catalog.png','catalog.html')" onmouseout="buttonNormal(this, './Assets/catalog.png')">
-      <!-- <h1>Catalog</h1> -->
-    </div>
-
-    <br>
-    <div class="main-button">
-      <img src="./Assets/contact.png" onmousedown="buttonClick(this, './Assets/contactClicked.png')" onmouseup="buttonReturn(this, './Assets/contact.png','contact.html')" onmouseout="buttonNormal(this, './Assets/contact.png')">
-      <!-- <h1>Contact</h1> -->
-    </div>
-    <br>
-    <div class="main-button">
-      <img onmousedown="buttonClick(this, './Assets/annualReportClicked.png')" onmouseup="buttonReturn(this, './Assets/annualReport.png', 'annualReport.html')" onmouseout="buttonNormal(this, './Assets/annualReport.png')"
-        src="./Assets/annualReport.png">
-    </div>
+    <hr width="50%">
+    
     <audio preload="auto" id="click" src="./Assets/click.wav"></audio>
     <audio preload="auto" id="clack" src="./Assets/clack.wav"></audio>
     <audio preload="auto" id="keypress" src="./Assets/keyclick.wav"></audio>
 
     <br>
-    <!-- <div class="main-button">
-    <img src="./Assets/buttonradioshack.png" style="filter: hue-rotate(135deg);">
-    <h1>Holos</h1>
-  </div> -->
-    <!-- <h4><a href="catalog.html">Catalog</a></h4> -->
+    <div class="main-button" onmousedown="buttonClick()" onmouseup="buttonReturn('catalog.html')">
+      <img src="./Assets/Funny/CDROM-IC.GIF">
+      <h1>Catalog</h1>
+      <!-- <img src="./Assets/Funny/CDROM-IC.GIF" class="spinning"> -->
+
+    </div><br>
+    <div class="main-button" onmousedown="buttonClick()" onmouseup="buttonReturn('contact.html')">
+      <img src="./Assets/grasselit.ICO">
+      <h1>Contact</h1>
+      <!-- <img src="./Assets/grasselit.ICO"> -->
+
+    </div><br>
+    <div class="main-button" onmousedown="buttonClick()" onmouseup="buttonReturn('annualReport.html')">
+      <img src="./Assets/AnnualReport.ICO">
+      <h2>Annual Report</h>
+        <!-- <img src="./Assets/AnnualReport.ICO"> -->
+
+    </div><br>
 
     <!-- Release date TBD for Tandy Holos -->
-    <!-- <h4><a href="TandyHolos.html" target="_blank" rel="noopener noreferrer">Tandy Holos</a></h4> -->
-
-    <!-- <h4><a href="contact.html">Contact</a></h4> -->
-
-    <!-- <h4><a href="annualReport.html">Tandy Annual Report</a></h4> -->
-
-    <!-- <h4><a href="https://web.archive.org/web/19971022161340/https://www.tandy.com/scholars/">Tandy Technology Scholars</a></h4>
-
-  <h4><a href="https://web.archive.org/web/19971022161340/https://www.tandy.com/employment/employmentmain.html">Tandy Employment Opportunities</a></h4> -->
   </div>
 
   <hr width="25%" noshade="">
