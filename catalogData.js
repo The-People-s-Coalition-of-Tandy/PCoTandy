@@ -1,289 +1,190 @@
 const albumList = [{
-    cover: "./Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
-    color: "pink",
-    name: "30th Anniversary GM Smoidi Light General Midi Competition",
-    artists: "Various",
-    description: "Drawing upon a vast array of influences - from Jazz to Blues - Blue Dish’s eclectic sound is seemingly boundless, defying genre at every moment.",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://tandy.bandcamp.com/",
-    instagram: ""
-  },
-  {
-    cover: "https://f4.bcbits.com/img/a0845889841_16.jpg",
-    color: "blue",
-    name: "Out of the Blue",
-    artists: "Blue Dish",
-    description: "Drawing upon a vast array of influences - from Jazz to Blues - Blue Dish’s eclectic sound is seemingly boundless, defying genre at every moment.",
-    credits: "<strong>Mixed + Mastered:</strong> Elie Mcafee-Hahn <br> <strong>Performed By:</strong> Elie Mcafee Hahn & Julie Bodian",
-    youtube: "https://youtu.be/GOlXO-qs61M",
-    spotify: "https://open.spotify.com/album/2aX2eODXtSYV9Sq2uD8J3a?si=l4XZLXdCRuW5wf3LeSHmvQ",
-    bandcamp: "https://bluedish.bandcamp.com/",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg",
-    color: "purple",
-    name: "Tetso Cube Light Ride",
-    artists: "Elie Mcafee-Hahn",
-    description: "Elie is cool :)",
-    credits: "",
-    youtube: "https://www.youtube.com/watch?v=H0u_aZUWL-w&ab_channel=baz%2abailey%2a",
-    spotify: "",
-    bandcamp: "https://bandcamp.com/elielielielielie",
-    instagram: "https://www.instagram.com/ellie_modron_kurfwen/?hl=en"
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  },
-  {
-    cover: "https://i1.sndcdn.com/artworks-OmT5lbIsnIHrJLIw-9vVfJQ-t500x500.jpg",
-    color: "green",
-    name: "Birfth",
-    artists: "Katarina Mazur",
-    description: "Kat is fun and cool. This is about this so it's good like that. Listen to it :)",
-    credits: "",
-    youtube: "",
-    spotify: "",
-    bandcamp: "https://soundcloud.com/katmazur",
-    instagram: ""
-  }
-];
+      cover: "./Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
+      color: "pink",
+      name: "30th Anniversary GM Smoidi Light General Midi Competition",
+      artists: "Various",
+      description: `The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022"
+    300 Competition!<br><br>
 
-function showContent(e) {
-  var currentActive = document.querySelector(".active-album");
+    The annual celebration of General MIDI has borne fruit!<br><br>
 
-  if (currentActive) {
-    currentActive.classList.remove('active-album');
-  }
+    10 tracks,<br>
+    10 remixes,<br>
+    and 10 General Midi compatible files!<br><br>
 
-  var x = e.classList.add('active-album');
-  // var audio = document.getElementById("audio");
-  //   audio.play();
-}
+    We 're so glad you are with us for such a uniquely special time.<br>
+    This year marks the 30 TH ANNIVERSARY OF THIS S TIER COMPETITION!!<br>
+    And even after all these years,<br>
+    MIDI is still as relevant as ever!<br>
+    For those who don 't know, General MIDI is an amazing standard for computer-triggered synthetic instruments that'<br>
+    s been around since 1991!<br>
+    Every year,<br>
+    we come together to honor this under - appreciated standard!<br>
+    We love MIDI and the POWER of ELEGANT,<br>
+    USEFUL,<br>
+    and USABLE STANDARDS!<br>
 
-function spanify(text) {
-  const maxLength = 21
-  let result = "";
-  for (let i = 0; i < Math.min(text.length, maxLength); i++) {
-    text[i] === " " ? result += `<span>&nbsp</span>` : result += `<span>${text[i]}</span>`
-  }
-  if (text.length > maxLength) {
-    for (let j = 0; j < 3; j++) {
-      result += `<span>.</span>`
+    After receiving the.mid MIDI files,<br>
+    the Judges simply played back the files on a mint condition Roland Sound Canvas SC - 155 and recorded the audio into Logic Pro X using a Focusrite Saffire interface.<br>
+    The audio files on this album have gone thru very delicate mastering to match volume.<br>
+    All errors included in the submissions are left in the audio files as is tradition in the competition.<br>
+    The composer 's ability to creatively and synergistically enchant - in concert with the standard - was factored this year'<br>
+    s award placements,<br>
+    naturally.<br><br><br>
+
+
+    As the Light Wave and the Time Wave hit the Prismatic Juncture they refract and twist,<br>
+    not painful but new.Uncountable bounces,<br>
+    devisions,<br>
+    and revisions,<br>
+    they twyrl and wynd as leaves from a tree,<br>
+    in dialogue,<br>
+    independent.<br>
+    Then,<br>
+    they exit the Prism as quickly as they entered,<br>
+    but now they 're changed, smeared, all at once. They are the same... yet more. Not "divided" -- but their magic of oneness revealed in wonder and honor. As if in a dream, they now will forever pass thru the zRAINBOW SPECTRUME.<br>
+    How can a Natural Lump of craestal refract such Cosmic Materia....and so continuously ? ?<br>
+    The path is not changed but--somehow--it is forever renewed.<br><br>
+
+    The Time Wave smeeears into a brown,<br>
+    black,<br>
+    grey shadowy spectrume - an inversed zRAINBOW spectrume.Like a viscous gel warping and contorting and enveloping empty space,<br>
+    it seems to get darker as it moves but seems to dodge simple axioms of logic.<br>
+    It 's refraction is SHADOW and it coalesces in it'<br>
+    s current manifestation : Peepee Peters,<br>
+    deep - no doubt - in laet night slumber,<br>
+    dreaming of craestals and large movements,<br>
+    channeling the Time Wave 's darkness. Here, Peepee Peter'<br>
+    s vision began : to alter sample playback to fit their whimms-- > transforming sounds by slowing down their waves,<br>
+    changing their meaning.<br>
+    Harnessing the Shadow of the T.W.,<br>
+    Peepee proceeded to wake up and bend General MIDI to new standards;an Aquarian,<br>
+    the 5 th dentist that sees something different than the other 4.<br>
+    Peepee finds themself suspended in Aether.<br><br>
+
+    The Light Wave - blindingly fast - in an instant fans out from a white beam into a Shimmering zRAINBOW spectrume.<br>
+    With a light,<br>
+    fleet,<br>
+    and effortless beam it gets no dimmer as<br>
+    if powered by an infinite power source.<br>
+    The Prism smears it into its refraction: SHIMMER.And some of its beam found its way to Earth...specifically,<br>
+    it found a person of un - specified age: Phoebe FM,<br>
+    up - no doubt - in the cleər morning,<br>
+    looking at the Wylde Flurs,<br>
+    mistaking Rainbow light as simply their iPhone 's flashlight thru a Bubble'<br>
+    s sheen.It was here that Phoebe FM 's SHIMMERing Melodies and Groove started to be borne --><br>
+    one instrument transforming into the next in an effortless spectrume,<br>
+    changing their meaning.Harnessing the SHIMMER of the L.W.,<br>
+    Phoebe symbiotically bound with General MIDI,<br>
+    growing a new plant of playfulness and cohesion.A Piscetic: a fish swimming upstream in the sumerthyme of Wyntr.<br>
+    Phoebe finds themself suspended in Aether.<br><br>
+
+    Our 2 Waves Incarnate meet eachother 's eyes in the Prismatic Juncture, a crystal-clear craestyl-face - the barrier between them. The Rainbow SHIMMER dancing behind Phoebe, the brown-black SHADOW morphing behind Peepee, they both raise a hand and place it on the wall between them.<br>
+    Light and Shadow intertwine and rage around the craestil shard suspended in the darkness of Space.!!!!!Together they form the Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022!!!!!<br>
+    Is it Fate ?<br><br>
+
+    Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022" 300 Competition!<br>
+    <br>
+    And congratulations to all of our Category Award Winners :<br><br>
+
+      Devotional Category Award Winner: RAMPTOE)(GENIUS IS KAT MAZUR<br><br>
+
+    Vocal Performance Category Award Winner: Oratorical Orator<br><br>
+
+    Experimental Category Award Winner: Joe Misterovich<br><br>
+
+    Chamber Music Award Winner: raef<br><br>
+
+    Excellence in Solo Composition Award Winner: Emiliano Cruz<br><br>
+
+    Cinematic Award Winner: Opus Impetus<br><br>
+
+    Watercolors Award Winner: Scuzz McGuzz<br><br>
+
+    Audio Engineering Award Winner: 31 i3<br><br><br>
+
+
+    History time:<br>
+    The competition takes place in the Spring every year because March 7 th is the MID - POINT between Ikutaru Kakehashi 's (from Roland) and Dave Smith'<br>
+    s(from Sequential Circuits) birthdays ?<br>
+    This competition is meant to honor and spread appreciation<br>
+    for their dedicated work, along with all of those at the Japan MIDI Standards Committee(JMSC) and the American MIDI Manufacturers Association(MMA) !`,
+
+      links: [
+        {
+          label: "bandcamp",
+          link: "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
+          background: "teal",
+          font: "white"
+        }
+      ]},
+
+      {
+        cover: "https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg",
+        color: "purple",
+        name: "Tetso Cube Light Ride",
+        artists: "Elie Mcafee-Hahn",
+        description: "We call ourselves tandy so people know who we are",
+        credits: "<br><br><br><strong>elie mcafee-hahn</strong> - everything <br> <strong>Ko T. C.</strong> - mastering",
+        links: [
+          {label: "bandcamp",
+          link: "https://tandy.bandcamp.com/album/tetso-cube-lightride",
+          background: "teal",
+          font: "white"},
+          {
+            label: "instagram",
+            link: "https://www.instagram.com/ellie_modron_kurfwen",
+            background: "greenyellow",
+            font: "black"
+          },
+          {
+            label: "TCLR Visualizer",
+            link: "https://tclr.pcotandy.org",
+            background: "black",
+            font: "white"
+          },
+          {
+            label: "OS Visualizer",
+            link: "https://os.pcotandy.org",
+            background: "white",
+            font: "black"
+          }
+        ]
+      }
+    ];
+
+    function showContent(e) {
+      var currentActive = document.querySelector(".active-album");
+
+      if (currentActive) {
+        currentActive.classList.remove('active-album');
+      }
+
+      var x = e.classList.add('active-album');
+      // var audio = document.getElementById("audio");
+      //   audio.play();
     }
-  }
 
-  return result;
-}
+    function spanify(text) {
+      const maxLength = 21
+      let result = "";
+      for (let i = 0; i < Math.min(text.length, maxLength); i++) {
+        text[i] === " " ? result += `<span>&nbsp</span>` : result += `<span>${text[i]}</span>`
+      }
+      if (text.length > maxLength) {
+        for (let j = 0; j < 3; j++) {
+          result += `<span>.</span>`
+        }
+      }
 
-function generateCatalog() {
-  var output = '<ul>';
-  albumList.forEach((album, i) => {
-    const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
-    output += `
+      return result;
+    }
+
+    function generateCatalog() {
+      var output = '<ul>';
+      albumList.forEach((album, i) => {
+        const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
+        output += `
     <li onclick="showContent(this)">
       <div class="release-list-text">
         <div class="catalog-number" tabindex="${i}"><p>PCoT 000${i}</p></div>
@@ -301,22 +202,22 @@ function generateCatalog() {
           <p class="album-credits">${album.credits}</p>
           </div>
           <div class="links">
-            <div class="buttons">
-              ${album.bandcamp ? "<a target='_blank' class='bc' href='" + album.bandcamp + "'>bandcamp</a>" : ""}
-              ${album.instagram ? "<a target='_blank' class='in' href='" + album.instagram+ "'>instagram</a>" : ""}
-              ${album.spotify ? "<a target='_blank' class='spotify' href='" + album.spotify + "'>spotify</a>" : ""}
-              ${album.youtube ? "<a target='_blank' class='yt' href='" + album.youtube + "'>youtube</a>" : ""}    
-            </div>
+            <div class="buttons">`;
+            album.links.forEach(link =>{
+              output += `<a target='_blank' style="color:${link.font}; background-color:${link.background}" href='${link.link}'>${link.label}</a>`;
+            });
+  
+            output += `</div>
           </div>
         </div>
       </div>
     </li>`;
-  });
+      });
 
-  output += '</ul>';
-  document.getElementById("catalog-container").innerHTML = output;
-  VanillaTilt.init(document.querySelectorAll(".img-container img"), {
-    glare: true,
-    perspective: 700
-  })
-}
+      output += '</ul>';
+      document.getElementById("catalog-container").innerHTML = output;
+      VanillaTilt.init(document.querySelectorAll(".img-container img"), {
+        glare: true,
+        perspective: 700
+      })
+    }

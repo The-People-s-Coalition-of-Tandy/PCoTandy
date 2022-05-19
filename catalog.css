@@ -249,6 +249,7 @@ li {
 .album-copy,
 .album-credits {
   opacity: 0;
+  margin:0;
 }
 
 .active-album .album-copy,
@@ -277,8 +278,10 @@ li {
 }
 
 .album-copy-container {
-  max-height: 208px;
+  max-height: 140px;
   overflow: scroll;
+  outline: 5px ridge;
+  padding: 5px;
 }
 
 strong {
@@ -290,8 +293,6 @@ strong {
 }
 
 .links a {
-  background: red;
-  color: white;
   border: 3px outset gray;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
@@ -335,20 +336,24 @@ strong {
   background-color: red;
 }
 
-.active-album .album-info-section.blue {
+.active-album .album-info-section.blue, .blue > .album-copy-container {
   border-color: blue;
+  outline-color: blue;
 }
 
-.active-album .album-info-section.pink {
+.active-album .album-info-section.pink, .pink > .album-copy-container {
   border-color: pink;
+  outline-color: pink;
 }
 
-.active-album .album-info-section.green {
+.active-album .album-info-section.green, .green > .album-copy-container {
   border-color: green;
+  outline-color: green;
 }
 
-.active-album .album-info-section.purple {
+.active-album .album-info-section.purple, .purple > .album-copy-container {
   border-color: blueviolet;
+  outline-color: blueviolet;
 }
 
 @keyframes subtext {
@@ -405,6 +410,7 @@ strong {
 
 .artist-name {
   margin-top: 0px;
+  margin-bottom: 10px;
   font-style: italic;
 }
 

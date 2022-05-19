@@ -47,7 +47,7 @@ body {
 .main-button {
     font-family: "TandyOS";
     position: relative;
-    background-image: url("./Assets/blankbutton.png");
+    background-image: url("./Assets/BlankButtonShort.png");
     background-repeat: no-repeat;
     width: 294px;
     /* width: fit-content; */
@@ -62,7 +62,7 @@ body {
 }
 
 .main-button:active {
-    background-image: url("./Assets/blankbuttonclicked.png");
+    background-image: url("./Assets/BlankButtonShortClicked.png");
 }
 
 .main-button img {
