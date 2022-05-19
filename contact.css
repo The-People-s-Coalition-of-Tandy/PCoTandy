@@ -124,21 +124,21 @@ body {
 
 @keyframes t-animation {
   0% {
-    transform: translateX(-80vw)translateY(-80vw);
+    transform: translateX(-80vw) translateY(-80vw);
   }
 
   100% {
-    transform: translateX(0)translateY(0);
+    transform: translateX(0) translateY(0);
   }
 }
 
 @keyframes c-animation {
   0% {
-    transform: translateX(80vw)translateY(80vw);
+    transform: translateX(80vw) translateY(80vw);
   }
 
   100% {
-    transform: translateX(0)translateY(0);
+    transform: translateX(0) translateY(0);
   }
 }
 
