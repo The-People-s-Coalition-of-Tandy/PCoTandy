@@ -120,7 +120,7 @@ const albumList = [{
       ]},
 
       {
-        cover: "https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg",
+        cover: "./Assets/Albums/tclr/tclr.jpg",
         color: "purple",
         name: "Tetso Cube Light Ride",
         artists: "Elie Mcafee-Hahn",
