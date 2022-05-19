@@ -551,4 +551,9 @@ strong {
     transform: translateX(-50%);
     left: 50%;
   }
+
+  .home {
+    float: right;
+    margin-left: 10px;
+  }
 }
