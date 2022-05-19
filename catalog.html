@@ -48,6 +48,21 @@
       const album = document.querySelector(`#${albumName}`);
       album.classList.add("open");
     }
+
+    function openOnLoad() {
+      const params = new URLSearchParams(window.location.search)
+      if (params.has('release')) {
+        const queryAlbum = params.get('release');
+        const albumPanel = document.querySelector(`#PCoT${queryAlbum}-mobile`);
+        const albumDesktop = document.querySelector(`#PCoT${queryAlbum}-desktop`);
+        albumPanel.classList.add("open");
+        albumDesktop.classList.add("active-album");
+      }
+    }
+
+    setTimeout(() => {
+      openOnLoad();
+    }, 400);
   </script>
 </head>
 
@@ -207,12 +222,12 @@
   </div>
   <div class="mobile-wrapper">
     <div class="album-buttons-mobile">
-      <button onclick="openAlbum('PCoT0001')">PCoT 0001</button><br><br>
-      <button onclick="openAlbum('PCoT0002')">PCoT 0002</button>
+      <button onclick="openAlbum('PCoT1-mobile')">PCoT 0001</button><br><br>
+      <button onclick="openAlbum('PCoT2-mobile')">PCoT 0002</button>
     </div>
 
 
-    <div class="album-card" id="PCoT0001">
+    <div class="album-card" id="PCoT1-mobile">
       <div class="flex-nav">
         <button class="close-button" onclick="closeAlbum(this)">X</button>
       </div>
@@ -229,7 +244,7 @@
 
       </div>
     </div>
-    <div class="album-card" id="PCoT0002">
+    <div class="album-card" id="PCoT2-mobile">
       <div class="flex-nav">
         <button class="close-button" onclick="closeAlbum(this)">X</button>
       </div>

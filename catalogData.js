@@ -183,7 +183,7 @@ const albumList = [{
       albumList.forEach((album, i) => {
         const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
         output += `
-    <li onclick="showContent(this)">
+    <li id="PCoT${i+1}-desktop" onclick="showContent(this)">
       <div class="release-list-text">
         <div class="catalog-number" tabindex="${i}"><p>PCoT 000${i+1}</p></div>
         <div class="animate four"><span class="first-span">▣</span>${spanify && spanify(album.name)}<span class="last-span">▣</span></div>

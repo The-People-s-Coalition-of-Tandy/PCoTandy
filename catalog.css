@@ -492,6 +492,7 @@ strong {
 
   .album-buttons-mobile button {
     /* padding: 10px; */
+    color: black;
     font-size: large;
   }
 
@@ -529,10 +530,12 @@ strong {
 
   .mobile-links a {
     border: 3px outset gray;
-    font-family: 'Open Sans', sans-serif;
+    background-color: gray;
+    /* font-family: 'Open Sans', sans-serif; */
     text-decoration: none;
     /* font-size: small; */
     padding: 2px 5px 2px 5px;
+    border-radius: 0px;
     margin-right: 3px;
   }
 
