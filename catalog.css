@@ -18,7 +18,7 @@ body {
   animation: scrolling 5s linear infinite;
   margin: 0px;
   height: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 html {
@@ -28,7 +28,7 @@ html {
 }
 
 #catalog-container {
-  overflow-y: scroll;
+  overflow: hidden;
   height: 100%;
   margin: 0;
 }
@@ -249,7 +249,7 @@ li {
 .album-copy,
 .album-credits {
   opacity: 0;
-  margin:0;
+  margin: 0;
 }
 
 .active-album .album-copy,
@@ -279,7 +279,8 @@ li {
 
 .album-copy-container {
   max-height: 140px;
-  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
   outline: 5px ridge;
   padding: 5px;
 }
@@ -336,22 +337,26 @@ strong {
   background-color: red;
 }
 
-.active-album .album-info-section.blue, .blue > .album-copy-container {
+.active-album .album-info-section.blue,
+.blue>.album-copy-container {
   border-color: blue;
   outline-color: blue;
 }
 
-.active-album .album-info-section.pink, .pink > .album-copy-container {
+.active-album .album-info-section.pink,
+.pink>.album-copy-container {
   border-color: pink;
   outline-color: pink;
 }
 
-.active-album .album-info-section.green, .green > .album-copy-container {
+.active-album .album-info-section.green,
+.green>.album-copy-container {
   border-color: green;
   outline-color: green;
 }
 
-.active-album .album-info-section.purple, .purple > .album-copy-container {
+.active-album .album-info-section.purple,
+.purple>.album-copy-container {
   border-color: blueviolet;
   outline-color: blueviolet;
 }
@@ -427,4 +432,120 @@ strong {
   float: right;
   margin: 0% 90% 0% 90%;
   position: absolute;
+}
+
+.album-copy-container ::-webkit-scrollbar {
+  width: 20px;
+}
+
+@media only screen and (min-width: 1001px) {
+  .mobile-wrapper {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .desktop-wrapper {
+    display: none;
+    /* margin: 10px; */
+  }
+
+  .album-card {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./Assets/tandyhour.gif");
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    display: none;
+    overflow: auto;
+  }
+
+  @keyframes zoomin {
+    from {
+      transform: scale(0);
+    }
+
+    to {
+      transform: scale(1);
+    }
+
+  }
+
+  .album-card.open {
+    display: block;
+    animation: zoomin 1s linear backwards;
+  }
+
+  .close-button {
+    float: right;
+    margin: 10px;
+    margin-right: 20px;
+  }
+
+  .album-buttons-mobile {
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 20px;
+  }
+
+  .album-buttons-mobile button {
+    /* padding: 10px; */
+    font-size: large;
+  }
+
+  .album-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+  }
+
+  .album-card h1 {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .album-card h2 {
+    /* text-align: center; */
+    margin-top: 0;
+    font-style: italic;
+    /* font-weight: normal; */
+  }
+
+  .flex-nav {
+    display: flex;
+    position: fixed;
+    justify-content: end;
+    width: 100%;
+  }
+
+  .mobile-links {
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .mobile-links a {
+    border: 3px outset gray;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    /* font-size: small; */
+    padding: 2px 5px 2px 5px;
+    margin-right: 3px;
+  }
+
+  .center-mobile {
+    margin: 0 auto;
+    width: fit-content;
+    max-width: 90%;
+  }
+
+  .mobile-credits {
+    position: absolute;
+    bottom: 20px;
+    transform: translateX(-50%);
+    left: 50%;
+  }
 }

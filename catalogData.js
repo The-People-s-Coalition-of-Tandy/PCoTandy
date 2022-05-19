@@ -161,8 +161,6 @@ const albumList = [{
       }
 
       var x = e.classList.add('active-album');
-      // var audio = document.getElementById("audio");
-      //   audio.play();
     }
 
     function spanify(text) {
@@ -187,7 +185,7 @@ const albumList = [{
         output += `
     <li onclick="showContent(this)">
       <div class="release-list-text">
-        <div class="catalog-number" tabindex="${i}"><p>PCoT 000${i}</p></div>
+        <div class="catalog-number" tabindex="${i}"><p>PCoT 000${i+1}</p></div>
         <div class="animate four"><span class="first-span">▣</span>${spanify && spanify(album.name)}<span class="last-span">▣</span></div>
       </div>
       <div class="line-draw" />

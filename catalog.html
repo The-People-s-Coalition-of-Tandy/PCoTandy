@@ -1,4 +1,5 @@
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script type="text/javascript" src="./catalogData.js"></script>
 
@@ -16,14 +17,45 @@
 
   <!-- for svg animation elie made -->
   <link rel="stylesheet" href="svgSplash.css" />
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      background-color: #bef1ff;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #769ea9;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #b30000;
+    }
+  </style>
+  <script>
+    function closeAlbum(e) {
+      e.parentElement.parentElement.classList.remove("open");
+    }
+
+    function openAlbum(albumName) {
+      const album = document.querySelector(`#${albumName}`);
+      album.classList.add("open");
+    }
+  </script>
 </head>
 
 <!-- SVG END -->
 
 <body onload="generateCatalog()" position="relative">
-  <div class="list-column"></div>
-
-  <body onload="generateCatalog()" position="relative">
+  <div class="desktop-wrapper">
+    <div class="list-column"></div>
     <!-- <div class="list-column"></div> -->
 
     <canvas class="glslCanvas list-column" data-fragment="
@@ -67,7 +99,7 @@
   
   
     " data-textures="./Assets/rainbowBar.png" width="500" height="500"
-        style="background-color: rgba(1, 1, 1, 0);"></canvas>
+      style="background-color: rgba(1, 1, 1, 0);"></canvas>
     <div class="background-div">
 
 
@@ -169,8 +201,65 @@
         </svg>
       </div>
 
-      <audio id="audio" src="./Assets/Out Of the Blue.wav"></audio>
       <script type="text/javascript" src="./Scripts/vanilla-tilt.js"></script>
-  </body>
+    </div>
+
+  </div>
+  <div class="mobile-wrapper">
+    <div class="album-buttons-mobile">
+      <button onclick="openAlbum('PCoT0001')">PCoT 0001</button><br><br>
+      <button onclick="openAlbum('PCoT0002')">PCoT 0002</button>
+    </div>
+
+
+    <div class="album-card" id="PCoT0001">
+      <div class="flex-nav">
+        <button class="close-button" onclick="closeAlbum(this)">X</button>
+      </div>
+
+      <img src="./Assets/Albums/midi2022/cover/cover2bluebordershadow.png">
+      <div class="center-mobile">
+        <h1>30th Anniversary GM Smoidi Light General Midi Competition</h1>
+        <h2>Various</h2>
+      </div>
+
+      <div class="mobile-links">
+        <a target='_blank' style="color:white; background-color:teal"
+          href='https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition'>bandcamp</a>
+
+      </div>
+    </div>
+    <div class="album-card" id="PCoT0002">
+      <div class="flex-nav">
+        <button class="close-button" onclick="closeAlbum(this)">X</button>
+      </div>
+
+      <img src="https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg">
+      <div class="center-mobile">
+        <h1>Tetso Cube Lightride</h1>
+        <h2>Elie Mcafee-Hahn</h2>
+      </div>
+
+      <div class="mobile-links">
+        <a target='_blank' style="color:white; background-color:teal"
+          href='https://tandy.bandcamp.com/album/tetso-cube-lightride'>bandcamp</a>
+        <br>
+        <a target='_blank' style="color:black; background-color:greenyellow"
+          href='https://www.instagram.com/ellie_modron_kurfwen'>instagram</a>
+        <br>
+        <a target='_blank' style="color:white; background-color:black" href='https://tclr.pcotandy.org'>TCLR
+          Visualizer</a>
+        <br>
+        <a target='_blank' style="color:black; background-color:white" href='https://os.pcotandy.org'>OS Visualizer</a>
+      </div>
+      <div class="center-mobile mobile-credits">
+        <br><br><strong>elie mcafee-hahn</strong> - everything <br> <strong>Ko T. C.</strong> - mastering
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
 
 </html>
