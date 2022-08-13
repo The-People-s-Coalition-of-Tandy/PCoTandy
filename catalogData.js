@@ -162,8 +162,15 @@ const albumList = [{
         The disappearing ink sinks from page to page, wetting with wist and longing the parchment.<br><br>
         
         The soaked book dries from its extravagant, twisted shapes into warm, familiar cloth—every stage inscribed into the seams as harmonics in the soul of a bell. Neither method nor madness could stir the flutter of the heart like hummingbird wings in each character's tentative steps towards the beautiful, dreadful evening.`,
-    credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Ko T. C.</strong> - mixing <br> <strong>Joohee Park</strong> - Cover Art",
-    links: [{
+    credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Ko T. C. & elie mcafee-hahn</strong> - mixing <br> <strong>elie mcafee-hahn</strong> - mastering <br> <strong>Joohee Park</strong> - Cover Art",
+    links: [
+      {
+        label: "Pre-order Album",
+        link: "https://tandy.bandcamp.com/album/centre-st",
+        background: "pink",
+        font: "black"
+      },
+      {
         label: "bandcamp",
         link: "https://tandy.bandcamp.com/track/star-palm-tree-2",
         background: "teal",
