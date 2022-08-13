@@ -361,6 +361,12 @@ strong {
   outline-color: blueviolet;
 }
 
+.active-album .album-info-section.greenyellow,
+.greenyellow>.album-copy-container {
+  border-color: greenyellow;
+  outline-color: greenyellow;
+}
+
 @keyframes subtext {
   0% {
     opacity: 0%;
