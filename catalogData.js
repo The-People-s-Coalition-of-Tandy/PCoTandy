@@ -224,10 +224,12 @@ function spanify(text) {
 }
 
 function generateCatalog() {
-  var output = '<ul>';
+  var output = '';
+  var item = '';
   albumList.forEach((album, i) => {
     const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
-    output += `
+    item = '';
+    item += `
     <li id="PCoT${i+1}-desktop" onclick="showContent(this)">
       <div class="release-list-text">
         <div class="catalog-number" tabindex="${i}"><p>PCoT 000${i+1}</p></div>
@@ -247,17 +249,18 @@ function generateCatalog() {
           <div class="links">
             <div class="buttons">`;
     album.links.forEach(link => {
-      output += `<a target='_blank' style="color:${link.font}; background-color:${link.background}" href='${link.link}'>${link.label}</a>`;
+      item += `<a target='_blank' style="color:${link.font}; background-color:${link.background}" href='${link.link}'>${link.label}</a>`;
     });
 
-    output += `</div>
+    item += `</div>
           </div>
         </div>
       </div>
     </li>`;
+    output = item + output;
   });
 
-  output += '</ul>';
+  output = `<ul>${output}</ul>`;
   document.getElementById("catalog-container").innerHTML = output;
   VanillaTilt.init(document.querySelectorAll(".img-container img"), {
     glare: true,
