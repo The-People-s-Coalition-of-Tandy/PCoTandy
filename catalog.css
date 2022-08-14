@@ -308,12 +308,12 @@ strong {
 
 .links {
   width: 100%;
-  display: flex;
   position: absolute;
   bottom: 30px;
-  justify-content: center;
-  align-items: center;
-  margin-left: -10px;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
   height: 6%;
 }
 
