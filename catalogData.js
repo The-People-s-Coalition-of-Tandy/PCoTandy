@@ -1,9 +1,9 @@
 const albumList = [{
-      cover: "./Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
-      color: "pink",
-      name: "30th Anniversary GM Smoidi Light General Midi Competition",
-      artists: "Various",
-      description: `The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022"
+    cover: "./Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
+    color: "pink",
+    name: "30th Anniversary GM Smoidi Light General Midi Competition",
+    artists: "Various",
+    description: `The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022"
     300 Competition!<br><br>
 
     The annual celebration of General MIDI has borne fruit!<br><br>
@@ -110,79 +110,126 @@ const albumList = [{
     This competition is meant to honor and spread appreciation<br>
     for their dedicated work, along with all of those at the Japan MIDI Standards Committee(JMSC) and the American MIDI Manufacturers Association(MMA) !`,
 
-      links: [
-        {
-          label: "bandcamp",
-          link: "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
-          background: "teal",
-          font: "white"
-        }
-      ]},
+    links: [{
+      label: "bandcamp",
+      link: "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
+      background: "teal",
+      font: "white"
+    }]
+  },
 
+  {
+    cover: "./Assets/Albums/tclr/tclr.jpg",
+    color: "purple",
+    name: "Tetso Cube Light Ride",
+    artists: "elie mcafee-hahn",
+    description: "We call ourselves tandy so people know who we are",
+    credits: "<br><br><br><strong>elie mcafee-hahn</strong> - everything <br> <strong>Ko T. C.</strong> - mastering",
+    links: [{
+        label: "bandcamp",
+        link: "https://tandy.bandcamp.com/album/tetso-cube-lightride",
+        background: "teal",
+        font: "white"
+      },
       {
-        cover: "./Assets/Albums/tclr/tclr.jpg",
-        color: "purple",
-        name: "Tetso Cube Light Ride",
-        artists: "Elie Mcafee-Hahn",
-        description: "We call ourselves tandy so people know who we are",
-        credits: "<br><br><br><strong>elie mcafee-hahn</strong> - everything <br> <strong>Ko T. C.</strong> - mastering",
-        links: [
-          {label: "bandcamp",
-          link: "https://tandy.bandcamp.com/album/tetso-cube-lightride",
-          background: "teal",
-          font: "white"},
-          {
-            label: "instagram",
-            link: "https://www.instagram.com/ellie_modron_kurfwen",
-            background: "greenyellow",
-            font: "black"
-          },
-          {
-            label: "TCLR Visualizer",
-            link: "https://tclr.pcotandy.org",
-            background: "black",
-            font: "white"
-          },
-          {
-            label: "OS Visualizer",
-            link: "https://os.pcotandy.org",
-            background: "white",
-            font: "black"
-          }
-        ]
+        label: "instagram",
+        link: "https://www.instagram.com/ellie_modron_kurfwen",
+        background: "greenyellow",
+        font: "black"
+      },
+      {
+        label: "TCLR Visualizer",
+        link: "https://tclr.pcotandy.org",
+        background: "black",
+        font: "white"
+      },
+      {
+        label: "OS Visualizer",
+        link: "https://os.pcotandy.org",
+        background: "white",
+        font: "black"
       }
-    ];
-
-    function showContent(e) {
-      var currentActive = document.querySelector(".active-album");
-
-      if (currentActive) {
-        currentActive.classList.remove('active-album');
+    ]
+  },
+  {
+    cover: "./Assets/Centre Street/stpCover.jpg",
+    color: "greenyellow",
+    name: "Star Palm Tree",
+    artists: "Sam Walters",
+    description: `"Let's get lost inside"<br><br>
+        In August's twilight, secret bard Sam Walters emerges to lament our ancient founders, having written of what's now, what's then, and what's to come shakily but Shurely into a naked diary—bound by 7 years of dreams, boundless love and fear.<br><br>
+        
+        The disappearing ink sinks from page to page, wetting with wist and longing the parchment.<br><br>
+        
+        The soaked book dries from its extravagant, twisted shapes into warm, familiar cloth—every stage inscribed into the seams as harmonics in the soul of a bell. Neither method nor madness could stir the flutter of the heart like hummingbird wings in each character's tentative steps towards the beautiful, dreadful evening.`,
+    credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Ko T. C. & elie mcafee-hahn</strong> - mixing <br> <strong>elie mcafee-hahn</strong> - mastering <br> <strong>Joohee Park</strong> - Cover Art",
+    links: [
+      {
+        label: "Pre-order Album",
+        link: "https://tandy.bandcamp.com/album/centre-st",
+        background: "pink",
+        font: "black"
+      },
+      {
+        label: "bandcamp",
+        link: "https://tandy.bandcamp.com/track/star-palm-tree-2",
+        background: "teal",
+        font: "white"
+      },
+      {
+        label: "spotify",
+        link: "https://open.spotify.com/track/7ebVcs5NtXhk2T1HtzzGHC?si=55fd079613f54122",
+        background: "greenyellow",
+        font: "black"
+      },
+      {
+        label: "Apple Music",
+        link: "https://music.apple.com/tr/album/star-palm-tree-single/1629615027",
+        background: "black",
+        font: "white"
+      },
+      {
+        label: "Youtube",
+        link: "https://www.youtube.com/watch?v=2ZijDc9cyBw",
+        background: "white",
+        font: "black"
       }
+    ]
+  }
+];
 
-      var x = e.classList.add('active-album');
+function showContent(e) {
+  var currentActive = document.querySelector(".active-album");
+
+  if (currentActive) {
+    currentActive.classList.remove('active-album');
+  }
+
+  var x = e.classList.add('active-album');
+}
+
+function spanify(text) {
+  const maxLength = 21
+  let result = "";
+  for (let i = 0; i < Math.min(text.length, maxLength); i++) {
+    text[i] === " " ? result += `<span>&nbsp</span>` : result += `<span>${text[i]}</span>`
+  }
+  if (text.length > maxLength) {
+    for (let j = 0; j < 3; j++) {
+      result += `<span>.</span>`
     }
+  }
 
-    function spanify(text) {
-      const maxLength = 21
-      let result = "";
-      for (let i = 0; i < Math.min(text.length, maxLength); i++) {
-        text[i] === " " ? result += `<span>&nbsp</span>` : result += `<span>${text[i]}</span>`
-      }
-      if (text.length > maxLength) {
-        for (let j = 0; j < 3; j++) {
-          result += `<span>.</span>`
-        }
-      }
+  return result;
+}
 
-      return result;
-    }
-
-    function generateCatalog() {
-      var output = '<ul>';
-      albumList.forEach((album, i) => {
-        const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
-        output += `
+function generateCatalog() {
+  var output = '';
+  var item = '';
+  albumList.forEach((album, i) => {
+    const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
+    item = '';
+    item += `
     <li id="PCoT${i+1}-desktop" onclick="showContent(this)">
       <div class="release-list-text">
         <div class="catalog-number" tabindex="${i}"><p>PCoT 000${i+1}</p></div>
@@ -201,21 +248,22 @@ const albumList = [{
           </div>
           <div class="links">
             <div class="buttons">`;
-            album.links.forEach(link =>{
-              output += `<a target='_blank' style="color:${link.font}; background-color:${link.background}" href='${link.link}'>${link.label}</a>`;
-            });
-  
-            output += `</div>
+    album.links.forEach(link => {
+      item += `<a target='_blank' style="color:${link.font}; background-color:${link.background}" href='${link.link}'>${link.label}</a>`;
+    });
+
+    item += `</div>
           </div>
         </div>
       </div>
     </li>`;
-      });
+    output = item + output;
+  });
 
-      output += '</ul>';
-      document.getElementById("catalog-container").innerHTML = output;
-      VanillaTilt.init(document.querySelectorAll(".img-container img"), {
-        glare: true,
-        perspective: 700
-      })
-    }
+  output = `<ul>${output}</ul>`;
+  document.getElementById("catalog-container").innerHTML = output;
+  VanillaTilt.init(document.querySelectorAll(".img-container img"), {
+    glare: true,
+    perspective: 700
+  })
+}
