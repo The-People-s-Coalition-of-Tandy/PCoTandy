@@ -116,6 +116,7 @@ body {
     width: calc(var(--width) / 8);
     height: calc(var(--height) / 8);
     overflow: visible;
+    display: none;
 }
 
 .scene.main {
