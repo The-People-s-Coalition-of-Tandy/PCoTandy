@@ -1,0 +1,259 @@
+body {
+    background: url("../../Assets/tandyhour.gif") repeat;
+    animation: scrolling 5s linear infinite;
+    display: grid;
+    place-content: center;
+}
+
+@keyframes scrolling {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 332px;
+    }
+}
+
+
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(359deg);
+    }
+}
+
+@keyframes rotationZ {
+    from {
+        transform: rotateZ(0deg) translate(-50%, -50%);
+        transform-origin: 0px 0px;
+    }
+
+    to {
+        transform: rotateZ(359deg) translate(-50%, -50%);
+        transform-origin: 0px 0px;
+    }
+}
+
+@keyframes squigglevision {
+    0% {
+        filter: url("#turbulence-1");
+    }
+
+    25% {
+        filter: url("#turbulence-2");
+    }
+
+    50% {
+        filter: url("#turbulence-3");
+    }
+
+    75% {
+        filter: url("#turbulence-4");
+    }
+
+    100% {
+        filter: url("#turbulence-5");
+    }
+}
+
+@keyframes squigglevisionHeavy {
+    0% {
+        filter: url("#turbulence-6");
+    }
+
+    25% {
+        filter: url("#turbulence-7");
+    }
+
+    50% {
+        filter: url("#turbulence-8");
+    }
+
+    75% {
+        filter: url("#turbulence-9");
+    }
+
+    100% {
+        filter: url("#turbulence-10");
+    }
+}
+
+:root {
+    --width: 350px;
+    --height: 350px;
+    --depth: 30px;
+    --border-width: 0px;
+}
+
+.scene {
+    perspective: 1000px;
+    width: var(--width);
+    height: var(--height);
+    overflow: visible;
+    /* filter: drop-shadow(10px 10px 10px rgb(255, 255, 255)); */
+    /* animation: squigglevision .25s linear infinite ; */
+}
+
+.tiny-container {
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* animation: rotationZ 10s linear infinite;  */
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* opacity: .2; */
+    transform: translate(-45%, -50%);
+}
+
+.scene.small {
+    width: calc(var(--width) / 8);
+    height: calc(var(--height) / 8);
+    overflow: visible;
+}
+
+.scene.main {
+    position: absolute;
+    top: 50%;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 50%;
+    /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+}
+
+.cube {
+    transform-style: preserve-3d;
+    position: relative;
+    animation: rotation 10s linear infinite;
+    overflow: visible;
+}
+
+@font-face {
+    font-family: TandyOS;
+    src: url('../../Assets/TandyOS.ttf');
+}
+
+.cube_face {
+    position: absolute;
+    overflow: visible;
+    color: black;
+    white-space: nowrap;
+    font-size: 16pt;
+    text-align: left;
+    /* font-family: TandyOS; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* opacity: .9; */
+    border: black double 2px;
+    background-color: rgb(255, 251, 122);
+}
+
+.cube_face.front {
+    width: var(--width);
+    height: var(--height);
+    transform: translate3d(0, 0, calc(var(--depth) / 2));
+    background-image: url("../../Assets/Centre Street/anotherDayCover.jpg");
+    background-size: cover;
+}
+
+.cube_face.right {
+    width: var(--depth);
+    height: var(--height);
+    transform: rotateY(90deg) translate3d(0, 0, calc(var(--width) - var(--depth) / 2));
+}
+
+.cube_face.left {
+    width: var(--depth);
+    height: var(--height);
+    transform: rotateY(-90deg) translate3d(0, 0, calc(var(--depth) / 2));
+}
+
+.cube_face.left p {
+    transform: rotateZ(90deg);
+}
+
+.cube_face.top {
+    height: var(--depth);
+    width: var(--width);
+    transform: rotateX(90deg) translate3d(0, 0, calc(var(--depth) / 2));
+}
+
+.cube_face.bottom {
+    height: var(--depth);
+    width: var(--width);
+    transform: rotateX(-90deg) translate3d(0, 0, calc(var(--width) - var(--depth) / 2));
+}
+
+.cube_face.back {
+    transform: rotateY(180deg) translate3d(0, 0, calc(var(--depth) / 2));
+    width: var(--width);
+    height: var(--height);
+}
+
+
+
+.scene.small .cube {
+    transform-style: preserve-3d;
+    position: relative;
+    animation: rotation 2s linear infinite;
+}
+
+.scene.small .cube_face.front {
+    width: calc(var(--width) / 8);
+    height: calc(var(--height) / 8);
+    transform: translate3d(0, 0, calc(var(--depth) / 16));
+    background-image: url("../../Assets/Centre Street/anotherDayCover.jpg");
+    background-size: cover;
+}
+
+.scene.small .cube_face.right {
+    width: calc(var(--depth) / 8);
+    height: calc(var(--height) / 8);
+    transform: rotateY(90deg) translate3d(0, 0, calc(var(--width) / 8));
+}
+
+.scene.small .cube_face.left {
+    width: calc(var(--depth) / 8);
+    height: calc(var(--height) / 8);
+    transform: rotateY(-90deg) translate3d(0, 0, calc(var(--depth) / 8));
+}
+
+.scene.small .cube_face.left p {
+    transform: rotateZ(90deg);
+    font-size: 1px;
+}
+
+.scene.small .cube_face.top {
+    height: calc(var(--depth) / 8);
+    width: calc(var(--width) / 8);
+    transform: rotateX(90deg) translate3d(0, 0, calc(var(--depth) / 8));
+}
+
+.scene.small .cube_face.bottom {
+    height: calc(var(--depth) / 8);
+    width: calc(var(--width) / 8);
+    transform: rotateX(-90deg) translate3d(0, 0, calc(var(--width) / 8));
+}
+
+.scene.small .cube_face.back {
+    transform: rotateY(180deg) translate3d(0, 0, calc(var(--depth) / 16));
+    width: calc(var(--width) / 8);
+    height: calc(var(--height) / 8);
+}
+
+@keyframes rainbowHue {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(359deg);
+    }
+}
