@@ -1,4 +1,4 @@
-function animateScene(e){
+function animateScene(e) {
     const mainScene = document.getElementById("mainScene");
     const mainCube = document.getElementById("mainCube");
     const tinyContainer = document.getElementById("tinyContainer");
@@ -133,9 +133,9 @@ function animateScene(e){
 function buttonClick() {
     var audio = document.getElementById("click");
     audio.play();
-  }
+}
 
-  function buttonReturn(e) {
+function buttonReturn(e) {
     var audio = document.getElementById("clack");
     audio.play();
     e.classList.add("hidden");
@@ -145,4 +145,4 @@ function buttonClick() {
     }, 1000);
 
 
-  }
+}

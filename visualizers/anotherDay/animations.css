@@ -129,7 +129,8 @@ body.rainbow {
 .tiny-container.dashed.cube_face {
     border-style: dashed;
 }
-.scene.main.dashed .cube_face { 
+
+.scene.main.dashed .cube_face {
     border-style: dashed;
 }
 
