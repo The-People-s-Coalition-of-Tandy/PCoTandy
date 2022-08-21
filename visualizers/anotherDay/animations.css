@@ -1,0 +1,298 @@
+:root {
+    --width: 350px;
+    --height: 350px;
+    --depth: 30px;
+    --border-width: 0px;
+}
+
+
+
+/************ Fades **********************/
+.scene.main.hidden {
+    opacity: 0;
+}
+
+.scene.main.fadeIn {
+    opacity: 1;
+    transition: opacity 3s linear;
+}
+
+.scene.main.fadeOut {
+    opacity: 0.0;
+    transition: opacity 3s linear;
+}
+
+.scene.main {
+    opacity: 0;
+    transition: opacity 3s linear;
+    padding: 200px;
+}
+
+.tiny-container.hidden {
+    opacity: 0;
+    /* display: none; */
+}
+
+.tiny-container.fadeIn {
+    opacity: 1;
+    transition: opacity 3s linear;
+}
+
+.tiny-container.fadeIn .scene.small {
+    opacity: 1;
+    transition: opacity 3s linear;
+}
+
+.tiny-container.fadeOut .scene.small {
+    opacity: 0;
+    transition: opacity 3s linear;
+}
+
+.tiny-container.fadeOut {
+    opacity: 0;
+    transition: opacity 3s linear;
+}
+
+/* ****************************************** */
+
+
+.scene.main .cube.hover {
+    animation: hover 1.4s ease-in-out alternate 10;
+}
+
+.scene.main .cube.spinning {
+    animation: rotation 10s linear infinite;
+
+}
+
+/* Squiggle animation */
+.scene.main.squiggle {
+    animation: squigglevision .25s linear infinite;
+}
+
+.scene.main.squiggleHard {
+    animation: squigglevisionHeavy .25s linear infinite;
+}
+
+.tiny-container.squiggle .scene.small {
+    animation: squigglevision .25s linear infinite;
+}
+
+.tiny-container.scene.main.squiggleHard .scene.small {
+    animation: squigglevisionHard .25s linear infinite;
+}
+
+/* ********************************************************** */
+
+.scene.rainbow {
+    animation: rainbowHue 10s linear 2;
+}
+
+.tiny-container.rainbow {
+    animation: rainbowHue 10s linear 2;
+}
+
+body.rainbow {
+    animation: rainbowHue 10s linear 2;
+}
+
+.scene.small {
+    transition: opacity 3s linear;
+}
+
+.tiny-container.rotate {
+    animation: rotationZ 10s linear 2;
+}
+
+
+.scene.small.everyOtherSpin:nth-of-type(odd) .cube {
+    animation: rotation 2s linear infinite reverse;
+}
+
+.scene.small.everyOtherSpin:nth-of-type(even) .cube {
+    animation: rotation 2s linear infinite;
+}
+
+.tiny-container.rainbowBorder .cube_face {
+    animation: rainbow 5s linear 5 alternate;
+}
+
+.scene.main.rainbowBorder .cube_face {
+    animation: rainbow 5s linear 5 alternate;
+}
+
+.cube_face {
+    border: black double 2px;
+    background-color: rgb(255, 251, 122);
+}
+
+.tiny-container.dashed.cube_face {
+    border-style: dashed;
+}
+.scene.main.dashed .cube_face { 
+    border-style: dashed;
+}
+
+
+.tiny-container.everyOtherSquiggle .scene.small:nth-of-type(odd) {
+    animation: squigglevisionHeavy .25s linear infinite;
+}
+
+.tiny-container.everyOtherSquiggle .scene.small:nth-of-type(even) {
+    animation: squigglevision .25s linear infinite;
+}
+
+
+.tiny-container.everyOther .scene.small:nth-of-type(odd) {
+    animation: squigglevision .25s linear infinite;
+}
+
+.tiny-container.everyOther .scene.small:nth-of-type(even) {
+    animation: squigglevisionHeavy .25s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+    z-index: 1000;
+}
+
+button.hidden {
+    opacity: 0;
+    transition: opacity 1s linear;
+    pointer-events: none;
+}
+
+
+@keyframes scrolling {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 332px;
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(359deg);
+    }
+}
+
+@keyframes rotationZ {
+    from {
+        transform: rotateZ(0deg) translate(-44%, -50%);
+        transform-origin: 10px 10px;
+    }
+
+    to {
+        transform: rotateZ(359deg) translate(-44%, -50%);
+        transform-origin: 10px 10px;
+    }
+}
+
+@keyframes squigglevision {
+    0% {
+        filter: url("#turbulence-1");
+    }
+
+    25% {
+        filter: url("#turbulence-2");
+    }
+
+    50% {
+        filter: url("#turbulence-3");
+    }
+
+    75% {
+        filter: url("#turbulence-4");
+    }
+
+    100% {
+        filter: url("#turbulence-5");
+    }
+}
+
+@keyframes squigglevisionHeavy {
+    0% {
+        filter: url("#turbulence-6");
+    }
+
+    25% {
+        filter: url("#turbulence-7");
+    }
+
+    50% {
+        filter: url("#turbulence-8");
+    }
+
+    75% {
+        filter: url("#turbulence-9");
+    }
+
+    100% {
+        filter: url("#turbulence-10");
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        border-color: green;
+    }
+
+    25% {
+        border-color: blue;
+    }
+
+    50% {
+        border-color: red;
+    }
+
+    75% {
+        border-color: yellow;
+    }
+
+    100% {
+        border-color: yellow;
+    }
+}
+
+@keyframes hover {
+    from {
+        transform: translatey(0px);
+    }
+
+    to {
+        transform: translatey(-20px);
+    }
+}
+
+/*  */

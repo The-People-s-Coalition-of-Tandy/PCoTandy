@@ -3,8 +3,12 @@ body {
     animation: scrolling 5s linear infinite;
     display: grid;
     place-content: center;
+    cursor: url(./triforce.png), auto;
 }
 
+button {
+    cursor: url(./triforce.png), auto;
+}
 @keyframes scrolling {
     from {
         background-position: 0 0;
@@ -116,7 +120,6 @@ body {
     width: calc(var(--width) / 8);
     height: calc(var(--height) / 8);
     overflow: visible;
-    display: none;
 }
 
 .scene.main {
@@ -131,7 +134,7 @@ body {
 .cube {
     transform-style: preserve-3d;
     position: relative;
-    animation: rotation 10s linear infinite;
+    /* animation: rotation 10s linear infinite; */
     overflow: visible;
 }
 
@@ -195,7 +198,15 @@ body {
 .cube_face.back {
     transform: rotateY(180deg) translate3d(0, 0, calc(var(--depth) / 2));
     width: var(--width);
+    background-image: url("../../Assets/Centre Street/anotherDayCover.jpg");
     height: var(--height);
+}
+
+.scene.small .cube_face.back {
+    background-image: url("../../Assets/PCoTandyLogo.png");
+    background-size: cover;
+    background-blend-mode: difference;
+
 }
 
 
@@ -257,4 +268,30 @@ body {
     to {
         filter: hue-rotate(359deg);
     }
+}
+
+button {
+    font-family: "TandyOS";
+    position: relative;
+    background-image: url("../../Assets/BlankButtonShort.png");
+    background-repeat: no-repeat;
+    width: 294px;
+    margin: 0 auto;
+    height: 62px;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+    justify-content: center;
+    /* cursor: url(./Help.cur), auto; */
+    border: none;
+    text-align: center;
+}
+
+button:active {
+    background-image: url("../../Assets/BlankButtonShortClicked.png");
+}
+
+button:active>* {
+    transform: scale(.98) translate(3px, 2px);
 }
