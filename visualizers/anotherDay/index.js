@@ -66,7 +66,6 @@ function animateScene(e) {
 
     setTimeout(() => {
         mainScene.classList.add("squiggle");
-        mainScene.classList.add("rainbow");
     }, 107700);
 
     setTimeout(() => {
@@ -79,11 +78,11 @@ function animateScene(e) {
 
     setTimeout(() => {
         mainScene.classList.remove("squiggle");
-        mainScene.classList.remove("rainbow");
     }, 120600);
 
     setTimeout(() => {
         mainScene.classList.add("dashed");
+        mainScene.classList.add("rainbow");
         tinyContainer.classList.add("dashed");
     }, 134000);
 
@@ -103,7 +102,7 @@ function animateScene(e) {
         mainScene.classList.remove("squiggleHard");
         mainScene.classList.remove("dashed");
         tinyContainer.classList.remove("dashed");
-        tinyContainer.classList.add("rainbow");
+        tinyContainer.classList.remove("rainbow");
     }, 175000);
 
     setTimeout(() => {
