@@ -8,6 +8,7 @@ body {
 
 button {
     cursor: url(./triforce.png), auto;
+    color: black;
 }
 @keyframes scrolling {
     from {
@@ -294,4 +295,19 @@ button:active {
 
 button:active>* {
     transform: scale(.98) translate(3px, 2px);
+}
+
+@media only screen and (max-width: 1000px) {
+    .scene.main.scene.main {
+        padding: 0px;
+    }
+
+    .tiny-container.tiny-container {
+        max-width: 90vw;
+        gap: 20px;
+    }
+
+    body {
+        overflow: hidden;
+    }
 }
