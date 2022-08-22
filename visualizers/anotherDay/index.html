@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./animations.css">
     <script src="./index.js"></script>
+    <title>Another Day Visualizer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 </head>
 
@@ -14,17 +15,11 @@
 
     <audio preload="auto" id="click" src="../../Assets/click.wav"></audio>
     <audio preload="auto" id="clack" src="../../Assets/clack.wav"></audio>
-    <audio src="./song.wav" hidden id="song"></audio>
+    <audio preload src="./song.wav" hidden id="song"></audio>
     <div class="scene main hidden" id="mainScene">
         <div class="cube" id="mainCube">
             <div class="cube_face front"></div>
             <div class="cube_face right">
-                <!-- <div
-                    style="display: flex; align-items: center; justify-content: center; width: 70%; height: 85%; background-color: rgba(231, 226, 80, 0.555); border-radius: 10px; border: 1px solid rgba(169, 169, 157, 0.359);">
-                    <div style="width: 1px; height: 83%; background-color: rgba(223, 219, 88, 0.363)">
-
-                    </div>
-                </div> -->
             </div>
             <div class="cube_face left">
                 <p>Another Day &nbsp;&nbsp;&nbsp; <span
@@ -37,13 +32,14 @@
             <div class="cube_face back">
                 <h1
                     style="border: 15px solid transparent; padding: 15px;;
-                    border-image: url(../../Assets/border.png) 30 round;color: rgb(0, 0, 0); filter: blur(.5px) hue-rotate(15deg); text-align: center; margin-top: 150px; font-family: TandyOS;">
+                        border-image: url(../../Assets/border.png) 30 round;color: rgb(0, 0, 0); filter: blur(.5px) hue-rotate(15deg); text-align: center; margin-top: 150px; font-family: TandyOS;">
                     <i>Another Day</i>
                     <p style="margin: 0px; padding: 0px; font-size: 15pt;">Sam Walters</p>
                 </h1><br>
             </div>
         </div>
     </div>
+
     <!-- Tiny ones! -->
     <div class="tiny-container hidden" id="tinyContainer">
         <div class="scene small" id="smallScene">
@@ -828,7 +824,7 @@
 
 
 
-    <svg display="none" style="overflow: visible;">
+    <svg display="none">
         <defs>
             <filter id="turbulence-1">
                 <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" data-filterId="3" />
@@ -851,12 +847,12 @@
             </filter>
 
             <filter id="turbulence-5">
-                <feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="2" data-filterId="3" />
+                <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" data-filterId="3" />
                 <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
             </filter>
 
             <filter id="turbulence-6">
-                <feTurbulence type="fractalNoise" baseFrequency="0.2" numOctaves="2" data-filterId="3" />
+                <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" data-filterId="3" />
                 <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
             </filter>
 

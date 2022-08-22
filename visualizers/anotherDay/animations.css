@@ -62,11 +62,14 @@
 
 .scene.main .cube.spinning {
     animation: rotation 10s linear infinite;
+}
 
+.scene.main .cube.spinTwice {
+    animation: rotation 10s linear 2;
 }
 
 /* Squiggle animation */
-.scene.main.squiggle {
+.scene.main.squiggle .cube_face {
     animation: squigglevision .25s linear infinite;
 }
 
@@ -88,8 +91,8 @@
     animation: rainbowHue 10s linear 2;
 }
 
-.tiny-container.rainbow {
-    animation: rainbowHue 10s linear 2;
+.tiny-container.rainbow .scene.small{
+    animation: rainbowHue 10s linear 1;
 }
 
 body.rainbow {

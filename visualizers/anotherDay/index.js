@@ -98,29 +98,39 @@ function animateScene(e) {
     }, 160500);
 
     setTimeout(() => {
+        mainScene.classList.remove("rainbow");
         root.style.setProperty('--depth', '30px');
         mainScene.classList.remove("squiggleHard");
         mainScene.classList.remove("dashed");
         tinyContainer.classList.remove("dashed");
-        tinyContainer.classList.remove("rainbow");
+        tinyContainer.classList.add("rainbow");
+
     }, 175000);
 
     setTimeout(() => {
         tinyContainer.classList.remove("fadeIn");
         tinyContainer.classList.add("fadeOut");
         mainScene.classList.add("squiggle");
+        mainScene.classList.remove("spinning");
     }, 201000);
 
     setTimeout(() => {
+        mainScene.classList.add("spinOnce");
         mainScene.classList.remove("squiggle");
+        mainScene.classList.remove("dashed");
     }, 215000);
+
+    setTimeout(() => {
+        mainScene.classList.remove("spinTwice");
+        mainScene.classList.add("hover");
+    }, 230000);
 
     setTimeout(() => {
         mainScene.classList.remove("fadeIn");
         tinyContainer.classList.remove("fadeIn");
         mainScene.classList.add("fadeOut");
         tinyContainer.classList.add("fadeOut");
-    }, 230000);
+    }, 231500);
 
     setTimeout(() => {
         mainScene.classList.add("hidden");

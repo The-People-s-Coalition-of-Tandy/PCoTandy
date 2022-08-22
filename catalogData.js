@@ -163,8 +163,7 @@ const albumList = [{
         
         The soaked book dries from its extravagant, twisted shapes into warm, familiar cloth—every stage inscribed into the seams as harmonics in the soul of a bell. Neither method nor madness could stir the flutter of the heart like hummingbird wings in each character's tentative steps towards the beautiful, dreadful evening.`,
     credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Ko T. C. & elie mcafee-hahn</strong> - mixing <br> <strong>elie mcafee-hahn</strong> - mastering <br> <strong>Joohee Park</strong> - Cover Art",
-    links: [
-      {
+    links: [{
         label: "Pre-order Album",
         link: "https://tandy.bandcamp.com/album/centre-st",
         background: "pink",
@@ -191,6 +190,50 @@ const albumList = [{
       {
         label: "Youtube",
         link: "https://www.youtube.com/watch?v=2ZijDc9cyBw",
+        background: "white",
+        font: "black"
+      }
+    ]
+  },
+  {
+    cover: "./Assets/Centre Street/anotherDayCover.jpg",
+    color: "greenyellow",
+    name: "Another Day",
+    artists: "Sam Walters",
+    description: `Secret bard Sam Walters has returned with his latest incantation from the upcoming album, Centre St.<br><br>
+
+    In the face great peril, you must now choose your own destiny. Will you rise to the occasion? Will the sands of regret be deposited back into your broken hourglass, renewed as crystals of possibility? Or will the cold crescendo of time wash us back to familiar shores?
+    <br><br>
+    Only you can decide…`,
+        
+    credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Tuesday Hamilton</strong> - Cover Art <br> <strong>Julie Bodian</strong> - Visualizer <br><strong>Ko T. C. & Sam Walters</strong> - mixing <br> <strong>elie mcafee-hahn</strong> - mastering",
+    links: [{
+        label: "Pre-order Album",
+        link: "https://tandy.bandcamp.com/album/centre-st",
+        background: "pink",
+        font: "black"
+      },
+      {
+        label: "bandcamp",
+        link: "https://tandy.bandcamp.com/track/another-day",
+        background: "teal",
+        font: "white"
+      },
+      {
+        label: "spotify",
+        link: "https://open.spotify.com/album/5zPhWDnFkYXk3XJpR0VUqm?si=7H8gkrZ5SwapnzhYjXWhSw ",
+        background: "greenyellow",
+        font: "black"
+      },
+      {
+        label: "Apple Music",
+        link: "https://music.apple.com/us/album/another-day-single/1631687479",
+        background: "black",
+        font: "white"
+      },
+      {
+        label: "Visualizer",
+        link: "https://www.pcotandy.org/visualizers/anotherDay ",
         background: "white",
         font: "black"
       }
