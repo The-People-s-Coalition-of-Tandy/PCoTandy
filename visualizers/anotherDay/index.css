@@ -3,13 +3,27 @@ body {
     animation: scrolling 5s linear infinite;
     display: grid;
     place-content: center;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+:root {
     cursor: url(./triforce.png), auto;
 }
 
 button {
-    cursor: url(./triforce.png), auto;
+    cursor: url(./Help.cur), auto;
     color: black;
 }
+
+svg {
+    position: absolute;
+    cursor: url(./triforce.png), auto;
+}
+
 @keyframes scrolling {
     from {
         background-position: 0 0;
@@ -99,8 +113,6 @@ button {
     width: var(--width);
     height: var(--height);
     overflow: visible;
-    /* filter: drop-shadow(10px 10px 10px rgb(255, 255, 255)); */
-    /* animation: squigglevision .25s linear infinite ; */
 }
 
 .tiny-container {
@@ -108,7 +120,6 @@ button {
     width: 450px;
     flex-wrap: wrap;
     gap: 10px;
-    /* animation: rotationZ 10s linear infinite;  */
     transform-style: preserve-3d;
     position: absolute;
     top: 50%;
@@ -135,7 +146,6 @@ button {
 .cube {
     transform-style: preserve-3d;
     position: relative;
-    /* animation: rotation 10s linear infinite; */
     overflow: visible;
 }
 
@@ -304,7 +314,7 @@ button:active>* {
 
     .tiny-container.tiny-container {
         max-width: 90vw;
-        gap: 20px;
+        gap: 45px;
     }
 
     body {

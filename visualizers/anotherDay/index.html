@@ -13,8 +13,8 @@
         <h2>Another Day - Sam Walters</h2>
     </button>
 
-    <audio preload="auto" id="click" src="../../Assets/click.wav"></audio>
-    <audio preload="auto" id="clack" src="../../Assets/clack.wav"></audio>
+    <audio preload="auto" id="click" src="../../Assets/click.wav" hidden></audio>
+    <audio preload="auto" id="clack" src="../../Assets/clack.wav" hidden></audio>
     <audio preload src="./song.wav" hidden id="song"></audio>
     <div class="scene main hidden" id="mainScene">
         <div class="cube" id="mainCube">
@@ -824,7 +824,7 @@
 
 
 
-    <svg display="none">
+    <svg>
         <defs>
             <filter id="turbulence-1">
                 <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" data-filterId="3" />
