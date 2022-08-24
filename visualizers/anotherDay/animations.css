@@ -74,7 +74,7 @@
     animation: squigglevision .25s linear infinite;
 }
 
-.scene.main.squiggleHard .cube_face{
+.scene.main.squiggleHard .cube_face {
     animation: squigglevisionHeavy .25s linear infinite;
 }
 
@@ -106,6 +106,20 @@ body.rainbow {
 
 .tiny-container.rotate {
     animation: rotationZ 10s linear 2;
+}
+
+.scene.main.bigCube .cube_face.right {
+    background-image: url("../../Assets/Centre\ Street/centreStCover.jpg");
+    background-size: cover;
+}
+
+.scene.main.bigCube .cube_face.left {
+    background-image: url("../../Assets/Centre\ Street/TandyLogoSpiro.png");
+    background-size: cover;
+}
+
+.scene.main.bigCube .cube_face.left p {
+    display: none;
 }
 
 

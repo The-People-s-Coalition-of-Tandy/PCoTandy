@@ -3,6 +3,7 @@ function animateScene(e) {
     const mainCube = document.getElementById("mainCube");
     const tinyContainer = document.getElementById("tinyContainer");
     const root = document.querySelector(':root');
+    const info = document.getElementById("info");
 
     const song = document.getElementById("song");
 
@@ -18,6 +19,7 @@ function animateScene(e) {
 
     setTimeout(() => {
         mainScene.classList.add("squiggle");
+        info.classList.toggle("show");
     }, 28100);
 
     setTimeout(() => {
@@ -62,6 +64,7 @@ function animateScene(e) {
 
     setTimeout(() => {
         root.style.setProperty('--depth', '350px');
+        mainScene.classList.add("bigCube");
     }, 101000);
 
     setTimeout(() => {
@@ -70,6 +73,7 @@ function animateScene(e) {
 
     setTimeout(() => {
         mainScene.classList.remove("squiggle");
+        mainScene.classList.remove("bigCube");
         root.style.setProperty('--depth', '30px');
         tinyContainer.classList.remove("fadeOut");
         tinyContainer.classList.add("squiggle");
@@ -137,8 +141,6 @@ function animateScene(e) {
     }, 231500);
 
     setTimeout(() => {
-        mainScene.classList.add("hidden");
-        tinyContainer.classList.add("hidden");
         mainCube.classList.remove("hover-end")
         mainScene.classList.remove("fadeOut")
         tinyContainer.classList.remove("squiggle");
@@ -146,6 +148,8 @@ function animateScene(e) {
         tinyContainer.classList.remove("rotate");
         tinyContainer.classList.remove("rainbow");
         tinyContainer.classList.remove("fadeOut");
+        tinyContainer.classList.add("hidden");
+        mainScene.classList.add("hidden");
         e.classList.remove("hidden");
     }, 235000);
 }
@@ -163,6 +167,9 @@ function buttonReturn(e) {
     setTimeout(() => {
         animateScene(e)
     }, 1000);
+}
 
-
+function showInfo() {
+    const info = document.getElementById("info");
+    info.classList.toggle("show");
 }
