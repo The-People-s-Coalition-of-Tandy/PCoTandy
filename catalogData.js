@@ -205,7 +205,7 @@ const albumList = [{
     In the face great peril, you must now choose your own destiny. Will you rise to the occasion? Will the sands of regret be deposited back into your broken hourglass, renewed as crystals of possibility? Or will the cold crescendo of time wash us back to familiar shores?
     <br><br>
     Only you can decide…`,
-        
+
     credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Tuesday Hamilton</strong> - Cover Art <br> <strong>Julie Bodian</strong> - Visualizer <br><strong>Ko T. C. & Sam Walters</strong> - mixing <br> <strong>elie mcafee-hahn</strong> - mastering",
     links: [{
         label: "Pre-order Album",
@@ -236,6 +236,35 @@ const albumList = [{
         link: "https://www.pcotandy.org/visualizers/anotherDay ",
         background: "white",
         font: "black"
+      }
+    ]
+  },
+  {
+    cover: "./Assets/Centre Street/centreStCover.jpg",
+    color: "greenyellow",
+    name: "Centre St.",
+    artists: "Sam Walters",
+    description: `Sam Walters is a songwriter, recordist, nurse-in-training, and long time Coalition member based in Brooklyn, NY. Centre St was recorded with love and meticulous care over the course of 6 years and we are so happy that this deeply personal document of life is out in the world.`,
+
+    credits: "<br><br><br><strong>Sam Walters</strong> - Music <br><strong>Ko T. C. & Sam Walters</strong> - mixing <br> <strong>elie mcafee-hahn</strong> - mastering",
+    links: [
+      {
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/album/centre-st",
+        background: "teal",
+        font: "white"
+      },
+      {
+        label: "Spotify",
+        link: "https://open.spotify.com/album/0W6ULIDs7xSPl0S5ShY68C?si=Bxl4svvuSHm-y6kcV0DEmQ&nd=1",
+        background: "greenyellow",
+        font: "black"
+      },
+      {
+        label: "Apple Music",
+        link: "https://music.apple.com/us/album/centre-st/1643794151",
+        background: "black",
+        font: "white"
       }
     ]
   }
