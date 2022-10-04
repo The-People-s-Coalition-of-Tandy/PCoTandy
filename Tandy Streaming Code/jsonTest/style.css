@@ -1,0 +1,42 @@
+
+
+
+
+
+.menuBar{
+  height: 10vh;
+  /* width: 100vw; */
+  background-color: red;
+  padding: 0px;
+  margin: 0px;
+
+
+}
+
+.age {
+
+  color: pink;
+}
+
+.artistPhoto{
+  /* background-image: url("Assets/elie1.png"); */
+  width: 200px;
+  /* height: 100px; */
+  margin-left: 100px;
+  border: 10px double red;
+}
+
+
+.albumCover{
+  width: 200px;
+  /* height: 100px; */
+  margin-left: 100px;
+  border: 10px solid red;
+
+}
+
+.trackList{
+  border: 3px solid black;
+  width: 50%;
+  margin-left: 25%;
+}
