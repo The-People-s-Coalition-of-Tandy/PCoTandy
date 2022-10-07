@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML 5 Boilerplate</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <!-- <script src="index.js"> -->
+
+
+
+  <div class="menuBar">
+    <div class="">
+
+    </div>
+
+  </div>
+
+  <h1 id="artistName">
+  </h1>
+
+  <img id="artistPhoto" class="artistPhoto" src="" alt="">
+
+  <div id="artistAge" class="age">
+  </div>
+
+  <div id="artistBio">
+  </div>
+
+  <div id="album1">
+  </div>
+
+  <img id="album1Cover" class="albumCover" src="" alt="">
+
+  <ul id="album1TrackList" class="trackList">
+
+  </ul>
+
+
+
+  <input type="button" class="menuButton" id="one" value="elie" style="color:blue" onclick="menu(this);">
+  <input type="button" class="menuButton" id="two" value="ko" style="color:blue" onclick="menu(this);">
+  <input type="button" class="menuButton" id="three" value="julie" style="color:blue" onclick="menu(this);">
+  <input type="button" class="menuButton" id="four" value="ruth" style="color:blue" onclick="menu(this);">
+
+
+</body>
+
+<!-- <script type="text/javascript" src="data.json"></script> -->
+<script>
+  // backquotes (next to 1 key) makes the object elieData contain a string, which JSON can read JSON cant read objects
+  // DONT END JSON STRING WITH COMMA!!!
+  const data = {
+    "elie": {
+      "name": "elie mcafee-hahn",
+      "hometown": "elie is from Newton MA",
+      "age": 26,
+      "single?": true,
+      "artistPhoto": "Assets/elie1.png",
+      "colors": ["blue", "green"],
+      "albums": [
+
+        {
+          "name": "tclr",
+          "cover": "Assets/fay.png",
+          "songs": [
+            "Tetsocube Light Ride"
+          ]
+        },
+        {
+          "name": "ev1",
+          "cover": "Assets/fay.png",
+          "songs": "ev1"
+        }
+      ]
+    },
+
+    "ko": {
+      "name": "Ko T. C.",
+      "color": "purple",
+      "hometown": "Ko is from Newton MA",
+      "age": 26,
+      "artistPhoto": "Assets/fay.png",
+      "single?": false,
+      "albums": [
+
+        {
+          "name": "Land's End",
+          "cover": "Assets/fay.png",
+          "songs": [
+            "Land's End"
+          ]
+        },
+        {
+          "name": "Pink Grey Sky",
+          "cover": "Assets/fay.png",
+          "songs": "Pink Grey Sky"
+        }
+      ]
+    },
+
+    "julie": {
+      "name": "julie",
+      "color": "purple",
+      "age": 25,
+      "single?": false,
+      "albums": [
+
+        {
+          "name": "Song2",
+          "cover": "Assets/fay.png",
+          "songs": [
+            "Land's End"
+          ]
+        },
+        {
+          "name": "Song 1",
+          "cover": "Assets/fay.png",
+          "songs": "Pink Grey Sky"
+        }
+      ]
+    },
+
+    "ruth": {
+      "name": "Ruth Garbus",
+      "color": "purple",
+      "age": 41,
+      "single?": false,
+      "albums": [
+
+        {
+          "name": "Live Album",
+          "cover": "Assets/fay.png",
+          "songs": [
+            "Land's End"
+          ]
+        },
+        {
+          "name": "Gray Sweatshirt",
+          "cover": "Assets/fay.png",
+          "songs": "Pink Grey Sky"
+        }
+      ]
+    }
+
+  };
+
+  let artist = "elie";
+  let albumNumber = 0;
+
+
+
+  // button toggle
+  function menu(button) {
+    artist = button.value;
+    updatePage(artist);
+    console.log(artist);
+
+  }
+
+
+
+  // button toggle
+  function toggle(button) {
+    if (artist == "elie") {
+      artist = "ko";
+      button.value = artist;
+      updatePage(artist);
+
+    } else {
+      artist = "elie";
+      button.value = artist;
+      updatePage(artist);
+    }
+
+    console.log(artist);
+
+  }
+
+
+
+  // const artists = JSON.parse(data);
+
+function updatePage(artist){
+  // fill div with content,
+  // for searching json with js variable do data[artist].name instead of data.artist.name
+  let artistName = document.getElementById('artistName');
+  artistName.textContent = data[artist].name;
+
+  let artistAge = document.getElementById('artistAge');
+  artistAge.textContent = data[artist].age;
+
+  let artistBio = document.getElementById('artistBio');
+  artistBio.textContent = data[artist].hometown;
+
+  let artistPhoto = document.getElementById('artistPhoto');
+  artistPhoto.src = data[artist].artistPhoto;
+
+  let album1 = document.getElementById('album1');
+  album1.textContent = data[artist].albums[albumNumber].name;
+
+  let album1Cover = document.getElementById('album1Cover');
+  album1Cover.src = data[artist].albums[albumNumber].cover;
+
+  let album1TrackList = document.getElementById('album1TrackList');
+  album1TrackList.textContent = data[artist].albums[albumNumber].songs;
+}
+</script>
+
+</html>

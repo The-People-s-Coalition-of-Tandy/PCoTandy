@@ -3,6 +3,7 @@ function animateScene(e) {
     const mainCube = document.getElementById("mainCube");
     const tinyContainer = document.getElementById("tinyContainer");
     const root = document.querySelector(':root');
+    const info = document.getElementById("info");
 
     const song = document.getElementById("song");
 
@@ -18,6 +19,7 @@ function animateScene(e) {
 
     setTimeout(() => {
         mainScene.classList.add("squiggle");
+        info.classList.toggle("show");
     }, 28100);
 
     setTimeout(() => {
@@ -62,6 +64,7 @@ function animateScene(e) {
 
     setTimeout(() => {
         root.style.setProperty('--depth', '350px');
+        mainScene.classList.add("bigCube");
     }, 101000);
 
     setTimeout(() => {
@@ -70,6 +73,7 @@ function animateScene(e) {
 
     setTimeout(() => {
         mainScene.classList.remove("squiggle");
+        mainScene.classList.remove("bigCube");
         root.style.setProperty('--depth', '30px');
         tinyContainer.classList.remove("fadeOut");
         tinyContainer.classList.add("squiggle");
@@ -82,25 +86,26 @@ function animateScene(e) {
 
     setTimeout(() => {
         mainScene.classList.add("dashed");
-        mainScene.classList.add("rainbow");
         tinyContainer.classList.add("dashed");
     }, 134000);
 
     setTimeout(() => {
         tinyContainer.classList.add("everyOther");
         mainScene.classList.add("squiggleHard");
-        tinyContainer.classList.add("fadeIn");
         root.style.setProperty('--depth', '350px');
     }, 147000);
 
     setTimeout(() => {
         tinyContainer.classList.add("rotate");
+        tinyContainer.classList.add("rainbow");
+        mainScene.classList.add("rainbow");
     }, 160500);
 
     setTimeout(() => {
-        mainScene.classList.remove("rainbow");
         root.style.setProperty('--depth', '30px');
         mainScene.classList.remove("squiggleHard");
+        mainScene.classList.remove("rainbow");
+        tinyContainer.classList.remove("rainbow");
         mainScene.classList.remove("dashed");
         tinyContainer.classList.remove("dashed");
         tinyContainer.classList.add("rainbow");
@@ -111,19 +116,22 @@ function animateScene(e) {
         tinyContainer.classList.remove("fadeIn");
         tinyContainer.classList.add("fadeOut");
         mainScene.classList.add("squiggle");
-        mainScene.classList.remove("spinning");
+        mainCube.classList.remove("spinning");
+
     }, 201000);
+    setTimeout(() => {
+        mainCube.classList.add("spinTwice");
+    }, 202000);
 
     setTimeout(() => {
-        mainScene.classList.add("spinOnce");
+        mainCube.classList.remove("spinTwice");
         mainScene.classList.remove("squiggle");
         mainScene.classList.remove("dashed");
     }, 215000);
 
     setTimeout(() => {
-        mainScene.classList.remove("spinTwice");
-        mainScene.classList.add("hover");
-    }, 230000);
+        mainCube.classList.add("hover-end");
+    }, 215500);
 
     setTimeout(() => {
         mainScene.classList.remove("fadeIn");
@@ -133,10 +141,17 @@ function animateScene(e) {
     }, 231500);
 
     setTimeout(() => {
-        mainScene.classList.add("hidden");
+        mainCube.classList.remove("hover-end")
+        mainScene.classList.remove("fadeOut")
+        tinyContainer.classList.remove("squiggle");
+        tinyContainer.classList.remove("everyOther");
+        tinyContainer.classList.remove("rotate");
+        tinyContainer.classList.remove("rainbow");
+        tinyContainer.classList.remove("fadeOut");
         tinyContainer.classList.add("hidden");
+        mainScene.classList.add("hidden");
         e.classList.remove("hidden");
-    }, 234000);
+    }, 235000);
 }
 
 function buttonClick() {
@@ -152,6 +167,9 @@ function buttonReturn(e) {
     setTimeout(() => {
         animateScene(e)
     }, 1000);
+}
 
-
+function showInfo() {
+    const info = document.getElementById("info");
+    info.classList.toggle("show");
 }

@@ -5,8 +5,6 @@
     --border-width: 0px;
 }
 
-
-
 /************ Fades **********************/
 .scene.main.hidden {
     opacity: 0;
@@ -30,7 +28,6 @@
 
 .tiny-container.hidden {
     opacity: 0;
-    /* display: none; */
 }
 
 .tiny-container.fadeIn {
@@ -60,12 +57,16 @@
     animation: hover 1.4s ease-in-out alternate 10;
 }
 
+.scene.main .cube.hover-end {
+    animation: hover 1.4s ease-in-out alternate infinite;
+}
+
 .scene.main .cube.spinning {
     animation: rotation 10s linear infinite;
 }
 
 .scene.main .cube.spinTwice {
-    animation: rotation 10s linear 2;
+    animation: rotation 10s linear 1;
 }
 
 /* Squiggle animation */
@@ -73,7 +74,7 @@
     animation: squigglevision .25s linear infinite;
 }
 
-.scene.main.squiggleHard {
+.scene.main.squiggleHard .cube_face {
     animation: squigglevisionHeavy .25s linear infinite;
 }
 
@@ -91,7 +92,7 @@
     animation: rainbowHue 10s linear 2;
 }
 
-.tiny-container.rainbow .scene.small{
+.tiny-container.rainbow {
     animation: rainbowHue 10s linear 1;
 }
 
@@ -105,6 +106,20 @@ body.rainbow {
 
 .tiny-container.rotate {
     animation: rotationZ 10s linear 2;
+}
+
+.scene.main.bigCube .cube_face.right {
+    background-image: url("../../Assets/Centre\ Street/centreStCover.jpg");
+    background-size: cover;
+}
+
+.scene.main.bigCube .cube_face.left {
+    background-image: url("../../Assets/Centre\ Street/TandyLogoSpiro.png");
+    background-size: cover;
+}
+
+.scene.main.bigCube .cube_face.left p {
+    display: none;
 }
 
 
@@ -291,12 +306,10 @@ button.hidden {
 
 @keyframes hover {
     from {
-        transform: translatey(0px);
+        transform: translateY(0px);
     }
 
     to {
-        transform: translatey(-20px);
+        transform: translateY(-20px);
     }
 }
-
-/*  */

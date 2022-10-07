@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="STPLinktree.css">
+  <title>Centre St Linx website</title>
+  <style>
+    @font-face {
+      font-family: Highway;
+      src: url('./Assets/Fonts/HighwayGothic/HWYGOTH.TTF');
+    }
+
+    body {
+      background-image: url('../Assets/Centre\ Street/centreStCover.jpg');
+      /* The image used for background*/
+      background-repeat: no-repeat;
+      /* Do not repeat the image */
+      background-position: center;
+      /* Center the image */
+      background-size: cover;
+      /* Resize the background image to cover the entire container */
+      font-family: Highway;
+    }
+
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .image-container {
+      text-align: center;
+      width: 100%;
+    }
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .link {
+      min-width: 50% !important;
+    }
+
+    .link:hover {
+      transform: scale(.98);
+    }
+
+    @media (min-width: 1200px) {
+
+      .container {
+        max-width: 1140px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px;
+      }
+
+      .link {
+        width: 100%;
+      }
+    }
+
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+      }
+    }
+
+    .w3-purple,
+    .w3-hover-purple:hover {
+      color: #fff !important;
+      background-color: #9aa64e !important;
+    }
+
+    .w3-pink,
+    .w3-hover-pink:hover {
+      color: #fff !important;
+      background-color: #f6da15 !important;
+      text: #9aa64e !important
+    }
+
+    .star {
+      background-color: #f6da15 !important;
+      border: 4px ridge #9aa64e;
+    }
+
+    .tandyLinxContainer {
+      position: relative;
+
+    }
+
+    .tandyLinx {
+      position: relative;
+      bottom: -5px;
+      width: 400px;
+      filter: contrast(150%);
+    }
+
+    @keyframes contractstuff {
+      from {
+        filter: contrast(150%);
+      }
+
+      to {
+        filter: contrast(450%);
+      }
+    }
+
+    .tandyLinx:hover {
+      animation: contractstuff .5s ease-in-out infinite alternate;
+    }
+
+    .info {
+      color: blue;
+
+    }
+  </style>
+</head>
+
+
+<body class="w3-white">
+  <!-- Content container -->
+  <div class="container">
+
+    <!-- Image and name container. Change to your picture here. -->
+    <div class="image-container">
+      <a href="https://www.pcotandy.org"> <img
+          src="https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/PCoTandy/main/Assets/Centre%20Street/TandyLogoSpiro.png"
+          class="w3-margin" alt="" max-width="100%" height="150px" style="border-radius: 50%;" alt='tandy logo'>
+      </a>
+
+
+      <div class="w3-text-red" style="margin-bottom: 14px;">
+        <p class="w3-text-red w3-large"
+          style="background-color: white; color: black !important; margin:0px; padding: 5px;">
+          WELCOME TO <span class="w3-tag w3-large w3-round star w3-text-red" style="background-color: #2ea67f !important; border-color: white; color: white !important">
+            <strong>CENTRE ST</strong>
+          </span>
+          <br>
+
+          a new album by Sam Walters.
+        </p>
+      </div>
+
+      <!-- Links section 1. Replace the # inside of the "" with your links. -->
+      <div class="links-container">
+        <!-- <a href="https://www.pcotandy.org/visualizers/anotherDay"
+          class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i
+            class="fab fa-facebook"> </i>Visualizer</a>
+        <br> -->
+        <a href="https://tandy.bandcamp.com/album/centre-st"
+          class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"
+          style="background-color: #2ea67f !important; border: 2px solid white !important; border-radius: 1px; letter-spacing: 3px; outline: 5px solid #2ea67f; margin: 10px;"><i
+            class="fab fa-facebook"> </i>BANDCAMP</a>
+        <br>
+        <iframe style="border: 0; width: 100%; height: 42px;"
+          src="https://bandcamp.com/EmbeddedPlayer/album=99876586/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+          seamless><a href="https://tandy.bandcamp.com/album/centre-st">Centre St by Sam Walters</a></iframe>
+        <br>
+        <a href="https://open.spotify.com/album/0W6ULIDs7xSPl0S5ShY68C?si=Bxl4svvuSHm-y6kcV0DEmQ&nd=1"
+          class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link"
+          style="background-color: #2ea67f !important; border: 2px solid white !important; border-radius: 1px; letter-spacing: 3px; outline: 5px solid #2ea67f; margin: 10px;"
+          target="_blank"><i class="fab fa-instagram"> </i>SPOTIFY</a>
+        <br>
+        <a href="https://music.apple.com/us/album/centre-st/1643794151"
+          class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link"
+          style="background-color: #2ea67f !important; border: 2px solid white !important; border-radius: 1px; letter-spacing: 3px; outline: 5px solid #2ea67f; margin: 10px;"
+          target="_blank"><i class="fab fa-twitter"> </i>APPLE MUSIC</a>
+        <br>
+        <a href="https://www.pcotandy.org/signup.html "
+          class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"
+          style="background-color: #2ea67f !important; border: 2px solid white !important; border-radius: 1px; letter-spacing: 3px; outline: 5px solid #2ea67f; margin: 10px;"><i
+            class="fa fa-code"> </i>SUBSCRIBE</a>
+      </div>
+    </div>
+  </div>
+  <center>
+
+    <div class="tandyLinxContainer">
+      <img src="elieExplosionIcon.gif" alt="">
+      <a href="https://www.pcotandy.org"> <img class="tandyLinx" src="tandyLinx1.png" alt=""></a>
+      <img src="elieExplosionIcon.gif" alt="">
+    </div>
+
+  </center>
+
+
+
+</body>
+
+</html>

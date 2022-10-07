@@ -1,15 +1,42 @@
 body {
     background: url("../../Assets/tandyhour.gif") repeat;
     animation: scrolling 5s linear infinite;
-    display: grid;
-    place-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    width: 100vw;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+:root {
     cursor: url(./triforce.png), auto;
 }
 
-button {
-    cursor: url(./triforce.png), auto;
+button.play {
+    cursor: url(./Help.cur), auto;
     color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+button {
+    cursor: url(./Help.cur), auto;
+    color: black;
+    position: absolute;
+}
+
+svg {
+    position: absolute;
+    cursor: url(./triforce.png), auto;
+}
+
 @keyframes scrolling {
     from {
         background-position: 0 0;
@@ -99,8 +126,6 @@ button {
     width: var(--width);
     height: var(--height);
     overflow: visible;
-    /* filter: drop-shadow(10px 10px 10px rgb(255, 255, 255)); */
-    /* animation: squigglevision .25s linear infinite ; */
 }
 
 .tiny-container {
@@ -108,7 +133,6 @@ button {
     width: 450px;
     flex-wrap: wrap;
     gap: 10px;
-    /* animation: rotationZ 10s linear infinite;  */
     transform-style: preserve-3d;
     position: absolute;
     top: 50%;
@@ -135,7 +159,6 @@ button {
 .cube {
     transform-style: preserve-3d;
     position: relative;
-    /* animation: rotation 10s linear infinite; */
     overflow: visible;
 }
 
@@ -297,17 +320,97 @@ button:active>* {
     transform: scale(.98) translate(3px, 2px);
 }
 
+footer {
+    position: absolute;
+    bottom: 0px;
+    padding-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: flex-start;
+    transform: translateY(90px);
+    transition: transform .5s ease-out;
+    /* display: none; */
+}
+
+footer.show {
+    transform: translateX(-50%) translateY(0px);
+    transition: transform .5s ease-out;
+    /* display: block; */
+}
+
+footer p {
+    margin: 0;
+}
+
+button.info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    transform: translateX(-50%);
+    width: fit-content;
+    font-size: 20pt;
+    color: white;
+    background-image: none;
+    background-color: transparent;
+}
+
+a {
+    font-size: 20pt;
+    margin-top: 5px;
+    font-family: TandyOS;
+}
+
+body {
+    overflow: hidden;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+
 @media only screen and (max-width: 1000px) {
     .scene.main.scene.main {
         padding: 0px;
     }
 
-    .tiny-container.tiny-container {
-        max-width: 90vw;
-        gap: 20px;
+    html,
+    body {
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     body {
-        overflow: hidden;
+        margin: 0;
+    }
+
+    main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(.75);
+        /* margin-top: -50px; */
+    }
+
+    .info {
+        display: none;
+    }
+
+    footer {
+        transform: none;
+        background: lightgray;
+        width: 100%;
+        justify-content: center;
+        border-top: ridge 5px gray;
+        padding-top: 10px;
+        left: unset;
+        padding-bottom: 10px;
+        opacity: 0;
+    }
+
+    footer.show {
+        opacity: 1;
+        transition: opacity 2.5s ease;
+        transform: none;
     }
 }

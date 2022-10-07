@@ -1,0 +1,35 @@
+"elie": {
+    "name": "elie mcafee-hahn",
+    "hometown": "elie is from Newton MA",
+    "age": 26,
+    "single?": true,
+    "artistPhoto": "Assets/elie1.png",
+    "colors":
+      [
+      "blue",
+      "green"
+    ]
+    },
+
+  "ko": {
+    "name": "Ko T. C.",
+    "color": "purple",
+    "hometown": "Ko is from Newton MA",
+    "age": 26,
+    "artistPhoto": "Assets/fay.png",
+    "single?": false
+  },
+
+  "julie": {
+    "name": "julie",
+    "color": "purple",
+    "age": 25,
+    "single?": false
+  },
+
+  "ruth": {
+    "name": "Ruth Garbus",
+    "color": "purple",
+    "age": 41,
+    "single?": false
+  }
