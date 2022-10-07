@@ -267,6 +267,21 @@ const albumList = [{
         font: "white"
       }
     ]
+  },
+  {
+    cover: "./Assets/Albums/tuesdayCover.png",
+    color: "purple",
+    name: "Tuesday's Universe",
+    artists: "Tuesday Hamilton",
+    description: "A virtual art gallery by Olivia Hamilton, presented On-Line by a subset of the PCoTandy Web Division",
+    credits: "<br><br><br><strong>Olivia Hamilton</strong> - art <br> <strong>elie mcafee-hahn</strong> - website  <br> <strong><a href='https://tuesdaysuni.pcotandy.org/credits.html'>Various Artists</a></strong> - music",
+    links: [{
+        label: "website",
+        link: "https://tuesdaysuni.pcotandy.org/",
+        background: "teal",
+        font: "white"
+      }
+    ]
   }
 ];
 
