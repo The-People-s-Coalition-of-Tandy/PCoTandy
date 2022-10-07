@@ -310,3 +310,33 @@ function generateCatalog() {
     perspective: 700
   })
 }
+
+function generateNewCatalog() {
+  var output = '';
+  var item = '';
+  albumList.forEach((album, i) => {
+    // const releaseNumber = `${'0'.repeat(3-(Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString}`;
+    item = '';
+    item += `           
+    <div class="release">
+      <div class="qube-perspective spin">
+        <ul class="qube faces no-shading cube10">
+            <!-- Source order implies the faces here! -->
+            <li><img src=".${album.cover}"></li>
+            <li><img src=".${album.cover}"></li>
+            <li><img src=".${album.cover}"></li>
+            <li><img src=".${album.cover}"></li>
+            <li><img src=".${album.cover}"></li>
+            <li><img src=".${album.cover}"></li>
+        </ul>
+      </div>
+      <div class="release-name">
+        <p>${album.name}</p>
+      </div>
+    </div>
+`
+    output = item + output;
+  });
+
+  document.getElementById("catalog-list").innerHTML = output;
+}

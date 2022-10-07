@@ -1,0 +1,259 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="qube.css">
+    <script src="./catalogData.js" type="text/javascript"></script>
+    <style>
+        :root {
+            --tandy-yellow: rgb(195, 194, 62);
+            --tandy-blue: rgb(0, 11, 124);
+        }
+
+        @font-face {
+            font-family: TandyOS;
+            src: url('./Assets/TandyOS.ttf');
+        }
+
+        aside {
+            float: left;
+            width: 300px;
+            height: calc(100vh - 16px);
+            background-color: var(--tandy-blue);
+            padding: 5px;
+            border: 3px solid var(--tandy-yellow);
+            overflow: hidden;
+        }
+
+        main {
+            width: 100%;
+            height: 100%;
+        }
+
+        .window {
+            background-color: aliceblue;
+            max-width: 700px;
+            max-height: 700px;
+            width: 50%;
+            height: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            background-color: var(--tandy-blue);
+        }
+
+        .catalog-list {
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 3px solid var(--tandy-yellow);
+            overflow: scroll;
+            height: calc(100% - 96px);
+
+        }
+
+        .catalog-header {
+            height: 50px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px
+        }
+
+        .catalog-header h1 {
+            text-align: center;
+            color: var(--tandy-yellow);
+            font-size: 26pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .release {
+            margin-bottom: 20px;
+            color: var(--tandy-yellow);
+            text-align: center;
+            display: flex;
+            max-width: 80%;
+            flex-direction: column;
+            justify-content: center;
+            text-overflow: ellipsis;
+
+            align-items: center;
+        }
+
+        .release-name {
+            margin-top: 20px;
+            width: 100%;
+            visibility: hidden;
+            overflow: hidden;
+        }
+
+        .release-name p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .release:hover .release-name {
+            visibility: visible;
+        }
+
+        @-webkit-keyframes scrolling-background {
+            from {
+                background-position: 0 0;
+            }
+
+            to {
+                background-position: 0 332px;
+            }
+        }
+
+        .tandy-cube {
+            /* position: absolute; */
+            /* top: 50%;  position the top  edge of the element at the middle of the parent */
+            /* left: 50%; position the left edge of the element at the middle of the parent */
+            /* transform: translate(-50%, -50%); */
+            /* animation: move 3s ease forwards 6s; */
+            margin-left: -10px;
+            transform: translate(6px, -2px);
+        }
+
+        .tandy-cube .cube10 {
+            width: 35px;
+            height: 35px;
+            animation: spin 5s linear infinite;
+        }
+
+        .tandy-cube .cube10 img {
+            width: 35px;
+            height: 35px;
+        }
+
+        body {
+            /* background: url("./Assets/tandyhourPurp.gif") repeat;
+            -webkit-animation: scrolling-background 5s linear infinite;
+            -moz-animation: scrolling-background 5s linear infinite;
+            -o-animation: scrolling-background 5s linear infinite;
+            animation: scrolling-background 5s linear infinite; */
+            background-image: url("../Assets/tandyOSbg.png");
+            background-size: 20px;
+            overflow: hidden;
+            margin: 0;
+            font-family: TandyOS;
+        }
+
+        .qube-perspective {
+            perspective: 600px;
+            /* animation: perspective-shift 3s ease-in 3s backwards; */
+        }
+
+        .cube10 {
+            width: 150px;
+            height: 150px;
+            padding: 0;
+            margin: 0;
+            cursor: pointer;
+        }
+
+        .cube10:hover {
+            animation: spin 5s linear infinite;
+        }
+
+        @keyframes perspective-shift {
+            from {
+                perspective: 50px;
+            }
+
+            to {
+                perspective: 400px;
+            }
+        }
+
+        @keyframes move {
+            from {
+                transform: none;
+            }
+
+            to {
+                left: 0;
+                top: 0;
+            }
+        }
+
+        .cube10>* {
+            color: #000;
+            background: rgb(255, 255, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cube10 img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .cube10 {
+            width: 100px;
+            height: 100px;
+        }
+
+
+        @keyframes spin {
+            from {
+                transform: rotateY(0deg);
+            }
+
+            to {
+                transform: rotateY(1turn);
+            }
+        }
+
+        /* Some CSS for HTML text not shown */
+    </style>
+</head>
+
+<body onload="generateNewCatalog()">
+
+    <aside>
+        <div class="catalog-header">
+            <div class="tandy-cube">
+                <div class="qube-perspective spin">
+                    <ul class="qube faces no-shading cube10">
+                        <!-- Source order implies the faces here! -->
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                    </ul>
+                </div>
+            </div>
+            <h1>Catalog</h1>
+            <div class="tandy-cube">
+                <div class="qube-perspective spin">
+                    <ul class="qube faces no-shading cube10">
+                        <!-- Source order implies the faces here! -->
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                        <li><img src="../Assets/PcoTandyLogo.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-list" id="catalog-list">
+        </div>
+    </aside>
+    <main>
+        <div class="window"></div>
+    </main>
+</body>
+
+</html>
