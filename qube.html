@@ -332,20 +332,18 @@
                 display: block;
                 overflow: hidden;
                 max-height: 100vh;
-                max-height: -webkit-fill-available;
+                max-height: calc(var(--app-height) - 26px);;
             }
 
 
             html {
-                height: -webkit-fill-available;
+                height: calc(var(--app-height) - 26px);;
             }
 
             aside {
                 width: calc(100vw - 16px);
                 max-height: 100%;
-                max-height: -moz-available;
-                max-height: -webkit-fill-available;
-                max-height: fill-available;
+                max-height: calc(var(--app-height) - 26px);;;
             }
 
             main {
@@ -353,10 +351,7 @@
                 top: 0;
                 left: 0;
                 height: unset;
-                transform: none;
-                max-height: -moz-available;
-                max-height: -webkit-fill-available;
-                max-height: fill-available;
+                max-height: calc(var(--app-height) - 26px);;
                 pointer-events: none;
             }
 
@@ -364,9 +359,7 @@
                 /* width: calc(var(--app-width) - 26px);
                 height: calc(var(--app-height) - 26px); */
                 max-height: 100%;
-                max-height: -moz-available;
-                max-height: -webkit-fill-available;
-                max-height: fill-available;
+                max-height: calc(var(--app-height) - 26px);
                 transform: none !important;
                 width: calc(100vw - 26px);
                 height: unset;
@@ -376,7 +369,7 @@
             }
 
             .release-info {
-                max-height: 75vh;
+                max-height: calc(var(--app-height) - 26px);
             }
 
             .release-name {

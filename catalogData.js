@@ -412,7 +412,6 @@ function dragElement(elmnt) {
 const appDimensions = () => {
   const doc = document.documentElement
   doc.style.setProperty('--app-height', `${window.innerHeight}px`)
-  doc.style.setProperty('--app-height', `${window.innerWidth}px`)
 }
 window.addEventListener('resize', appDimensions)
 appDimensions();
