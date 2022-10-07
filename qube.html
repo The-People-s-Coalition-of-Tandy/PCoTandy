@@ -22,6 +22,7 @@
         aside {
             width: 400px;
             height: calc(100vh - 16px);
+
             background-color: var(--tandy-blue);
             padding: 5px;
             border: 3px solid var(--tandy-yellow);
@@ -62,7 +63,6 @@
             padding: 10px;
             padding-top: 0;
             text-align: center;
-            cursor: grab;
         }
 
         .window img {
@@ -87,11 +87,12 @@
             font-size: 18pt;
         }
 
-        .window:active {
+        .window header:active {
             cursor: grabbing;
         }
 
         .window header {
+            cursor: grab;
             padding: 7px;
         }
 
@@ -329,6 +330,14 @@
 
             body {
                 display: block;
+                overflow: hidden;
+                min-height: 100vh;
+                min-height: -webkit-fill-available;
+            }
+
+
+            html {
+                height: -webkit-fill-available;
             }
 
             aside {
@@ -336,12 +345,26 @@
             }
 
             main {
-                position: initial;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: none;
+                min-height: -moz-available;
+                min-height: -webkit-fill-available;
+                min-height: fill-available;
+                pointer-events: none;
             }
 
             .window {
-                width: calc(var(--app-width) - 26px);
-                height: calc(var(--app-height) - 26px);
+                /* width: calc(var(--app-width) - 26px);
+                height: calc(var(--app-height) - 26px); */
+                min-height: 100%;
+                transform: none !important;
+                width: calc(100vw - 26px);
+                height: unset;
+                pointer-events: all;
+                top: 0;
+                left: 0;
             }
 
             .release-name {
@@ -352,8 +375,6 @@
                 animation: spin 5s linear infinite;
             }
         }
-
-        /* Some CSS for HTML text not shown */
     </style>
 </head>
 
