@@ -12,78 +12,11 @@ const albumList = [{
     10 remixes,<br>
     and 10 General Midi compatible files!<br><br>
 
-    We 're so glad you are with us for such a uniquely special time.<br>
-    This year marks the 30 TH ANNIVERSARY OF THIS S TIER COMPETITION!!<br>
-    And even after all these years,<br>
-    MIDI is still as relevant as ever!<br>
-    For those who don 't know, General MIDI is an amazing standard for computer-triggered synthetic instruments that'<br>
-    s been around since 1991!<br>
-    Every year,<br>
-    we come together to honor this under - appreciated standard!<br>
-    We love MIDI and the POWER of ELEGANT,<br>
-    USEFUL,<br>
-    and USABLE STANDARDS!<br>
-
-    After receiving the.mid MIDI files,<br>
-    the Judges simply played back the files on a mint condition Roland Sound Canvas SC - 155 and recorded the audio into Logic Pro X using a Focusrite Saffire interface.<br>
-    The audio files on this album have gone thru very delicate mastering to match volume.<br>
-    All errors included in the submissions are left in the audio files as is tradition in the competition.<br>
-    The composer 's ability to creatively and synergistically enchant - in concert with the standard - was factored this year'<br>
-    s award placements,<br>
-    naturally.<br><br><br>
-
-
-    As the Light Wave and the Time Wave hit the Prismatic Juncture they refract and twist,<br>
-    not painful but new.Uncountable bounces,<br>
-    devisions,<br>
-    and revisions,<br>
-    they twyrl and wynd as leaves from a tree,<br>
-    in dialogue,<br>
-    independent.<br>
-    Then,<br>
-    they exit the Prism as quickly as they entered,<br>
-    but now they 're changed, smeared, all at once. They are the same... yet more. Not "divided" -- but their magic of oneness revealed in wonder and honor. As if in a dream, they now will forever pass thru the zRAINBOW SPECTRUME.<br>
-    How can a Natural Lump of craestal refract such Cosmic Materia....and so continuously ? ?<br>
-    The path is not changed but--somehow--it is forever renewed.<br><br>
-
-    The Time Wave smeeears into a brown,<br>
-    black,<br>
-    grey shadowy spectrume - an inversed zRAINBOW spectrume.Like a viscous gel warping and contorting and enveloping empty space,<br>
-    it seems to get darker as it moves but seems to dodge simple axioms of logic.<br>
-    It 's refraction is SHADOW and it coalesces in it'<br>
-    s current manifestation : Peepee Peters,<br>
-    deep - no doubt - in laet night slumber,<br>
-    dreaming of craestals and large movements,<br>
-    channeling the Time Wave 's darkness. Here, Peepee Peter'<br>
-    s vision began : to alter sample playback to fit their whimms-- > transforming sounds by slowing down their waves,<br>
-    changing their meaning.<br>
-    Harnessing the Shadow of the T.W.,<br>
-    Peepee proceeded to wake up and bend General MIDI to new standards;an Aquarian,<br>
-    the 5 th dentist that sees something different than the other 4.<br>
-    Peepee finds themself suspended in Aether.<br><br>
-
-    The Light Wave - blindingly fast - in an instant fans out from a white beam into a Shimmering zRAINBOW spectrume.<br>
-    With a light,<br>
-    fleet,<br>
-    and effortless beam it gets no dimmer as<br>
-    if powered by an infinite power source.<br>
-    The Prism smears it into its refraction: SHIMMER.And some of its beam found its way to Earth...specifically,<br>
-    it found a person of un - specified age: Phoebe FM,<br>
-    up - no doubt - in the cleər morning,<br>
-    looking at the Wylde Flurs,<br>
-    mistaking Rainbow light as simply their iPhone 's flashlight thru a Bubble'<br>
-    s sheen.It was here that Phoebe FM 's SHIMMERing Melodies and Groove started to be borne --><br>
-    one instrument transforming into the next in an effortless spectrume,<br>
-    changing their meaning.Harnessing the SHIMMER of the L.W.,<br>
-    Phoebe symbiotically bound with General MIDI,<br>
-    growing a new plant of playfulness and cohesion.A Piscetic: a fish swimming upstream in the sumerthyme of Wyntr.<br>
-    Phoebe finds themself suspended in Aether.<br><br>
-
-    Our 2 Waves Incarnate meet eachother 's eyes in the Prismatic Juncture, a crystal-clear craestyl-face - the barrier between them. The Rainbow SHIMMER dancing behind Phoebe, the brown-black SHADOW morphing behind Peepee, they both raise a hand and place it on the wall between them.<br>
-    Light and Shadow intertwine and rage around the craestil shard suspended in the darkness of Space.!!!!!Together they form the Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022!!!!!<br>
-    Is it Fate ?<br><br>
-
-    Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022" 300 Competition!<br>
+    History time:<br>
+    The competition takes place in the Spring every year because March 7th is the MID-POINT between Ikutaru Kakehashi 's (from Roland) and Dave Smith's (from Sequential Circuits) birthdays<br>
+    This competition is meant to honor and spread appreciation<br>
+    for their dedicated work, along with all of those at the Japan MIDI Standards Committee(JMSC) and the American MIDI Manufacturers Association(MMA) !`,
+  credits: `    Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022" 300 Competition!<br>
     <br>
     And congratulations to all of our Category Award Winners :<br><br>
 
@@ -101,17 +34,10 @@ const albumList = [{
 
     Watercolors Award Winner: Scuzz McGuzz<br><br>
 
-    Audio Engineering Award Winner: 31 i3<br><br><br>
-
-
-    History time:<br>
-    The competition takes place in the Spring every year because March 7 th is the MID - POINT between Ikutaru Kakehashi 's (from Roland) and Dave Smith'<br>
-    s(from Sequential Circuits) birthdays ?<br>
-    This competition is meant to honor and spread appreciation<br>
-    for their dedicated work, along with all of those at the Japan MIDI Standards Committee(JMSC) and the American MIDI Manufacturers Association(MMA) !`,
+    Audio Engineering Award Winner: 31i3`,
 
   links: [{
-    label: "bandcamp",
+    label: "Bandcamp",
     link: "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
     background: "teal",
     font: "white"
@@ -124,9 +50,9 @@ const albumList = [{
   name: "Tetso Cube Light Ride",
   artists: "elie mcafee-hahn",
   description: "We call ourselves tandy so people know who we are",
-  credits: "<br><br><br><strong>elie mcafee-hahn</strong> - everything <br> <strong>Ko T. C.</strong> - mastering",
+  credits: "<br><br><br><strong>elie mcafee-hahn</strong> - everything <br> <strong>Ko T. C.</strong> - Mastering",
   links: [{
-    label: "bandcamp",
+    label: "Bandcamp",
     link: "https://tandy.bandcamp.com/album/tetso-cube-lightride",
     background: "teal",
     font: "white"
@@ -162,7 +88,7 @@ const albumList = [{
         The disappearing ink sinks from page to page, wetting with wist and longing the parchment.<br><br>
         
         The soaked book dries from its extravagant, twisted shapes into warm, familiar cloth—every stage inscribed into the seams as harmonics in the soul of a bell. Neither method nor madness could stir the flutter of the heart like hummingbird wings in each character's tentative steps towards the beautiful, dreadful evening.`,
-  credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Ko T. C. & elie mcafee-hahn</strong> - mixing <br> <strong>elie mcafee-hahn</strong> - mastering <br> <strong>Joohee Park</strong> - Cover Art",
+  credits: "<br><strong>Sam Walters</strong> - Music <br> <strong>Ko T. C. & elie mcafee-hahn</strong> - Mixing <br> <strong>elie mcafee-hahn</strong> - Mastering <br> <strong>Joohee Park</strong> - Cover Art",
   links: [{
     label: "Pre-order Album",
     link: "https://tandy.bandcamp.com/album/centre-st",
@@ -170,13 +96,13 @@ const albumList = [{
     font: "black"
   },
   {
-    label: "bandcamp",
+    label: "Bandcamp",
     link: "https://tandy.bandcamp.com/track/star-palm-tree-2",
     background: "teal",
     font: "white"
   },
   {
-    label: "spotify",
+    label: "Spotify",
     link: "https://open.spotify.com/track/7ebVcs5NtXhk2T1HtzzGHC?si=55fd079613f54122",
     background: "greenyellow",
     font: "black"
@@ -206,7 +132,7 @@ const albumList = [{
     <br><br>
     Only you can decide…`,
 
-  credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Tuesday Hamilton</strong> - Cover Art <br> <strong>Julie Bodian</strong> - Visualizer <br><strong>Ko T. C. & Sam Walters</strong> - mixing <br> <strong>elie mcafee-hahn</strong> - mastering",
+  credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Tuesday Hamilton</strong> - Cover Art <br> <strong>Julie Bodian</strong> - Visualizer <br><strong>Ko T. C. & Sam Walters</strong> - Mixing <br> <strong>elie mcafee-hahn</strong> - Mastering",
   links: [{
     label: "Pre-order Album",
     link: "https://tandy.bandcamp.com/album/centre-st",
@@ -214,13 +140,13 @@ const albumList = [{
     font: "black"
   },
   {
-    label: "bandcamp",
+    label: "Bandcamp",
     link: "https://tandy.bandcamp.com/track/another-day",
     background: "teal",
     font: "white"
   },
   {
-    label: "spotify",
+    label: "Spotify",
     link: "https://open.spotify.com/album/5zPhWDnFkYXk3XJpR0VUqm?si=7H8gkrZ5SwapnzhYjXWhSw ",
     background: "greenyellow",
     font: "black"
@@ -246,7 +172,7 @@ const albumList = [{
   artists: "Sam Walters",
   description: `Sam Walters is a songwriter, recordist, nurse-in-training, and long time Coalition member based in Brooklyn, NY. Centre St was recorded with love and meticulous care over the course of 6 years and we are so happy that this deeply personal document of life is out in the world.`,
 
-  credits: "<br><br><br><strong>Sam Walters</strong> - Music <br><strong>Ko T. C. & Sam Walters</strong> - mixing <br> <strong>elie mcafee-hahn</strong> - mastering",
+  credits: "<br><br><br><strong>Sam Walters</strong> - Music <br><strong>Ko T. C. & Sam Walters</strong> - Mixing <br> <strong>elie mcafee-hahn</strong> - Mastering",
   links: [
     {
       label: "Bandcamp",
@@ -355,6 +281,9 @@ function generateCatalog() {
   })
 }
 
+let zindex = 1;
+let windows = 0;
+
 function generateNewCatalog() {
   var output = '';
   var item = '';
@@ -387,32 +316,103 @@ function generateNewCatalog() {
 
 function addWindow(release) {
   var output = '';
+
   const releaseName = release.children[1].children[0].innerText;
-  console.log(releaseName);
+  let releaseNumber;
+
+  const windowDiv = document.createElement("div");
+  windowDiv.classList.add("window");
+
   for (let i = 0; i < albumList.length; i++) {
     if (albumList[i].name === releaseName) {
-      const releaseNumber = `PCoT ${'0'.repeat(3 - (Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString()}`;
+      releaseNumber = `PCoT ${'0'.repeat(3 - (Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString()}`;
+
+      windowDiv.id = releaseNumber.replace(' ', '');
       output += `           
-      <div class="window" id="${releaseNumber.replace(' ','')}">
-        <div>${releaseNumber} <span class="close ${releaseNumber.replace(' ','')}" onclick="closeWindow(this)">X</span></div>
+        <header>${releaseNumber} <span class="close ${releaseNumber.replace(' ', '')}" onclick="closeWindow(this)">X</span></header>
         <div class="release-info">
+        <img width="30%" src="${albumList[i].cover}">
           <h2>${albumList[i].name}</h2>
           <h3>${albumList[i].artists}</h3>
           <p>${albumList[i].description}</p>
-          <p>${albumList[i].credits}</p>`;
-
+          <p class="credits">${albumList[i].credits}</p>
+        </div>
+        <div class="links">`;
       albumList[i].links.forEach(link => {
         output += `<a target='_blank' style="color:${link.font}; background-color:${link.background}" href='${link.link}'>${link.label}</a>`;
       });
-      output += `
-      </div>
-    </div>`
+      output += "</div>";
+      break;
     }
   }
 
-  const main = document.getElementById('main').innerHTML += output;
+  const existingWindow = document.getElementById(releaseNumber.replace(' ', ''));
+  if (existingWindow) {
+    existingWindow.remove();
+  }
+
+  windowDiv.innerHTML = output;
+  windowDiv.style.zIndex = zindex;
+  windowDiv.style.transform = `translate(calc(-50% + ${25*windows}px),calc(-50% + ${25*windows}px))`;
+  zindex++;
+  windows++;
+  document.getElementById('main').appendChild(windowDiv);
+
+  dragElement(document.getElementById(releaseNumber.replace(' ', '')));
 }
 
 function closeWindow(window) {
   document.getElementById(`${window.classList[1]}`).remove();
+  windows--;
 }
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id).children[0]) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id).children[0].onmousedown =dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.zIndex = zindex + 1;
+    zindex++;
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+
+const appDimensions = () => {
+  const doc = document.documentElement
+  doc.style.setProperty('--app-height', `${window.innerHeight}px`)
+  doc.style.setProperty('--app-height', `${window.innerWidth}px`)
+}
+window.addEventListener('resize', appDimensions)
+appDimensions();

@@ -20,7 +20,6 @@
         }
 
         aside {
-            /* float: left; */
             width: 400px;
             height: calc(100vh - 16px);
             background-color: var(--tandy-blue);
@@ -28,7 +27,7 @@
             border: 3px solid var(--tandy-yellow);
             overflow: hidden;
             opacity: 0;
-            animation: fade .1s linear 6s forwards;
+            animation: fade .01s linear 2.2s forwards;
         }
 
         @keyframes fade {
@@ -49,8 +48,8 @@
 
         .window {
             background-color: aliceblue;
-            /* max-width: 700px;
-            max-height: 700px; */
+            display: flex;
+            flex-direction: column;
             width: 50%;
             height: 50%;
             top: 50%;
@@ -61,15 +60,48 @@
             color: var(--tandy-yellow);
             border: var(--tandy-yellow) 3px solid;
             padding: 10px;
+            padding-top: 0;
             text-align: center;
+            cursor: grab;
+        }
+
+        .window img {
+            float: left;
+            margin: 15px;
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-right: 20px;
+            outline: 2px var(--tandy-yellow) double;
+            outline-offset: 5px;
+        }
+
+        .window h2 {
+            margin: 0;
+            margin-top: 2px;
+            margin-bottom: 8px;
+            font-size: 24pt;
+        }
+
+        .window h3 {
+            margin: 0;
+            font-size: 18pt;
+        }
+
+        .window:active {
+            cursor: grabbing;
+        }
+
+        .window header {
+            padding: 7px;
         }
 
         .release-info {
             border: 3px solid var(--tandy-yellow);
             text-align: left;
-            padding: 10px;
-            height: 90%;
+            padding: 15px;
+            height: 85%;
             overflow: scroll;
+            cursor: default;
         }
 
         .close {
@@ -141,6 +173,22 @@
             animation: spin 5s linear infinite;
         }
 
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px;
+            padding-top: 10px;
+        }
+
+        .links a {
+            padding: 1px 4px;
+        }
+
+        .links a:hover {
+            filter: invert(100%);
+        }
+
         @-webkit-keyframes scrolling-background {
             from {
                 background-position: 0 0;
@@ -164,17 +212,6 @@
             animation: shrink 3s cubic-bezier(0.075, 0.82, 0.165, 1) forwards 5s;
         }
 
-        @keyframes shrink {
-            from {
-                transform: scale(1) translate(-50%, -50%);
-            }
-
-            to {
-                transform: scale(0) translate(-50%, -50%);
-            }
-
-        }
-
         #intro-cube .cube10 {
             animation: spin 5s linear 10;
         }
@@ -186,7 +223,7 @@
         }
 
         #intro-cube .qube-perspective {
-            animation: perspective-shift 3s ease-in 3s backwards;
+            animation: perspective-shift 2s ease-in 2s backwards;
             z-index: 100;
         }
 
@@ -215,6 +252,26 @@
             margin: 0;
         }
 
+        .cube10>* {
+            color: #000;
+            background: rgb(255, 255, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cube10 img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .cube10 {
+            width: 100px;
+            height: 100px;
+        }
+
         @keyframes perspective-shift {
             from {
                 perspective: 50px;
@@ -236,27 +293,6 @@
             }
         }
 
-        .cube10>* {
-            color: #000;
-            background: rgb(255, 255, 0);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0;
-            margin: 0;
-        }
-
-        .cube10 img {
-            width: 100px;
-            height: 100px;
-        }
-
-        .cube10 {
-            width: 100px;
-            height: 100px;
-        }
-
-
         @keyframes spin {
             from {
                 transform: rotateY(0deg);
@@ -267,13 +303,36 @@
             }
         }
 
+        @keyframes shrink {
+            from {
+                transform: scale(1) translate(-50%, -50%);
+            }
+
+            to {
+                transform: scale(0) translate(-50%, -50%);
+            }
+        }
+
         @media only screen and (max-width: 1000px) {
+
+            aside {
+                animation: fade 1s linear 2.3s forwards;
+            }
+
+            #intro-cube .qube-perspective {
+                animation: perspective-shift 1s ease-in 5s backwards;
+            }
+
+            #intro-cube {
+                animation: shrink 1s cubic-bezier(0.215, 0.610, 0.355, 1) forwards 1.3s;
+            }
+
             body {
                 display: block;
             }
 
             aside {
-                width: calc(100vw - 16px);
+                width: calc(var(--app-width) - 16px);
             }
 
             main {
@@ -281,8 +340,8 @@
             }
 
             .window {
-                width: calc(100vw - 26px);
-                height: calc(100vh - 26px);
+                width: calc(var(--app-width) - 26px);
+                height: calc(var(--app-height) - 26px);
             }
 
             .release-name {
