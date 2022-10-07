@@ -2,11 +2,16 @@
 
 <head>
     <link rel="stylesheet" href="qube.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./catalogData.js" type="text/javascript"></script>
     <style>
         :root {
             --tandy-yellow: rgb(195, 194, 62);
             --tandy-blue: rgb(0, 11, 124);
+        }
+
+        a {
+            color: var(--tandy-yellow);
         }
 
         @font-face {
@@ -15,8 +20,8 @@
         }
 
         aside {
-            float: left;
-            width: 300px;
+            /* float: left; */
+            width: 400px;
             height: calc(100vh - 16px);
             background-color: var(--tandy-blue);
             padding: 5px;
@@ -26,13 +31,14 @@
 
         main {
             width: 100%;
-            height: 100%;
+            height: 100vh;
+            position: relative;
         }
 
         .window {
             background-color: aliceblue;
-            max-width: 700px;
-            max-height: 700px;
+            /* max-width: 700px;
+            max-height: 700px; */
             width: 50%;
             height: 50%;
             top: 50%;
@@ -40,6 +46,26 @@
             transform: translate(-50%, -50%);
             position: absolute;
             background-color: var(--tandy-blue);
+            color: var(--tandy-yellow);
+            border: var(--tandy-yellow) 3px solid;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .release-info {
+            border: 3px solid var(--tandy-yellow);
+            text-align: left;
+            padding: 10px;
+            height: 90%;
+            overflow: scroll;
+        }
+
+        .close {
+            position: absolute;
+            right: 10px;
+            top: 2px;
+            font-size: 20pt;
+            cursor: pointer;
         }
 
         .catalog-list {
@@ -71,7 +97,7 @@
         }
 
         .release {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
             color: var(--tandy-yellow);
             text-align: center;
             display: flex;
@@ -79,8 +105,8 @@
             flex-direction: column;
             justify-content: center;
             text-overflow: ellipsis;
-
             align-items: center;
+            cursor: pointer;
         }
 
         .release-name {
@@ -97,6 +123,10 @@
 
         .release:hover .release-name {
             visibility: visible;
+        }
+
+        .release:hover .cube10 {
+            animation: spin 5s linear infinite;
         }
 
         @-webkit-keyframes scrolling-background {
@@ -131,16 +161,12 @@
         }
 
         body {
-            /* background: url("./Assets/tandyhourPurp.gif") repeat;
-            -webkit-animation: scrolling-background 5s linear infinite;
-            -moz-animation: scrolling-background 5s linear infinite;
-            -o-animation: scrolling-background 5s linear infinite;
-            animation: scrolling-background 5s linear infinite; */
             background-image: url("../Assets/tandyOSbg.png");
             background-size: 20px;
             overflow: hidden;
             margin: 0;
             font-family: TandyOS;
+            display: flex;
         }
 
         .qube-perspective {
@@ -153,11 +179,6 @@
             height: 150px;
             padding: 0;
             margin: 0;
-            cursor: pointer;
-        }
-
-        .cube10:hover {
-            animation: spin 5s linear infinite;
         }
 
         @keyframes perspective-shift {
@@ -212,6 +233,24 @@
             }
         }
 
+        @media only screen and (max-width: 1000px) {
+            body {
+                display: block;
+            }
+
+            aside {
+                width: calc(100vw - 16px);
+            }
+
+            main {
+                position: initial;
+            }
+
+            .window {
+                width: calc(100vw - 26px);
+                height: calc(100vh - 26px);
+            }
+        }
         /* Some CSS for HTML text not shown */
     </style>
 </head>
@@ -251,8 +290,8 @@
         <div class="catalog-list" id="catalog-list">
         </div>
     </aside>
-    <main>
-        <div class="window"></div>
+    <main id="main">
+
     </main>
 </body>
 
