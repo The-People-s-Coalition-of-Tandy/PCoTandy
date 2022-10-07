@@ -359,12 +359,19 @@
                 /* width: calc(var(--app-width) - 26px);
                 height: calc(var(--app-height) - 26px); */
                 min-height: 100%;
+                min-height: -moz-available;
+                min-height: -webkit-fill-available;
+                min-height: fill-available;
                 transform: none !important;
                 width: calc(100vw - 26px);
                 height: unset;
                 pointer-events: all;
                 top: 0;
                 left: 0;
+            }
+
+            .release-info {
+                max-height: 75vh;
             }
 
             .release-name {
