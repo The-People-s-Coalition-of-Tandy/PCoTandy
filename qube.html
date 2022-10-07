@@ -32,8 +32,13 @@
         }
 
         @keyframes fade {
-            from{opacity: 0;}
-            to{opacity: 1;}
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
 
         main {
@@ -160,9 +165,14 @@
         }
 
         @keyframes shrink {
-            from {transform: scale(1) translate(-50%, -50%);}
-            to{transform: scale(0) translate(-50%, -50%);}
-            
+            from {
+                transform: scale(1) translate(-50%, -50%);
+            }
+
+            to {
+                transform: scale(0) translate(-50%, -50%);
+            }
+
         }
 
         #intro-cube .cube10 {
@@ -273,6 +283,14 @@
             .window {
                 width: calc(100vw - 26px);
                 height: calc(100vh - 26px);
+            }
+
+            .release-name {
+                visibility: visible;
+            }
+
+            .release .cube10 {
+                animation: spin 5s linear infinite;
             }
         }
 
