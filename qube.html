@@ -27,6 +27,13 @@
             padding: 5px;
             border: 3px solid var(--tandy-yellow);
             overflow: hidden;
+            opacity: 0;
+            animation: fade .1s linear 6s forwards;
+        }
+
+        @keyframes fade {
+            from{opacity: 0;}
+            to{opacity: 1;}
         }
 
         main {
@@ -140,19 +147,37 @@
         }
 
         .tandy-cube {
-            /* position: absolute; */
-            /* top: 50%;  position the top  edge of the element at the middle of the parent */
-            /* left: 50%; position the left edge of the element at the middle of the parent */
-            /* transform: translate(-50%, -50%); */
-            /* animation: move 3s ease forwards 6s; */
             margin-left: -10px;
             transform: translate(6px, -2px);
+        }
+
+        #intro-cube {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation: shrink 3s cubic-bezier(0.075, 0.82, 0.165, 1) forwards 5s;
+        }
+
+        @keyframes shrink {
+            from {transform: scale(1) translate(-50%, -50%);}
+            to{transform: scale(0) translate(-50%, -50%);}
+            
+        }
+
+        #intro-cube .cube10 {
+            animation: spin 5s linear infinite;
         }
 
         .tandy-cube .cube10 {
             width: 35px;
             height: 35px;
             animation: spin 5s linear infinite;
+        }
+
+        #intro-cube .qube-perspective {
+            animation: perspective-shift 3s ease-in 3s backwards;
+            z-index: 100;
         }
 
         .tandy-cube .cube10 img {
@@ -171,7 +196,6 @@
 
         .qube-perspective {
             perspective: 600px;
-            /* animation: perspective-shift 3s ease-in 3s backwards; */
         }
 
         .cube10 {
@@ -251,12 +275,25 @@
                 height: calc(100vh - 26px);
             }
         }
+
         /* Some CSS for HTML text not shown */
     </style>
 </head>
 
 <body onload="generateNewCatalog()">
-
+    <div id="intro-cube">
+        <div class="qube-perspective spin">
+            <ul class="qube faces no-shading cube10">
+                <!-- Source order implies the faces here! -->
+                <li><img src="../Assets/PcoTandyLogo.png"></li>
+                <li><img src="../Assets/PcoTandyLogo.png"></li>
+                <li><img src="../Assets/PcoTandyLogo.png"></li>
+                <li><img src="../Assets/PcoTandyLogo.png"></li>
+                <li><img src="../Assets/PcoTandyLogo.png"></li>
+                <li><img src="../Assets/PcoTandyLogo.png"></li>
+            </ul>
+        </div>
+    </div>
     <aside>
         <div class="catalog-header">
             <div class="tandy-cube">
