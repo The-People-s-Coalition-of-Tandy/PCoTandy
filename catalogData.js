@@ -408,10 +408,3 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
-
-const appDimensions = () => {
-  const doc = document.documentElement
-  doc.style.setProperty('--app-height', `${window.innerHeight}px`)
-}
-window.addEventListener('resize', appDimensions)
-appDimensions();

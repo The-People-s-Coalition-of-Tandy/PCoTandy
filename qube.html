@@ -334,12 +334,16 @@
                 max-height: 100vh;
                 max-height: -webkit-fill-available;
             }
-            
+
             .close {
-                padding: 2px;
+                padding: 4px;
                 background-color: var(--tandy-yellow);
                 color: var(--tandy-blue);
                 font-size: 24pt;
+                transform: rotate(.25turn);
+                padding-bottom: 0px;
+                top: -3px;
+                right: 20px;
             }
 
             html {
@@ -369,19 +373,28 @@
             .window {
                 /* width: calc(var(--app-width) - 26px);
                 height: calc(var(--app-height) - 26px); */
-                max-height: 100%;
+                /* max-height: 100%;
                 max-height: -moz-available;
                 max-height: -webkit-fill-available;
                 max-height: fill-available;
                 min-height: -moz-available;
                 min-height: -webkit-fill-available;
-                min-height: fill-available;
+                min-height: fill-available; */
+                /* min-height: 100%;
+                max-height: 100%; */
+                /* max-height: 100%;
+                max-height: -moz-available;
+                max-height: -webkit-fill-available;
+                max-height: fill-available; */
                 transform: none !important;
                 width: calc(100vw - 26px);
-                height: unset;
+                min-height: calc(var(--app-height) - 16px);
                 pointer-events: all;
-                top: 0;
                 left: 0;
+            }
+
+            header {
+                font-size: 14pt;
             }
 
             .release-info {
@@ -393,7 +406,7 @@
             }
 
             .release .cube10 {
-                animation: spin 5s linear infinite;
+                animation: spin 10s linear infinite;
             }
         }
     </style>
@@ -413,7 +426,7 @@
             </ul>
         </div>
     </div>
-    <aside>
+    <aside id="catalog-panel">
         <div class="catalog-header">
             <div class="tandy-cube">
                 <div class="qube-perspective spin">
@@ -450,5 +463,15 @@
 
     </main>
 </body>
+<script>
+    const appDimensions = () => {
+        const doc = document.documentElement
+        const panel = document.getElementById('catalog-panel');
+
+        doc.style.setProperty('--app-height', `${panel.offsetHeight}px`)
+    }
+    window.addEventListener('resize', appDimensions)
+    appDimensions();
+</script>
 
 </html>
