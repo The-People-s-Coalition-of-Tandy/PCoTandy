@@ -41,7 +41,14 @@ const albumList = [{
     link: "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
     background: "teal",
     font: "white"
-  }]
+  },
+  {
+    label: "Spotify",
+    link: "https://open.spotify.com/album/0eKj2UEuCP32Qh52KGV5jg?si=7D7aRkmzTEK5y53-uZi8zw",
+    background: "greenyellow",
+    font: "black"
+  }
+  ]
 },
 
 {
@@ -325,7 +332,7 @@ function addWindow(release) {
 
   for (let i = 0; i < albumList.length; i++) {
     if (albumList[i].name === releaseName) {
-      releaseNumber = `PCoT ${'0'.repeat(3 - (Math.log10((i+1 ^ (i+1 >> 31)) - (i+1 >> 31)) | 0))}${(i+1).toString()}`;
+      releaseNumber = `PCoT ${'0'.repeat(3 - (Math.log10((i + 1 ^ (i + 1 >> 31)) - (i + 1 >> 31)) | 0))}${(i + 1).toString()}`;
 
       windowDiv.id = releaseNumber.replace(' ', '');
       output += `           
@@ -353,7 +360,7 @@ function addWindow(release) {
 
   windowDiv.innerHTML = output;
   windowDiv.style.zIndex = zindex;
-  windowDiv.style.transform = `translate(calc(-50% + ${25*windows}px),calc(-50% + ${25*windows}px))`;
+  windowDiv.style.transform = `translate(calc(-50% + ${25 * windows}px),calc(-50% + ${25 * windows}px))`;
   zindex++;
   windows++;
   document.getElementById('main').appendChild(windowDiv);
@@ -370,7 +377,7 @@ function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id).children[0]) {
     /* if present, the header is where you move the DIV from:*/
-    document.getElementById(elmnt.id).children[0].onmousedown =dragMouseDown;
+    document.getElementById(elmnt.id).children[0].onmousedown = dragMouseDown;
   } else {
     /* otherwise, move the DIV from anywhere inside the DIV:*/
     elmnt.onmousedown = dragMouseDown;
