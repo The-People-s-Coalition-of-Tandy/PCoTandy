@@ -332,18 +332,20 @@
                 display: block;
                 overflow: hidden;
                 max-height: 100vh;
-                max-height: calc(var(--app-height) - 13);;
+                max-height: -webkit-fill-available;
             }
 
 
             html {
-                height: calc(var(--app-height) - 13);;
+                height: -webkit-fill-available;
             }
 
             aside {
                 width: calc(100vw - 16px);
                 max-height: 100%;
-                max-height: calc(var(--app-height) - 13);;;
+                max-height: -moz-available;
+                max-height: -webkit-fill-available;
+                max-height: fill-available;
             }
 
             main {
@@ -351,17 +353,25 @@
                 top: 0;
                 left: 0;
                 height: unset;
-                max-height: calc(var(--app-height) - 13);;
+                transform: none;
+                max-height: -moz-available;
+                max-height: -webkit-fill-available;
+                max-height: fill-available;
                 pointer-events: none;
             }
 
             .window {
-                /* width: calc(var(--app-width) - 13);
-                height: calc(var(--app-height) - 13); */
+                /* width: calc(var(--app-width) - 26px);
+                height: calc(var(--app-height) - 26px); */
                 max-height: 100%;
-                max-height: calc(var(--app-height) - 13);
+                max-height: -moz-available;
+                max-height: -webkit-fill-available;
+                max-height: fill-available;
+                min-height: -moz-available;
+                min-height: -webkit-fill-available;
+                min-height: fill-available;
                 transform: none !important;
-                width: calc(100vw - 13);
+                width: calc(100vw - 26px);
                 height: unset;
                 pointer-events: all;
                 top: 0;
@@ -369,8 +379,7 @@
             }
 
             .release-info {
-                max-height: calc(var(--app-height) - 13);
-                min-height: calc(var(--app-height) - 13);
+                max-height: 75vh;
             }
 
             .release-name {
