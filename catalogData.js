@@ -325,7 +325,7 @@ function addWindow(release) {
 
   for (let i = 0; i < albumList.length; i++) {
     if (albumList[i].name === releaseName) {
-      releaseNumber = `PCoT ${'0'.repeat(3 - (Math.log10((i ^ (i >> 31)) - (i >> 31)) | 0))}${i.toString()}`;
+      releaseNumber = `PCoT ${'0'.repeat(3 - (Math.log10((i+1 ^ (i+1 >> 31)) - (i+1 >> 31)) | 0))}${(i+1).toString()}`;
 
       windowDiv.id = releaseNumber.replace(' ', '');
       output += `           
