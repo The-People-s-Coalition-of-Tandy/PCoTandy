@@ -329,7 +329,7 @@ function addWindow(release) {
 
       windowDiv.id = releaseNumber.replace(' ', '');
       output += `           
-        <header>${releaseNumber} <span class="close ${releaseNumber.replace(' ', '')}" onclick="closeWindow(this)">X</span></header>
+        <header>${releaseNumber} <div class="close ${releaseNumber.replace(' ', '')}" onclick="closeWindow(this)">X</div></header>
         <div class="release-info">
         <img width="30%" src="${albumList[i].cover}">
           <h2>${albumList[i].name}</h2>
