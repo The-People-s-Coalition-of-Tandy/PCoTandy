@@ -90,7 +90,7 @@ const albumList = [{
         The soaked book dries from its extravagant, twisted shapes into warm, familiar cloth—every stage inscribed into the seams as harmonics in the soul of a bell. Neither method nor madness could stir the flutter of the heart like hummingbird wings in each character's tentative steps towards the beautiful, dreadful evening.`,
   credits: "<br><strong>Sam Walters</strong> - Music <br> <strong>Ko T. C. & elie mcafee-hahn</strong> - Mixing <br> <strong>elie mcafee-hahn</strong> - Mastering <br> <strong>Joohee Park</strong> - Cover Art",
   links: [{
-    label: "Pre-order Album",
+    label: "Full Album",
     link: "https://tandy.bandcamp.com/album/centre-st",
     background: "pink",
     font: "black"
@@ -134,7 +134,7 @@ const albumList = [{
 
   credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Tuesday Hamilton</strong> - Cover Art <br> <strong>Julie Bodian</strong> - Visualizer <br><strong>Ko T. C. & Sam Walters</strong> - Mixing <br> <strong>elie mcafee-hahn</strong> - Mastering",
   links: [{
-    label: "Pre-order Album",
+    label: "Full Album",
     link: "https://tandy.bandcamp.com/album/centre-st",
     background: "pink",
     font: "black"
