@@ -1,0 +1,377 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript" src="./catalogData.js"></script>
+
+<script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js">
+</script>
+
+<head>
+  <title>PCoTandy Catalog</title>
+  <link rel="stylesheet" href="catalog.css">
+  <link rel="stylesheet" href="textAnimations.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="./Assets/PCoTandyLogo.ico">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- for svg animation elie made -->
+  <link rel="stylesheet" href="svgSplash.css" />
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      background-color: #bef1ff;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #769ea9;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #b30000;
+    }
+  </style>
+  <script>
+    function closeAlbum(e) {
+      e.parentElement.parentElement.classList.remove("open");
+    }
+
+    function openAlbum(albumName) {
+      const album = document.querySelector(`#${albumName}`);
+      album.classList.add("open");
+    }
+
+    function openOnLoad() {
+      const params = new URLSearchParams(window.location.search)
+      if (params.has('release')) {
+        const queryAlbum = params.get('release');
+        const albumPanel = document.querySelector(`#PCoT${queryAlbum}-mobile`);
+        const albumDesktop = document.querySelector(`#PCoT${queryAlbum}-desktop`);
+        albumPanel.classList.add("open");
+        albumDesktop.classList.add("active-album");
+      }
+    }
+
+    setTimeout(() => {
+      openOnLoad();
+    }, 400);
+  </script>
+</head>
+
+<!-- SVG END -->
+
+<body onload="generateCatalog()" position="relative">
+  <div class="desktop-wrapper">
+    <div class="list-column"></div>
+    <!-- <div class="list-column"></div> -->
+
+    <canvas class="glslCanvas list-column" data-fragment="
+
+    // Author @patriciogv - 2015
+    // http://patriciogonzalezvivo.com
+
+    #ifdef GL_ES
+    precision mediump float;
+    #endif
+
+    uniform sampler2D u_tex0;
+    uniform vec2 u_tex0Resolution;
+
+    uniform vec2 u_resolution;
+    uniform vec2 u_mouse;
+    uniform float u_time;
+
+  vec2 normMouse = u_mouse/u_resolution;
+
+    void main(void) {
+  // vec2 cPos = -1.0 + 2.0 * gl_FragCoord.xy / u_resolution.xy;
+
+  //responsible for the center drop
+  //that first argument scales so that the bottom left corner isn't 0,0 so the effect still exists
+  vec2 cPos = .5+.5*(u_mouse/u_resolution) * (gl_FragCoord.xy / u_resolution.xy);
+
+  //mouse track
+  float cLength = distance(u_mouse/u_resolution ,gl_FragCoord.xy/u_resolution.xy);
+
+  vec2 uv = gl_FragCoord.xy/u_resolution.xy+(cPos/cLength)*cos(cLength*30.0-u_time*2.0)*0.003;
+
+  //vec3 col = vec3(uv, 1.0);
+   vec3 col = texture2D(u_tex0,uv).xyz;
+
+  //colorize
+   col -= vec3 (.2,.0,.2);
+
+  gl_FragColor = vec4(col,1.0);
+  }
+
+
+    " data-textures="./Assets/rainbowBar.png" style="background-color: rgba(1, 1, 1, 0);"></canvas>
+    <div class="background-div">
+
+
+      <hr size="1" />
+      <hr size="2" />
+      <hr size="3" />
+      <hr size="4" />
+      <hr size="5" />
+      <button class="home">
+        <a href="/" rel="noopener noreferrer">Home</a>
+      </button>
+
+      <div id="catalog-container">
+      </div>
+
+      <!-- svg wrapper -->
+      <div class="loaderWrapper">
+
+        <!-- SVG SPLASH ANIMATION -->
+        <svg class="splash" version="1.1" xmlns="https://www.w3.org/2000/svg"
+          xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1366 768"
+          style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+
+          <defs>
+            <!-- define star texture image -->
+            <pattern id="star" x="80%" y="0" width="100%" height="100%">
+              <image href="./Assets/SparkleTest.jpg" width="50">
+
+              </image>
+            </pattern>
+
+          </defs>
+
+          <!-- fade class  on Black Bars Group // I KNOW that was a bad name for the whole SVG but now i dont wanna change it-->
+          <!-- THIS HTML IS CALLING 2 CSS SYLE SHEETS!!! THIS IS IN SVG TEST.CSS -->
+          <g id="BlackBars" class="elementToFadeInAndOut">
+            <g id="bg_rect">
+              <rect id="bg" class="svgbg" x="0" y="0.5" width="1366" height="768" />
+            </g>
+
+            <path d="M631.4,338.4h103.1c0-4.6-3.7-8.3-8.3-8.3h-86.5C635.1,330.1,631.4,333.8,631.4,338.4z">
+              <animateMotion dur="1.8s" path="m-631.4,0 L0,0" fill="freeze" />
+            </path>
+            <!-- <rect x="631.4" y="421.7" width="103.1" height="11.7"> -->
+            <rect width="103.1" height="11.7">
+              <animateMotion dur="2.3s" path="M0,421.7 L631.4,421.7" fill="freeze" />
+            </rect>
+            <!-- x="631.4" y="405.4"  -->
+            <rect width="103.1" height="12.7">
+
+              <animateMotion dur="2.6s" path="M0,405.4 L631.4,405.4" fill="freeze" />
+            </rect>
+            <!-- x="631.4" y="388.5"  -->
+            <rect width="103.1" height="13.5">
+              <animateMotion dur="2.1s" path="M0,388.5 L631.4,388.5" fill="freeze" />
+            </rect>
+            <!-- x="631.4" y="373.3"  -->
+            <rect width="103.1" height="12.5">
+              <animateMotion dur="2.s" path="M0,373.3 L631.4,373.3" fill="freeze" />
+            </rect>
+            <!-- x="631.4" y="357.3"  -->
+            <rect width="103.1" height="12.4">
+
+              <animateMotion dur="1.9s" path="M0,357.3 L631.4,357.3" fill="freeze" />
+
+            </rect>
+            <!-- x="631.4" y="341.1" -->
+            <rect width="103.1" height="11.7">
+              <animateMotion dur="2.05s" path="M0,341.1 L631.4,341.1" fill="freeze" />
+            </rect>
+            <!-- bottom -->
+            <path
+              d="M734.5,435.9H631.4c0,4.6,3.7,8.3,8.3,8.3h86.5C730.8,444.2,734.5,440.5,734.5,435.9C734.5,435.9,734.5,435.9,734.5,435.9z">
+              <animateMotion dur="2s" path="m-631.4,0 L0,0" fill="freeze" />
+            </path>
+            <!-- tandy hourglass -->
+            <polygon id="Hourglass_1_" class="st1"
+              points="723.2,430.2 708.3,386.5 723.2,343.4 642.8,343.4 658.6,386.8 642.8,430.2">
+              <animateMotion dur="2.8s" path="m800,0 L0,0" fill="freeze" />
+            </polygon>
+            <!-- C -->
+            <path id="C_1_" class="st2"
+              d="M698.8,399.1c-9.9-8.1-35.7-5.5-33.1,11.2c0.1,0.3,0.1,0.7,0.3,1c5.9,11.4,26.9,12.1,34.3,2.1">
+              <animateMotion dur="3s" path="m0,399.1 L0,0" fill="freeze" />
+            </path>
+
+            <g id="T_1_">
+              <line class="st2" x1="663.3" y1="354.9" x2="702.6" y2="354.9" />
+              <line class="st2" x1="683" y1="382.9" x2="683" y2="354.9" />
+
+              <animateMotion dur="3.s" path="m0,-382.9 L0,0" fill="freeze" />
+
+            </g>
+            <g id="sparkle">
+              <polygon class="cls-1 sparkle1" fill="url(#star)"
+                points="722.75 330.29 723.36 342.82 733.53 335.49 724.12 343.77 736.2 347.15 723.85 344.96 728.73 356.51 722.75 345.49 716.76 356.51 721.65 344.96 709.3 347.15 721.38 343.77 711.96 335.49 722.14 342.82 722.75 330.29" />
+            </g>
+          </g>
+        </svg>
+      </div>
+
+      <script type="text/javascript" src="./Scripts/vanilla-tilt.js"></script>
+    </div>
+
+  </div>
+  <div class="mobile-wrapper">
+    <button class="home">
+      <a href="/" rel="noopener noreferrer">Home</a>
+    </button>
+    <div class="album-buttons-mobile">
+      <br><br><br><br>
+      <button onclick="openAlbum('PCoT6-mobile')">PCoT 0006</button><br><br>
+      <button onclick="openAlbum('PCoT5-mobile')">PCoT 0005</button><br><br>
+      <button onclick="openAlbum('PCoT4-mobile')">PCoT 0004</button><br><br>
+      <button onclick="openAlbum('PCoT3-mobile')">PCoT 0003</button><br><br>
+      <button onclick="openAlbum('PCoT2-mobile')">PCoT 0002</button><br><br>
+      <button onclick="openAlbum('PCoT1-mobile')">PCoT 0001</button>
+    </div>
+
+    <div class="album-card" id="PCoT6-mobile">
+      <div class="flex-nav">
+        <button class="close-button" onclick="closeAlbum(this)">X</button>
+      </div>
+
+      <img src="./Assets/Albums/tuesdayCover.png">
+      <div class="center-mobile">
+        <h1>Tuesday's Universe</h1>
+        <h2>Tuesday Hamilton</h2>
+      </div>
+
+      <div class="mobile-links">
+        <a target='_blank' style="color:white; background-color:teal"
+          href='https://tuesdaysuni.pcotandy.org/'>Website</a>
+      </div>
+    </div>
+
+    <div class="album-card" id="PCoT5-mobile">
+      <div class="flex-nav">
+        <button class="close-button" onclick="closeAlbum(this)">X</button>
+      </div>
+
+      <img src="./Assets/Centre Street/centreStCover.jpg">
+      <div class="center-mobile">
+        <h1>Centre St.</h1>
+        <h2>Sam Walters</h2>
+      </div>
+
+      <div class="mobile-links">
+        <a target='_blank' style="color:white; background-color:teal"
+          href='https://tandy.bandcamp.com/album/centre-st'>Bandcamp</a>
+          <br>
+          <a target='_blank' style="color:white; background-color:green" href='https://open.spotify.com/album/0W6ULIDs7xSPl0S5ShY68C?si=Bxl4svvuSHm-y6kcV0DEmQ&nd=1'>Spotify</a>
+          <br>
+          <a target='_blank' style="color:white; background-color:black" href='https://music.apple.com/us/album/centre-st/1643794151'>Apple Music</a>
+      </div>
+    </div>
+
+    <div class="album-card" id="PCoT4-mobile">
+      <div class="flex-nav">
+        <button class="close-button" onclick="closeAlbum(this)">X</button>
+      </div>
+
+      <img src="./Assets/Centre Street/anotherDayCover.jpg">
+      <div class="center-mobile">
+        <h1>Another Day</h1>
+        <h2>Sam Walters</h2>
+      </div>
+
+      <div class="mobile-links">
+        <a target='_blank' style="color:white; background-color:teal"
+          href='https://tandy.bandcamp.com/track/another-day'>Bandcamp</a>
+          <br>
+          <a target='_blank' style="color:black; background-color:white" href='https://www.pcotandy.org/visualizers/anotherDay '>Visualizer</a>
+          <br>
+          <a target='_blank' style="color:white; background-color:green" href='https://open.spotify.com/album/5zPhWDnFkYXk3XJpR0VUqm?si=7H8gkrZ5SwapnzhYjXWhSw '>Spotify</a>
+          <br>
+          <a target='_blank' style="color:black; background-color:pink" href='https://tandy.bandcamp.com/album/centre-st'>Pre-Order Album!</a>
+          <br>
+          <a target='_blank' style="color:white; background-color:black" href='https://music.apple.com/us/album/another-day-single/1631687479'>Apple Music</a>
+      </div>
+    </div>
+
+    <div class="album-card" id="PCoT3-mobile">
+      <div class="flex-nav">
+        <button class="close-button" onclick="closeAlbum(this)">X</button>
+      </div>
+
+      <img src="./Assets/Centre Street/stpCover.jpg">
+      <div class="center-mobile">
+        <h1>Star Palm Tree</h1>
+        <h2>Sam Walters</h2>
+      </div>
+
+      <div class="mobile-links">
+        <a target='_blank' style="color:white; background-color:teal"
+          href='https://tandy.bandcamp.com/track/star-palm-tree-2'>Bandcamp</a>
+          <br>
+          <a target='_blank' style="color:white; background-color:green" href='https://open.spotify.com/track/7ebVcs5NtXhk2T1HtzzGHC?si=55fd079613f54122'>Spotify</a>
+          <br>
+          <a target='_blank' style="color:black; background-color:pink" href='https://tandy.bandcamp.com/album/centre-st'>Pre-Order Album!</a>
+          <br>
+          <a target='_blank' style="color:white; background-color:black" href='https://tclr.pcotandy.org'>Apple Music</a>
+          <br>
+          <a target='_blank' style="color:black; background-color:white" href='https://os.pcotandy.org'>Youtube</a>
+
+      </div>
+    </div>
+
+    <div class="album-card" id="PCoT2-mobile">
+      <div class="flex-nav">
+        <button class="close-button" onclick="closeAlbum(this)">X</button>
+      </div>
+
+      <img src="https://i1.sndcdn.com/artworks-3Vh95brqXadydmOt-Q74EsA-t500x500.jpg">
+      <div class="center-mobile">
+        <h1>Tetso Cube Lightride</h1>
+        <h2>Elie Mcafee-Hahn</h2>
+      </div>
+
+      <div class="mobile-links">
+        <a target='_blank' style="color:white; background-color:teal"
+          href='https://tandy.bandcamp.com/album/tetso-cube-lightride'>bandcamp</a>
+        <br>
+        <a target='_blank' style="color:black; background-color:greenyellow"
+          href='https://www.instagram.com/ellie_modron_kurfwen'>instagram</a>
+        <br>
+        <a target='_blank' style="color:white; background-color:black" href='https://tclr.pcotandy.org'>TCLR
+          Visualizer</a>
+        <br>
+        <a target='_blank' style="color:black; background-color:white" href='https://os.pcotandy.org'>OS Visualizer</a>
+      </div>
+      <div class="center-mobile mobile-credits">
+        <br><br><strong>elie mcafee-hahn</strong> - everything <br> <strong>Ko T. C.</strong> - mastering
+      </div>
+    </div>
+    <div class="album-card" id="PCoT1-mobile">
+      <div class="flex-nav">
+        <button class="close-button" onclick="closeAlbum(this)">X</button>
+      </div>
+
+      <img src="./Assets/Albums/midi2022/cover/cover2bluebordershadow.png">
+      <div class="center-mobile">
+        <h1>30th Anniversary GM Smoidi Light General Midi Competition</h1>
+        <h2>Various</h2>
+      </div>
+
+      <div class="mobile-links">
+        <a target='_blank' style="color:white; background-color:teal"
+          href='https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition'>bandcamp</a>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
