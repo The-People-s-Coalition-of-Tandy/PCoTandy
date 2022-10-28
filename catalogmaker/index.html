@@ -1,0 +1,168 @@
+<html>
+
+<head>
+    <script src="./index.js"></script>
+    <style>
+        body {
+            /* margin: 0; */
+            background-image: url("../Assets/tandyhour.gif");
+        }
+
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .submit {
+            font-size: 12pt;
+            background-color: green;
+            color: white;
+            /* font-family: "Comic Sans MS", "Comic Sans", cursive; */
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .credit,
+        .link {
+            position: relative;
+            width: fit-content;
+            border: gray ridge 3px;
+            padding: 10px 20px;
+            padding-right: 35px;
+        }
+
+        .close {
+            position: absolute;
+            top: 5;
+            right: 5;
+            background-color: rgb(161, 0, 0);
+            color: white;
+            cursor: pointer;
+        }
+
+        #credits-container,
+        #links-container {
+            display: flex;
+            max-width: 90vw;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .credit,
+        .link {
+            background-color: lightgray;
+        }
+
+        .container {
+            border: 5px inset purple;
+            padding: 20px;
+            width: fit-content;
+            background-color: rgb(255, 249, 241);
+        }
+
+        #json {
+            visibility: hidden;
+        }
+
+        #json.visible {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tandy Catalog Maker<super>*</super><sub style="font-size: 12;">*for internal use only</sub></h1>
+
+    <form>
+        <div style="display: flex; gap: 20px">
+            <div style="display: block;">
+                <label for="cover">Link to album cover</label>
+                <br>
+                <input type="text" name="cover" id="cover" />
+                <br><br>
+                <label for="name">Release Name</label>
+                <br>
+                <input type="text" name="name" id="name" />
+                <br><br>
+                <label for="color">Pick a color</label>
+                <br>
+                <input type="color" name="color" id="color" />
+                <br><br>
+                <label for="artists">Artist Name(s)</label>
+                <br>
+                <input type="text" name="artists" id="artists" />
+                <br><br>
+                <label for="description">Release Description</label>
+                <br>
+                <textarea id="description" name="description" rows="12" cols="50"></textarea>
+                <br><br>
+                <button type="submit"
+                class="submit">Generate Catalog</button>
+                <br><br>
+                
+                <div id="json"
+                    style="border: ridge 2px gray; background-color: white; max-width: 400px; padding: 25px; word-break: break-word;">
+                    <h2>Copy results from below</h2><br>
+                    <code></code>
+                </div>
+            </div>
+            <div>
+                <div class="container">
+                    <h2>Credits <button type="button" onclick="addCredit()">Add credit</button></h2>
+                    <br>
+
+                    <div id="credits-container">
+                        <div class="credit">
+                            <label for="credit-name">Name</label>
+                            <br>
+                            <input type="text" name="name" id="name" />
+                            <br>
+                            <label for="contribution">Contribution</label>
+                            <br>
+                            <input type="text" name="contribution" id="contribution" />
+                            <button class="close" onclick="removeSelf(this)">X</button>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="container">
+                    <h2>Links <button type="button" onclick="addLink()">Add link</button>
+                    </h2>
+                    <br>
+
+                    <div id="links-container">
+                        <div class="link">
+                            <label for="label">Name</label>
+                            <br>
+                            <input type="text" name="label" id="label" />
+                            <br>
+                            <label for="link">URL</label>
+                            <br>
+                            <input type="text" name="link" id="link" />
+                            <br>
+                            <label for="background">Background Color:&nbsp&nbsp&nbsp</label>
+                            <input type="color" name="background" id="background" />
+                            <br>
+                            <label for="font">Font Color:&nbsp&nbsp&nbsp</label>
+                            <input type="color" name="font" id="font" />
+                            <button class="close" onclick="removeSelf(this)">X</button>
+                        </div>
+
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+    <script>
+        const form = document.querySelector('form');
+        form.addEventListener('submit', handleSubmit);
+    </script>
+
+</body>
+
+</html>
