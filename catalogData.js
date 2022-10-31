@@ -1,9 +1,9 @@
 const albumList = [{
-  cover: "./Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
-  color: "pink",
-  name: "30th Anniversary GM Smoidi Light General Midi Competition",
-  artists: "Various",
-  description: `The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022"
+    cover: "./Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
+    color: "pink",
+    name: "30th Anniversary GM Smoidi Light General Midi Competition",
+    artists: "Various",
+    description: `The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022"
     300 Competition!<br><br>
 
     The annual celebration of General MIDI has borne fruit!<br><br>
@@ -16,206 +16,294 @@ const albumList = [{
     The competition takes place in the Spring every year because March 7th is the MID-POINT between Ikutaru Kakehashi 's (from Roland) and Dave Smith's (from Sequential Circuits) birthdays<br>
     This competition is meant to honor and spread appreciation<br>
     for their dedicated work, along with all of those at the Japan MIDI Standards Committee(JMSC) and the American MIDI Manufacturers Association(MMA) !`,
-  credits: `    Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022" 300 Competition!<br>
-    <br>
-    And congratulations to all of our Category Award Winners :<br><br>
+    "credits": [{
+      "name": "",
+      "contribution": `Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022" 300 Competition!<br>
+      <br>
+      And congratulations to all of our Category Award Winners :<br><br>
+  
+        Devotional Category Award Winner: RAMPTOE)(GENIUS IS KAT MAZUR<br><br>
+  
+      Vocal Performance Category Award Winner: Oratorical Orator<br><br>
+  
+      Experimental Category Award Winner: Joe Misterovich<br><br>
+  
+      Chamber Music Award Winner: raef<br><br>
+  
+      Excellence in Solo Composition Award Winner: Emiliano Cruz<br><br>
+  
+      Cinematic Award Winner: Opus Impetus<br><br>
+  
+      Watercolors Award Winner: Scuzz McGuzz<br><br>
+  
+      Audio Engineering Award Winner: 31i3`
+    }],
+    links: [{
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
+        background: "teal",
+        font: "white"
+      },
+      {
+        label: "Spotify",
+        link: "https://open.spotify.com/album/0eKj2UEuCP32Qh52KGV5jg?si=7D7aRkmzTEK5y53-uZi8zw",
+        background: "greenyellow",
+        font: "black"
+      }
+    ]
+  },
 
-      Devotional Category Award Winner: RAMPTOE)(GENIUS IS KAT MAZUR<br><br>
-
-    Vocal Performance Category Award Winner: Oratorical Orator<br><br>
-
-    Experimental Category Award Winner: Joe Misterovich<br><br>
-
-    Chamber Music Award Winner: raef<br><br>
-
-    Excellence in Solo Composition Award Winner: Emiliano Cruz<br><br>
-
-    Cinematic Award Winner: Opus Impetus<br><br>
-
-    Watercolors Award Winner: Scuzz McGuzz<br><br>
-
-    Audio Engineering Award Winner: 31i3`,
-
-  links: [{
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
-    background: "teal",
-    font: "white"
+  {
+    cover: "./Assets/Albums/tclr/tclr.jpg",
+    color: "purple",
+    name: "Tetso Cube Light Ride",
+    artists: "elie mcafee-hahn",
+    description: "We call ourselves tandy so people know who we are",
+    "credits": [{
+      "name": "elie mcafee-hahn",
+      "contribution": "everything"
+    }, {
+      "name": "Ko T. C.",
+      "contribution": "Mastering"
+    }],
+    links: [{
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/album/tetso-cube-lightride",
+        background: "teal",
+        font: "white"
+      },
+      {
+        label: "instagram",
+        link: "https://www.instagram.com/ellie_modron_kurfwen",
+        background: "greenyellow",
+        font: "black"
+      },
+      {
+        label: "TCLR Visualizer",
+        link: "https://tclr.pcotandy.org",
+        background: "black",
+        font: "white"
+      },
+      {
+        label: "OS Visualizer",
+        link: "https://os.pcotandy.org",
+        background: "white",
+        font: "black"
+      }
+    ]
   },
   {
-    label: "Spotify",
-    link: "https://open.spotify.com/album/0eKj2UEuCP32Qh52KGV5jg?si=7D7aRkmzTEK5y53-uZi8zw",
-    background: "greenyellow",
-    font: "black"
-  }
-  ]
-},
-
-{
-  cover: "./Assets/Albums/tclr/tclr.jpg",
-  color: "purple",
-  name: "Tetso Cube Light Ride",
-  artists: "elie mcafee-hahn",
-  description: "We call ourselves tandy so people know who we are",
-  credits: "<br><br><br><strong>elie mcafee-hahn</strong> - everything <br> <strong>Ko T. C.</strong> - Mastering",
-  links: [{
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/album/tetso-cube-lightride",
-    background: "teal",
-    font: "white"
-  },
-  {
-    label: "instagram",
-    link: "https://www.instagram.com/ellie_modron_kurfwen",
-    background: "greenyellow",
-    font: "black"
-  },
-  {
-    label: "TCLR Visualizer",
-    link: "https://tclr.pcotandy.org",
-    background: "black",
-    font: "white"
-  },
-  {
-    label: "OS Visualizer",
-    link: "https://os.pcotandy.org",
-    background: "white",
-    font: "black"
-  }
-  ]
-},
-{
-  cover: "./Assets/Centre Street/stpCover.jpg",
-  color: "greenyellow",
-  name: "Star Palm Tree",
-  artists: "Sam Walters",
-  description: `"Let's get lost inside"<br><br>
+    cover: "./Assets/Centre Street/stpCover.jpg",
+    color: "greenyellow",
+    name: "Star Palm Tree",
+    artists: "Sam Walters",
+    description: `"Let's get lost inside"<br><br>
         In August's twilight, secret bard Sam Walters emerges to lament our ancient founders, having written of what's now, what's then, and what's to come shakily but Shurely into a naked diary—bound by 7 years of dreams, boundless love and fear.<br><br>
         
         The disappearing ink sinks from page to page, wetting with wist and longing the parchment.<br><br>
         
         The soaked book dries from its extravagant, twisted shapes into warm, familiar cloth—every stage inscribed into the seams as harmonics in the soul of a bell. Neither method nor madness could stir the flutter of the heart like hummingbird wings in each character's tentative steps towards the beautiful, dreadful evening.`,
-  credits: "<br><strong>Sam Walters</strong> - Music <br> <strong>Ko T. C. & elie mcafee-hahn</strong> - Mixing <br> <strong>elie mcafee-hahn</strong> - Mastering <br> <strong>Joohee Park</strong> - Cover Art",
-  links: [{
-    label: "Full Album",
-    link: "https://tandy.bandcamp.com/album/centre-st",
-    background: "pink",
-    font: "black"
+    "credits": [{
+      "name": "Sam Walters",
+      "contribution": "Music"
+    }, {
+      "name": "Joohee Park",
+      "contribution": "Cover Art"
+    }, {
+      "name": "Ko T. C. & Sam Walters",
+      "contribution": "Mixing"
+    }, {
+      "name": "elie mcafee-hahn",
+      "contribution": "Mastering"
+    }, ],
+    links: [{
+        label: "Full Album",
+        link: "https://tandy.bandcamp.com/album/centre-st",
+        background: "pink",
+        font: "black"
+      },
+      {
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/track/star-palm-tree-2",
+        background: "teal",
+        font: "white"
+      },
+      {
+        label: "Spotify",
+        link: "https://open.spotify.com/track/7ebVcs5NtXhk2T1HtzzGHC?si=55fd079613f54122",
+        background: "greenyellow",
+        font: "black"
+      },
+      {
+        label: "Apple Music",
+        link: "https://music.apple.com/tr/album/star-palm-tree-single/1629615027",
+        background: "black",
+        font: "white"
+      },
+      {
+        label: "Youtube",
+        link: "https://www.youtube.com/watch?v=2ZijDc9cyBw",
+        background: "white",
+        font: "black"
+      }
+    ]
   },
   {
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/track/star-palm-tree-2",
-    background: "teal",
-    font: "white"
-  },
-  {
-    label: "Spotify",
-    link: "https://open.spotify.com/track/7ebVcs5NtXhk2T1HtzzGHC?si=55fd079613f54122",
-    background: "greenyellow",
-    font: "black"
-  },
-  {
-    label: "Apple Music",
-    link: "https://music.apple.com/tr/album/star-palm-tree-single/1629615027",
-    background: "black",
-    font: "white"
-  },
-  {
-    label: "Youtube",
-    link: "https://www.youtube.com/watch?v=2ZijDc9cyBw",
-    background: "white",
-    font: "black"
-  }
-  ]
-},
-{
-  cover: "./Assets/Centre Street/anotherDayCover.jpg",
-  color: "greenyellow",
-  name: "Another Day",
-  artists: "Sam Walters",
-  description: `Secret bard Sam Walters has returned with his latest incantation from the upcoming album, Centre St.<br><br>
+    cover: "./Assets/Centre Street/anotherDayCover.jpg",
+    color: "greenyellow",
+    name: "Another Day",
+    artists: "Sam Walters",
+    description: `Secret bard Sam Walters has returned with his latest incantation from the upcoming album, Centre St.<br><br>
 
     In the face great peril, you must now choose your own destiny. Will you rise to the occasion? Will the sands of regret be deposited back into your broken hourglass, renewed as crystals of possibility? Or will the cold crescendo of time wash us back to familiar shores?
     <br><br>
     Only you can decide…`,
-
-  credits: "<br><br><br><strong>Sam Walters</strong> - Music <br> <strong>Tuesday Hamilton</strong> - Cover Art <br> <strong>Julie Bodian</strong> - Visualizer <br><strong>Ko T. C. & Sam Walters</strong> - Mixing <br> <strong>elie mcafee-hahn</strong> - Mastering",
-  links: [{
-    label: "Full Album",
-    link: "https://tandy.bandcamp.com/album/centre-st",
-    background: "pink",
-    font: "black"
+    "credits": [{
+      "name": "Sam Walters",
+      "contribution": "Music"
+    }, {
+      "name": "Tuesday Hamilton",
+      "contribution": "Cover Art"
+    }, {
+      "name": "Julie Bodian",
+      "contribution": "Visualizer"
+    }, {
+      "name": "Ko T. C. & Sam Walters",
+      "contribution": "Mixing"
+    }, {
+      "name": "elie mcafee-hahn",
+      "contribution": "Mastering"
+    }, ],
+    links: [{
+        label: "Full Album",
+        link: "https://tandy.bandcamp.com/album/centre-st",
+        background: "pink",
+        font: "black"
+      },
+      {
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/track/another-day",
+        background: "teal",
+        font: "white"
+      },
+      {
+        label: "Spotify",
+        link: "https://open.spotify.com/album/5zPhWDnFkYXk3XJpR0VUqm?si=7H8gkrZ5SwapnzhYjXWhSw ",
+        background: "greenyellow",
+        font: "black"
+      },
+      {
+        label: "Apple Music",
+        link: "https://music.apple.com/us/album/another-day-single/1631687479",
+        background: "black",
+        font: "white"
+      },
+      {
+        label: "Visualizer",
+        link: "https://www.pcotandy.org/visualizers/anotherDay ",
+        background: "white",
+        font: "black"
+      }
+    ]
   },
   {
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/track/another-day",
-    background: "teal",
-    font: "white"
+    cover: "./Assets/Centre Street/centreStCover.jpg",
+    color: "greenyellow",
+    name: "Centre St.",
+    artists: "Sam Walters",
+    description: `Sam Walters is a songwriter, recordist, nurse-in-training, and long time Coalition member based in Brooklyn, NY. Centre St was recorded with love and meticulous care over the course of 6 years and we are so happy that this deeply personal document of life is out in the world.`,
+    "credits": [{
+      "name": "Sam Walters",
+      "contribution": "Music"
+    }, {
+      "name": "Ko T. C. & Sam Walters",
+      "contribution": "Mixing"
+    }, {
+      "name": "elie mcafee-hahn",
+      "contribution": "Mastering"
+    }, ],
+    links: [{
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/album/centre-st",
+        background: "teal",
+        font: "white"
+      },
+      {
+        label: "Spotify",
+        link: "https://open.spotify.com/album/0W6ULIDs7xSPl0S5ShY68C?si=Bxl4svvuSHm-y6kcV0DEmQ&nd=1",
+        background: "greenyellow",
+        font: "black"
+      },
+      {
+        label: "Apple Music",
+        link: "https://music.apple.com/us/album/centre-st/1643794151",
+        background: "black",
+        font: "white"
+      }
+    ]
   },
   {
-    label: "Spotify",
-    link: "https://open.spotify.com/album/5zPhWDnFkYXk3XJpR0VUqm?si=7H8gkrZ5SwapnzhYjXWhSw ",
-    background: "greenyellow",
-    font: "black"
-  },
-  {
-    label: "Apple Music",
-    link: "https://music.apple.com/us/album/another-day-single/1631687479",
-    background: "black",
-    font: "white"
-  },
-  {
-    label: "Visualizer",
-    link: "https://www.pcotandy.org/visualizers/anotherDay ",
-    background: "white",
-    font: "black"
-  }
-  ]
-},
-{
-  cover: "./Assets/Centre Street/centreStCover.jpg",
-  color: "greenyellow",
-  name: "Centre St.",
-  artists: "Sam Walters",
-  description: `Sam Walters is a songwriter, recordist, nurse-in-training, and long time Coalition member based in Brooklyn, NY. Centre St was recorded with love and meticulous care over the course of 6 years and we are so happy that this deeply personal document of life is out in the world.`,
-
-  credits: "<br><br><br><strong>Sam Walters</strong> - Music <br><strong>Ko T. C. & Sam Walters</strong> - Mixing <br> <strong>elie mcafee-hahn</strong> - Mastering",
-  links: [
-    {
-      label: "Bandcamp",
-      link: "https://tandy.bandcamp.com/album/centre-st",
+    cover: "./Assets/Albums/tuesdayCover.png",
+    color: "purple",
+    name: "Tuesday's Universe",
+    artists: "Tuesday Hamilton",
+    description: "A virtual art gallery by Tuesday Hamilton, presented On-Line by a subset of the PCoTandy Web Division",
+    "credits": [{
+      "name": "Tuesday Hamilton",
+      "contribution": "art"
+    }, {
+      "name": "elie mcafee-hahn",
+      "contribution": "website"
+    }, {
+      "name": "<a href='https://tuesdaysuni.pcotandy.org/credits.html'>Various Artists</a>",
+      "contribution": "music"
+    }],
+    links: [{
+      label: "website",
+      link: "https://tuesdaysuni.pcotandy.org/",
       background: "teal",
       font: "white"
-    },
-    {
-      label: "Spotify",
-      link: "https://open.spotify.com/album/0W6ULIDs7xSPl0S5ShY68C?si=Bxl4svvuSHm-y6kcV0DEmQ&nd=1",
-      background: "greenyellow",
-      font: "black"
-    },
-    {
-      label: "Apple Music",
-      link: "https://music.apple.com/us/album/centre-st/1643794151",
-      background: "black",
-      font: "white"
-    }
-  ]
-},
-{
-  cover: "./Assets/Albums/tuesdayCover.png",
-  color: "purple",
-  name: "Tuesday's Universe",
-  artists: "Tuesday Hamilton",
-  description: "A virtual art gallery by Tuesday Hamilton, presented On-Line by a subset of the PCoTandy Web Division",
-  credits: "<br><br><br><strong>Tuesday Hamilton</strong> - art <br> <strong>elie mcafee-hahn</strong> - website  <br> <strong><a href='https://tuesdaysuni.pcotandy.org/credits.html'>Various Artists</a></strong> - music",
-  links: [{
-    label: "website",
-    link: "https://tuesdaysuni.pcotandy.org/",
-    background: "teal",
-    font: "white"
+    }]
+  },
+  {
+    "cover": "./Assets/Albums/Nick Bisceglia/Slow Gold/SlowGoldCover.png",
+    "name": "Slow Gold",
+    "color": "#ffffff",
+    "artists": "Nick Bisceglia",
+    "description": "✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼<br><br>\"I'm loath to quit the task of helping Nick realize these settings, so a few words before our ship sails to soften the blow of its leaving: for months, a few miles upriver from Emily's town, I saw the poetry working on him. Oftentimes I would find him in his study without so much as a candle lit, a full moon casting its negative shadow over jumbles of papers and experiments, singing softly by the window. Had I not been there to guide him through the ruggedest part of the journey (bouts of melancholy, brain fever, fits, etc.), the project surely would have failed. We were fortunate enough to leave that outermost place with what seventeen minutes of material we found. What else can be said of Emily's poetry that hasn't yet? The quaintness belies its extremity - to be touched by it is to apprehend Eternity.\"<br><br>-Bugnu, October 2022",
+    "contribution": "daguerreotype provided by",
+    "label": "Blamscamp",
+    "link": "https://pcotandy.itch.io/slow-gold",
+    "background": "#c59eff",
+    "font": "#000000",
+    "credits": [{
+      "name": "Emily Dickinson",
+      "contribution": "poetry"
+    }, {
+      "name": "Nick Bisceglia 2021-2022",
+      "contribution": "music"
+    }, {
+      "name": "Bugnu",
+      "contribution": "production"
+    }, {
+      "name": "elie",
+      "contribution": "mastering"
+    }, {
+      "name": "Amherst College Archives and Special Collections",
+      "contribution": "daguerreotype"
+    }],
+    "links": [{
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/slow-gold",
+      "background": "#75d1ff",
+      "font": "#000000"
+    }, {
+      "label": "Blamscamp",
+      "link": "https://pcotandy.itch.io/slow-gold",
+      "background": "#c59eff",
+      "font": "#000000"
+    }]
   }
-  ]
-}
 ];
 
 function showContent(e) {
@@ -342,7 +430,12 @@ function addWindow(release) {
           <h2>${albumList[i].name}</h2>
           <h3>${albumList[i].artists}</h3>
           <p>${albumList[i].description}</p>
-          <p class="credits">${albumList[i].credits}</p>
+          <p class="credits">`;
+
+      albumList[i].credits.forEach(credit => {
+        output += `<strong>${credit.name}</strong> - ${credit.contribution}<br>`;
+      });
+      output += `</p>
         </div>
         <div class="links">`;
       albumList[i].links.forEach(link => {
@@ -374,7 +467,10 @@ function closeWindow(window) {
 }
 
 function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  var pos1 = 0,
+    pos2 = 0,
+    pos3 = 0,
+    pos4 = 0;
   if (document.getElementById(elmnt.id).children[0]) {
     /* if present, the header is where you move the DIV from:*/
     document.getElementById(elmnt.id).children[0].onmousedown = dragMouseDown;
