@@ -298,8 +298,8 @@ const albumList = [{
       "background": "#75d1ff",
       "font": "#000000"
     }, {
-      "label": "Blamscamp",
-      "link": "https://pcotandy.itch.io/slow-gold",
+      "label": "Bisceglia Net",
+      "link": "https://nickbisceglia.pcotandy.org",
       "background": "#c59eff",
       "font": "#000000"
     }]
