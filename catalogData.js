@@ -280,7 +280,7 @@ const albumList = [{
       "name": "Emily Dickinson",
       "contribution": "poetry"
     }, {
-      "name": "Nick Bisceglia 2021-2022",
+      "name": "Nick Bisceglia",
       "contribution": "music"
     }, {
       "name": "Bugnu",
