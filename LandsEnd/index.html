@@ -7,6 +7,10 @@
 <title>Land's End Linx website</title>
 <style>
 
+:root {
+  --cursorX: 50vw;
+  --cursorY: 50vh;
+}
 body {
     background-image: url(https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/PCoTandy/main/Assets/Centre%20Street/anotherDayCover.jpg); /* The image used for background*/
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -84,6 +88,23 @@ background-color: #d6ddaa !important;
    position: relative;
 }
 
+/* Flashlight Overlay */
+/* 
+.backdrop {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 10vmax at var(--cursorX) var(--cursorY),
+    rgba(0,0,0,0) 0%,
+    rgba(0,0,0,.5) 80%,
+    rgba(0,0,0,.95) 100%
+  )
+} */
+
 .tandyLinx{
   position: relative;
   bottom: -5px;
@@ -125,11 +146,26 @@ background-color: #d6ddaa !important;
 
   <body class="w3-white">
 
+<script>
+  function update(e){
+  var x = e.clientX || e.touches[0].clientX
+  var y = e.clientY || e.touches[0].clientY
 
+  document.documentElement.style.setProperty('--cursorX', x + 'px')
+  document.documentElement.style.setProperty('--cursorY', y + 'px')
+}
+
+document.addEventListener('mousemove',update)
+document.addEventListener('touchmove',update)
+</script>
   <!-- The video -->
 <video autoplay muted loop id="myVideo">
-  <source src="rain.mp4" type="video/mp4">
+  <source src="shortlandsend.mp4" type="video/mp4">
 </video>
+
+<div class="backdrop">
+  Hello
+  </div>
 
 
 <div class="fixed">
