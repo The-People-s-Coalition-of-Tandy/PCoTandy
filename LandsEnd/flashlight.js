@@ -5,7 +5,10 @@ function update(e) {
   var y = e.clientY - rect.top; //y position within the element.
 
   document.documentElement.style.setProperty("--cursorX", x + "px");
-  document.documentElement.style.setProperty("--cursorY", y + "px");
+  document.documentElement.style.setProperty(
+    "--cursorY",
+    y + window.scrollY + "px"
+  );
 }
 
 function remove(e) {

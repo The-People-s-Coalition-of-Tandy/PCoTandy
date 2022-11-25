@@ -1,6 +1,6 @@
 body {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     font-family: Verdana, sans-serif;
 }
@@ -30,6 +30,7 @@ header {
     padding: 5px;
     border-radius: 17px;
     color: white;
+    letter-spacing: 1px;
 }
 
 .release-name {
@@ -59,10 +60,6 @@ header {
 .link:nth-of-type(odd) {
     background-color: rgb(42, 83, 28) !important;
 
-}
-
-.link:hover {
-    filter: invert();
 }
 
 .links {
@@ -102,33 +99,42 @@ svg {
     pointer-events: none;
 }
 
-span:hover,
-.pcot-logo:hover,
-footer img:hover {
-    animation: squigglevision .25s linear infinite;
-}
-
-
-main {
-    position: relative;
-    padding: 50px;
-    border: 10px rgb(40, 0, 77) ridge;
-}
-
 :root {
     --cursorX: 50vw;
     --cursorY: 50vh;
 }
 
-.cover {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: radial-gradient(circle 10vmax at var(--cursorX) var(--cursorY),
-            rgba(0, 0, 0, 0) 0%,
-            rgba(0, 0, 0, .5) 80%,
-            rgba(0, 0, 0, .90) 100%);
-    pointer-events: none;
+@media only screen and (min-width: 1000px) {
+    body {
+        justify-content: right;
+    }
+
+    main {
+        position: relative;
+        padding: 50px;
+        border: 10px rgb(40, 0, 77) ridge;
+    }
+
+    .cover {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: radial-gradient(circle 10vmax at var(--cursorX) var(--cursorY),
+                rgba(0, 0, 0, 0) 0%,
+                rgba(0, 0, 0, .5) 80%,
+                rgba(0, 0, 0, .90) 100%);
+        pointer-events: none;
+    }
+
+    span:hover,
+    .pcot-logo:hover,
+    footer img:hover {
+        animation: squigglevision .25s linear infinite;
+    }
+
+    .link:hover {
+        filter: invert();
+    }
 }
