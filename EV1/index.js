@@ -43,7 +43,7 @@ function init() {
         gltf.scene.position.set(0, -2, 0);
         scene.add(gltf.scene);
 
-        render();
+        // render();
       });
 
       loader.load("tandyLogoSpin.glb", function (gltf) {
@@ -57,7 +57,7 @@ function init() {
         gltf.scene.remove(gltf.scene.children[0]);
         scene.add(gltf.scene);
 
-        render(scene, camera);
+        // render(scene, camera);
       });
 
       loader.load("16untimed.glb", function (gltf) {
@@ -69,7 +69,7 @@ function init() {
         });
         scene.add(gltf.scene);
 
-        render(scene, camera);
+        // render(scene, camera);
       });
 
       loader.load("16untimed.glb", function (gltf) {
@@ -82,7 +82,7 @@ function init() {
         });
         scene.add(gltf.scene);
 
-        render(scene, camera);
+        // render(scene, camera);
       });
 
       loader.load("16untimed.glb", function (gltf) {
@@ -95,7 +95,7 @@ function init() {
         });
         scene.add(gltf.scene);
 
-        render(scene, camera);
+        // render(scene, camera);
       });
     });
 
@@ -162,7 +162,7 @@ function startSong() {
 
 function render() {
   var delta = clock.getDelta();
-  logoMixer?.update(delta);
+  // logoMixer?.update(delta);
   if (startSinging) {
     singerOneMixer.update(delta);
     singerTwoMixer.update(delta);
