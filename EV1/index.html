@@ -2,26 +2,26 @@
 
 <head>
 	<link rel="stylesheet" href="./index.css">
-<title>GLTF Demo</title>
+	<title>GLTF Demo</title>
+	<script type="importmap">
+		{
+			"imports": {
+				"three": "./three.module.min.js"
+			}
+		}
+		</script>
 </head>
 
 <body>
 	<audio preload="auto" src="./assets/EV1.wav" id="EV1">
 
-<div >
-	click + drag to move around scene
-	two finger drag to zoom
-</div>
+		<div>
+			click + drag to move around scene
+			two finger drag to zoom
+		</div>
 
-    <canvas id="bg" width="100%"></canvas>
-        <script type="importmap">
-			{
-				"imports": {
-					"three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.min.js"
-				}
-			}
-            </script>
-    <script type="module" src="./index.js"></script>
+		<canvas id="bg" width="100%"></canvas>
+		<script type="module" src="./index.js"></script>
 
 </body>
 
