@@ -39,7 +39,7 @@ function init() {
       const loader = new GLTFLoader().setPath("./assets/");
       loader.load("BoomBox.glb", function (gltf) {
         gltf.scene.scale.set(120, 120, 120);
-        // gltf.scene.scale.set(160, 600, 160) // weird tall boombox
+        // gltf.scene.scale.set(160, 600, 160); // weird tall boombox
         gltf.scene.position.set(0, -2, 0);
         scene.add(gltf.scene);
 
@@ -162,7 +162,7 @@ function startSong() {
 
 function render() {
   var delta = clock.getDelta();
-  logoMixer.update(delta);
+  logoMixer?.update(delta);
   if (startSinging) {
     singerOneMixer.update(delta);
     singerTwoMixer.update(delta);
