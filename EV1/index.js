@@ -175,7 +175,7 @@ function startSong() {
 function render() {
 
     var delta = clock.getDelta();
-    logoMixer.update(delta);
+    logoMixer?.update(delta);
     if (startSinging) {
         singerOneMixer.update(delta);
         singerTwoMixer.update(delta);
