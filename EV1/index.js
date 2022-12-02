@@ -7,7 +7,6 @@ let camera, scene, renderer;
 let logoMixer, singerOneMixer, singerTwoMixer, singerThreeMixer;
 let startSinging = false;
 let clock = new THREE.Clock();
-var raycaster, mouse;
 let bits = 30;
 
 init();
@@ -150,7 +149,10 @@ function startSong() {
 
 function render() {
   var delta = clock.getDelta();
-  // logoMixer?.update(delta);
+  if (logoMixer) {
+    logoMixer.update(delta);
+  }
+
   if (startSinging) {
     singerOneMixer.update(delta);
     singerTwoMixer.update(delta);
