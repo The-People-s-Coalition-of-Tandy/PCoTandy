@@ -6,7 +6,6 @@ button {
     background: none;
     border: none;
     width: 30%;
-    cursor: pointer;
     filter: url("#disFilter")
 }
 
@@ -27,6 +26,23 @@ svg {
 
 button img {
     width: 100%;
+    cursor: pointer;
+    transition: transform .15s cubic-bezier(.37,1.04,.67,1.92);
+}
+
+button img:hover {
+    transform: scale(.95);
+    transition: transform .15s cubic-bezier(.37,1.04,.67,1.92);
+}
+
+button:active {
+    transform: scale(.9);
+    transition: transform .2s ease;
+}
+
+@keyframes click {
+    from{transform: scale(1);}
+    to{transform: scale(.95);}
 }
 
 html {
