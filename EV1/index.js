@@ -22,10 +22,6 @@ function init() {
   camera.position.set(0, 0, 10);
 
   scene = new THREE.Scene();
-  raycaster = new THREE.Raycaster();
-  mouse = new THREE.Vector2();
-  // scene.background = new THREE.Color(0xffffff);
-
   // model
 
   new RGBELoader()
