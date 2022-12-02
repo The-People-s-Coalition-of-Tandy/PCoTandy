@@ -126,7 +126,8 @@ function init() {
   controls.update();
 
   window.addEventListener("resize", onWindowResize);
-  renderer.domElement.addEventListener("click", onClick, false);
+  const playButton = document.getElementById("playButton");
+  playButton.addEventListener("click", startSong);
 }
 
 function onWindowResize() {
@@ -134,21 +135,6 @@ function onWindowResize() {
   camera.updateProjectionMatrix();
 
   renderer.setSize(window.innerWidth, window.innerHeight);
-}
-
-function onClick() {
-  event.preventDefault();
-
-  mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
-  mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
-
-  raycaster.setFromCamera(mouse, camera);
-
-  var intersects = raycaster.intersectObjects(scene.children, true);
-
-  if ((intersects.length > 0) & (intersects[0].object.name === "BoomBox")) {
-    startSong();
-  }
 }
 
 function startSong() {

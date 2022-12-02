@@ -1,6 +1,6 @@
 body {
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     font-family: Verdana, sans-serif;
 }
@@ -105,10 +105,6 @@ svg {
 }
 
 @media only screen and (min-width: 1000px) {
-    body {
-        justify-content: right;
-    }
-
     main {
         position: relative;
         padding: 50px;

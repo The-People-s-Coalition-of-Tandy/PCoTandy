@@ -7,12 +7,26 @@
 </head>
 
 <body>
-	<audio preload="auto" src="./assets/EV1.wav" id="EV1">
-
-		<div>
-			click + drag to move around scene
-			two finger drag to zoom
+	<audio preload="auto" src="./assets/EV1.wav" id="EV1"></audio>
+		<div class="modal">
+			<button id="playButton">
+				<img src="./assets/play.png" />
+			</button>
 		</div>
+		<svg id="svg" preserveAspectRatio="none" width="30%" height="30%">
+			<defs>
+			  <filter id="disFilter">
+				<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="1" seed="1" result="turbulence">
+				  <animate attributeName="baseFrequency" values="0.02;0.006;" dur="30s" begin="0"
+					repeatCount="indefinite" />
+				</feTurbulence>
+				<feDisplacementMap in="SourceGraphic" in2="turbulence" scale="15" xChannelSelector="R" yChannelSelector="B"
+				  result="displacement" />
+			  </filter>
+			</defs>
+			<g id="background">
+			</g>
+		  </svg>
 
 		<canvas id="bg" width="100%"></canvas>
 		<!-- Remove this when import maps will be widely supported -->

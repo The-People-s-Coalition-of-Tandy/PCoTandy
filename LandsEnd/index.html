@@ -1,226 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="stylesheet" href="LandsEndTL.css">
-<title>Land's End Linx website</title>
-<style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./flashlight.css">
+    <title>Land's End Linx website</title>
+    <link rel="icon" href="../Assets/PCoTandyLogo.ico">
 
-:root {
-  --cursorX: 50vw;
-  --cursorY: 50vh;
-}
-body {
-    background-image: url(https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/PCoTandy/main/Assets/Centre%20Street/anotherDayCover.jpg); /* The image used for background*/
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-position: center; /* Center the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-}
+</head>
 
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="shortlandsend.mp4" type="video/mp4">
+    </video>
+    <main id="main">
 
-.image-container {
-  text-align: center;
-  width: 100%;
-}
+        <img src="../Assets/Centre%20Street/TandyLogoSpiro.png" alt="People's Coalition of Tandy Logo"
+            class="pcot-logo"><br>
+        <header>
+            <p>
+                Welcome to <a href="https://youtu.be/X3XpQz00XVc" style="text-decoration: none; color: inherit;">
+                    <span class="release-name">Land's End</span></a>
+                <br><br>
+                a new song by
+                <b><a style="color: white; text-underline-offset: 3px;" href="https://kotc.life/">
+                        Ko T.C.</a></b>
+                <br>
+                <p style="color: rgb(36, 119, 47); font-weight: bold;">(video dir. <a
+                        style="color: rgb(36, 119, 47); cursor: pointer;" href="https://jooheepark.com/">Joohee
+                        Park</a>)</p>
+            </p>
+        </header>
+        <div class="links">
+            <a href="https://youtu.be/X3XpQz00XVc" class="link">
+                Visualizer
+            </a>
+            <a href="https://tandy.bandcamp.com/track/another-day" class="link">
+                Bandcamp
+            </a>
+            <a href="https://open.spotify.com/album/5zPhWDnFkYXk3XJpR0VUqm?si=7H8gkrZ5SwapnzhYjXWhSw" class="link">
+                Spotify
+            </a>
+            <a href="https://music.apple.com/us/album/another-day-single/1631687479" class="link">
+                Apple Music
+            </a>
+            <a href="https://tandy.bandcamp.com/album/centre-st" class="link">
+                Album Pre-Order
+            </a>
+            <a href="https://www.pcotandy.org/signup.html" class="link">
+                Subscribe
+            </a>
+        </div>
+        <footer>
+            <img src="../Assets/Linx/elieExplosionIcon.gif" alt="Gif of pixel fireworks">
+            <a href="https://www.pcotandy.org"> <img class="tandyLinx" src="../Assets/Linx/tandyLinx1.png"
+                    alt="Tandy Linx logo"></a>
+            <img src="../Assets/Linx/elieExplosionIcon.gif" alt="Gif of pixel fireworks">
+        </footer>
+        <div class="cover"></div>
+    </main>
+    <svg>
+        <defs>
+            <filter id="turbulence-1">
+                <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="2" data-filterId="3" />
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
+            </filter>
 
-.links-container {
-  display: flex;
-  flex-direction: column;
-  jusify-content: center;
-  align-items: center;
-}
+            <filter id="turbulence-2">
+                <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" data-filterId="3" />
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
+            </filter>
 
-.link {
-  min-width: 50% !important;
-}
+            <filter id="turbulence-3">
+                <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" data-filterId="3" />
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
+            </filter>
 
-@media (min-width: 1200px) .container {
-  max-width: 1140px;
-}
-@media (min-width: 992px) .container {
-  max-width: 960px;
-}
-@media (min-width: 768px) {
-.container {
-    max-width: 720px;
-  }
+            <filter id="turbulence-4">
+                <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" data-filterId="3" />
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
+            </filter>
 
-.link {
-    width: 100%;
-  }
-}
-@media (min-width: 576px) {
-.container {
-    max-width: 540px;
-  }
-}
+            <filter id="turbulence-5">
+                <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" data-filterId="3" />
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
+            </filter>
 
-.w3-purple, .w3-hover-purple:hover {
-color: #fff!important;
-background-color: #d6ddaa !important;
-}
-
-.w3-pink,.w3-hover-pink:hover{color:#fff!important;background-color:#f6da15!important;text:#d6ddaa!important}
-
-.w3-text-red,.w3-hover-text-red:hover{color:#f44336!important; border-radius:25px; background-color: lightblue}
-
-
-.red{
-  color:#f44336;
-  border-radius: 25px;
-}
-
-.star {
-
-  background-color: #f6da15 !important;
-  border: 4px ridge #d6ddaa;
-}
-
-.tandyLinxContainer{
-   position: relative;
-}
-
-/* Flashlight Overlay */
-/* 
-.backdrop {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  pointer-events: none;
-  background: radial-gradient(
-    circle 10vmax at var(--cursorX) var(--cursorY),
-    rgba(0,0,0,0) 0%,
-    rgba(0,0,0,.5) 80%,
-    rgba(0,0,0,.95) 100%
-  )
-} */
-
-.tandyLinx{
-  position: relative;
-  bottom: -5px;
-  width: 400px;
-  filter: contrast(150%);
-
-}
-
-.info{
-  color: blue;
-
-}
-
-.fixed{
+            <filter id="turbulence-6">
+                <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="2" data-filterId="3" />
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
+            </filter>
 
 
-  position: fixed;
- bottom: 0;
- /* background: rgba(0, 0, 0, 0.5); */
- /* color: #f1f1f1; */
- width: 100%;
- padding: 20px;
-}
+            <filter id="turbulence-8">
+                <feTurbulence type="fractalNoise" baseFrequency="0.4" numOctaves="2" data-filterId="3" />
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
+            </filter>
 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: 0;
-}
+            <filter id="turbulence-9">
+                <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="2" data-filterId="3" />
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
+            </filter>
 
+            <filter id="turbulence-10">
+                <feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="2" data-filterId="3" />
+                <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" scale="25" />
+            </filter>
+        </defs>
+    </svg>
+    <script src="./flashlight.js">
+    </script>
+</body>
 
-</style>
-  </head>
-
-
-  <body class="w3-white">
-
-<script>
-  function update(e){
-  var x = e.clientX || e.touches[0].clientX
-  var y = e.clientY || e.touches[0].clientY
-
-  document.documentElement.style.setProperty('--cursorX', x + 'px')
-  document.documentElement.style.setProperty('--cursorY', y + 'px')
-}
-
-document.addEventListener('mousemove',update)
-document.addEventListener('touchmove',update)
-</script>
-  <!-- The video -->
-<video autoplay muted loop id="myVideo">
-  <source src="shortlandsend.mp4" type="video/mp4">
-</video>
-
-<div class="backdrop">
-  Hello
-  </div>
-
-
-<div class="fixed">
-    <!-- Content container -->
-    <div class="container">
-
-      <!-- Image and name container. Change to your picture here. -->
-    <div class="image-container">
-    <img src="https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/PCoTandy/main/Assets/Centre%20Street/TandyLogoSpiro.png" class="w3-margin" alt="" max-width="100%" height="150px" style="border-radius: 50%; alt=">
-
-
-
-     <div class="w3-text-red">
-     <p class="" style="">
-     Welcome to
-     <span class="w3-tag w3-large w3-round star w3-text-red">
-        <strong>Land's End</strong>
-      </span>
-      <br>
-
-      a new song/video by Ko T. C.
-      <br>
-      <span style="color: white; text-size:8px">
-        (video dir. Joohee Park).
-      </span>
-      </p>
-      </div>
-
-    <!-- Links section 1. Replace the # inside of the "" with your links. -->
-    <div class="links-container">
-      <a href="https://www.pcotandy.org/visualizers/anotherDay" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-facebook"> </i>Visualizer</a>
-      <br>
-      <a href="https://tandy.bandcamp.com/track/another-day" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-facebook"> </i>Bandcamp</a>
-      <br>
-      <a href="https://open.spotify.com/album/5zPhWDnFkYXk3XJpR0VUqm?si=7H8gkrZ5SwapnzhYjXWhSw " class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-instagram"> </i>Spotify</a>
-      <br>
-      <a href="https://music.apple.com/us/album/another-day-single/1631687479" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fab fa-twitter"> </i>Apple Music</a>
-      <br>
-      <a href="https://tandy.bandcamp.com/album/centre-st" class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fa fa-code"> </i>Album Pre-Order</a>
-      <br>
-      <a href="https://www.pcotandy.org/signup.html " class="w3-button w3-hover-pink w3-large w3-round w3-purple w3-border link" target="_blank"><i class="fa fa-code"> </i>Subscribe</a>
-    </div>
-  </div>
-</div>
-<center>
-
-<div class="tandyLinxContainer">
-  <img  src="elieExplosionIcon.gif" alt="">
-  <a href="https://www.pcotandy.org"> <img class="tandyLinx" src="tandyLinx1.png" alt=""></a>
-  <img src="elieExplosionIcon.gif" alt="">
-</div>
-
-</center>
-
-
-</div>
-  </body>
 </html>
