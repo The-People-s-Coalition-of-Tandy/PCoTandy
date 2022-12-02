@@ -43,10 +43,12 @@ button:active {
 .modal.playFade {
     opacity: 0;
     transition: opacity 1s linear;
+    pointer-events: none;
 }
 
 .modal.playFade button {
     transform: scale(.9);
+    pointer-events: none;
 }
 
 @keyframes click {
