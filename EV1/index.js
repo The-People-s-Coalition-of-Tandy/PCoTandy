@@ -138,6 +138,8 @@ function onWindowResize() {
 }
 
 function startSong() {
+  const playButton = document.getElementById("playButton");
+  playButton.parentElement.classList.add("playFade");
   if (!startSinging) {
     document.getElementById("EV1").play();
     setTimeout(() => {
