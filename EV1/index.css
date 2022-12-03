@@ -35,7 +35,7 @@ button img:hover {
     transition: transform .15s cubic-bezier(.37,1.04,.67,1.92);
 }
 
-button:active {
+button:active img {
     transform: scale(.9);
     transition: transform .2s ease;
 }
@@ -47,13 +47,7 @@ button:active {
 }
 
 .modal.playFade button {
-    transform: scale(.9);
     pointer-events: none;
-}
-
-@keyframes click {
-    from{transform: scale(1);}
-    to{transform: scale(.95);}
 }
 
 html {
@@ -69,11 +63,6 @@ html {
         opacity: 1;
     }
 }
-
-/* canvas {
-    animation: fade 1s backwards linear;
-    animation-delay: .7s;
-} */
 
 audio {
     display: none;
