@@ -1,44 +1,41 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="./index.css">
-	<title>EV1 Visualizer</title>
-	<link rel="icon" href="../Assets/PCoTandyLogo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="ev1Linx.css">
 </head>
 
 <body>
-	<audio preload="auto" src="./assets/EV1.wav" id="EV1"></audio>
-		<div class="modal">
-			<button id="playButton">
-				<img src="./assets/play.png" />
-			</button>
-		</div>
-		<svg id="svg" preserveAspectRatio="none" width="30%" height="30%">
-			<defs>
-			  <filter id="disFilter">
-				<feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="1" seed="1" result="turbulence">
-				  <animate attributeName="baseFrequency" values="0.005;0.02;0.005;" dur="7s" begin="0"
-					repeatCount="indefinite" />
-				</feTurbulence>
-				<feDisplacementMap in="SourceGraphic" in2="turbulence" scale="15" xChannelSelector="R" yChannelSelector="B"
-				  result="displacement" />
-			  </filter>
-			</defs>
-		  </svg>
-
-		<canvas id="bg" width="100%"></canvas>
-		<!-- Remove this when import maps will be widely supported -->
-		<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
-
-		<script type="importmap">
-			{
-						"imports": {
-							"three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.min.js"
-						}
-					}
-				</script>
-		<script type="module" src="./index.js"></script>
-
+    <main>
+        <img src="../Assets/TandyIconSpiro200x200.png" alt="People's Coalition of Tandy Logo"
+            class="pcot-logo"><br>
+        <header>
+            <p>
+                Welcome to <span class="release-name">EV1</span><br><br>
+                a new song <a href=""><b>LE1</b></a>
+            </p>
+        </header>
+        <div class="links">
+            <a href="../visualizers/EV1/index.html" class="link">
+                Visualizer
+            </a>
+            <a href="https://pcotandy.itch.io/ev1" class="link">
+                Blamscamp
+            </a">
+            <a href="https://tandy.bandcamp.com/album/ev1" class="link">
+                Bandcamp
+            </a>
+            <a href="spotify:album:2eRgdkgZ1plZufuDXsZO00" class="link">
+                Spotify
+            </a>
+        </div>
+        <footer>
+            <img src="../Assets/Linx/elieExplosionIcon.gif" alt="Gif of pixel fireworks">
+            <a href="https://www.pcotandy.org"> <img class="tandyLinx" src="../Assets/Linx/tandyLinx1.png"
+                    alt="Tandy Linx logo"></a>
+            <img src="../Assets/Linx/elieExplosionIcon.gif" alt="Gif of pixel fireworks">
+        </footer>
+    </main>
 </body>
 
 </html>

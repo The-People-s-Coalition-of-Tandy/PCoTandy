@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assets/Albums/EV1/ev1.jpg);
+    background-color: blue;
+    background-size: cover;
+    background-position: 0%;
+    font-family: Verdana,sans-serif;
+}
+
+img{
+
+        -webkit-filter: invert(1);
+        filter: invert(1);
+     
+}
+
+.pcot-logo {
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    text-align: center;
+    background-color: azure;
+    border: 2px solid gray;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 17px;
+    max-width: 35vw;
+}
+
+.release-name {
+    font-size: 13pt;
+    font-weight: bold;
+    border: 5px blueviolet solid;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.link {
+    background-color: pink;
+    height: 45px;
+    font-size: 18pt;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px outset gray;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    line-height: 40px;
+}
+
+.link:hover {
+    background-color: hotpink;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    padding: 20px;
+}
