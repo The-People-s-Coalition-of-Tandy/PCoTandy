@@ -13,6 +13,10 @@ button {
     button {
         filter: none;
     }
+
+    .credits {
+        font-size: 1.5rem;
+    }
 }
 
 svg {
@@ -70,6 +74,20 @@ button:active img {
     font-size: 50pt;
     text-align: center;
     color: white;
+}
+
+.credits {
+    color: white;
+    bottom: 20px;
+    right: 30px;
+    position: absolute;
+    letter-spacing: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.credits a {
+    color: rgb(255, 251, 246);
+    text-underline-offset: 7px;
 }
 
 @keyframes loading {
