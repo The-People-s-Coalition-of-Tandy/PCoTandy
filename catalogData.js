@@ -410,6 +410,7 @@ const albumList = [
       },
     ],
   },
+  { "cover": "./Assets/Albums/EV1/Ev1 Cover Final.png", "name": "LE1", "color": "#000000", "artists": "LE1", "description": "released December 22, 2022\n\n", "contribution": "Everything Else", "label": "Spotify", "link": "spotify:album:2eRgdkgZ1plZufuDXsZO00", "background": "#00a822", "font": "#ffffff", "credits": [{ "name": "Felix Davis @ Metropolis Studios", "contribution": "Mastering Engineer" }, { "name": "LE1", "contribution": "Everything Else" }], "links": [{ "label": "Visualizer", "link": "https://www.pcotandy.org/visualizers/EV1/", "background": "#4e00c2", "font": "#c800ff" }, { "label": "Blamscamp", "link": "https://pcotandy.itch.io/ev1", "background": "#ff0000", "font": "#ffffff" }, { "label": "Bandcamp", "link": "https://tandy.bandcamp.com/album/ev1", "background": "#009dff", "font": "#fafafa" }, { "label": "Spotify", "link": "spotify:album:2eRgdkgZ1plZufuDXsZO00", "background": "#00a822", "font": "#ffffff" }] }
 ];
 
 function showContent(e) {
