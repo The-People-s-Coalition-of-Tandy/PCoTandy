@@ -9,6 +9,12 @@ button {
     filter: url("#disFilter")
 }
 
+@media only screen and (max-width: 1000px) {
+    button {
+        filter: none;
+    }
+}
+
 svg {
     visibility: hidden;
     position: absolute;
@@ -27,12 +33,12 @@ svg {
 button img {
     width: 100%;
     cursor: pointer;
-    transition: transform .15s cubic-bezier(.37,1.04,.67,1.92);
+    transition: transform .15s cubic-bezier(.37, 1.04, .67, 1.92);
 }
 
 button img:hover {
     transform: scale(.95);
-    transition: transform .15s cubic-bezier(.37,1.04,.67,1.92);
+    transition: transform .15s cubic-bezier(.37, 1.04, .67, 1.92);
 }
 
 button:active img {
@@ -49,6 +55,43 @@ button:active img {
 .modal.playFade button {
     pointer-events: none;
 }
+
+.modal button {
+    transition: opacity linear 1s;
+}
+
+.modal .hidden {
+    display: none;
+    opacity: 0%;
+    transition: opacity linear 1s;
+}
+
+#loader {
+    font-size: 50pt;
+    text-align: center;
+    color: white;
+}
+
+@keyframes loading {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(2);
+    }
+}
+
+#loader span {
+    animation: loading .6s linear infinite alternate;
+    margin: 10px;
+    display: inline-block;
+}
+
+#loader span:nth-of-type(odd) {
+    animation-delay: .6s;
+}
+
 
 html {
     background-image: url("./assets/3.jpeg");

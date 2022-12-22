@@ -1,3 +1,4 @@
+console.log("loading");
 import * as THREE from "three";
 import { OrbitControls } from "https://unpkg.com/three@0.128.0/examples/jsm/controls/OrbitControls.js";
 import { GLTFLoader } from "https://unpkg.com/three@0.128.0/examples/jsm/loaders/GLTFLoader.js";
@@ -122,7 +123,12 @@ function init() {
 
   window.addEventListener("resize", onWindowResize);
   const playButton = document.getElementById("playButton");
+  const loader = document.getElementById("loader");
   playButton.addEventListener("click", startSong);
+  setTimeout(() => {
+    loader.classList.add("hidden");
+    playButton.classList.remove("hidden");
+  }, 2000);
 }
 
 function onWindowResize() {
