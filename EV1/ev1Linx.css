@@ -30,7 +30,9 @@ header {
     margin-bottom: 15px;
     padding: 5px;
     border-radius: 17px;
-    max-width: 35vw;
+    /* width: 50vw; */
+    width: fit-content;
+    margin:auto;
 }
 
 .release-name {
