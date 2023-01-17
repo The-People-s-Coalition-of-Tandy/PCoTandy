@@ -269,7 +269,7 @@ const albumList = [
     ],
   },
   {
-    cover: "./Assets/Albums/tuesdayCover.png",
+    cover: "./Assets/Albums/Tuesdays Uni/Cover/tuesdayCover.png",
     color: "purple",
     name: "Tuesday's Universe",
     artists: "Tuesday Hamilton",
