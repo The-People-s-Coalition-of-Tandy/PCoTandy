@@ -1,5 +1,4 @@
-const albumList = [
-  {
+const albumList = [{
     cover: "./Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
     color: "pink",
     name: "30th Anniversary GM Smoidi Light General Midi Competition",
@@ -17,10 +16,9 @@ const albumList = [
     The competition takes place in the Spring every year because March 7th is the MID-POINT between Ikutaru Kakehashi 's (from Roland) and Dave Smith's (from Sequential Circuits) birthdays<br>
     This competition is meant to honor and spread appreciation<br>
     for their dedicated work, along with all of those at the Japan MIDI Standards Committee(JMSC) and the American MIDI Manufacturers Association(MMA) !`,
-    credits: [
-      {
-        name: "",
-        contribution: `Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022" 300 Competition!<br>
+    credits: [{
+      name: "",
+      contribution: `Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022" 300 Competition!<br>
       <br>
       And congratulations to all of our Category Award Winners :<br><br>
   
@@ -39,10 +37,8 @@ const albumList = [
       Watercolors Award Winner: Scuzz McGuzz<br><br>
   
       Audio Engineering Award Winner: 31i3`,
-      },
-    ],
-    links: [
-      {
+    }, ],
+    links: [{
         label: "Bandcamp",
         link: "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
         background: "teal",
@@ -63,8 +59,7 @@ const albumList = [
     name: "Tetso Cube Light Ride",
     artists: "elie mcafee-hahn",
     description: "We call ourselves tandy so people know who we are",
-    credits: [
-      {
+    credits: [{
         name: "elie mcafee-hahn",
         contribution: "everything",
       },
@@ -73,8 +68,7 @@ const albumList = [
         contribution: "Mastering",
       },
     ],
-    links: [
-      {
+    links: [{
         label: "Bandcamp",
         link: "https://tandy.bandcamp.com/album/tetso-cube-lightride",
         background: "teal",
@@ -111,8 +105,7 @@ const albumList = [
         The disappearing ink sinks from page to page, wetting with wist and longing the parchment.<br><br>
         
         The soaked book dries from its extravagant, twisted shapes into warm, familiar cloth—every stage inscribed into the seams as harmonics in the soul of a bell. Neither method nor madness could stir the flutter of the heart like hummingbird wings in each character's tentative steps towards the beautiful, dreadful evening.`,
-    credits: [
-      {
+    credits: [{
         name: "Sam Walters",
         contribution: "Music",
       },
@@ -129,8 +122,7 @@ const albumList = [
         contribution: "Mastering",
       },
     ],
-    links: [
-      {
+    links: [{
         label: "Full Album",
         link: "https://tandy.bandcamp.com/album/centre-st",
         background: "pink",
@@ -172,8 +164,7 @@ const albumList = [
     In the face great peril, you must now choose your own destiny. Will you rise to the occasion? Will the sands of regret be deposited back into your broken hourglass, renewed as crystals of possibility? Or will the cold crescendo of time wash us back to familiar shores?
     <br><br>
     Only you can decide…`,
-    credits: [
-      {
+    credits: [{
         name: "Sam Walters",
         contribution: "Music",
       },
@@ -194,8 +185,7 @@ const albumList = [
         contribution: "Mastering",
       },
     ],
-    links: [
-      {
+    links: [{
         label: "Full Album",
         link: "https://tandy.bandcamp.com/album/centre-st",
         background: "pink",
@@ -233,8 +223,7 @@ const albumList = [
     name: "Centre St.",
     artists: "Sam Walters",
     description: `Sam Walters is a songwriter, recordist, nurse-in-training, and long time Coalition member based in Brooklyn, NY. Centre St was recorded with love and meticulous care over the course of 6 years and we are so happy that this deeply personal document of life is out in the world.`,
-    credits: [
-      {
+    credits: [{
         name: "Sam Walters",
         contribution: "Music",
       },
@@ -247,8 +236,7 @@ const albumList = [
         contribution: "Mastering",
       },
     ],
-    links: [
-      {
+    links: [{
         label: "Bandcamp",
         link: "https://tandy.bandcamp.com/album/centre-st",
         background: "teal",
@@ -273,10 +261,8 @@ const albumList = [
     color: "purple",
     name: "Tuesday's Universe",
     artists: "Tuesday Hamilton",
-    description:
-      "A virtual art gallery by Tuesday Hamilton, presented On-Line by a subset of the PCoTandy Web Division",
-    credits: [
-      {
+    description: "A virtual art gallery by Tuesday Hamilton, presented On-Line by a subset of the PCoTandy Web Division",
+    credits: [{
         name: "Tuesday Hamilton",
         contribution: "art",
       },
@@ -289,29 +275,25 @@ const albumList = [
         contribution: "music",
       },
     ],
-    links: [
-      {
-        label: "website",
-        link: "https://tuesdaysuni.pcotandy.org/",
-        background: "teal",
-        font: "white",
-      },
-    ],
+    links: [{
+      label: "website",
+      link: "https://tuesdaysuni.pcotandy.org/",
+      background: "teal",
+      font: "white",
+    }, ],
   },
   {
     cover: "./Assets/Albums/Nick Bisceglia/Slow Gold/SlowGoldCover.png",
     name: "Slow Gold",
     color: "#ffffff",
     artists: "Nick Bisceglia",
-    description:
-      "✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼<br><br>\"I'm loath to quit the task of helping Nick realize these settings, so a few words before our ship sails to soften the blow of its leaving: for months, a few miles upriver from Emily's town, I saw the poetry working on him. Oftentimes I would find him in his study without so much as a candle lit, a full moon casting its negative shadow over jumbles of papers and experiments, singing softly by the window. Had I not been there to guide him through the ruggedest part of the journey (bouts of melancholy, brain fever, fits, etc.), the project surely would have failed. We were fortunate enough to leave that outermost place with what seventeen minutes of material we found. What else can be said of Emily's poetry that hasn't yet? The quaintness belies its extremity - to be touched by it is to apprehend Eternity.\"<br><br>-Bugnu, October 2022",
+    description: "✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼<br><br>\"I'm loath to quit the task of helping Nick realize these settings, so a few words before our ship sails to soften the blow of its leaving: for months, a few miles upriver from Emily's town, I saw the poetry working on him. Oftentimes I would find him in his study without so much as a candle lit, a full moon casting its negative shadow over jumbles of papers and experiments, singing softly by the window. Had I not been there to guide him through the ruggedest part of the journey (bouts of melancholy, brain fever, fits, etc.), the project surely would have failed. We were fortunate enough to leave that outermost place with what seventeen minutes of material we found. What else can be said of Emily's poetry that hasn't yet? The quaintness belies its extremity - to be touched by it is to apprehend Eternity.\"<br><br>-Bugnu, October 2022",
     contribution: "daguerreotype provided by",
     label: "Blamscamp",
     link: "https://pcotandy.itch.io/slow-gold",
     background: "#c59eff",
     font: "#000000",
-    credits: [
-      {
+    credits: [{
         name: "Emily Dickinson",
         contribution: "poetry",
       },
@@ -332,8 +314,7 @@ const albumList = [
         contribution: "daguerreotype",
       },
     ],
-    links: [
-      {
+    links: [{
         label: "Bandcamp",
         link: "https://tandy.bandcamp.com/album/slow-gold",
         background: "#75d1ff",
@@ -358,8 +339,7 @@ const albumList = [
     link: "https://music.apple.com/us/artist/ko-t-c/1503270360",
     background: "#004730",
     font: "#bed5c4",
-    credits: [
-      {
+    credits: [{
         name: "<a href='https://scottieharvey.com/'>Scottie Harvey</a>",
         contribution: "Video direction",
       },
@@ -373,12 +353,10 @@ const albumList = [
       },
       {
         name: "Heather Jones @ <a href='https://sobig.studio/'>So Big Auditory</a>",
-        contribution:
-          "Mastering <br><br> <iframe width='90%' height='auto' style='border: 6px ridge #651d87' src='https://www.youtube-nocookie.com/embed/X3XpQz00XVc?controls=0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+        contribution: "Mastering <br><br> <iframe width='90%' height='auto' style='border: 6px ridge #651d87' src='https://www.youtube-nocookie.com/embed/X3XpQz00XVc?controls=0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
       },
     ],
-    links: [
-      {
+    links: [{
         label: "Youtube",
         link: "https://www.youtube.com/watch?v=X3XpQz00XVc",
         background: "#83089b",
@@ -410,7 +388,97 @@ const albumList = [
       },
     ],
   },
-  { "cover": "./Assets/Albums/EV1/Ev1 Cover Final.png", "name": "EV1", "color": "#000000", "artists": "LE1", "description": "released December 22, 2022\n\n", "contribution": "Everything Else", "label": "Spotify", "link": "spotify:album:2eRgdkgZ1plZufuDXsZO00", "background": "#00a822", "font": "#ffffff", "credits": [{ "name": "Felix Davis @ Metropolis Studios", "contribution": "Mastering Engineer" }, { "name": "LE1", "contribution": "Everything Else" }], "links": [{ "label": "Visualizer", "link": "https://www.pcotandy.org/visualizers/EV1/", "background": "#4e00c2", "font": "#c800ff" }, { "label": "Blamscamp", "link": "https://pcotandy.itch.io/ev1", "background": "#ff0000", "font": "#ffffff" }, { "label": "Bandcamp", "link": "https://tandy.bandcamp.com/album/ev1", "background": "#009dff", "font": "#fafafa" }, { "label": "Spotify", "link": "spotify:album:2eRgdkgZ1plZufuDXsZO00", "background": "#00a822", "font": "#ffffff" }] }
+  {
+    "cover": "./Assets/Albums/EV1/Ev1 Cover Final.png",
+    "name": "EV1",
+    "color": "#000000",
+    "artists": "LE1",
+    "description": "released December 22, 2022\n\n",
+    "contribution": "Everything Else",
+    "label": "Spotify",
+    "link": "spotify:album:2eRgdkgZ1plZufuDXsZO00",
+    "background": "#00a822",
+    "font": "#ffffff",
+    "credits": [{
+      "name": "Felix Davis @ Metropolis Studios",
+      "contribution": "Mastering Engineer"
+    }, {
+      "name": "LE1",
+      "contribution": "Everything Else"
+    }],
+    "links": [{
+      "label": "Visualizer",
+      "link": "https://www.pcotandy.org/visualizers/EV1/",
+      "background": "#4e00c2",
+      "font": "#c800ff"
+    }, {
+      "label": "Blamscamp",
+      "link": "https://pcotandy.itch.io/ev1",
+      "background": "#ff0000",
+      "font": "#ffffff"
+    }, {
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/ev1",
+      "background": "#009dff",
+      "font": "#fafafa"
+    }, {
+      "label": "Spotify",
+      "link": "spotify:album:2eRgdkgZ1plZufuDXsZO00",
+      "background": "#00a822",
+      "font": "#ffffff"
+    }]
+  },
+  {
+    "cover": "./Assets/Albums/BLUE DISH/Into the Blue/cover.jpg",
+    "name": "Into the Blue",
+    "color": "#0019ff",
+    "artists": "BLUE DISH",
+    "description": "Soaring melodies and soothing tones, BLUE DISH’s sophomore album welcomes you Into the Blue. Drawing upon a vast array of influences — from Jazz to Blues (and even Classical) — BLUE DISH defies genre at every moment. Rather than rushing the album to meet a deadline, the duo took their time, finding the right melodies, the right chords, and the right Sound. \n\n",
+    "contribution": "Mixing and Mastering",
+    "label": "Apple Music",
+    "link": "https://music.apple.com/gy/album/into-the-blue-ep/1667128119",
+    "background": "#ff0000",
+    "font": "#ffffff",
+    "credits": [{
+      "name": "Julie Bodian",
+      "contribution": "Gut String"
+    }, {
+      "name": "Elie Mcafee-Hahn",
+      "contribution": "Steel String"
+    }, {
+      "name": "Joe Misterovich",
+      "contribution": "Mixing (Track 2)"
+    }, {
+      "name": "Elie Mcafee-Hahn",
+      "contribution": "Mixing (Tracks 1, 3, & 4) and Mastering"
+    }],
+    "links": [{
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/into-the-blue",
+      "background": "#0432ff",
+      "font": "#feffff"
+    }, {
+      "label": "Website",
+      "link": "https://bluedish.pcotandy.org/",
+      "background": "#bbbbbb",
+      "font": "#001dff"
+    }, {
+      "label": "Tandylinx",
+      "link": "https://bluedish.pcotandy.org/linx/index.html",
+      "background": "#ffffff",
+      "font": "#000000"
+    }, {
+      "label": "Spotify",
+      "link": "https://open.spotify.com/album/70TpPLvfOX9fiextH1acUa?si=A376m_YjQFGXVZF4HJ1OkQ",
+      "background": "#06af0b",
+      "font": "#000000"
+    }, {
+      "label": "Apple Music",
+      "link": "https://music.apple.com/gy/album/into-the-blue-ep/1667128119",
+      "background": "#ff0000",
+      "font": "#ffffff"
+    }]
+  }
 ];
 
 function showContent(e) {
@@ -427,9 +495,9 @@ function spanify(text) {
   const maxLength = 21;
   let result = "";
   for (let i = 0; i < Math.min(text.length, maxLength); i++) {
-    text[i] === " "
-      ? (result += `<span>&nbsp</span>`)
-      : (result += `<span>${text[i]}</span>`);
+    text[i] === " " ?
+      (result += `<span>&nbsp</span>`) :
+      (result += `<span>${text[i]}</span>`);
   }
   if (text.length > maxLength) {
     for (let j = 0; j < 3; j++) {
