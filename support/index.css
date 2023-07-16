@@ -1,0 +1,61 @@
+@font-face {
+    font-family: myriad;
+    src: url(../Assets/Fonts/Myriad\ Pro\ Regular.ttf);
+}
+
+.carousel {
+    color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel img {
+    width: 20%;
+    max-width: 300px;
+    filter: drop-shadow( 0px 0px 20px black)
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://bluedish.pcotandy.org/linx/Assets/wood1.png");
+    font-family: myriad;
+}
+
+.text-container {
+    background-color: rgb(255, 197, 115);
+    box-shadow: 0px -5px 30px black;
+    padding: 20px;
+    background-image: url("./Assets/crinklepaper.png");
+    background-size: 40px;
+    color: whitesmoke;
+}
+
+.text {
+    max-width: 1000px;
+    background-color: rgba(250, 235, 215, 0.702);
+    color: black;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.contact {
+    background: rgba(0, 3, 92, 0.656);
+    padding: 10px;
+    padding-top: 20px;
+    border: 5px rgb(70, 42, 7) ridge;
+    margin-top: 15px;
+    text-align: center;
+}
+
+a, a:visited {
+    color: rgb(0, 159, 0);
+    color: rgb(0, 159, 0);
+}
+
+.contact h1 {
+    margin: 0;
+}
