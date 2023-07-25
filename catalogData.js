@@ -478,6 +478,39 @@ const albumList = [{
       "background": "#ff0000",
       "font": "#ffffff"
     }]
+  },
+  {
+    "cover": "./Assets/Albums/Katarina Mazur/Tubis/cover-min.jpg",
+    "name": "Tubis",
+    "color": "#e1b600",
+    "artists": "Katarina Mazur",
+    "description": "Tubis is an audio-visual meditation on Ohio’s clay-rich soil. A musical piece written for 5 tubas and electronics, the music was originally composed as part of an installation in composer Katarina Mazur’s backyard, and was presented via a wireless speaker hidden in a large rusty tube.\n\n“Forgotten histories enshrined in a living sculptural environment of foraged objects and plant materials [...] When the corona virus struck, the installation was moved to my backyard, where I continued to meditate on its energies. The installation inspired awareness of the changing of seasons and topography of my little piece of land behind the Mickey Mart gas station and convenience store. The walnut saplings and cleavers hugged the objects. The grass grew greener. The crocuses sang their nightly song with the peepers. Tubis became a home to the sweet spirits of Spring and Summer.” – Katarina Mazur, Composer/Director",
+    "contribution": "Tuba",
+    "label": "Bandcamp",
+    "link": "https://tandy.bandcamp.com/track/tubis",
+    "background": "#008cd3",
+    "font": "#000000",
+    "credits": [{
+      "name": "Katarina Mazur",
+      "contribution": "Composition, Video Direction"
+    }, {
+      "name": "Joohee Park",
+      "contribution": "Video Editing"
+    }, {
+      "name": "Sam Russ",
+      "contribution": "Tuba"
+    }],
+    "links": [{
+      "label": "YouTube",
+      "link": "https://youtu.be/PawICnqYctE",
+      "background": "#fcfffd",
+      "font": "#d70000"
+    }, {
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/track/tubis",
+      "background": "#008cd3",
+      "font": "#000000"
+    }]
   }
 ];
 
