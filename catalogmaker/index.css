@@ -1,0 +1,63 @@
+body {
+    background-image: url("../Assets/tandyhour.gif");
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.submit {
+    font-size: 12pt;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    /* font-family: "Comic Sans MS", "Comic Sans", cursive; */
+}
+
+.credit,
+.link {
+    position: relative;
+    width: fit-content;
+    border: gray ridge 3px;
+    padding: 10px 20px;
+    padding-right: 35px;
+}
+
+.close {
+    position: absolute;
+    top: 5;
+    right: 5;
+    background-color: rgb(161, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+#credits-container,
+#links-container {
+    display: flex;
+    max-width: 90vw;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.credit,
+.link {
+    background-color: lightgray;
+}
+
+.container {
+    border: 5px inset purple;
+    padding: 20px;
+    width: fit-content;
+    background-color: rgb(255, 249, 241);
+}
+
+#json {
+    visibility: hidden;
+}
+
+#json.visible {
+    visibility: visible;
+}
