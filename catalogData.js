@@ -513,11 +513,11 @@ const albumList = [{
   }]
 },
 {
-  "cover": "https://github.com/The-People-s-Coalition-of-Tandy/Assets/blob/main/Albums/LeahJacobson/InHere/1_min.jpg?raw=true", 
-  "name": "Leah Jacobson", 
+  "cover": "./Assets/Albums/LeahJacobson/1_min.jpg", 
+  "name": "In Here", 
   "color": "#ff7575", 
   "artists": "Leah Jacobson", 
-  "description": "“Skilled hands make quick work”\n\n[ 8-page comics zine ]\n\nDream-like miniature narratives celebrating the ineffable textures of the subconscious, the quiet power of friendship and the intangible gestures of the spirit! Leah Jacobson’s characters will muck-about and roll-around in vibrant two-color riso toner.\n\nLeah Jacobson makes comics, sews, referees soccer, and pursues her doctorate in sociology in Los Angeles, CA.\n\nPCOT0012", 
+  "description": "“Skilled hands make quick work” <br><br> \n\n[ 8-page comics zine ]\n\n <br><br> Dream-like miniature narratives celebrating the ineffable textures of the subconscious, the quiet power of friendship and the intangible gestures of the spirit! Leah Jacobson’s characters will muck-about and roll-around in vibrant two-color riso toner.\n\nLeah Jacobson makes comics, sews, referees soccer, and pursues her doctorate in sociology in Los Angeles, CA.\n\nPCOT0012", 
   "contribution": "Author/Artist", 
   "label": "Bandcamp Store", 
   "link": "https://tandy.bandcamp.com/merch/in-here-leah-jacobson", 
