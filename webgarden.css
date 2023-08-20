@@ -28,3 +28,8 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
+/* Removes random button from webring */
+#navigator div p {
+    display: none;
+}
