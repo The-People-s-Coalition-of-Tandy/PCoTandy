@@ -1,9 +1,9 @@
 const albumList = [{
-  cover: "./Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
-  color: "pink",
-  name: "30th Anniversary GM Smoidi Light General Midi Competition",
-  artists: "Various",
-  description: `The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022"
+    cover: "./Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
+    color: "pink",
+    name: "30th Anniversary GM Smoidi Light General Midi Competition",
+    artists: "Various",
+    description: `The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022"
     300 Competition!<br><br>
 
     The annual celebration of General MIDI has borne fruit!<br><br>
@@ -16,9 +16,9 @@ const albumList = [{
     The competition takes place in the Spring every year because March 7th is the MID-POINT between Ikutaru Kakehashi 's (from Roland) and Dave Smith's (from Sequential Circuits) birthdays<br>
     This competition is meant to honor and spread appreciation<br>
     for their dedicated work, along with all of those at the Japan MIDI Standards Committee(JMSC) and the American MIDI Manufacturers Association(MMA) !`,
-  credits: [{
-    name: "",
-    contribution: `Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022" 300 Competition!<br>
+    credits: [{
+      name: "",
+      contribution: `Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022" 300 Competition!<br>
       <br>
       And congratulations to all of our Category Award Winners :<br><br>
   
@@ -37,503 +37,532 @@ const albumList = [{
       Watercolors Award Winner: Scuzz McGuzz<br><br>
   
       Audio Engineering Award Winner: 31i3`,
-  },],
-  links: [{
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
-    background: "teal",
-    font: "white",
+    }, ],
+    links: [{
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
+        background: "teal",
+        font: "white",
+      },
+      {
+        label: "Spotify",
+        link: "https://open.spotify.com/album/0eKj2UEuCP32Qh52KGV5jg?si=7D7aRkmzTEK5y53-uZi8zw",
+        background: "greenyellow",
+        font: "black",
+      },
+    ],
   },
-  {
-    label: "Spotify",
-    link: "https://open.spotify.com/album/0eKj2UEuCP32Qh52KGV5jg?si=7D7aRkmzTEK5y53-uZi8zw",
-    background: "greenyellow",
-    font: "black",
-  },
-  ],
-},
 
-{
-  cover: "./Assets/Albums/tclr/tclr.jpg",
-  color: "purple",
-  name: "Tetso Cube Light Ride",
-  artists: "elie mcafee-hahn",
-  description: "We call ourselves tandy so people know who we are",
-  credits: [{
-    name: "elie mcafee-hahn",
-    contribution: "everything",
+  {
+    cover: "./Assets/Albums/tclr/tclr.jpg",
+    color: "purple",
+    name: "Tetso Cube Light Ride",
+    artists: "elie mcafee-hahn",
+    description: "We call ourselves tandy so people know who we are",
+    credits: [{
+        name: "elie mcafee-hahn",
+        contribution: "everything",
+      },
+      {
+        name: "Ko T. C.",
+        contribution: "Mastering",
+      },
+    ],
+    links: [{
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/album/tetso-cube-lightride",
+        background: "teal",
+        font: "white",
+      },
+      {
+        label: "instagram",
+        link: "https://www.instagram.com/ellie_modron_kurfwen",
+        background: "greenyellow",
+        font: "black",
+      },
+      {
+        label: "TCLR Visualizer",
+        link: "https://tclr.pcotandy.org",
+        background: "black",
+        font: "white",
+      },
+      {
+        label: "OS Visualizer",
+        link: "https://os.pcotandy.org",
+        background: "white",
+        font: "black",
+      },
+    ],
   },
   {
-    name: "Ko T. C.",
-    contribution: "Mastering",
-  },
-  ],
-  links: [{
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/album/tetso-cube-lightride",
-    background: "teal",
-    font: "white",
-  },
-  {
-    label: "instagram",
-    link: "https://www.instagram.com/ellie_modron_kurfwen",
-    background: "greenyellow",
-    font: "black",
-  },
-  {
-    label: "TCLR Visualizer",
-    link: "https://tclr.pcotandy.org",
-    background: "black",
-    font: "white",
-  },
-  {
-    label: "OS Visualizer",
-    link: "https://os.pcotandy.org",
-    background: "white",
-    font: "black",
-  },
-  ],
-},
-{
-  cover: "./Assets/Centre Street/stpCover.jpg",
-  color: "greenyellow",
-  name: "Star Palm Tree",
-  artists: "Sam Walters",
-  description: `"Let's get lost inside"<br><br>
+    cover: "./Assets/Centre Street/stpCover.jpg",
+    color: "greenyellow",
+    name: "Star Palm Tree",
+    artists: "Sam Walters",
+    description: `"Let's get lost inside"<br><br>
         In August's twilight, secret bard Sam Walters emerges to lament our ancient founders, having written of what's now, what's then, and what's to come shakily but Shurely into a naked diary—bound by 7 years of dreams, boundless love and fear.<br><br>
         
         The disappearing ink sinks from page to page, wetting with wist and longing the parchment.<br><br>
         
         The soaked book dries from its extravagant, twisted shapes into warm, familiar cloth—every stage inscribed into the seams as harmonics in the soul of a bell. Neither method nor madness could stir the flutter of the heart like hummingbird wings in each character's tentative steps towards the beautiful, dreadful evening.`,
-  credits: [{
-    name: "Sam Walters",
-    contribution: "Music",
+    credits: [{
+        name: "Sam Walters",
+        contribution: "Music",
+      },
+      {
+        name: "Joohee Park",
+        contribution: "Cover Art",
+      },
+      {
+        name: "Ko T. C. & Sam Walters",
+        contribution: "Mixing",
+      },
+      {
+        name: "elie mcafee-hahn",
+        contribution: "Mastering",
+      },
+    ],
+    links: [{
+        label: "Full Album",
+        link: "https://tandy.bandcamp.com/album/centre-st",
+        background: "pink",
+        font: "black",
+      },
+      {
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/track/star-palm-tree-2",
+        background: "teal",
+        font: "white",
+      },
+      {
+        label: "Spotify",
+        link: "https://open.spotify.com/track/7ebVcs5NtXhk2T1HtzzGHC?si=55fd079613f54122",
+        background: "greenyellow",
+        font: "black",
+      },
+      {
+        label: "Apple Music",
+        link: "https://music.apple.com/tr/album/star-palm-tree-single/1629615027",
+        background: "black",
+        font: "white",
+      },
+      {
+        label: "Youtube",
+        link: "https://www.youtube.com/watch?v=2ZijDc9cyBw",
+        background: "white",
+        font: "black",
+      },
+    ],
   },
   {
-    name: "Joohee Park",
-    contribution: "Cover Art",
-  },
-  {
-    name: "Ko T. C. & Sam Walters",
-    contribution: "Mixing",
-  },
-  {
-    name: "elie mcafee-hahn",
-    contribution: "Mastering",
-  },
-  ],
-  links: [{
-    label: "Full Album",
-    link: "https://tandy.bandcamp.com/album/centre-st",
-    background: "pink",
-    font: "black",
-  },
-  {
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/track/star-palm-tree-2",
-    background: "teal",
-    font: "white",
-  },
-  {
-    label: "Spotify",
-    link: "https://open.spotify.com/track/7ebVcs5NtXhk2T1HtzzGHC?si=55fd079613f54122",
-    background: "greenyellow",
-    font: "black",
-  },
-  {
-    label: "Apple Music",
-    link: "https://music.apple.com/tr/album/star-palm-tree-single/1629615027",
-    background: "black",
-    font: "white",
-  },
-  {
-    label: "Youtube",
-    link: "https://www.youtube.com/watch?v=2ZijDc9cyBw",
-    background: "white",
-    font: "black",
-  },
-  ],
-},
-{
-  cover: "./Assets/Centre Street/anotherDayCover.jpg",
-  color: "greenyellow",
-  name: "Another Day",
-  artists: "Sam Walters",
-  description: `Secret bard Sam Walters has returned with his latest incantation from the upcoming album, Centre St.<br><br>
+    cover: "./Assets/Centre Street/anotherDayCover.jpg",
+    color: "greenyellow",
+    name: "Another Day",
+    artists: "Sam Walters",
+    description: `Secret bard Sam Walters has returned with his latest incantation from the upcoming album, Centre St.<br><br>
 
     In the face great peril, you must now choose your own destiny. Will you rise to the occasion? Will the sands of regret be deposited back into your broken hourglass, renewed as crystals of possibility? Or will the cold crescendo of time wash us back to familiar shores?
     <br><br>
     Only you can decide…`,
-  credits: [{
-    name: "Sam Walters",
-    contribution: "Music",
+    credits: [{
+        name: "Sam Walters",
+        contribution: "Music",
+      },
+      {
+        name: "Tuesday Hamilton",
+        contribution: "Cover Art",
+      },
+      {
+        name: "Julie Bodian",
+        contribution: "Visualizer",
+      },
+      {
+        name: "Ko T. C. & Sam Walters",
+        contribution: "Mixing",
+      },
+      {
+        name: "elie mcafee-hahn",
+        contribution: "Mastering",
+      },
+    ],
+    links: [{
+        label: "Full Album",
+        link: "https://tandy.bandcamp.com/album/centre-st",
+        background: "pink",
+        font: "black",
+      },
+      {
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/track/another-day",
+        background: "teal",
+        font: "white",
+      },
+      {
+        label: "Spotify",
+        link: "https://open.spotify.com/album/5zPhWDnFkYXk3XJpR0VUqm?si=7H8gkrZ5SwapnzhYjXWhSw ",
+        background: "greenyellow",
+        font: "black",
+      },
+      {
+        label: "Apple Music",
+        link: "https://music.apple.com/us/album/another-day-single/1631687479",
+        background: "black",
+        font: "white",
+      },
+      {
+        label: "Visualizer",
+        link: "https://www.pcotandy.org/visualizers/anotherDay ",
+        background: "white",
+        font: "black",
+      },
+    ],
   },
   {
-    name: "Tuesday Hamilton",
-    contribution: "Cover Art",
+    cover: "./Assets/Centre Street/centreStCover.jpg",
+    color: "greenyellow",
+    name: "Centre St.",
+    artists: "Sam Walters",
+    description: `Sam Walters is a songwriter, recordist, nurse-in-training, and long time Coalition member based in Brooklyn, NY. Centre St was recorded with love and meticulous care over the course of 6 years and we are so happy that this deeply personal document of life is out in the world.`,
+    credits: [{
+        name: "Sam Walters",
+        contribution: "Music",
+      },
+      {
+        name: "Ko T. C. & Sam Walters",
+        contribution: "Mixing",
+      },
+      {
+        name: "elie mcafee-hahn",
+        contribution: "Mastering",
+      },
+    ],
+    links: [{
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/album/centre-st",
+        background: "teal",
+        font: "white",
+      },
+      {
+        label: "Spotify",
+        link: "https://open.spotify.com/album/0W6ULIDs7xSPl0S5ShY68C?si=Bxl4svvuSHm-y6kcV0DEmQ&nd=1",
+        background: "greenyellow",
+        font: "black",
+      },
+      {
+        label: "Apple Music",
+        link: "https://music.apple.com/us/album/centre-st/1643794151",
+        background: "black",
+        font: "white",
+      },
+    ],
   },
   {
-    name: "Julie Bodian",
-    contribution: "Visualizer",
+    cover: "./Assets/Albums/Tuesdays Uni/Cover/tuesdayCover.png",
+    color: "purple",
+    name: "Tuesday's Universe",
+    artists: "Tuesday Hamilton",
+    description: "A virtual art gallery by Tuesday Hamilton, presented On-Line by a subset of the PCoTandy Web Division",
+    credits: [{
+        name: "Tuesday Hamilton",
+        contribution: "art",
+      },
+      {
+        name: "elie mcafee-hahn",
+        contribution: "website",
+      },
+      {
+        name: "<a href='https://tuesdaysuni.pcotandy.org/credits.html'>Various Artists</a>",
+        contribution: "music",
+      },
+    ],
+    links: [{
+      label: "website",
+      link: "https://tuesdaysuni.pcotandy.org/",
+      background: "teal",
+      font: "white",
+    }, ],
   },
   {
-    name: "Ko T. C. & Sam Walters",
-    contribution: "Mixing",
-  },
-  {
-    name: "elie mcafee-hahn",
-    contribution: "Mastering",
-  },
-  ],
-  links: [{
-    label: "Full Album",
-    link: "https://tandy.bandcamp.com/album/centre-st",
-    background: "pink",
-    font: "black",
-  },
-  {
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/track/another-day",
-    background: "teal",
-    font: "white",
-  },
-  {
-    label: "Spotify",
-    link: "https://open.spotify.com/album/5zPhWDnFkYXk3XJpR0VUqm?si=7H8gkrZ5SwapnzhYjXWhSw ",
-    background: "greenyellow",
-    font: "black",
-  },
-  {
-    label: "Apple Music",
-    link: "https://music.apple.com/us/album/another-day-single/1631687479",
-    background: "black",
-    font: "white",
-  },
-  {
-    label: "Visualizer",
-    link: "https://www.pcotandy.org/visualizers/anotherDay ",
-    background: "white",
-    font: "black",
-  },
-  ],
-},
-{
-  cover: "./Assets/Centre Street/centreStCover.jpg",
-  color: "greenyellow",
-  name: "Centre St.",
-  artists: "Sam Walters",
-  description: `Sam Walters is a songwriter, recordist, nurse-in-training, and long time Coalition member based in Brooklyn, NY. Centre St was recorded with love and meticulous care over the course of 6 years and we are so happy that this deeply personal document of life is out in the world.`,
-  credits: [{
-    name: "Sam Walters",
-    contribution: "Music",
-  },
-  {
-    name: "Ko T. C. & Sam Walters",
-    contribution: "Mixing",
-  },
-  {
-    name: "elie mcafee-hahn",
-    contribution: "Mastering",
-  },
-  ],
-  links: [{
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/album/centre-st",
-    background: "teal",
-    font: "white",
-  },
-  {
-    label: "Spotify",
-    link: "https://open.spotify.com/album/0W6ULIDs7xSPl0S5ShY68C?si=Bxl4svvuSHm-y6kcV0DEmQ&nd=1",
-    background: "greenyellow",
-    font: "black",
-  },
-  {
-    label: "Apple Music",
-    link: "https://music.apple.com/us/album/centre-st/1643794151",
-    background: "black",
-    font: "white",
-  },
-  ],
-},
-{
-  cover: "./Assets/Albums/Tuesdays Uni/Cover/tuesdayCover.png",
-  color: "purple",
-  name: "Tuesday's Universe",
-  artists: "Tuesday Hamilton",
-  description: "A virtual art gallery by Tuesday Hamilton, presented On-Line by a subset of the PCoTandy Web Division",
-  credits: [{
-    name: "Tuesday Hamilton",
-    contribution: "art",
-  },
-  {
-    name: "elie mcafee-hahn",
-    contribution: "website",
-  },
-  {
-    name: "<a href='https://tuesdaysuni.pcotandy.org/credits.html'>Various Artists</a>",
-    contribution: "music",
-  },
-  ],
-  links: [{
-    label: "website",
-    link: "https://tuesdaysuni.pcotandy.org/",
-    background: "teal",
-    font: "white",
-  },],
-},
-{
-  cover: "./Assets/Albums/Nick Bisceglia/Slow Gold/SlowGoldCover.png",
-  name: "Slow Gold",
-  color: "#ffffff",
-  artists: "Nick Bisceglia",
-  description: "✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼<br><br>\"I'm loath to quit the task of helping Nick realize these settings, so a few words before our ship sails to soften the blow of its leaving: for months, a few miles upriver from Emily's town, I saw the poetry working on him. Oftentimes I would find him in his study without so much as a candle lit, a full moon casting its negative shadow over jumbles of papers and experiments, singing softly by the window. Had I not been there to guide him through the ruggedest part of the journey (bouts of melancholy, brain fever, fits, etc.), the project surely would have failed. We were fortunate enough to leave that outermost place with what seventeen minutes of material we found. What else can be said of Emily's poetry that hasn't yet? The quaintness belies its extremity - to be touched by it is to apprehend Eternity.\"<br><br>-Bugnu, October 2022",
-  contribution: "daguerreotype provided by",
-  label: "Blamscamp",
-  link: "https://pcotandy.itch.io/slow-gold",
-  background: "#c59eff",
-  font: "#000000",
-  credits: [{
-    name: "Emily Dickinson",
-    contribution: "poetry",
-  },
-  {
-    name: "Nick Bisceglia",
-    contribution: "music",
-  },
-  {
-    name: "Bugnu",
-    contribution: "production",
-  },
-  {
-    name: "elie",
-    contribution: "mastering",
-  },
-  {
-    name: "Amherst College Archives and Special Collections",
-    contribution: "daguerreotype",
-  },
-  ],
-  links: [{
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/album/slow-gold",
-    background: "#75d1ff",
-    font: "#000000",
-  },
-  {
-    label: "Bisceglia Net",
-    link: "https://nickbisceglia.pcotandy.org",
+    cover: "./Assets/Albums/Nick Bisceglia/Slow Gold/SlowGoldCover.png",
+    name: "Slow Gold",
+    color: "#ffffff",
+    artists: "Nick Bisceglia",
+    description: "✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼ ✼<br><br>\"I'm loath to quit the task of helping Nick realize these settings, so a few words before our ship sails to soften the blow of its leaving: for months, a few miles upriver from Emily's town, I saw the poetry working on him. Oftentimes I would find him in his study without so much as a candle lit, a full moon casting its negative shadow over jumbles of papers and experiments, singing softly by the window. Had I not been there to guide him through the ruggedest part of the journey (bouts of melancholy, brain fever, fits, etc.), the project surely would have failed. We were fortunate enough to leave that outermost place with what seventeen minutes of material we found. What else can be said of Emily's poetry that hasn't yet? The quaintness belies its extremity - to be touched by it is to apprehend Eternity.\"<br><br>-Bugnu, October 2022",
+    contribution: "daguerreotype provided by",
+    label: "Blamscamp",
+    link: "https://pcotandy.itch.io/slow-gold",
     background: "#c59eff",
     font: "#000000",
-  },
-  ],
-},
-{
-  cover: "./Assets/Albums/Ko T.C./LandsEnd/LandsEnd_Cover.jpg",
-  name: "Lands End",
-  color: "#651d87",
-  artists: "Ko T. C.",
-  description: "Written in Guilford, Vermont.\n\n",
-  contribution: "Mastering",
-  label: "Apple Music",
-  link: "https://music.apple.com/us/artist/ko-t-c/1503270360",
-  background: "#004730",
-  font: "#bed5c4",
-  credits: [{
-    name: "<a href='https://scottieharvey.com/'>Scottie Harvey</a>",
-    contribution: "Video direction",
-  },
-  {
-    name: "<a href='https://www.shalemarcoloma.com/'>Shalemar Coloma</a>",
-    contribution: "Video animation",
-  },
-  {
-    name: "<a href='https://jooheepark.com/'>Joohee Park</a>",
-    contribution: "Cover art",
-  },
-  {
-    name: "Heather Jones @ <a href='https://sobig.studio/'>So Big Auditory</a>",
-    contribution: "Mastering <br><br> <iframe width='90%' height='auto' style='border: 6px ridge #651d87' src='https://www.youtube-nocookie.com/embed/X3XpQz00XVc?controls=0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
-  },
-  ],
-  links: [{
-    label: "Youtube",
-    link: "https://www.youtube.com/watch?v=X3XpQz00XVc",
-    background: "#83089b",
-    font: "#0400ff",
+    credits: [{
+        name: "Emily Dickinson",
+        contribution: "poetry",
+      },
+      {
+        name: "Nick Bisceglia",
+        contribution: "music",
+      },
+      {
+        name: "Bugnu",
+        contribution: "production",
+      },
+      {
+        name: "elie",
+        contribution: "mastering",
+      },
+      {
+        name: "Amherst College Archives and Special Collections",
+        contribution: "daguerreotype",
+      },
+    ],
+    links: [{
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/album/slow-gold",
+        background: "#75d1ff",
+        font: "#000000",
+      },
+      {
+        label: "Bisceglia Net",
+        link: "https://nickbisceglia.pcotandy.org",
+        background: "#c59eff",
+        font: "#000000",
+      },
+    ],
   },
   {
-    label: "Spotify",
-    link: "spotify:album:6kDTIofgNBfk6FB4ppnpFe",
-    background: "#2b00ff",
-    font: "#e77bcd",
-  },
-  {
-    label: "Bandcamp",
-    link: "https://tandy.bandcamp.com/track/lands-end",
-    background: "#1a8399",
-    font: "#ffffff",
-  },
-  {
-    label: "Soundcloud",
-    link: "https://soundcloud.com/pcotandy/ko-t-c-lands-end/s-kAaHNC9bzou?si=03102d183480432b86284ca2e8560540&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-    background: "#000000",
-    font: "#ff0000",
-  },
-  {
+    cover: "./Assets/Albums/Ko T.C./LandsEnd/LandsEnd_Cover.jpg",
+    name: "Lands End",
+    color: "#651d87",
+    artists: "Ko T. C.",
+    description: "Written in Guilford, Vermont.\n\n",
+    contribution: "Mastering",
     label: "Apple Music",
     link: "https://music.apple.com/us/artist/ko-t-c/1503270360",
     background: "#004730",
     font: "#bed5c4",
+    credits: [{
+        name: "<a href='https://scottieharvey.com/'>Scottie Harvey</a>",
+        contribution: "Video direction",
+      },
+      {
+        name: "<a href='https://www.shalemarcoloma.com/'>Shalemar Coloma</a>",
+        contribution: "Video animation",
+      },
+      {
+        name: "<a href='https://jooheepark.com/'>Joohee Park</a>",
+        contribution: "Cover art",
+      },
+      {
+        name: "Heather Jones @ <a href='https://sobig.studio/'>So Big Auditory</a>",
+        contribution: "Mastering <br><br> <iframe width='90%' height='auto' style='border: 6px ridge #651d87' src='https://www.youtube-nocookie.com/embed/X3XpQz00XVc?controls=0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>",
+      },
+    ],
+    links: [{
+        label: "Youtube",
+        link: "https://www.youtube.com/watch?v=X3XpQz00XVc",
+        background: "#83089b",
+        font: "#0400ff",
+      },
+      {
+        label: "Spotify",
+        link: "spotify:album:6kDTIofgNBfk6FB4ppnpFe",
+        background: "#2b00ff",
+        font: "#e77bcd",
+      },
+      {
+        label: "Bandcamp",
+        link: "https://tandy.bandcamp.com/track/lands-end",
+        background: "#1a8399",
+        font: "#ffffff",
+      },
+      {
+        label: "Soundcloud",
+        link: "https://soundcloud.com/pcotandy/ko-t-c-lands-end/s-kAaHNC9bzou?si=03102d183480432b86284ca2e8560540&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+        background: "#000000",
+        font: "#ff0000",
+      },
+      {
+        label: "Apple Music",
+        link: "https://music.apple.com/us/artist/ko-t-c/1503270360",
+        background: "#004730",
+        font: "#bed5c4",
+      },
+    ],
   },
-  ],
-},
-{
-  "cover": "./Assets/Albums/EV1/Ev1 Cover Final.png",
-  "name": "EV1",
-  "color": "#000000",
-  "artists": "LE1",
-  "description": "released December 22, 2022\n\n",
-  "contribution": "Everything Else",
-  "label": "Spotify",
-  "link": "spotify:album:2eRgdkgZ1plZufuDXsZO00",
-  "background": "#00a822",
-  "font": "#ffffff",
-  "credits": [{
-    "name": "Felix Davis @ Metropolis Studios",
-    "contribution": "Mastering Engineer"
-  }, {
-    "name": "LE1",
-    "contribution": "Everything Else"
-  }],
-  "links": [{
-    "label": "Visualizer",
-    "link": "https://www.pcotandy.org/visualizers/EV1/",
-    "background": "#4e00c2",
-    "font": "#c800ff"
-  }, {
-    "label": "Blamscamp",
-    "link": "https://pcotandy.itch.io/ev1",
-    "background": "#ff0000",
-    "font": "#ffffff"
-  }, {
-    "label": "Bandcamp",
-    "link": "https://tandy.bandcamp.com/album/ev1",
-    "background": "#009dff",
-    "font": "#fafafa"
-  }, {
+  {
+    "cover": "./Assets/Albums/EV1/Ev1 Cover Final.png",
+    "name": "EV1",
+    "color": "#000000",
+    "artists": "LE1",
+    "description": "released December 22, 2022\n\n",
+    "contribution": "Everything Else",
     "label": "Spotify",
     "link": "spotify:album:2eRgdkgZ1plZufuDXsZO00",
     "background": "#00a822",
-    "font": "#ffffff"
-  }]
-},
-{
-  "cover": "./Assets/Albums/BLUE DISH/Into the Blue/cover.jpg",
-  "name": "Into the Blue",
-  "color": "#0019ff",
-  "artists": "BLUE DISH",
-  "description": "Soaring melodies and soothing tones, BLUE DISH’s sophomore album welcomes you Into the Blue. Drawing upon a vast array of influences — from Jazz to Blues (and even Classical) — BLUE DISH defies genre at every moment. Rather than rushing the album to meet a deadline, the duo took their time, finding the right melodies, the right chords, and the right Sound. \n\n",
-  "contribution": "Mixing and Mastering",
-  "label": "Apple Music",
-  "link": "https://music.apple.com/gy/album/into-the-blue-ep/1667128119",
-  "background": "#ff0000",
-  "font": "#ffffff",
-  "credits": [{
-    "name": "Julie Bodian",
-    "contribution": "Gut String"
-  }, {
-    "name": "Elie Mcafee-Hahn",
-    "contribution": "Steel String"
-  }, {
-    "name": "Joe Misterovich",
-    "contribution": "Mixing (Track 2)"
-  }, {
-    "name": "Elie Mcafee-Hahn",
-    "contribution": "Mixing (Tracks 1, 3, & 4) and Mastering"
-  }],
-  "links": [{
-    "label": "Bandcamp",
-    "link": "https://tandy.bandcamp.com/album/into-the-blue",
-    "background": "#0432ff",
-    "font": "#feffff"
-  }, {
-    "label": "Website",
-    "link": "https://bluedish.pcotandy.org/",
-    "background": "#bbbbbb",
-    "font": "#001dff"
-  }, {
-    "label": "Tandylinx",
-    "link": "https://bluedish.pcotandy.org/linx/index.html",
-    "background": "#ffffff",
-    "font": "#000000"
-  }, {
-    "label": "Spotify",
-    "link": "https://open.spotify.com/album/70TpPLvfOX9fiextH1acUa?si=A376m_YjQFGXVZF4HJ1OkQ",
-    "background": "#06af0b",
-    "font": "#000000"
-  }, {
+    "font": "#ffffff",
+    "credits": [{
+      "name": "Felix Davis @ Metropolis Studios",
+      "contribution": "Mastering Engineer"
+    }, {
+      "name": "LE1",
+      "contribution": "Everything Else"
+    }],
+    "links": [{
+      "label": "Visualizer",
+      "link": "https://www.pcotandy.org/visualizers/EV1/",
+      "background": "#4e00c2",
+      "font": "#c800ff"
+    }, {
+      "label": "Blamscamp",
+      "link": "https://pcotandy.itch.io/ev1",
+      "background": "#ff0000",
+      "font": "#ffffff"
+    }, {
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/ev1",
+      "background": "#009dff",
+      "font": "#fafafa"
+    }, {
+      "label": "Spotify",
+      "link": "spotify:album:2eRgdkgZ1plZufuDXsZO00",
+      "background": "#00a822",
+      "font": "#ffffff"
+    }]
+  },
+  {
+    "cover": "./Assets/Albums/BLUE DISH/Into the Blue/cover.jpg",
+    "name": "Into the Blue",
+    "color": "#0019ff",
+    "artists": "BLUE DISH",
+    "description": "Soaring melodies and soothing tones, BLUE DISH’s sophomore album welcomes you Into the Blue. Drawing upon a vast array of influences — from Jazz to Blues (and even Classical) — BLUE DISH defies genre at every moment. Rather than rushing the album to meet a deadline, the duo took their time, finding the right melodies, the right chords, and the right Sound. \n\n",
+    "contribution": "Mixing and Mastering",
     "label": "Apple Music",
     "link": "https://music.apple.com/gy/album/into-the-blue-ep/1667128119",
     "background": "#ff0000",
-    "font": "#ffffff"
-  }]
-},
-{
-  "cover": "./Assets/Albums/Katarina Mazur/Tubis/cover-min.jpg",
-  "name": "Tubis",
-  "color": "#e1b600",
-  "artists": "Katarina Mazur",
-  "description": "Tubis is an audio-visual meditation on Ohio’s clay-rich soil. A musical piece written for 5 tubas and electronics, the music was originally composed as part of an installation in composer Katarina Mazur’s backyard, and was presented via a wireless speaker hidden in a large rusty tube.\n\n“Forgotten histories enshrined in a living sculptural environment of foraged objects and plant materials [...] When the corona virus struck, the installation was moved to my backyard, where I continued to meditate on its energies. The installation inspired awareness of the changing of seasons and topography of my little piece of land behind the Mickey Mart gas station and convenience store. The walnut saplings and cleavers hugged the objects. The grass grew greener. The crocuses sang their nightly song with the peepers. Tubis became a home to the sweet spirits of Spring and Summer.” – Katarina Mazur, Composer/Director",
-  "contribution": "Tuba",
-  "label": "Bandcamp",
-  "link": "https://tandy.bandcamp.com/track/tubis",
-  "background": "#008cd3",
-  "font": "#000000",
-  "credits": [{
-    "name": "Katarina Mazur",
-    "contribution": "Composition, Video Direction"
-  }, {
-    "name": "Joohee Park",
-    "contribution": "Video Editing"
-  }, {
-    "name": "Sam Russ",
-    "contribution": "Tuba"
-  }],
-  "links": [{
-    "label": "YouTube",
-    "link": "https://youtu.be/PawICnqYctE",
-    "background": "#fcfffd",
-    "font": "#d70000"
-  }, {
+    "font": "#ffffff",
+    "credits": [{
+      "name": "Julie Bodian",
+      "contribution": "Gut String"
+    }, {
+      "name": "Elie Mcafee-Hahn",
+      "contribution": "Steel String"
+    }, {
+      "name": "Joe Misterovich",
+      "contribution": "Mixing (Track 2)"
+    }, {
+      "name": "Elie Mcafee-Hahn",
+      "contribution": "Mixing (Tracks 1, 3, & 4) and Mastering"
+    }],
+    "links": [{
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/into-the-blue",
+      "background": "#0432ff",
+      "font": "#feffff"
+    }, {
+      "label": "Website",
+      "link": "https://bluedish.pcotandy.org/",
+      "background": "#bbbbbb",
+      "font": "#001dff"
+    }, {
+      "label": "Tandylinx",
+      "link": "https://bluedish.pcotandy.org/linx/index.html",
+      "background": "#ffffff",
+      "font": "#000000"
+    }, {
+      "label": "Spotify",
+      "link": "https://open.spotify.com/album/70TpPLvfOX9fiextH1acUa?si=A376m_YjQFGXVZF4HJ1OkQ",
+      "background": "#06af0b",
+      "font": "#000000"
+    }, {
+      "label": "Apple Music",
+      "link": "https://music.apple.com/gy/album/into-the-blue-ep/1667128119",
+      "background": "#ff0000",
+      "font": "#ffffff"
+    }]
+  },
+  {
+    "cover": "./Assets/Albums/Katarina Mazur/Tubis/cover-min.jpg",
+    "name": "Tubis",
+    "color": "#e1b600",
+    "artists": "Katarina Mazur",
+    "description": "Tubis is an audio-visual meditation on Ohio’s clay-rich soil. A musical piece written for 5 tubas and electronics, the music was originally composed as part of an installation in composer Katarina Mazur’s backyard, and was presented via a wireless speaker hidden in a large rusty tube.\n\n“Forgotten histories enshrined in a living sculptural environment of foraged objects and plant materials [...] When the corona virus struck, the installation was moved to my backyard, where I continued to meditate on its energies. The installation inspired awareness of the changing of seasons and topography of my little piece of land behind the Mickey Mart gas station and convenience store. The walnut saplings and cleavers hugged the objects. The grass grew greener. The crocuses sang their nightly song with the peepers. Tubis became a home to the sweet spirits of Spring and Summer.” – Katarina Mazur, Composer/Director",
+    "contribution": "Tuba",
     "label": "Bandcamp",
     "link": "https://tandy.bandcamp.com/track/tubis",
     "background": "#008cd3",
-    "font": "#000000"
-  }]
-},
-{
-  "cover": "./Assets/Albums/LeahJacobson/1_min.jpg", 
-  "name": "In Here", 
-  "color": "#ff7575", 
-  "artists": "Leah Jacobson", 
-  "description": "“Skilled hands make quick work” <br><br> \n\n[ 8-page comics zine ]\n\n <br><br> Dream-like miniature narratives celebrating the ineffable textures of the subconscious, the quiet power of friendship and the intangible gestures of the spirit! Leah Jacobson’s characters will muck-about and roll-around in vibrant two-color riso toner.\n\nLeah Jacobson makes comics, sews, referees soccer, and pursues her doctorate in sociology in Los Angeles, CA.\n\nPCOT0012", 
-  "contribution": "Author/Artist", 
-  "label": "Bandcamp Store", 
-  "link": "https://tandy.bandcamp.com/merch/in-here-leah-jacobson", 
-  "background": "#0040ff", 
-  "font": "#ff0000", 
-  "credits": [
-    { "name": "Leah Jacobson", "contribution": "Author/Artist" }
-    ], 
-  "links": [
-    { 
-      "label": "Bandcamp Store", 
-      "link": "https://tandy.bandcamp.com/merch/in-here-leah-jacobson", 
-      "background": "#0040ff", 
-      "font": "#ff0000" }
-  ]
-}
+    "font": "#000000",
+    "credits": [{
+      "name": "Katarina Mazur",
+      "contribution": "Composition, Video Direction"
+    }, {
+      "name": "Joohee Park",
+      "contribution": "Video Editing"
+    }, {
+      "name": "Sam Russ",
+      "contribution": "Tuba"
+    }],
+    "links": [{
+      "label": "YouTube",
+      "link": "https://youtu.be/PawICnqYctE",
+      "background": "#fcfffd",
+      "font": "#d70000"
+    }, {
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/track/tubis",
+      "background": "#008cd3",
+      "font": "#000000"
+    }]
+  },
+  {
+    "cover": "./Assets/Albums/LeahJacobson/1_min.jpg",
+    "name": "In Here",
+    "color": "#ff7575",
+    "artists": "Leah Jacobson",
+    "description": "“Skilled hands make quick work” <br><br> \n\n[ 8-page comics zine ]\n\n <br><br> Dream-like miniature narratives celebrating the ineffable textures of the subconscious, the quiet power of friendship and the intangible gestures of the spirit! Leah Jacobson’s characters will muck-about and roll-around in vibrant two-color riso toner.\n\nLeah Jacobson makes comics, sews, referees soccer, and pursues her doctorate in sociology in Los Angeles, CA.\n\nPCOT0012",
+    "contribution": "Author/Artist",
+    "label": "Bandcamp Store",
+    "link": "https://tandy.bandcamp.com/merch/in-here-leah-jacobson",
+    "background": "#0040ff",
+    "font": "#ff0000",
+    "credits": [{
+      "name": "Leah Jacobson",
+      "contribution": "Author/Artist"
+    }],
+    "links": [{
+      "label": "Bandcamp Store",
+      "link": "https://tandy.bandcamp.com/merch/in-here-leah-jacobson",
+      "background": "#0040ff",
+      "font": "#ff0000"
+    }]
+  },
+
+  {
+    "cover": "https://f4.bcbits.com/img/a4117248997_16.jpg",
+    "name": "°‚°‚°‚°‚°‚°⌠ƞɛᶉ𝐌𝐈𝐃𝐈𝐕𝐎𝐗#5…√ƞɛᶉßʃ▼ßʃ°°ɱ‚°‚°‚°‚°‚°‚°",
+    "color": "#5d5d5d",
+    "artists": "Jack Hamill",
+    "description": `tktktktktktktktktktktktkktktktktktktkt\nᴅɪᴀʟɪɴɢ ɪɴ:: R¢к°‚°‚°‚°‚°‚°⌠nerMIDIVOX#5...√nerbĮvbl°°m‚°‚°‚°‚°‚°‚°\n., ( ktktktktktkttktktktktktktktkktktktktktktktktktktktktkkttktktktktktktktktktktktktkktktktktkktktktktkttktktktktktktkttktktkkttktktkttktktt ) ,.\n\nвOoŦloαDŤ̸̙͖͑̃งē__ᯅ̸͍̗̭̯̩̩̰̊⌯̵̢͉̩͓̝̞͈͊̀̉̉̔̈̂́Şഒ໓ēഒ✦ഒtktktk﹆ഒ✦ഒ﹆ꉂ̵̖̣̅͘̚\nēຟຟคţ̵̠̗͊̑́͌̆ͅiβimᛕ̴̨̧̩͇̜̭̯̪̞͚̄͒͆̆̂̕͝ т̵͕̿̐̂̂͜ḳ̵̶̨̛̝͍͍̯͓̭̜̺̥̜̗̏́́̆̅̂̀̿̔́̌̅̿́̚̚͜͠ͅͅķ̶̶̨͓̭̜̺̥̜̗̊̓̂̈́̀̑̔́̌̅̿́̚͜͝͠ͅķ̶̊̓̂̈́̀̑͝ẗ̵̨̼̮丅̸͍̗̭̯̩̩̰̊K̵̢͉̩͓̝̞͈͊̀̉̉̔̈̂́şI໓ēiβiM\ni๒ιM̵̷̧̖̣͎͎̳̩̖̘̫̭̺̅͗̓̄͆͘̚͝.̴̧̇̓̒͌ν̷̡̰̠̪̗̞̮͔͚̓̑͌̌̆т̶̡̰̺͔̑͛̊͛͒̔̈́͆̒̾.̴̧̇̓̒͌v̷̡̰̠̪̗̞̮͔͚̓̑͌̌̆T̶̡̰̺͔̑͛̊͛͒̔̈́͆̒̾.̴̧̇̓̒͌ν̷̶̡̡̰̠̪̗̞̮͔͚̰̺͔̓̑͌̌̆̑͛̊͛͒̔̈́͆̒̾.̴̶̧̡̰̺͔̇̓̒͌̑͛̊͛͒̔̈́͆̒̾.̴̧̇̓̒͌ν̷̶̡̡̰̠̪̗̞̮͔͚̰̺͔̓̑͌̌̆̑͛̊͛͒̔̈́͆̒̾_ງ➁f.ງ๖_❸ຖƒ≿ງ.ຟƗBimåง_ງ8➃⋝F. ʘ\n⌯̴̨̧̩͇̜̭̯̪̞ ͚̄͒͆̆̂̕͝ᯅ̵͕̿̐̂̂͜ḳ̵̛̝͍͍̯͕̏́́̆̅̂̀̿̿̐̂̂̚͜ͅḳ̵̛̝͍͍̯̏́́̆̅̂̀̿̚ͅtktktktktktktktktktktktktk\nț̶̄̿͂͝a̶͚͍̖̙̰̟̺͇̻̲͗̊͆̏̑̓̚e̶̗̙͇̾̋̀̔r̶̨͈̜̦̐tr๖ f t tu pฯ enntaer,v,n ilii๖ฯງeeງ໓ sies. an໓ ri๖rere , ofinງ ¢out ຟnງof mesin໓ on໓ ttraranງitte ງ ฯ th ๖\nʜ҉ ҉ɴ҉ ҉ɪ҉ɴ҉ᴏ҉ᴀ҉ ҉ᴏ҉ᴜ҉ᴛ҉ᴀ҉ɪ҉ᴍ҉ᴘ҉ʟ҉ᴇ҉ᴍ҉ʀ҉ɴ҉\n҉ɴ҉ᴇ҉ᴅ҉ɢ҉ᴠ҉.҉ʙ҉ʜ҉ᴅ҉ɪ҉ʙ҉ᴇ҉ᴄ҉ᴀ҉ɴ҉ᴠ҉ɢ҉\n҉ᴇ҉,҉ʜ҉ᴛ҉ᴇ҉ᴏ҉ᴘ҉ʙ҉ꜱ҉ ҉ɪ҉ɴ҉ᴅ҉ɪ҉ɴ҉ᴀ҉ɴ҉ᴛ҉ ҉ᴜ҉ɴ҉ɢ҉\n҉ᴍ҉ɪ҉ɴ҉ᴛ҉ᴇ҉ᴀ҉ɴ҉ᴠ҉ᴇ҉ᴄ҉ ҉ʙ҉ᴏ҉ᴜ҉ᴛ҉ʜ҉ ҉ᴅ҉ᴇ҉ʀ҉-҉\nᴡ҉ᴀ҉ᴛ҉ɪ҉ᴏ҉ɴ҉ ҉ᴛ҉ɪ҉ᴄ҉ᴀ҉ʟ҉ʟ҉ ҉ʀ҉ᴜ҉ᴍ҉ʙ҉ʟ҉ɢ҉ꜱ҉ ҉,҉\n҉ᴅ҉ᴇ҉ᴇ҉ᴘ҉ ҉ɪ҉ɴ҉ɢ҉ ҉ᴀ҉ ҉ᴍ҉ɪ҉ᴅ҉ɪ҉ ҉ᴇ҉ɴ҉ʟ҉ʏ҉ ҉ᴏ҉ɴ҉ɢ҉\n҉ꜱ҉ɪ҉ɴ҉ɢ҉ ҉ɪ҉ɴ҉ ҉ᴛ҉ʜ҉ᴇ҉ ҉ꜱ҉ᴛ҉ᴀ҉ʀ҉ꜱ҉ ҉ᴀ҉ʙ҉ᴏ҉ᴠ҉ᴇ҉\n҉B҉O҉N҉E҉s҉D҉s҉ ҉;҉ ҉A҉L҉ ҉R҉E҉G҉O҉O҉D҉ ҉M҉I҉D҉I҉ ҉E҉N҉D҉\n҉M҉O҉O҉N҉ ҉A҉N҉D҉ ҉T҉H҉ ҉B҉E҉c҉A҉U҉s҉I҉c҉A҉U҉s҉E҉\n\nPURE ALTEREGO BONES; A MUSICAL COMPOSITION ALL FROM MY GOOD FRIEND\nBONES!! !! !\nMIDI ENVIRONMENT, BECAUSE OF ALL OF THE GRAND MEMORIES WE MADE, SITTING OUT UNDER THE SUN\nAND THE MOON AND WATCHING THE STARS FLY ABOVE OUR HEADS; DILATED TRANSLUCENT BODIES,\nRESONATING ALONG SILVER-WARPED FIBEROPTIC STRINGS, MUTTERING, SINGING, AND DANCING IN AND\nOUT OF TIME: ALL RUMBLING DEEP IN THE ΞΛR T H WITH BONES\n\nW̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚ ̶͙̖̀̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠n̴̨ ͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘\ǹ̸͔͈̯̫͓̱̳̯̬͇͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜s̴̨̻͎͊̈̐͛̚ņ̴̞͉̰̼́̈́̀n̷̨͓̤͖͕̻͘ D̵̝̣̩̦̮͗̒̀̋͊͠t̷̨̧̳̦̭̯͈̬̫̟̔̂̐̔ Y̷̧̧̨̢͉̠̼͉͈̅͛̽̀͜ ̸̩̼̠͔̱̤̱̺̀̂͆s̸̡̗̟̼̻͖̦̈́̀͊̓̽̑o̵̡̡̨̨̰͉̠̟̩͋̀̃̏͜͝ş̷͔͉̦̳̯͎́́̆̇̊͌̆͝\ñ̴̛̻̊̓̆͋̊̊́̋ ̶̮̭̟̰͐͗̎͠ ̴̛̤̹̹̂ ̴̧̣̘̖͍̉̓͜ ̷͍̫̑̓̌̀̐̿̍̕̕a̵̢̡̢̺͇̩͈̗̬̠̅̉̈̑̓̍̈́̽̏́r̴̢͉̱̮̞͉̺͋̓́̍̊̽̅̅̕e̴̞͔̙̹̖̯̦͓͉͚͌̓͋̊̈̓̔͂͝͝o̴̡̓̈́ͅ ̶̛̪̖͖͉̬̙̦̣̳̃̓̐͆̽͘͘\n\nȍ̸͖̜̰̗̭͍̗̓͂̓̊̌͝F̵̬̳̻͚͔̣̖̊̐̀͌͛i̷̛̯͍̳̗̖̗͉̿̎̈͂̋̄̀̀̃ͅa̷̡̺̣͈͗̋̉ȏ̷̹̟̞̬̪n̵̢̻͍͙͖̠̼͐͘ F̵̡͈̠̗͓̜̄͑͊̌̀͋̈́̾͠m̵̡̥͛̐͐̌̔̓̊͘̚ ̸̤̩̉͛̐͐̌̔̓̊͘̚ ̸̤̩̉\ň̶̛̙̤̞̳͙̬̦̳̻̦̊̏̇͑́̿ǫ̵̥͇̩̹̹̹̘͛͜r̸̨͍̬̗̱̲̚B̴̡̖̲̹̞͇̫͇͇̊͐̿̃͛̒͜l̵̳̺͎̩̲̝̠͕̖̝̎́̎̌̉̈̓i̸̱̭͚͂͗̔̃͋͆͘͝͝h̶̞̣̼̣̥̘̮͊̊̎n̶͈̆̈̈̑͌͘̕l̴̢̧̞̮͎͎̫̺͍̳̿̀̊̎̉͝h̶̡̘̭͓͈͓̗̳̃͐ ̸̠̫͍́͐̈ ̵̮͎̜̤͚̘̲̠́̅̀̒̎̾͝ ̵̘̳̯̱͍̹̟̈́̈́͐͑̕h̴̪̅͆̑:̸͚̼̮̬̒̅̓̍͛̎͆̽͝͝ń̸̰̳̟̫̮̻̭̜ D̸̸̺̰̠̻̼̖̙̫̭̬̰̳̟̫̮̻̭̜̐́D̸̺̰̠̻̼̖̙̫̭̬̐ ̸̢̫̼͓̣̠͒̈̀̈́͘̚͜n̵̢̜̯̥͓̭̰̙̳͗ï̴̧̗̗̖̠̭͕̺͕̆͗͋̋̄͗̕ͅ ̸̨̢̰̟̯̟̱̦̇̍́̑̔ę̸͈̞͎̤͇̘̠̰̍͆̉̍̚ę̶̛̪̺̣̲̝a̸̘̻͐̀ ̸̩͖͋̉͂̇͒̌̋̌͌͝o̵͎͍̙̹̠̜͒̽͂̆̾̋͑̀̀̅e̶͖̿̐́͊͠ ̷̨̢̞̹̩̥̲̼̱̾̐̉́e̵̺̫̳̽̏ͅ ̷̪̙̜̾̎̓̎,̷̰͍̯̱̼̝̯͙̙̽͋̈̒̈̎̋ ̵̛͖͕̈́̉̑̐̌̔̊́͝e̴̛͙̐͐̂̾̂͌͝t̶̠͈͉̯͚͑̃̍͝͝ţ̴̖͉̻̹̖̿̂̊͂̿̑͂̕͝ ̴̢̢̙̜͇̬͚̭͇͙͂̏̄̄̀͛͌̾̕í̴͙̗̙̥́͂̈́̓͂̄̊̒͘i̸̢̢̠̫̺͊̅̾̊́̚͜a̸͕̩̗͍̫̪̞̜̘͚̐̌̆̌̏i̵̥͍̟͖̲̰͚̝̫̐͑́͛̿̄́͝ͅ ̵̨͑́͋͝ ̷̬͗̀͗͛̈́͊̀̕͝͝ä̷̩́̍̓̀̾̍̚̕͝h̶̹̐͒̇̉̍̉͝ Ģ̷̝͔̼̳͔̭̀̈̏́͗͊͊̈D̸̻̗̠̟̼͙̯̘̥͇̓̅̿̒̎t̵̟̻͔̬̲̣̗̗̞͘ͅh̵̢͍͎̞͓̝̙̭̟̤͛̉̅͝ ̷̨̧̧̺̙͚̙͔̖̍̍͋í̵̧̛͔͚̯̊ ̵͕̈́͐̔̍͊̀̔̑̓̚ ̸̪͉͍̱̲̦̜̇̉̔̋͛́͐̓́͘F̶̛̩̙̥̐͂̽͆͆̽̎͌͜s̸̫̳̰̑̈́́̽̈̿͐̕ę̸̧̑̄i̵̛̞̤̩͍̰͎̙̰̭̿̓̀̌̑ͅh̶̞̫̋ͅi̴͈̞̖̥̹̣͋̿̍̐̊̋̋͝͝r̸̛̦̞̞̻͖̍̃̎̉͐̂n̸̜͓̺͉̝̖͒̎̂̽̉̽̚͠m̵̬̩͇͑̑ͅḥ̸̡͕̜̤̘͐͊͊͒̓͐̂͝͠ṷ̶̞̜͗͂̂͌̉̊͑͘͠ ̴̩̮̩̮̻͉̣̾̐͋̎̓́̕l̸̠̇̃̓a̶̯̱͎͖͚̱̾̑́͐̿͝ ̵̙̰̘̬͋ŗ̷̢̬͍̯̽́͑̃͋͂̈́̚͝͠ṉ̶̣̗̺̊̾̅̊͠ ̷̺̝̝̬̰̓̄̃͌̋͌̋̅͝͠ī̷̢̜̬͉͚͔̺̫̂͛̊ͅr̷̘̱͍̤͈̲̼̲̰̈́̈͊̈́̕a̵̡̳̫͔͖̰̅̽̐̈́̀͆́e̵̛͎̙̻͓̱͔̍̔͗̉́̋͊ͅD̶̨̖̤͉̠̟̞͖̥̦̅̂̾͌͗͘̚e̷̱̤̋̂̇̈́̉t̷̹̩̙͇̑̽͝e̴̛̤͎̻̤̽̇̍̒͊i̷̟͑̓̕͝ỏ̵͙͎̯̩͕͖͕͙͔̇̆́̽̄r̴̦͚̞͎̗̐̑͋͂͐l̸̛͉̗̜̬̎̏͛́̓͘͘͝ ̶̩͔̲̟͉́̽̅͑͂̔̔͠͠ ̸̖̞̞̗͎͇̙̓̃̈́̌ ̴̨̨͈̺̙͊̽͋́̕s̴̝̀̃́̈͋̍́͘͜ȩ̵̩̝̳͊̈́̒̃̋͌͘͝ ̷̻̫͚̰̳̝̖̭͂̑̀̂͠ͅs̵̖̻͍̹̺̩̈́́̈́̈̀̅̀͘i̴̱̅͒t̸̙̩̹̤͛̇̑́̈́̏̔̇͠͝ ̶̧͕̦͋̀̿̉̌̓̀͑ȁ̷̡̮̹͚͉̬̟̺̱̰̎̆̿̐̀͘͝ą̵̻̺̭̹̣̲̀̾͆̈̑į̸̹͓̲̪̝̗̖̰́a̵͕͔͆ę̶͙̠͕̘̣͊̏̐́̔̍t̷̢̆̿̚l̷̡͈̺̭̙͒̍̽ͅͅn̸̬̩͓̎̂̇i̶̹̠͌t̵͇̝̻͗̀̔̄̅̚͝͠ơ̷̡̝͉̠̘͊̌̊͋͋͑͠h̶̟̠̩͈̽̈́͌̒͝ ̴̛̼̩̝̣̱́̏̾͆͗r̶͕̟̥̳̥͍̺̭͐̅̽͜ţ̴̛͕̞̣̞̬̘̐̋̿̔̃́͘͝ͅm̶̤̍͛́ḭ̴̧͓͓̭̈́̈́͗͆̆͂̅͘͝ ̶̰͔̅̓̏͜m ̶̷̧̢̢̰͔̖͍̼̠̱̤͖̅̓̏̑̽̐̂̔̃̇̀̚͘͜ B̶̥̯̺̝̞̝̦̫̾̏͛̋͐̀͋̌o̴̞̣͍̐̿͋̈́̒̕r̸̛͔̙̙̓̄̽̈̾̍̚ṭ̷͙͗̐́̅̈́̂͆̄̃̈́ ̶̘̮͈̜̰̻͆̈́͋̈́͌͊͒͘͜͝a̴̢̛̟͓̯͇̖͈͔̎̒̈́͊́̽͋̕͝ę̵̥͑͗̕ư̸͙̐̌̍̊͋͝͝r̶̡̛̹͖̼̅̎̍̅̐̈̅͠͠a̸̞͔̘̭̰͆̾́n̶̜̦͈̟͉̞̟͆̾̃̄̓͆̕ ̴̨̳̝̥͊̎͗ ̴͚̪̜̳́͑̂̃͗̏̏͝ ̵̻̩̲̈́̅̈́̐͐̆͊̓̍͝e̵̡̛̪͍̥̜͔̼͕͋̒ͅi̷̧̡̘̭̤͖̥͝͝s̶̠̫̎v̸̧̛͉͕̘̟̺̝͕͂͂͌̓̈͝͠i̷̡̞̠̱̝̟̖̗̭̅͆̓́̌̚−̷̛̻̈́͑͆̄̏a̸̬̬͉̪̦͍͖͐̈́͌͋ǹ̶̛̩̲̜͍̬̩́̚ņ̴̣̟̟̩̏̀̆̏Y̶̱͕̥͕͚̠̽͛̐̋̍̅̀̐ͅͅY̶̱͕̥͕͚̠̽͛̐̋̍̅̀ͅͅr̶̜͍̱̟͎͊̍͐̂̀̎̈́̾͋͠ ̵̡̻͖͕̠͕̤́̅̄̃̀̏̾o̶̧͚͓̭̫̿̋̓͊̃̃͠͠ë̸̡̤̙̉̓̀̓̌̚ī̸͇͚̌̅C̷̨͓̮͕̪͊͊͊̂́̌ ̸̪̟͖̍̅̑͒͜l̸͚̫͎̞̫͔̺̝͚̇̓͌̅̏̈́̉̎̚l̶̢͈̟̹̓̊͋n̴̡͖̈ṋ̷̡͎̺͉͕͉̰̆͗͆̀ͅ B̶̘͈̬̟̹̺̬̯͐̈̈́͂̊͠F̵͖̘̹̼̫̈̎͆̓͌̕m̷̮̜͊̔͆͠ D̸̡̩̣̹͍͚͉̱͕̄͘ń̸͙͖̖͔͎͉̼̘̭̘̓͝ D̸̘̆̈̈́͐́̕͠ȋ̸̹̣̮é̷͇̤̖̹͓̅̉͝t̴̪̼͇̰̺͙̝̤́̍̓̆ ̶̡̢̨̻̠̟̣̳̻͔͋̊v̵͉̟̘̈́̌̾̓̈́́́͊̽̚ņ̵̖̺̖͖̦̪͓̜̋͛e̴̡̦͇̗̙̥̝̗̮̜̾̃̄D̴̢̢͇̞̰̯͓̭͕̜́̏͐̂̐́͛͊̊͝e̴̡̦͇̗̙̥̝̗̮̜̾̃̄\nD̴̢̢͇̞̰̯͓̭͕̜́̏͐̂̐́͛͊̊͝ ̴̧͍̻̻̤͔̣̲͒̋̆̓̓͗̆̚r̸̢̫̤̠̯͕͖̗͑̒ ̶̡͎͉̻̖̝̺̌̔̊͜ͅe̷̗̱̠̬̝̝̭̺͌̀͌͜r̵̡͆͗̀ ̴̥̼͈͔̝̯͎̹̍̓̊̓̋̿̈́͘D̶̝̘̤́̓̓͜ ̴̥̼͈͔̝̯͎̹̍̓̊̓̋̿̈́͘D̶̝̘̤́̓̓͜ơ̸̜͚̂͂̽͑̆͘a̵̡̩̮̩͖͙͓̜͕͍̾̔̐̀͂̑̂Y̷͉̭͈̒̑\n\n̶̰͍͎̪̻̣͔̹͂͊m̶̠̘̹͚̹̿̊ͅ ̵̦̱̇́̒̋̿̄r̸̢͕̩̘͝Ç̸̟͈̟̑͌̎̀̍͆̎r̶̝͖͈͇̫͛̿̓̑̍̑͛̈́l̶̗̪̳̥̘͈̝͌̾̕ G̸̪̞̱̦̙͕̘̕ ̶̘̈́̋͊̅͘m̷̛̼͙͉̲̘͐̉͑̾̏͒͝ ̸̢̳̺̟̙͓͌̀̅̂̎̽̄̅͜B̵̡̥͗͐̆̽̅͒͂́̄m̸̬̦͖̜̻͛̈́̾͊̐͐̃̐̿͘p̷̩̪͙̄͒́̈̍̌ F̷͉͓̠̀̆̾͗̒̃n̸̨̩͖̭̳̺̟̿̈́͛̑e̸̛͕͙̼͙̹i̵̡̥̝̪̭͛̑̄m̵̹̘̞̲̰͗̃͛̅̉̑͌ͅt̶̨̛͙̟̰̩̳̒̓̇̔̚̚͝ŗ̷̬̰͕̜͇̖̮̪͚́̈̀̇̔̈́ṫ̷͎̞͑ṱ̶̰̗̥̇̊̎̀̾̋̑̾͝n̸̪̍̍̉͛r̴̮̘̺̲̔̾̈́͐̌̍̋̈̚r̴̨̠̩͙̺̙̙̝͙̼̅n̵̦͕̭̞̳̋̆̈́̎̔̑ͅ ̷̜̻̟̺̠̥̩̫̥̏͒̍̈́͋̚̚ͅļ̴͇͈́͌̈́͝ ̵͚͕͈̙̓̈́̈́͌̉͆r̷͕͙̣̪͗͆̈l̵̛̪͖̦͈̹̺̒̓̽̃͆͆͌͜͠i̸̙̤̲̖̜̲̣̬͂̎̆̔̎́͆.̷̭͎̋̔͗͛̈́͂̽̆ą̸̛̪͇̹͕̬͉̫̬̼̆̊͝ë̷̡̧̟͖̥̯̹̫̳́̚t̵̠̾́̍́͒̀̅́̍ȁ̵̛͇͇̱̮͍̪͆̃̓̈́̈́̉̋̕W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚\ǹ̶͙̖̍́̉̈̈͛͌͒̕ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘ ͛̑͊̿̈̉͂͝͠ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝ ̸̡̜͓͖̩̫̺͙̗͎̜̩͍̼̝̿͗̽̋̂̀͊̈̒͜͠͠͠ ͓̺͓̓̈́͆͘\n\ǹ̸͔͈̯̫͓̱̳̯̬͇͓̺͓͛͐͋̓̈́͆͘ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͓͕̜̺͆̇͗͆̀͛́͌̓̏̽̐̊͊͝ í̷̳̃͂̌͛́̍̎̚͜ W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ ȇ̸̫͓̾͋͆̿͛\na̵̼͎͎̍̈́̓̐͘ ̶͙̖̀̍́̉̈̈͛͌͒̕ ͛̑͊̿̈̉͂͝͠\nW̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚\nW̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘\ń̴̛̰͖̠̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ͓͕̜̺́͌̓̏̽̐̊͊\nW̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘\ń̴̛̰͖̠̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝ i̶̬̳͛́͆̈́̂̒́̅̓ F̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠\n\nD̸̺̰̠̻̼̖̙̫̭̬̐ ̷̨̢̞̹̩̥̲̼̱̾̐̉́ D̸̻̗̠̟̼͙̯̘̥͇̓̅̿̒̎ B̶̥̯̺̝̞̝̦̫̾̏͛̋͐̀͋̌ Y̶̱͕̥͕͚̠̽͛̐̋̍̅̀ͅͅr̶̜͍̱̟͎͊̍͐̂̀̎̈́̾͋͠ ̵̡̻͖͕̠͕̤́̅̄̃̀̏̾o̶̧͚͓̭̫̿̋̓͊̃̃͠͠ C̷̨͓̮͕̪͊͊͊̂́̌ ̸̪̟͖̍̅̑͒͜ B̶̘͈̬̟̹̺̬̯͐̈̈́͂̊͠F̵͖̘̹̼̫̈̎͆̓͌̕ D̸̡̩̣̹͍͚͉̱͕̄͘ é̷͇̤̖̹͓̅̉͝ ̶̰͍͎̪̻̣͔̹͂͊ D̶̝̘̤́̓̓͜ ̶̰͍͎̪̻̣͔̹͂͊ ̵̦̱͚̹̇́̒̋̿̄̿̊ͅ\ṅ̵̦̱́̒̋̿̄\nr̸̢͕̩̘͝ r̶̶̝͖͈͇̫̗̪̳̥̘͛̿̓̑̍̑͛̈́ G̸̪̞̱̦̙͕̘̕ ̶̘̈́̋͊̅͘ ̸̢̳̺̟̙͓͌̀̅̂̎̽̄̅͜B̵̡̥͗͐̆̽̅͒͂́̄ ̷͖̜̻̩̪͙͛̈́̾͊̐͐̃̐̿̄͘ F̷͉͓̠̀̆̾͗̒̃ ͖̭̳̺̟̿̈́͛̑e̸̛͕͙̼͙̹i̵̡̥̝̪̭͛̑̄ ̵̶̨̛̹̘̞̲̰͙̟̰̩̳̒̓̇̔̚̚ŗ̷̶̬̰͕̜͇̖̮̪͚̭̰̗̥́̈̀̇̔̈́̇̊̎̀̾̋̑̾ r̴̮̘̺̲̔̾̈́͐̌̍̋̈̚r̴̨̠̩͙̺̙̙̝͙̼̅ ͕̭̞̳̋̆̈́̎̔̑ͅ ̷̜̻̟̺̠̥̩̫̥̏͒̍̈́͋̚̚ͅ ̵͚͕͈̙̓̈́̈́͌̉͆r̷͕͙̣̪͗͆̈i̸̙̤̲̖̜̲̣̬͖̦͈̹̺͂̎̆̔̎́͆̒̓̽̃͆͆͌͜͠i̸̙̤̲̖̜̲̣̬͂̎̆̔̎́͆\n\ną̸̛̪͇̹͕̬͉̫̬̼̆̊͝ë̷̡̧̟͖̥̯̹̫̳́̚ ȁ̵̛͇͇̱̮͍̪͆̃̓̈́̈́̉̋̕ o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅ\na̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚\n\ǹ̶͙̖̍́̉̈̈͛͌͒̕\n\n̶̳͚̠̱̖̫̰̫̈̔͌̚\n\ǹ̶͙̖̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘ ̸͔͈̯̫͓̱̳̯̬͇̀͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚ ̶͙̖̀̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘ ̸͔͈̯̫͓̱̳̯̬͇̀͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚ ̶͙̖̀̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘ ̸͔͈̯̫͓̱̳̯̬͇̀͛͐͋n̸̤͖̼̺̈̓̈́͆̈́ͅ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴͖̳̝̥͔̰͒̓͒̅̋ͅș̵̣̳̼̘̞̊̌̽͂̈́͋͘͜͜͠ī̷̡̛̛̜̹̊͂̓̎̚ͅn̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜\n̵̡͓̯̖̦͔̖̟̈́F̸̵̨̡̛͓̣̥̝͓̯̖̦͔̖̟́̍̈́͘\nF̸̨̛͓̣̥̝́̍͘\ni̶̬̳͛́͆̈́̂̒́̅̓n̶̢̡͖͖̼͈̹͕̯̅̋̈̓͋̑̐̓̂͜ D̸̺̠̘̋̂͂͠s̴̠͆̾̃̀̽e̴̡̧͙͔͎̞̬͈̰̎̈́̉̓ ̷̹͙̪̺͓͙͊͑̃̓͘s̷̩̘̤͈͉̑i̵̼̤̰̝̠͙̠̿n̶̡̡̛̪̮̭̖̬̗͈̤͊̓̏̚̚ Ģ̵̡̪̞͕̃̏̆̅̊ṡ̸̛̙̾ ̴̸̛̛̲͖͓̗̙̀̾̆̍̇̾̕\ǹ̴̛̲͖͓̗̾̆̍̕\nF̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ļ̶̨̛͚̻̝̻̭͂̎̈́̾͛̕͜ Y̷̩̐̏͆̔̓͝\n\n̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊ t̵͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜\ni̶̢͙̬̲͔̘͉͙̯̟̾̑̈̽̅ ̸̖̙̝͊͗̎̽̍̚̕͝͠ͅr̶̨̻͓̙̖̯̈́̓̐̒͝͝Ḑ̸̬̯͑ȯ̵̧̪͓͓̱̮̖̭̓͛̉̑͆̌̕͝͠\"̴̩̦͎̗̮̳͒͂͑̃̊̎̈́̽̋̍ ̷͍̱͆́͑̍͑̀̆̐\"̸̺̖̙̗͓̈ȩ̷̺͍͙̳̜͎̖͎̅͝G̴̤͉̝͌̇̋̽̽̓̚͝ ̴͓́̐,̵̛̲̲̯̮̘̥̈́̒̍̈͌͑̓ ̴̧̛̳̑͊̽̿̿̏̏͛͝D̴̨͖̗̱̘̏ ̷̹͒̔́͑͆́̑̂͘a̸͕͔̳̎̐͌̾̇ŗ̶̘̈́͛̅́i̷̱͖̠̘̳͇̭̤̽̅̔̾̉̆̓̊̎̚͜o̷̧͈̫̼̗̅̊̿͌͋F̵͓̥̜͈̱̻̤̪̽͊͊͠l̴̢̩̠̖̰̫̼̫̓̒ ̶̢̡̤̹͇̬̫͇̜̣̓̾̔̾̎͒ͅ ̶̢̡̤̹͇̬̫͇̜̣̓̾̔̾̎\nF̶̫̣̥̓͝l̸̛̫̻̤̗̍̀͠Y̴̸̢̛̭̹̬̹̼͓̗̺͉̫̻̤̗̊̔̆̇͊́̓̌̌̍̀͝͠Y̴̸̢̛̭̹̬̹̼͓̗̺͉̫̻̤̗̊̔̆̇͊́̓̌̌̍̀͝͠\nY̴̢̭̹̬̹̼͓̗̺͉̊̔̆̇͊́̓̌̌͝\n̷̛̛̜̻̳̠̳͋̿͌̀̓̀ͅi̶̢̩̮̺͙̦̳̥̮̓̾̉̀̈́̕͜C̴̩̮̠͙̗̤̱͚͕̃̈́͘i̴̧̡̹̩̳̽̔̏͂̎͗͊͠o̷̝̭͔̬̜͂̓F̴̟̮̎͑ ̵͓̈͗̍̿W̴̨̱͉͚̬͇̫̖̭͑̂̽̀a̴̧̱̼̬͇͑̀͑̍̾̿̔̽̄̕͜ņ̶̩̘̗́̾̋̀̀̚͝Ḑ̵̹̙̠͖̻͎̦̒ͅ ̴̮̘͒̀͊́̈͛̄̈͜ṭ̶̕į̸̡͇̥̟̰͎̼̪̀̈̏̌͊͌̉̽͝D̸̬̳͓̘̈́͒s̷̤̿́̅͗̉́ ̵̨͕͓̗̰͍̰̑̔͌͗̑͗̉́͝͝ ̵̨͕͓̗̰͍̰̑̔͌͗̑͝͝\n\nF̷̛͚̤̤͛̈́ͅ ̷̖̰͎̻͋͒̍̒̓̑̃a̵̡̧̪̟͇͕̜͇̓͊̊̓̓̆̋̀͗͠ͅt̷̻͆̓͆̐̓i̴̻̊̆̈́͝Ċ̸͍͇̃̐̚o̸̢̝͎̮͓̰̦̮̽̃̐̀̐͂͝ͅͅD̵̨̲͔͇̜͛͊ͅ ̸̡̛̪͒́̔̿̀̂̔͝͝a̴̲̓̀́͌̓͊̈̚͝n̸̨̨͙̠̱͉̪͕͎̊̓̾Ḑ̷̘̩̫͚͉̫́̀̾̿͘ ̷̡͔̜͖̯̣͕̪̈́̃̉p̶̼̹̗̭̯̹̒̈́͊̿̾̉̂̿̚e̴̮̤̭̤͂̇͂̈́̿̕͝p̶̗̮̹̓̍̓̔͌̾̓͘͝o̵̧͐̈́̒̇̉̌̕͝D̷̛̬̪̱̼͕͓̱̞̀͆̊̿͑̄̎͝ ̷̧̛̟̫̺̳̒͊͋̃̚͘s̵̟̻̿̈́̈͌̐͆l̶̖͇̈́͗̈́̿̈̈́̿̈́͝ ̶̡͚̹̟̥̜̉̏̊͝ͅs̷͇͇̏̊̉̄̈́́̕t̴͚͉̻̙͆̀̒͝ Č̷̠̹̫̖͚͔̌͋̓͜ ̴͙̭̻̘̣̎͛̂͗͋̑͒̐͘,̷̛̮̣͍̼͓̩̥̄̓͋̕\n̷̛̯̿̃́̐͝͠͝ͅo̸̢͔̯̙̙͚̘͉̳̟͑̃̐͋͘͝p̷̩̦̭̪̉ơ̴̧͔̻̮̗̳̱̅̂͂͑̈́͘͝͝v̶̢͓͎̣͇̯͆̅į̴̞͎̯͍̠͑̎̒t̵̝̠̝͖̦͇̹͙̞́́͑̍̾͘̕͠i̵͉̺̜̱͚̩̇̊͘̚m̷̢̮͚͈̗̣̞̹͐͝o̴̫̳̜̺͕̰̽̐͒̈́̅̍n̵̘͕̞͌̓̓̍̉̈́̑̆͘ ̴̨̨̮̯͈̘̭͙̯̆̽̀͋̋B̴̹̓̾͑̕o̶̮͖̙̖͈̹̦͠F̶̡̧̠̞̹̖́͂̈́̊ ̴̜̖̀̑̄͒̓W̴̢̹̯̠̓̽͆̒̊ą̸̳͛̊̆̀̀͋̚͝l̴͚̳̆̒̾ ̶͌̒͜ẹ̷̢̛̦̋̈́́n̵̡̻͙̜̂̂͝a̶̧̽̅͆̄̏͘͘͠ŗ̴̧̖̬̼̻̯͙̄̈́̎͐̅̄̈́̓͠t̵̯́̄̒̔̈́̓̾͆͘͝î̸̗̦̠͔̞̆͆͑ǫ̷̭͗̒͑̕͝ņ̶̦̺̳̻̗̯͕͍̘̇̋̆́̈́̋͐͝ W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚\ǹ̶͙̖̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘ ̸͔͈̯̫͓̱̳̯̬͇̀͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜\nǦ̵͔ő̶̲ņ̶̯̫͚̀̊̇͛͠ ̶̡̪̫̬̭͇͂̑͜ả̵̢̯̤̭̖̻̪̙̘͎n̷̹͗̚m̶͎͎̮͋̑͒ Y̷͍̩͖͉̍̋̓̋͊̓͋͘ ̷̫͖̇̏̋̅͜ǎ̷͎͚̟͙̞̑͂̐̎̃́l̴̳̱̮̈͆̑͋͂̿͘͝\n\ni̵̲͕̤̘̿̎͐̀̀̚͜͠Ḑ̷͓̈́̆̆͗͊̀̃̍͒̓ ̵̡͉̟̦̝̗̲͇̎́̊̄̆̂̅͝ş̸̠͍̯̦̮͓̞̭͓͗̎ï̷̢͓͇͈͉̺̹̆e̵̪̘̋̌͜͜͝s̵͙̖̥͕̤̫̠͕̎.̵̙̲͎́̍̌̓̓̏ ̴̭̰͛̾a̷̡̡̤̭̪̻̦͒̿̚n̸̩̍̓̏͛̆̈́̇͜͝Ḑ̵͉̣̼̝̗͈̺̻̾̀̍̍̈́͋̆̂̋͜͠ ̷̮̯̟͚̮͚̙͖͕̍́̀͌̑͠r̵͔̪̱͌̆̓̀̄̊͂͌̀͜͝i̵̻͍̿̈́̍̆̓̿̉͝͝B̸̧̟͓̝̪̮̹̑̓̀ͅŗ̶̱̘̈́͆̍̈̆͒͌͘͠e̵̳̰̘̰̔͋͌̆ŗ̴͓̖͙͕̚e̵̢̬̞̜̘͔͑̿͘ ̴̜̦͉̞͙͆̌,̴̢̪̩͎̹̖͔̫̒͛̊͋̂̾̿̆ ̴̬͙̬͋͆̋ơ̴̖͆̒̕͠F̴͕̪͎̩͐̈̌̎̓ỉ̵̬̆̒̊̽̑̉n̵͕̺̣̲̫̘̺̅ G̵͇͎͎̲̊̅͝ ̵̹̥̤̟̳͖̘͆̀̂̆̌͘C̷̛͈̥̽̌͒͂͑͌o̵͖͛͘u̴̻͐t̶̢̢̰̣̫̞̮̑̀̽̈́ ̸̛̗͑̅̓̍̆͛͊Ŵ̵͈̟̩̣̙̀̾̆̓͘͜a̸̢̛͖̎̓͑͋̀̽̑͒l̷͎͖̳̞̥̙̉̀͆̋̄̃͛͘͝ ̵̦̙̈̎͛̍̈͊͋̊͆,̴̘͙̱̾̀͝ ̷̘͎̞̰̻̝̄͋̆͌,̶̢̖̣̼͔͎̹͙͗̉̇͋͊̅͋͋̕ ̷̺̱̙̰̳̩̮̱̗͇͊ë̷̘́̓̐̑̚̕͠ ̸̛͖̭̬̻̭̠͇͓̏̈́͒͊̄̈̂̕͝ö̸͈͈͎͈̥̤̖̜͈̱̏̓̊́̃̿̿͑͠n̵̨̦̳̆͝G̸̪̰͕̳̫͇̟̈̓̆̆͋͛̎̌͗́ ̸̱̠̈́̈́̊͝ͅ,̶̘͈͍̿́̇̌ ̵̢͚̲̮͎̳̰̺̟̳́̔͊̑͘͘̚͝ủ̴̞͙̹̪͙̰̼̤͉͔̓̐š̸͍̞̹̬͙̀̒̓̒͂̏͛\ņ̸͇͇͙̃̔̈́͑̃̾̐̈ö̷̡̠̦̬͚̞̞̪́́͛͋̾͒̓̆̚͝ͅm̸̧̦̻̲͗̂̄ͅͅ B̵̘̿̈̇̋͛̄̀̔̕o̵͓͕̰̺̗̍̒̈̊̒̔̓̽͜͝o̷̡̱̼̪̖̳̥̾͐̓̉̾̔̾͘͠͠F̸̨̛̮̠̩̹̘̤̼̬̣̑̄͆̏ ̴̦̈́̌̒̐̏̾͐͑a̶̺̯̗͉̿́̄͊͋͐n̷̯̜͛̓̀͘͝ G̵͍͚̼̈́ ̸̢̘̫̘͙̻̜͉̽̋͒̃̈́Ģ̴̻̟̗̲͙͚͎̩͗͘ͅ ̶̧̣̠̜͇̤̫̞̤̯́ạ̶̡̮̼͕̖͛t̶̻̣͉̲͎̖̽̏̌͌̆h̴͇̝͖͌͊̂́̔̀̆̚͜͠e̴̘̅͛̾͌́͠r̵̠̤͐̓̉̒̈̓͗̔͑−̷̟̾͗͊ͅẀ̷̤̠̑̀̏ą̸̢̯̲̅͊͊͝Z̴̰̬̖̟̘͇̘͚̽̒̽́̈́͐̓́ẽ̷̠͓͓̭̚r̸͕̆͋ ̸̩͙̠̿̀͝͝,̸̢̦͕͉̤͈̦̦̜͗͠ ̵̛̯̹̺̱̂̈́̅͑̌̓͑͘͝e̷̫̟̠̹͙̗̩̪͍͋̾̌̔͌͘͜͝͝s̶̘͎̒͠ͅe̷̢̳͈͙̹͎̋͐̏C̸̢̛̹̯͔̳͊͆̉̕͝ạ̷͕̣̥̣̈͌̊̃̀̿̇͠Ẓ̵͍̩̉̉̍͗̃̆̚̕ͅe̸̠̱͖͖̅̒̔̓̇̒D̷͚̹̄̈́̀͂̉̀̅̔̚̚ͅ ̵̛̜̦͓̹̹͖͙̊̃̄͜͝a̷͔͂̄͋͐l̷̨̮̦̲͒̉͆̐͊͜l̵̺̦̏̀̾̋̔͒͜͝l̷̤̹̪͚̠̪̻͙͊̄̅͊̐v̵̛͇̜͔̦̣̪̥̦͛̈́ǐ̶̞̀̓́͊̌̓͐͛̕l̴͇̭̯̳͊̏̏͒̃̊̔͆͗ú̶̙̥̗̞̪̻̰̜̞͊̈̐͐̈́̔͌̕̕n̵̬͈̰̱̰̰͕͂̀͋ͅ Ģ̸̡̢̯̬̝̤͓̜͙̉̈̏́̍͆͝o̷̘̙̞̝̯͓̼̐̌̓̆̌͑̔́̚͝ͅF̷̡͍̮͎̬̭͒́̃̉̊̀̎͋͝\ň̶͇͓͖̉̽͜͜ͅm̸͇̆̌͒̄̋͌͗͑͠͝é̷̢͉͖̊̇̓̑s̸̟͎͍̖͍͓̱͍̖̜̈̍͋̔͂́͘ḯ̶̭͛̍͗̾̓͜nḯ̶̸̭͔͕̣͍̗̦͕̮͈͛̍͗̾̓̈́͊̀͆̈́̕̚͜͜ D̶̟͉͙̰̝̑̊̇̀̑͘̚͜͠ ̵̤͐̍̋͂̑̚̕̚͝ö̸̧͕̰͚͉̦̮́̈̿̋̏n̴͙̈́̑͜Ḏ̶͎͙͌͆́̈́̑͜ͅḎ̶͎͌͆́ͅ ̷̤̣̰͊ͅͅt̷̛͙̘̘̩̏͗͗́̎͝t̵̢̰̼̺̜̭͖̍̇̿ͅr̶̨͙̲͚̲̱̘̝͐͋̈́̐̚ä̵̗͑r̸̹̱̥̓ä̶͓̤̞̪͔͎̳̺̘̾̂̈́̈́̉̀̌ͅn̷̛̖͖̩̪̼̟̓͊̊̎̑̀̕ G̴̡͎̤̹͍͎̞̝̿̇̒̔́̅i̷͚̝̬̤̯̘̞͎̬͆͜n̸̤͖̼̺̈̓̈́͆̈́ͅ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘\n̴͖̳̝̥͔̰͒̓͒̅̋ͅ ș̵̣̳̼̘̞̊̌̽͂̈́͋͘͜͜͠ī̷̡̛̛̜̹̊͂̓̎̚ͅn̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘i̶̬̳͛́͆̈́̂̒́̅̓n̶̢̡͖͖̼͈̹͕̯̅̋̈̓͋̑̐̓̂͜ D̸̺̠̘̋̂͂͠s̴̠͆̾̃̀̽e̴̡̧͙͔͎̞̬͈̰̎̈́̉̓ ̷̹͙̪̺͓͙͊͑̃̓͘s̷̩̘̤͈͉̑i̵̼̤̰̝̠͙̠̿n̶̡̡̛̪̮̭̖̬̗͈̤͊̓̏̚̚ Ģ̵̡̪̞͕̃̏̆̅̊ṡ̸̛̙̾\ǹ̴̛̲͖͓̗̾̆̍̕ F̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ļ̶̨̛͚̻̝̻̭͂̎̈́̾͛̕͜ Y̷̩̐̏͆̔̓͝ ̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊t̵͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜t̷̺̙̫̀̃̂̍́ṱ̵̨̫̖̫̺̭̳̥̟\n\n͋̏̓̾̕è̸̘̟͉̲̰̙͖̺̈́͘ͅ ̷̜̼̱̞͑̈́̂̌͐Ĝ̷̡̝̊̊͊̚ ̶͇̙͔̩͇̒̐̏̔̎̋̎͂̚͝Ḃ̵̧̘̪͍̣͖̝̭̾͆͒͐̅̆͠l̸̻̭̯̬̣̜̞̟̹̔̍͛͐̆̇̓̐̅ų̶̓̀̃̿́̇̍͘ẗ̵̰̩͔̜́ ̷̢͎̮̺̠̱̬̋͋̎̈́́̔̇͘͜͝;̴̝̱̻̠̳̘̭̩̂́͊̓͛͌͆͜ ̵̢̯̊̉̽,̶̛̪̜̼͝ ̸̛̤̽̒̾̂̓̂͘W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚\n\ǹ̶͙̖̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚ ̶͙̖̀̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘\ń̴̛̰͖̠̽͒̊̋̋ e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘ ̸͔͈̯̫͓̱̳̯̬͇̀͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘ ̸͔͈̯̫͓̱̳̯̬͇̀͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜G̴̦͐̃̅̐̈́o̵̢̢͔̥̺̖͐̽̐̓̈͜n̶̛̤̊̔̄͑͂̕̚ ̴̦̪͔̲̟̱̆̍̌̎̚͘͝,̶͍̲̼̤͇̤̙̻͖̙̅̄̑̌\n̶̢̙͌̑͗̌̏͋̕Ḇ̸̰͑̂̇͝ö̴̡̱̗͖̙́͂̌̌͗͝ͅn̷͈̼̣͌̓͝ Ĝ̵̡̧̢͍̗͖̘͓̬̏̈́͐͊͂͜ ̴̯̓̋͋͌̈̕͠ả̴̲̯̗̭͚̄̽̍͊̎͒̓͗̕n̷̛͉̭̤̭͙̜̭̦̅̈́́́̈̔̎̕ D̶̨̖̜̱͓̐̂̾͋͊̓̆͌s̷̭̟̝̼̩̺̾̓̃̇̃͗̌̂̍ä̶͓̤̞̪͔͎̳̺̘̾̂̈́̈́̉̀̌ͅn̷̛̖͖̩̪̼̟̓͊̊̎̑̀̕ G̴̡͎̤̹͍͎̞̝̿̇̒̔́̅i̷͚̝̬̤̯̘̞͎̬͆͜t̷̺̙̫̀̃̂̍́ṱ̵̨̫̖̫̺̭̳̥̟\n͋̏̓̾̕è̸̘̟͉̲̰̙͖̺̈́͘ͅ ̷̜̼̱̞͑̈́̂̌͐Ĝ̷̡̝̊̊͊̚ ̶͇̙͔̩͇̒̐̏̔̎̋̎͂̚͝Ḃ̵̧̘̪͍̣͖̝̭̾͆͒͐̅̆͠l̸̻̭̯̬̣̜̞̟̹̔̍͛͐̆̇̓̐̅ų̶̓̀̃̿́̇̍͘ẗ̵̰̩͔̜́ ̷̢͎̮̺̠̱̬̋͋̎̈́́̔̇͘͜͝;̴̝̱̻̠̳̘̭̩̂́͊̓͛͌͆͜\n̵̢̯̊̉̽ ;̴̝̱̻̠̳̘̭̩̂́͊̓͛͌͆͜\n̵̢̯̊̉̽W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚ ̶͙̖̀̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠n̴̨ ͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘\ǹ̸͔͈̯̫͓̱̳̯̬͇͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚ ̶͙̖̀̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘\ǹ̸͔͈̯̫͓̱̳̯̬͇͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜\nt̶̡͙͔̺͒̽̆̈̿̐̾̚͝ ̶̨̹͕̻̗̣͐̄̄̋͠ȟ̷̦̤̣̺͉̦̝͚̚͠e̴̢̥͔̦͐̐͆̀͜ͅͅn̵͍̬̻̊̓͋̑ Ğ̵̢͚̺̖̱̀̀̓̓̉̎͘͜ͅ ̶̲̼̗̻̦̝̃̐͛̽̀́̑̄̂̚͜C̶͍͉̏͛͛͆̓̉̎̎a̷̧̡̫̟̦̙̞̫͈̱͐̑̏̌n̵̨̧̞\n\ñ͖̎͒̋͗̇̿̕͝͝ş̷̰͙̟͉̟͑̈́̐́̍í̵̢͇͔̳̊̂̏̚͠ņ̵̼̱̣̟͎̗͍̿́̏͜s̸̢̨̞̻͓̳̲̎̒̒͆ ̶̼̦͖͔̞̆̈́̅̄́͜ͅ,̸̛̣̥̲̗̆̀̃̂ ̸̹͍̭̖̅̐̆͜ŗ̵̯̙͇̅̿̂ͅo̸̭̦̱̩̦̗͈̥̘̅̿͂͐̍͒͂̋͘͝Ḟ̸̛̥͇̦͚̠͑ͅͅr̵̝͈̀́͑͐͐͑̅̀͆ĭ̸̼͑̎̎ͅn̸̛̥͔̼͖̉̔̐͂̓͐̉̀̚ D̸͉͈͙̜̱̤̭͒̊͒̔͐̂͆͊̚͠a̷̧̲͕̳̜̙̩̝̠͌̋́̈̌͊͊́̈́̚l̵̨͉͖̻͙͔̑ͅl̴̘̺̟͖̜̜̟͍̜̩̿ Y̸̡͍̟̜̺̰̓̊̄\n\n̷̻̥͚̮̎̒̾̎̅́͊̒̂a̷̝̠̞̻̔̂͊͆̂̋̕͝l̴̘̤͈̹͍̹̖̇̍̓l̸̨͎̖͉̇̀͋̊̀͊͛̌͠ô̷͈̫͉̇F̴̢̢̛̗̤̖̟͚̞͕̏͑̎͗͗͊̈́͐͜ä̶͓̤̞̪͔͎̳̺̘̾̂̈́̈́̉̀̌ͅn̷̛̖͖̩̪̼̟̓͊̊̎̑̀̕ G̴̡͎̤̹͍͎̞̝̿̇̒̔́̅i̷͚̝̬̤̯̘̞͎̬͆͜t̷̺̙̫̀̃̂̍́ṱ̵̨̫̖̫̺̭̳̥̟\n͋̏̓̾̕è̸̘̟͉̲̰̙͖̺̈́͘ͅ ̷̜̼̱̞͑̈́̂̌͐Ĝ̷̡̝̊̊͊̚ ̶͇̙͔̩͇̒̐̏̔̎̋̎͂̚͝Ḃ̵̧̘̪͍̣͖̝̭̾͆͒͐̅̆͠lḂ̵̸̧̘̪͍̣͖̝̭̻̭̯̬̣̜̞̟̹̾͆͒͐̅̆̔̍͛͐̆̇̓̐̅͠ų̶̓̀̃̿́̇̍͘ẗ̵̰̩͔̜́ ̷̢͎̮̺̠̱̬̋͋̎̈́́̔̇͘͜͝;̴̝̱̻̠̳̘̭̩̂́͊̓͛͌͆͜ ̵̢̯̊̉̽i̸̢͔̣̝̥͑̋͋͑̋̉͛̏͊͠n̵̲̣̓̅̽͘͝t̸̨̺̝͙̄̃̄͊͂̍͑͝r̵̞͉̙̯̤͇̎̅̓ȇ̵̢̨̡̮̟̣̬͓͖͔͑͝ṕ̶͕̙͙̫̲͉͙̳̠̮t̴̳͉̺̪̬͎̦̦̿͌̎̆̉͆͜͠h̴̨̰͙̣̭͚͕́̅̏̓̓͐̚e̶̡͎͔̘̭̊̽͒̓͝ŗ̵͚͔͚̠̘̟̣̻̾͋̃̐̎̇̅̍̇ͅW̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚ ̶͙̖̀̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘ ̸͔͈̯̫͓̱̳̯̬͇̀͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚ ̶͙̖̀̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘ ̸͔͈̯̫͓̱̳̯̬͇̀͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚ ̶͙̖̀̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘\ǹ̸͔͈̯̫͓̱̳̯̬͇͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜n̸̤͖̼̺̈̓̈́͆̈́ͅ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴͖̳̝̥͔̰͒̓͒̅̋ͅș̵̣̳̼̘̞̊̌̽͂̈́͋͘͜͜͠ī̷̡̛̛̜̹̊͂̓̎̚ͅn̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘i̶̬̳͛́͆̈́̂̒́̅̓n̶̢̡͖͖̼͈̹͕̯̅̋̈̓͋̑̐̓̂͜ D̸̺̠̘̋̂͂͠s̴̠͆̾̃̀̽e̴̡̧͙͔͎̞̬͈̰̎̈́̉̓\n̷̹͙̪̺͓͙͊͑̃̓͘s̷̩̘̤͈͉̑i̵̼̤̰̝̠͙̠̿n̶̡̡̛̪̮̭̖̬̗͈̤͊̓̏̚̚ Ģ̵̡̪̞͕̃̏̆̅̊ṡ̸̛̙̾ ̴̸̛̛̲͖͓̗̙̀̾̆̍̇̾̕\ǹ̴̛̲͖͓̗̾̆̍̕\nF̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ļ̶̨̛͚̻̝̻̭͂̎̈́̾͛̕͜ Y̷̩̐̏͆̔̓͝ ̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊t̵͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜\n\nï̵̛̲͚͓̬̞̮̓̔̉̓̀͐̓n̶͈̺̬̦̿ D̴̤̠̍͝ ̴̢̳͙̤͋̄̊͌̾̂̽C̴̘̳̫̹̺̫̫̀̐̐͊̔͜ą̶̱̞̪̜͕͎̆̚r̵̺̥̜̯̞̝̈̂̿ï̵̦̭̞̫̐ͅn̵̼̦͚̫̺̤̊̿͆̆ Ġ̸̳́̎͐̇̓ ̵͍̪̗̤̗̆̈́̆̋ţ̸̻̺̩͈̃͘ẗ̵̲̳͚́̔̒͘i̸̻̩͎̯̅̉͒́̈́̕n̷̊̌̏̾̈́͜G̴̛̠͇̮̺͎̠̝͉̝͐̄̿̒̕ǫ̸̘̭̰̞̭͆́̈͂͗͘̕͘͠͝n̸̤͖̼̺̈̓̈́͆̈́ͅ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴͖̳̝̥͔̰͒̓͒̅̋ͅș̵̣̳̼̘̞̊̌̽͂̈́͋͘͜͜͠ī̷̡̛̛̜̹̊͂̓̎̚ͅn̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜\n̵̡͓̯̖̦͔̖̟̈́F̸̵̨̡̛͓̣̥̝͓̯̖̦͔̖̟́̍̈́͘\nF̸̨̛͓̣̥̝́̍͘\ni̶̬̳͛́͆̈́̂̒́̅̓n̶̢̡͖͖̼͈̹͕̯̅̋̈̓͋̑̐̓̂͜ D̸̺̠̘̋̂͂͠s̴̠͆̾̃̀̽e̴̡̧͙͔͎̞̬͈̰̎̈́̉̓ ̷̹͙̪̺͓͙͊͑̃̓͘s̷̩̘̤͈͉̑i̵̼̤̰̝̠͙̠̿n̶̡̡̛̪̮̭̖̬̗͈̤͊̓̏̚̚ Ģ̵̡̪̞͕̃̏̆̅̊ṡ̸̛̙̾ ̴̸̛̛̲͖͓̗̙̀̾̆̍̇̾̕\ǹ̴̛̲͖͓̗̾̆̍̕\n\nF̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ļ̶̨̛͚̻̝̻̭͂̎̈́̾͛̕͜ Y̷̩̐̏͆̔̓͝ ̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊t̵͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜C̴̮̣͖̫͌̆͑̉́̈́̉̕͝ ̴̛̻̎̎̔͒̌͝͝s̷̲͛̋͛͑̏̀u̷̹̭͍͚̻͇̣̜̦͝ņ̵̢̭̖̤̜̼̘͓͒͒̇͑̅̃̂͜͠ ̶̨͙̺̩̥̟̪̱̏a̴̟̹͎͇͋̀́̈́͝l̶̙̳̰͠ͅͅͅo̶̞̤̥̺̹̺̝͕͖̜̔̂ņ̵̧̪͈̜̮̞̱͓̈́̽͒͘͠m̵̈́̔͆̍̂̾͊̕͠ͅe̶̢̢͕̺̭̤͊ͅͅͅm̸̢̄̇́͘͠͝ỏ̴͚̯̼̳̦͓̹̝̋́̋̋͒̇̀ơ̴̳̯̘̘͕͍̞n̸̛̜̓͂͋̈́̀̀ẹ̴̢̝̭͙̺̱̍̒̔̕͘͜ͅş̶̻̬͕͉̼͇̏͒̽͐͋̂͂̃̎͠.̷͍̿̐̆̀͌̓́̕͠ ̶̢̛͚̖̣̓̾̆̓̌͘m̴̲̘̱̱̱̺̯͉̒o̵̧̳͕͚̦̮̰͒͋̾͑́̓̆ơ̴̲͑͠ņ̶̧̮̩̜̤̲̤̲̆͌͆͒̽̏̚͝ G̴͚̣͓͎̙͇͒͘ͅ ̷̟͒̓͠Ḑ̷͔̬̺͉̤̉͗͐ͅë̸͚͇͍̬̤́͋̎̕ȩ̷̛̣̺͕̮̾͆̓͗̋͜͝p̸̧̩͇̱͖̱͚͑̉̔́̎͆̊̓͐̂ ̶̠͈̘̻͙̫͛͗̄͜i̷̭̝͇͕̟͈͉̱̘͋̏͑̐̐̃̏͒͘͘ͅñ̸͓͖̆̓̿ Ġ̸̡̝͇̰͓̯͖̩͍̬̾ ̴̡̡̢͈͉̜̦̰̞̙̾̓̈́̈͠i̴̢̻͇̹̝̫̖̓̒̊͛̈́͜͝n̸̡̨̠̫̹͖͂͒̐́́͐͆̅ͅ Ģ̸̣̻̭̝̺͖̬̞͍̂͠ ̵̻̫͓̗̠̠͔̯̋̈́̓̑̉̚̕̚͜͝͝,̷̢̢̨̱̩͕͚̟̟̠̍̂̃̇ ̶̛̙̳̗̖̻̫̠̄̾̿͜͝Ḅ̴̡̹̩̦́͘ͅo̸̢̥̪̭̫̖͖̭̅́͊͝n̴̫͇͙̰͋\n̷̤̘̭̜̩͙̰̖̫͒̍̎̔a̶͉̭̓̄̚͝͝n̴͉̪̝̼͔̹̅̈́͋̊͒̾̆̆̐Ḑ̸̢̫̝͌̋͛̀ē̸̡͍͋̓͝ȩ̷̢̜̦̊̓̀̑̅͝p̸̘̟͓̓̎̈́̅̈̈́̊̐̔̉ ̸̛̜̬̺̤̑̑̈́̂͑͘į̶̟̣̣̦͖͇̹́ͅņ̷̟͚͕̹͇͌̎̄̈̕͝ G̸͙̥̩̹̥̤̣̝͐́ ̸̨̛̝̙̻͉̲̄͝,̷̨̻͗̌͜͜ ̷̢̨̻̦̣͓͕̤̈̆͂̃̾̔́̓ŗ̸̛̼͓͕͕̬͖͔̘̊̿̂̀̾́̅͝ȩ̴̰͔̘͐s̸̛̹̱̏̽̊̈̅͒͆͐͠ ̸̨̡͍͈̮͕́̓̃̈́͐́̚̚ͅF̷̧͖͉̜̣̈̍́̀̚r̴̹͓̻͙͒̎̀̍̋͘͠i̸͖͊͐͝n̴̨̯̰͈̟̗͉̙̾̌̕G̷̹͙̚͜s̵̢̬̹̮͍͛͋̏͒ ̸͙̬̪̣͈̣̤̳́F̴̣̽̔̊́͘͠͠͝l̸͙͖̥̂͗̋̅̚ Ÿ̵̛̮̼̲̪̘̮̜͕́̑̒́͜͝ ̷͚̹̭̬͓̥̾͑̒͋̉̇G̶͍̳̘̙͎̤̟̳̬͒̚r̵̢̧̧̞͔̲̞̹̜̝͛̓̒̓͌̏̍̂͝ȧ̸̫̰̗̤̹͊̒͑̊͝ņ̸̡̯͚̲̪̱̘͈͎̄̎̂̈́͛͊͆͆̔̈Ḑ̵̪̝̻̥̙̈́̋̎͆̒̄͘ͅȩ̴̱̳͈͉̙͇̊́͆ẹ̵̘̌̌̏͒͐p̸̛̺̣̙̻̝̳͎̔̾̉ ̵̢͔̺̳̱̱̫̙̅̄̃̔̐͐i̴̘̺͈͋̃̀̈̽̐̉̕n̶̨̞̥̈́\n̶̨̞̥͋͒̉̈̂̓̉̔̈́\n͋͒̉̈̂̓̉̔\nn̸̤͖̼̺̈̓̈́͆̈́ͅ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴͖̳̝̥͔̰͒̓͒̅̋ͅș̵̣̳̼̘̞̊̌̽͂̈́͋͘͜͜͠ī̷̡̛̛̜̹̊͂̓̎̚ͅn̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘i̶̬̳͛́͆̈́̂̒́̅̓n̶̢̡͖͖̼͈̹͕̯̅̋̈̓͋̑̐̓̂͜ D̸̺̠̘̋̂͂͠s̴̠͆̾̃̀̽e̴̡̧͙͔͎̞̬͈̰̎̈́̉̓ ̷̹͙̪̺͓͙͊͑̃̓͘s̷̩̘̤͈͉̑i̵̼̤̰̝̠͙̠̿n̶̡̡̛̪̮̭̖̬̗͈̤͊̓̏̚̚ Ģ̵̡̪̞͕̃̏̆̅̊ṡ̸̛̙̾\ǹ̴̛̲͖͓̗̾̆̍̕ F̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ļ̶̨̛͚̻̝̻̭͂̎̈́̾͛̕͜ Y̷̩̐̏͆̔̓͝ ̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊t̵͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜Ǵ̴͈̮͖̝̤̂͗̑̍̈ ̴̪̺́̄̅͗͜a̷͌̈́͗̃̾̇ͅn̴̗̮̲̫̏͌̉͂͛͝ D̸̨̮̟̜͙͉̘̬͛͐͜W̵̢̔̂̉̂͋͘͘o̸̘̞̫͈̭̼̙̣̓͆̅̽́͘̚ŗ̶͈͍͎̠̜̰̭͓̼̀͝ạ̵̛̫̝̜̱̱̒̅̒̀͛̇͐̈͝ỏ̷̲̄͊͌̉̍͝ȇ̸̫͓̾͋͆̿͛ȯ̵̱̣̟̮͇͙̳͖̜͆͘ͅa̵̼͎͎̍̈́̓̐͘ ̶̳͚̠̱̖̫̰̫̈̔͌̚\ǹ̶͙̖̍́̉̈̈͛͌͒̕n̴̨͓͖͓̯͍̞̼̪̂̀͛̑͒̕͠ Ç̵̢̗͕̪̇e̸̢̢͚̰̘̠̱͍̳͘m̸̖͛̑͊̿̈̉͂͝͠a̶̛͕̩͑t̶͇̮̗̔͗̈́̂̓͗̋̓̓̕ W̴̥̙͇̠͉̭̔̍̽̅̒͆̑̓͊͘ ̴̛̰͖̠́̽͒̊̋̋e̴̡̡̖̼̦̩̹͆͛̃̄̽̓̈́͛̋͝t̶̢̲̀̆͗ ̸̡̜͓͖̩̫̺͙̗̿͗͜͠͠l̷̩͎̜̩͍̼̝̽̋̂̀͊̈̒͠h̸̭̜͓̺͓̓̈́͆͘ ̸͔͈̯̫͓̱̳̯̬͇̀͛͐͋p̷̯͓͇̫͓̱͇͝ B̵̨̜̠̜̠͂̾͂̃̾͑͗͗͠ę̵̬͕̗̣̼̲̥͎͆̇͗͆̀͛͝ĺ̷͓͕̜̺͌̓̏̽̐̊͊u̴̧͈͓̐í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜í̷̳̃͂̌͛́̍̎̚͜u̴̧̙̝̣̜̳̥̯̼̓̍̕͜ ̸̱̟̦̘̦͛̉͋͐̈̀̂͘͠ͅṃ̵̭͙̰̤͈̰̠͂̍ȁ̵̧̹̬̝͇̯̙̮̳̚ͅḌ̶̛͇̯̻̜̤͓̀̀̂̿͝s̴̩̠͇̀͂̈́͆͝ ̴͖̫͍̼͐̌̽̊͂͛͘ͅ,̴̥̯̖̥̮͔̼͚͙̃͆͊̎͜\n̷͕̳͙̲̫̺̅B̸̷̨̠̞͇̬͕̳͙̲̫̺̋̂̇̋͆̔̂̅͝B̸̨̠̞͇̬̋̂̇̋͆̔̂͝e̵͖͐͌̅̒͆͠r̷̝̰͓͕̱͙̬͎͍͙͌̆͑̌̊͊̆ ̶̠͕̜̳̱̍̀̅̃͂̈͊ţ̸̿̓̽̋͒̇̑̐͠ḣ̷̡̼̲̞̬̻̓͛̀̆͜ę̵̨̧̜̪̤͔̜̭̓͛́̌̆͆̋̓̅̑a̶̲̲̤̟͚͕̣̩̓̐r̴̲̭͐ṣ̸̺͎͓̲͓͇̔͗͗̀̄͝ ̸̨̺̫͔̫̦̿̈,̸͍̖̾͒̒̓̏̉ͅ ̶̢̛̼̤̥̩̬̊͛̂̐͌ṣ̷̨͍͍̝̼̖͛̑̈́̀͛̚̕͠ų̷͓̬͇͚͇́̆̅̇̚ͅͅń̸͔͕͈͂͑̋͂̏͝ͅ D̷̺̟͈̳̏̇͋̏̈́̾ ̷̦̭̭̫͔̝͙̞̼̄̎͐m̷̧̪͓̙̳̞̳̫̜̮̾͐̔́̔ȋ̶̟̟͔͙̪̿̓̿̍D̷̹͙̬̒̀͊́̀̆͋͜͝i̸̛̼͍̟̫̱͓̗̾͑͛͒͂ ̸̡͇͉͓͇͈̣̭̻̄̃̔͑͐̀̾̅̃ͅę̵̠̞̾̄̿̎͑̄̕̚n̶͓͔̰̹̲͍͖͂̒̀̀ͅt̸̤̗̰̭̐̒̕ ̵̸̢͙̯̱̫͍̤̗̰̭̌̈̊͆͂̅͂̅̐̒̚̕ ̵̢͙̯̱̫͍̌̈̊͆͂̅͂̅̚\n\n,̸̛̯̼̠͐̽͊͜͠ ̵̨͎̙̻̻̠̹̇̏͒͌̅̉̒̆͛̇͜B̶̡̥͂̏̊̾̏̌̀̾̌͠o̵̻̣̙͓̬̙̟̎͠ņ̶̫̩͙͉̝̹̟̪̏͜e̵̛̼̫͈̋̌͛͑͒̓͌́̕s̸͓͉̄́ͅ ̸̧̺̦̺̬̻̘̣̣̃̅͑͐͋̐̋̕̚̚F̵̭̝͕̀̿̄̉͗̑̈́̕̕͝l̴̰͙͗͂͊̄͝ Ỷ̵̘̿ ̷̺̪̲͓͎̣̞͖͙̈́̀̂͆ͅt̶̨͓̟̰̝̃̋́͊͋̓͋h̶̡̫̬̖̯̳̣͑́̒͆͐̚ě̴̤̗̞͖̉̔͘͝ ̸̛͔̩̙̥̩̱͉̰̆̊̔̀͌͠s̴̡̛̯̼̲̹̣̣̮̪̞̀̀̓̔͌̿̃͝͝i̴̞͇̠͉̹͛́̉t̴͔̻̱̗͍͍̩͇̝̽i̸̬̜̊ḿ̸̥̪̺̯e̷̞̻͙͒n̸̡̥͓͍͇̰̤̹̤͍̐̊͒͂̄t̸̬̥̞́̌͊̅́̀̋́̀̔͜\n̵͍̾̓̈́ú̷̡̙͖̭̞̘̭̏n̷̛͍͓̪͎̖͒̈́̃͂́̒ D̶̰́̈́̂̇̔̋͊̚ ̶̛̩̺̬̺͌̽̑̇̒̽̚W̶͓̤͕̲̻̼̭̐̄̃͆̚͝e̸̛̘̬̫͛̋̂̍͋̀͝ ̸̮͗̉G̶̼̯͐̌ͅr̴̛͇̥̼̯̩̼͆a̷̞͉̗͍̞̓̃͛̉̉͒̇̊͜Z̴̡͎̭͍͎̱̳͍̳̭̅̏̀̔͑́̐̚̚͝é̸̘̯͗̆̂͝͝ń̶̛͇͍̩̭̓̊́̚l̶̤͙̪̣͔͉̎ Y̷̦̱̫͚̟͕̭͑͊͜ ̴̨̱̟̬̘̏͌̋͋̃̀̌̑̉͆G̸̱̠̗̲̯̞̠̈́̅̈̿̌̏̈͝ơ̶̬̳̖̗͌̑̾̇̔͗͠o̶̧̖͚͙͈͕̞̼̘̫̿̒͝ň̵̬͍̻̱̼̝̘͗͌͊̓͝ G̵̤͈̜̪͇͔͖̘͇͕̀͂̌̎̈́͂̕̚s̴̟͋̈́͘\ń̷̢̲̮̜̪̹͌͐͐̆W̸̮̗̘͇͚̣̗̃̌̓̉̈̅͛̕͠ą̶̛̼̦̈̏̎͗͛̽̀̎͌r̶͎̟̼̯͙̟̂͑s̵̭͓̣̹͕͎̈̌̌̓̀̂̑̽̇̓͜ ̴̤͔̇W̶̥̺̣̘̓̽̋͊ḙ̷͚̰̗̂̒̎̉̓̓͌ ̸̰͍̩̟̒̾͘s̶̛̩̠̼̫̞̙̪̽̈́͂̓͛̅͜͝ȋ̴̢̛͚̗̦̗̟̥̙̞̐̍́͋̑̄̚͜ĺ̶̖̘̲̫͚̥̰͚̆̓̈́̽̍͠͝͝v̶̻̳̄́̂̐̈́̽̔é̶̛̤̭͍͖͋͊̃̀̊̐͜͝ͅ ̷̧̡̢̞̫̝̞̦̟̞͑̂̋̽̈́͂͘͝͠,̶̳͇̳̫̎̋͆̎̾̈́͗̃͝ ̵̖͕͙̣̼̪͕̹̾̔̌̚ş̸̰͉̠̖͎͐͗͗̏̓́́̈͠t̸̩͔̪͆́̊̀̈́̈́́̈́̿r̶̲͗͐͘̚ï̵̲̈̈̾̇̋̓̾͌̍e̷̻̙̘̝̗̾̆̃s̷̖̟͙̣̮̿̓.̴̡̝̱̺̣̘̹̣̮͔̃͊̇͆̌́̀̕͘ ̷̧̮͍̺̰̑̕m̸͍̹͕̤̔̀͘u̴͍̟̎̈́̋̈̐̆̄̓͆̚ş̶͍̣̮͍͖̯̜̩̹̀̚e̷̘͚̳̹̤͑́̅̉͋͗̔ ̶̰͙̈́͛̚͠ş̶̯̻͉͖̱̯̊͂̓̌̊͠i̷̜͈̓̈́̅́̿̀̇̽̕t̶̡̨͈̯̜̠̳̰͊̂̿̒̀i̸̬̣̳̜̭̇̒̈͛͆͘̚ö̷͎̬͔̩͇̝̻̺̟͍̅ṇ̴̛̺̺̂̓̈́̂̅̐̓́ͅȩ̸̧͇̟̠̠̠̳̽͒́ş̷̦̈̍̐̾͂ ̴̹̬̰̫̂͑͆̇͗̚ͅ;̴̨̺̻̤̻̣̼̗͇̌̃ ̸̨̪̠̹̹͇̻̎̑̔͊̂͂̆̕͝ä̶̢͎̗̲̞̞̩͇̫̈́̔l̸̫̄̀́̎̂̑͐̚̕ͅļ̶̣̺̆͝ ̵̼͚̌̍̋ȏ̷̺̰̮̹̻̋̐̄̽͆̒͝ū̴̧̟̪͇̹̼͋̒̾͊́͜t̶̡̡̨̢͎̝̙̼̳̮̓ ̵̹͎̹̗̈́͑͆̂̉͜,̷̘͎̟̙̞̜̗̫͖̰̑ ̸͔̰̩͎̒̍̆̂̈́́̿͠D̵̠̪͇̲̘̻̟̍̃͒̌̕̕͜e̶̩͍͇̒͊̎̾̆͆̒̅͘r̷̛̠̘̼̼̮̼̫̱̬̿͋̊͒̓͗͗͜͠ȩ̵̛̛͖͓̥̜̥̲͚̠̱̔̿s̸͍̖̹̞̹̥̭̮͂̑̏͜.̴͎̰̥̹͍̋͋͂͘ ̴͙̤̒͗̑̾̉̆̈͐̉m̷̨̠̱̹̦̰̟̮̀̌̒͑͘͜͝e̵̳̿͛̒̂̕n̴̦̝̰̗͚̪̟͌̉́̐͘̚t̷̞͚͊̾͐̅͠͝ ̵̡̛̗̼̱͈͚̣͕̪̫̾̒ų̸̛̭̳̘̰̒̃̕nų̸̶̛̭̳̘̰̯̙̒̃́̒̿́̕D̷̺̟͗͠ė̵̲̰̰͕̫̲̞̦͒̔̑́̉̐͘ ̸̘̮̻̻̳̦̮̗̰̣̀͋̎̋̈͊͆͑̕a̶̧̧̟̯̻̲̿̐͘ṇ̶͕͌̊̀̽͝ C̴̢̙̼̱͇̟̻͖̿̉̆̃̀̚͝͝į̸̡̛̠̳̬̻̪̲͍̀͒͌̐̋̈́̀͊͠n̶̤͖͊͂̍̚͠ Ġ̷̘̤̺̲̮̦͛̌̀̓̓͛̓ͅͅ ̵̞̠̻̘͌̾̀͋͛͆͊͗̚D̸̛̯̞̱͓͇͋͌̌̄͒̆͑̚͝ą̴̛͖̬̉͒̀̒̇͘̕ͅn̷͉͙͇̪͒̅̽̈́͛͗͑̚͘D̴̛̯̝̬͉͙͇̪̽̆̑̋̈́̓̄̎͒̅̽̈́͛͗͑̚͘D̴̛̯̝̬̽̆̑̋̈́̓̄̎ ̵̢̝̗͓͙̈́̌̔̔̂̌ͅͅṫ̸̨̙̖̤̣̰̜̖̣̇͂͗͗̚͘̚h̸̺͕͆̽̑͐̆̇̅ě̸̡̝͕̠̼̫͍̭͉̈́͑̋̔͠á̶̛̛̤̩͈͕̝͛̃́͝D̸̤͇̣̗̬̤̰̐̍̍͌̎͝e̴̩̼͈̾̅͆̓̉̂ē̶̡̙̱̩̺͕̘̜͂̇̐̓p̵̢̮̘͇̫̰̓̒̀̃̃̽̀̕ ̷̪̤̝̯͚̀̆́͛͌̿̌͠ȉ̴̗̬̲̝͙̠͚̃̀́͑͋́͑̕͠n̶̨̝̎̊̔̆̋̉̚͠͠G̷͔͍͎̿͊̈́̈̚̚͝i̶̡͝n̵̛̪̥̞̯̗͚̾̍̌͑͘̕ G̶̬̹̦̗̔̓̃͐͂͆̈́ͅ ̸̢̮̫́̎̎͌͛̄̔͗̅̕D̶̰͍̊̈̈́̅͒̍̌͠͠a̸̡̧̛̗̼̲̾͗̀̈̈́͑̍n̷̨̫̖͖̮͔̱̤̔͐ Ç̶̗͎͙̲̠͇͉̲̩̋͛̏͋͆̈̚͝i̵̘̇͆͗̊͜n̴͈̝͊̍͑\nả̴͙̪̉͌̿n̴̘̝̦̘̰̣͉̺͕̠͂̂͗́̆̎̂n̸̤͖̼̺̈̓̈́͆̈́ͅ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴͖̳̝̥͔̰͒̓͒̅̋ͅș̵̣̳̼̘̞̊̌̽͂̈́͋͘͜͜͠ī̷̡̛̛̜̹̊͂̓̎̚ͅn̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘i̶̬̳͛́͆̈́̂̒́̅̓n̶̢̡͖͖̼͈̹͕̯̅̋̈̓͋̑̐̓̂͜ D̸̺̠̘̋̂͂͠s̴̠͆̾̃̀̽e̴̡̧͙͔͎̞̬͈̰̎̈́̉̓ ̷̹͙̪̺͓͙͊͑̃̓͘s̷̩̘̤͈͉̑i̵̼̤̰̝̠͙̠̿n̶̡̡̛̪̮̭̖̬̗͈̤͊̓̏̚̚ Ģ̵̡̪̞͕̃̏̆̅̊ṡ̸̛̙̾\ǹ̴̛̲͖͓̗̾̆̍̕ F̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ļ̶̨̛͚̻̝̻̭͂̎̈́̾͛̕͜ Y̷̩̐̏͆̔̓͝ ̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊t̵͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜n̸̤͖̼̺̈̓̈́͆̈́ͅ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴͖̳̝̥͔̰͒̓͒̅̋ͅș̵̣̳̼̘̞̊̌̽͂̈́͋͘͜͜͠ī̷̡̛̛̜̹̊͂̓̎̚ͅn̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜\n̵̡͓̯̖̦͔̖̟̈́F̸̵̨̡̛͓̣̥̝͓̯̖̦͔̖̟́̍̈́͘\nF̸̨̛͓̣̥̝́̍͘\ni̶̬̳͛́͆̈́̂̒́̅̓n̶̢̡͖͖̼͈̹͕̯̅̋̈̓͋̑̐̓̂͜ D̸̺̠̘̋̂͂͠s̴̠͆̾̃̀̽e̴̡̧͙͔͎̞̬͈̰̎̈́̉̓ ̷̹͙̪̺͓͙͊͑̃̓͘s̷̩̘̤͈͉̑i̵̼̤̰̝̠͙̠̿n̶̡̡̛̪̮̭̖̬̗͈̤͊̓̏̚̚ Ģ̵̡̪̞͕̃̏̆̅̊ṡ̸̛̙̾ ̴̸̛̛̲͖͓̗̙̀̾̆̍̇̾̕\ǹ̴̛̲͖͓̗̾̆̍̕\nF̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ļ̶̨̛͚̻̝̻̭͂̎̈́̾͛̕͜ Y̷̩̐̏͆̔̓͝\n\n̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊ t̵͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜n̸̤͖̼̺̈̓̈́͆̈́ͅ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴͖̳̝̥͔̰͒̓͒̅̋ͅș̵̣̳̼̘̞̊̌̽͂̈́͋͘͜͜͠ī̷̡̛̛̜̹̊͂̓̎̚ͅn̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘i̶̬̳͛́͆̈́̂̒́̅̓n̶̢̡͖͖̼͈̹͕̯̅̋̈̓͋̑̐̓̂͜ D̸̺̠̘̋̂͂͠s̴̠͆̾̃̀̽e̴̡̧͙͔͎̞̬͈̰̎̈́̉̓\n\n̷̹͙̪̺͓͙͊͑̃̓͘\n\nĢ̵̡̪̞͕̃̏̆̅̊ ̴̛̲͖͓̗̀̾̆̍̕F̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ Y̷̩̐̏͆̔̓͝ ̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊\n\n͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜ G̴̬̪̯̪̩̉̀͗̈́̚͘\n\nò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴̵͖̳̝̥͔̰̦̣̳̼̘̞͒̓͒̅̋̊̌̽͂̈́͋͘͜͜͠ͅī̷̡̛̛̜̹̊͂̓̎̚ͅ ̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜ i̶̬̳͛́͆̈́̂̒́̅̓ D̸̺̠̘̋̂͂͠ Ģ̵̡̪̞͕̃̏̆̅̊ ̴̛̲͖͓̗̀̾̆̍̕F̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ Y̷̩̐̏͆̔̓͝ ͉͌̾̏̓̈́̍̌̂̾ ī̵̛͎͕̣̰̳̹̞̩͇̎̋̂̍̎͂ ͉͌̾̏̓̈́̍̌̂̾ ī̵̛͎͕̣̰̳̹̞̩͇̎̋̂̍̎͂ F̸̩̩̠̀̏̄̆͗͑͑̑͜͝͠ Y̶̼̤͚̯̪͖̲̊͐̍̓̓̈́ G̵̞̟̣̗̪̺͇̫͛̔̎͆͂̈̆̉͝ i̶̬̳͛́͆̈́̂̒́̅̓ ǫ̷̹͍̒̋̿͛͑\n\ni̶̬̳͛́͆̈́̂̒́̅̓\n\nF̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ F̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴͖̳̝̥͔̰͒̓͒̅̋ͅ Ģ̵̛͍͉͍͖̭̯͆̓̚͜ ̵̡͓̯̖̦͔̖̟̈́\n\n̷̹͙̪̺͓͙͊͑̃̓͘s̷̩̘̤͈͉̑i̵̼̤̰̝̠͙̠̿n̶̡̡̛̪̮̭̖̬̗͈̤͊̓̏̚̚ Ģ̵̡̪̞͕̃̏̆̅̊ṡ̸̛̙̾ ̴̸̛̛̲͖͓̗̙̀̾̆̍̇̾̕\ǹ̴̛̲͖͓̗̾̆̍̕\nF̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ļ̶̨̛͚̻̝̻̭͂̎̈́̾͛̕͜ Y̷̩̐̏͆̔̓͝ ̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊t̵͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜n̸̤͖̼̺̈̓̈́͆̈́ͅ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴͖̳̝̥͔̰͒̓͒̅̋ͅș̵̣̳̼̘̞̊̌̽͂̈́͋͘͜͜͠ī̷̡̛̛̜̹̊͂̓̎͂̈́͋̚͘͜͜͠ͅ\nī̷̡̛̛̜̹̊͂̓̎̚ͅ\nn̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜\n\n̵̡͓̯̖̦͔̖̟̈́F̸̵̨̡̛͓̣̥̝͓̯̖̦͔̖̟́̍̈́͘\nF̸̨̛͓̣̥̝́̍͘\ni̶̬̳͛́͆̈́̂̒́̅̓n̶̢̡͖͖̼͈̹͕̯̅̋̈̓͋̑̐̓̂͜ D̸̺̠̘̋̂͂͠s̴̠͆̾̃̀̽e̴̡̧͙͔͎̞̬͈̰̎̈́̉̓ ̷̹͙̪̺͓͙͊͑̃̓͘s̷̩̘̤͈͉̑i̵̼̤̰̝̠͙̠̿n̶̡̡̛̪̮̭̖̬̗͈̤͊̓̏̚̚ Ģ̵̡̪̞͕̃̏̆̅̊ṡ̸̛̙̾ ̴̸̛̛̲͖͓̗̙̀̾̆̍̇̾̕\ǹ̴̛̲͖͓̗̾̆̍̕\nF̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ļ̶̨̛͚̻̝̻̭͂̎̈́̾͛̕͜ Y̷̩̐̏͆̔̓͝ ̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊t̵͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜\nÇ̷̰̲̥͖͔̣͇̈́̅͛͘ī̵̛͎͕̣̰̳̹̞̩͇̎̋̂̍̎͂n̸̲̞͓͔̮̣̜͈̅̽̚͘ G̷̥̅̄́̎͋̚ ̷͚̹͉͕͚̞͖̰͖̍̄̈́̆ͅs̶̨̨̛͉̲̥͍͓̟̺͆̎̽͒̇̓͐͋ṯ̸̖̰̓̒a̵̲̜̪̜̬͈̖͍͕͆r̷̛̘̲̅̎̓̑͘̕̚͝p̴͕̖̼̱̝̼͇̆̓̐̀̆ë̷͕́̐̎̈́͌͛͝Ḑ̵͙̩̣̑̓̈́̆̽ ̷̳̖͉̂͋F̷̖̬̜͉͙̱̯̠̜̅̃̇̄̈́̆̄̆l̵͔̫̟͕̼͉͂̅̿͒̈̀̑̒Ẏ̸̩ ̷̧̜̭͍̼̫̐̃͊̍̏̑͘͝͠a̷̮̺͙̱͐̈́ ̶̨̼̤̠͇̠̏̋̂̍̉̊́͝m̴͉̄̊̔̓̓͌̀̿͘͝e̵̩̒̑̐͋̈́̊̃̍̚m̴̬̬̟͔̅͑͝ͅo̴̬͑ọ̵̡̮̥͊̋̄̔̒́̃̽͆̓ǹ̴̨̧̯̠͖͙̝̱̫̈͆͠ ̵̡̹͓͈̮̝̱͋́́̈̈̚͠ą̶̛̠̲̦̉̈́͗n̵͉͒̀͐́̓̀͘ D̵̩͔̙͔̖͚͔̲̾̾͝ ̷̱͎͠F̸̩̩̠̀̏̄̆͗͑͑̑͜͝͠ļ̸̛̯̺͗̽ Y̶̼̤͚̯̪͖̲̊͐̍̓̓̈́ ̵̛̂̐̎̽̀́ͅG̵̞̟̣̗̪̺͇̫͛̔̎͆͂̈̆̉͝ǫ̷̹͍̒̋̿͛͑ ̴̡̤̽͝B̸̛͎͓̺̯̜͇͎̬̎͊̂͂͘̚ơ̵̯̬̫͓̳̙͂͗̃͆͜ǹ̸̢̧̮͙̜̣͎̓͛̏̑̄͗̐̓̕͜é̵̛̖͓̦̥̰͇̦̘͎̇̓͌̀̓͛̏̑̄͗̐̓̕͜͠é̵̛̖͓̦̥̰͇̦̘̇̓͌͠s̸̼͕̓͘͜͠ͅ.̵̢̧͖̳̞̮̌̒̑ ̴̼̮̞̪̠̈́͐͛m̷͙̙̳̯͖͍̀ͅa̴͚̠̬̲͔̎̑Ḑ̷̲͙̟̻̩̥̈́̓͂͊s̸̬͓͇͎̐͝ ̵͔̖̐͊͒͂̏̄̓͆͜͝ͅ;̵͕̦̀̔͊̽͘ ̶̢̢̜̟͕̝̣͊̀̍ą̷̨̫͙͎͇͖̻̺͇̆̌́͘͘͝͝l̵̹͉͕̺̙̬̪̺͎͍̈́͐̌̇̑̕ ̴̡̢͓̯̜̞̗̠̿͊̐̏ṙ̴̥ę̶͈̼̖̣̌̑́̒̄͜G̴̝̹̣̳̹̦͖̞͎͒̄̅́̌̈́̀o̸͎̬̞̳͚̝̤͓̮̥͐̃̈́́̒͘͠o̸͈͍͋͗͐̀̽̅̚Ḑ̷͈͉̭͕̯͌̌̃̕\n̶̗̖̗̖̲̗͊̿̑̐͐͂͊̓͠m̸͚̼̘̲̠͎̓̈̈͊̎̚͘͝͠ȉ̸̥̰̠̹̗̈́̇̋̓̉̚D̵̡̝̳̘͕͍̙͙͖̊į̶̣͎̟̝̰̩̜͎̂͊͗̒̂͠ ̴͈͎̍́̔͆͆̏̚͜e̵̛͖̯̼͍̖̮̺̤̾̓̌̊̕n̷̺͙̽̓̇̓̔͌̐̿̌D̷̡͍̦̞̃̇ ̵̨͇̦̤̫̹͖͑́͜m̸̤̞͌̀͛̿ŏ̴̢͉o̷̡̧͚̺̼͙̩̣̿̉͊̔̕͝n̸͚̏͗ ̸̡̧͚͚̝̗̣̺̲̈̏̐̓̔̉́̇͠a̸͎̫̠̓͌̎̅̈́̇͆̀̈́̈n̷̹̤̏́́̽̊͗͒́Ḑ̵̼̘̫͕͓́̂̊̔͋́̓ ̴̨͓̺͕́͜t̷̪̗̙̲͈̻͔̜͗͊h̵̡̙̠̗̐̀̚ ̸̵̡̛̯͔̱̣̦̙̠̗̈́̑̒͗͐̈́̐̀̕̚͜ ̸̛̯͔̱̣̦̈́̑̒͗͐̈́̕͜\n\nB̶̠͖̔͂̉̄ȩ̴̣̰̳͋̕n̸̤͖̼̺̈̓̈́͆̈́ͅ G̴̬̪̯̪̩̉̀͗̈́̚͘ò̴̩̪̣͍̼͚̗̬͒̉͗͐̀̕Ḏ̷̢̨̯͚̭͚̱̰͍͑̈̉̊͘͘ ̴͖̳̝̥͔̰͒̓͒̅̋ͅș̵̣̳̼̘̞̊̌̽͂̈́͋͘͜͜͠ī̷̡̛̛̜̹̊͂̓̎̚ͅn̸̨̛̯̬̪̟̓̐́̾̓Ģ̵̛͍͉͍͖̭̯͆̓̚͜ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘ ̵̡͓̯̖̦͔̖̟̈́F̸̨̛͓̣̥̝́̍͘i̶̬̳͛́͆̈́̂̒́̅̓n̶̢̡͖͖̼͈̹͕̯̅̋̈̓͋̑̐̓̂͜ D̸̺̠̘̋̂͂͠s̴̠͆̾̃̀̽e̴̡̧͙͔͎̞̬͈̰̎̈́̉̓\n\n̷̹͙̪̺͓͙͊͑̃̓͘s̷̩̘̤͈͉̑i̵̼̤̰̝̠͙̠̿n̶̡̡̛̪̮̭̖̬̗͈̤͊̓̏̚̚ Ģ̵̡̪̞͕̃̏̆̅̊ṡ̸̛̙̾ ̴̸̛̛̲͖͓̗̙̀̾̆̍̇̾̕\ǹ̴̛̲͖͓̗̾̆̍̕\nF̸̨̟͇̠̖̘̠̳̥͙͆̓̿̀̿̂̇͛̒͠ļ̶̨̛͚̻̝̻̭͂̎̈́̾͛̕͜ Y̷̩̐̏͆̔̓͝ ̴̢̢̛̥͔̦̪̝̗̬̒̋̀̊t̵͉͌̾̏̓̈́̍̌̂̾í̵̢̠̭̀̊̓͗͂͜C̴̢̛̲̬̻̥͚̾͗̾̊́̈͘̚͠ä̸̟̜͆͝ủ̸̝͖͇̺͔̔͝s̶̢͎̦̠̱̬͓̝̉̍̕͝ï̴̛̦̤̫̤͎͘C̶̨̗̿̋̎͜ï̴̛̦̤̫̤͎͘C̶̨̗̿̋̎͜à̸̡̢̼̗͙̤̮u̸̜̅̀͑̍̐́̏̑̾̈́s̸̢̛̙͖͖̄̓̅̀̏̎͝͠ẽ̸͓͉͉̤͔͕̬̗͓̂͌̒͌̄̈́͆͌ ̷̥̠̻̙͊m̸̢̢̟͇̯̙̠̠̙͐͆́͐̍̍͌͘͘͠ͅơ̶̢̡͙̥̩͇͛̆́̅̔̚͝͠ớ̸̢̯͇͈͎͎̤̟͚̅̌ǹ̷̥̼͎̩͂ṁ̸͎̞͍̮̮͉̺͔̟̺̆̍̀̑͐̓̚͝ȩ̴̼̠̥̣̖͉̲̝̿m̵̨̛͎̭͕͌͗͆̃̚͝͝ȍ̷̻̤͖͎̪͈͍̱͆̀͋̚r̴̦̉̒̈́̉̅i̵͇̟̊͗̆͗̇̉́͘͝n̶͍͉͉̱͈̮̥̘͓͆͠ G̸̩̼͎͎͆̊̓̈̐ ̶̹̖͚͎͍̮͕̥̫͐̋̃͋͊̊̈̆̓͑,̵̡̱̰̩͑͊͛̐̅͛̕\n̶̦̙̙̝͈̗͇͕̳̻̈́̾̐̊͋̎͘̕̚͠r̴͍̻̯̓̍̾͊͗̓̒͘ͅẹ̸̢̛̘͉̝̼͓̈͗͐̾̔̌̀G̸̞̙̪̬̋̈́́̊͝͝ō̸̡̥̻͓̞̪͍̙͛͐̐ ̷̧͉̻̠͉͓̜̰̇͊̀͆͂̈́̏̕ͅB̴̺̖͎̮́̋͘ó̶̪͎̦͖͖́͑̔̋͑̋v̷̨̗̘̥͉͚͛͑͘̕͠ȩ̵̛̥̥̰̠̼̪͓̣͆̄́͂ ̵̧̯͓̜͓̗̘͙̼̲̅̀̇G̸̰̦̩̃̑̏̋̒̊̑͗̕͠r̴̨̢̛̞͕̅́̆̽͒̓̋̾̕á̸̍̔̏̆̇͐͗͜͝Z̷̡̢̼̯͗̾̕e̵̢̳͓̼̔̎͠ͅṉ̴̡̮͕̮͈̜̭̅̂̈̄͆̈̅̈́̚ D̷̢̻͍̝̫͍͉̬͓̦̀͒̑́̀̋̓̀̚̚ ̷̧̬̖̝̙̬͍͆̅͌͋͝F̴̧͔̠̣̔͜l̸̺͚̬̺̝̝̪̿̃͛͑̕̚͝ Y̸̢̡͓̲̞̣̟͔͓̦̽̂̈̓̓͝ ̸̫̪͖͇̇̀͊̏̍͛͋͆̚̕t̴̡̙͕̠̬̞̞̰͂͛̓͊̀̓͋h̷̢̫͖͆̊̐͋̕͝͝ ̷̧͎͉͓͉̟̬̲̂ͅB̸̗̻͙̭́͌̊̊̓̒ō̶̥͒ņ̶̟̮̝̰̝͈̀̓̔̂̊̇͂\n\n\n\nWinner, PCoT B.O.N.E.S. 3.0 Competition.\n\nPCOT0013`,
+    "contribution": "Mastering",
+    "label": "Bandcamp",
+    "link": "https://tandy.bandcamp.com/album/5",
+    "background": "#c2c2c2",
+    "font": "#000000",
+    "credits": [{
+      "name": "Bones",
+      "contribution": "Voice"
+    }, {
+      "name": "Jack Hamill",
+      "contribution": "Composition"
+    }, {
+      "name": "Ko Takasugi-Czernowin",
+      "contribution": "Mastering"
+    }],
+    "links": [{
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/5",
+      "background": "#c2c2c2",
+      "font": "#000000"
+    }]
+  }
 
 ];
 
@@ -627,12 +656,12 @@ function generateNewCatalog() {
       <div class="qube-perspective spin">
         <ul class="qube faces no-shading cube10">
             <!-- Source order implies the faces here! -->
-            <li><img src=".${album.cover}"></li>
-            <li><img src=".${album.cover}"></li>
-            <li><img src=".${album.cover}"></li>
-            <li><img src=".${album.cover}"></li>
-            <li><img src=".${album.cover}"></li>
-            <li><img src=".${album.cover}"></li>
+            <li><img src="${album.cover}"></li>
+            <li><img src="${album.cover}"></li>
+            <li><img src="${album.cover}"></li>
+            <li><img src="${album.cover}"></li>
+            <li><img src="${album.cover}"></li>
+            <li><img src="${album.cover}"></li>
         </ul>
       </div>
       <div class="release-name">
