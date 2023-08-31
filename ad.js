@@ -19,13 +19,13 @@ document.write(`
           style="width: 85%; display: flex; flex-direction: column; box-sizing: border-box; max-height: 47px;">
 
           <!-- #1 Text -->
-          <div g-role="header" class="glx-header">New Release May 18th </div>
-          <div g-role="description" class="glx-description">Tetso Cube Lightride - Elie M-H</div>
+          <div g-role="header" class="glx-header">New Release August 31st </div>
+          <div g-role="description" class="glx-description">Deep Blue by BLUE DISH. Triple album CD Release</div>
         </div>
 
         <!-- ok/close dismiss buttons -->
-        <div g-role="ctrls" class="glx-ctrls"><button class="glx-ctrls-button glx-cls" g-role="cls" onclick="location.href='https://tclr.pcotandy.org';">Viz</button>
-          <button class="glx-ctrls-button glx-ok" g-role="ok" onclick="location.href='https://tandy.bandcamp.com/album/tetso-cube-lightride';">Bandcamp</button>
+        <div g-role="ctrls" class="glx-ctrls"><button class="glx-ctrls-button glx-cls" g-role="cls" onclick="location.href='https://tclr.pcotandy.org';">Order Now</button>
+          <button class="glx-ctrls-button glx-ok" g-role="ok" onclick="location.href='https://tandy.bandcamp.com/album/tetso-cube-lightride';">Stream Album</button>
           <!-- link when OK is pressed ... vestigial from when this was predatory -->
         </div>
 

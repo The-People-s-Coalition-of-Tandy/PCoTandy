@@ -302,6 +302,7 @@
     flex-direction: column;
     justify-content: flex-start;
     z-index: 2147483647;
+    padding-top: 100px;
 }
 
 @media only screen and (max-width: 1000px) {

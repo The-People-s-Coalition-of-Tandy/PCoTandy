@@ -534,7 +534,57 @@ const albumList = [{
       "font": "#ff0000"
     }]
   },
+  {
+    "cover": "https://f4.bcbits.com/img/a1616212468_13.jpg",
+    "name": "Deep Blue",
+    "color": "#0310ff",
+    "artists": "BLUE DISH",
+    "description": "Hand-designed, hand-assembled, hand-made, self-produced, the \"Deep Blue Triple Album\" includes a 16-page art booklet, the brand new 8-song album \"Deep Blue\", BLUE DISH's previous 2 releases \"Out of the Blue\" & \"Into the Blue\".\n\nHand-packaged in Recycled Jewel Cases and printed in a local print shop, this album is sure to soothe & satisfy. \n\n\"Now that you've gotten acquainted, please make yourself comfortable in the Deep Blue. This is the world birthed from our ongoing lives & relationships as musicians & – more importantly – as friends.\"\n– BLUE DISH, Deep Blue release memo '23 ",
 
+    "credits": [{
+      "name": "Julie Bodian",
+      "contribution": "Steel String"
+    }, {
+      "name": "elie mcafee-hahn",
+      "contribution": "Gut String"
+    }, {
+      "name": "Andrew Oedel @ Ghost Hit Recording",
+      "contribution": "Engineering, Mixing"
+    }, {
+      "name": "elie mcafee-hahn",
+      "contribution": "mixing, mastering"
+    }, {
+      "name": "Julie Bodian",
+      "contribution": "mixing, mastering"
+    }, {
+      "name": "Kurt Weisman",
+      "contribution": "Flute [Track 1]"
+    }, {
+      "name": "Nick Bisceglia",
+      "contribution": "Photos"
+    }],
+    "links": [{
+      "label": "App Store",
+      "link": "https://apps.apple.com/us/app/blue-dish-soothing-music/id6450485327?mt=12",
+      "background": "#ffffff",
+      "font": "#000000"
+    }, {
+      "label": "CD Release Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/deep-blue-pcot-0013?from=com-nr",
+      "background": "#ffffff",
+      "font": "#171cb8"
+    }, {
+      "label": "Spotify",
+      "link": "https://open.spotify.com/album/01MVTvLz0y2hFDYBjALQgE?si=hloHJ0ZrRLCPc24tn-Hq_A",
+      "background": "#9fffb4",
+      "font": "#000000"
+    }, {
+      "label": "Apple Music",
+      "link": "https://music.apple.com/us/album/deep-blue/1700903813",
+      "background": "#ff0200",
+      "font": "#1f484c"
+    }]
+  },
   {
     "cover": "https://f4.bcbits.com/img/a4117248997_16.jpg",
     "name": "°‚°‚°‚°‚°‚°⌠ƞɛᶉ𝐌𝐈𝐃𝐈𝐕𝐎𝐗#5…√ƞɛᶉßʃ▼ßʃ°°ɱ‚°‚°‚°‚°‚°‚°",
