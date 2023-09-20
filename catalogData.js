@@ -612,6 +612,37 @@ const albumList = [{
       "background": "#c2c2c2",
       "font": "#000000"
     }]
+  },
+  {
+    "cover": "https://tuesdayverse.pcotandy.org/Assets/Paintings/12.jpg",
+    "name": "Tuesday-verse: Sorcerer Central",
+    "color": "#a254ff",
+    "artists": "Tuesday Hamilton",
+    "description": "The Tuesday-verse: Sorcerer Central is a physio-digital painting installation. The physical paintings are on display at the Looky Here gallery in Greenfield MA. With syber-support from one of the P.C.o.T Web workgroups, the Tuesday-verse is also a beautiful website! And you can view and make offers on these beautiful (& large) paintings on-line!",
+    "contribution": "Website",
+    "label": "Website",
+    "link": "https://tuesdayverse.pcotandy.org/",
+    "background": "#007806",
+    "font": "#ffffff",
+    "credits": [{
+      "name": "Tuesday Hamilton",
+      "contribution": "Art"
+    }, {
+      "name": "elie mcafee-hahn",
+      "contribution": "Website"
+    }],
+    "links": [{
+      "label": "Virtual Sorcerer Gallery",
+      "link": "https://tuesdayverse.pcotandy.org/",
+      "background": "#007806",
+      "font": "#ffffff"
+    },
+    {
+      "label": "Artist's Website",
+      "link": "https://tuesdayverse.pcotandy.org/",
+      "background": "#ffffff",
+      "font": "#007806"
+    }]
   }
 
 ];
