@@ -4,6 +4,16 @@
 }
 .small {  font-size: 10px; line-height: 13px}
 
+body {
+  background: url("../../../Assets/tandyhour.gif") repeat;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: fit-content;
+  margin: 0 auto;
+}
+
 /*
      FILE ARCHIVED ON 13:44:53 Nov 03, 2017 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 18:48:57 Sep 20, 2023.
