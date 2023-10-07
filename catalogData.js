@@ -643,7 +643,8 @@ const albumList = [{
       "background": "#ffffff",
       "font": "#007806"
     }]
-  }
+  },
+  {"cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/Plaieboi/Diamant/cover_min.png","name":"Diamant","color":"#edc7ff","artists":"Plaieboi","description":"Diamant's instrumental was originally created for 30th Anniversary GM Smoidi Light General Midi Competition.","contribution":"Co-Writer, Mastering Engineer","label":"TANDYLINX","link":"https://tandylinx.pcotandy.org/Artists/Plaieboi/Diamant/","background":"#e1bdff","font":"#002aff","credits":[{"name":"Plaieboi","contribution":"Voice, Lyrics, Co-writer"},{"name":"Phoebe","contribution":"Producer, Co-Writer"},{"name":"Ko T. C.","contribution":"Mixing Engineer, Co-Producer"},{"name":"elie mcafee-hahn","contribution":"Co-Writer, Mastering Engineer"}],"links":[{"label":"TANDYLINX","link":"https://tandylinx.pcotandy.org/Artists/Plaieboi/Diamant/","background":"#e1bdff","font":"#002aff"}]}
 
 ];
 
