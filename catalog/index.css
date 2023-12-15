@@ -1,0 +1,460 @@
+:root {
+    --tandy-yellow: rgb(195, 194, 62);
+    --tandy-blue: rgb(0, 11, 124);
+}
+
+a {
+    color: var(--tandy-yellow);
+}
+
+@font-face {
+    font-family: TandyOS;
+    src: url('../Assets/TandyOS.ttf');
+}
+
+aside {
+    width: 400px;
+    height: calc(100vh - 16px);
+    background-color: var(--tandy-blue);
+    padding: 5px;
+    border: 3px solid var(--tandy-yellow);
+    overflow: hidden;
+    opacity: 0;
+    animation: fade .01s linear 2.2s forwards;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.window {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: var(--tandy-blue);
+    color: var(--tandy-yellow);
+    border: var(--tandy-yellow) 3px solid;
+    padding: 10px;
+    padding-top: 0;
+    text-align: center;
+}
+
+.window img {
+    float: left;
+    margin: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    outline: 2px var(--tandy-yellow) double;
+    outline-offset: 5px;
+}
+
+.window h2 {
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    font-size: 24pt;
+}
+
+.window h3 {
+    margin: 0;
+    font-size: 18pt;
+}
+
+.window header:active {
+    cursor: grabbing;
+}
+
+.window header {
+    cursor: grab;
+    padding: 7px;
+}
+
+.release-info {
+    border: 3px solid var(--tandy-yellow);
+    text-align: left;
+    padding: 15px;
+    height: 85%;
+    overflow: scroll;
+    cursor: default;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    font-size: 20pt;
+    cursor: pointer;
+}
+
+.catalog-list {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid var(--tandy-yellow);
+    overflow: scroll;
+    height: calc(100% - 96px);
+
+}
+
+.catalog-header {
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px
+}
+
+.catalog-header h1 {
+    text-align: center;
+    color: var(--tandy-yellow);
+    font-size: 26pt;
+    margin: 0;
+    padding: 0;
+}
+
+.release {
+    margin-bottom: 30px;
+    color: var(--tandy-yellow);
+    text-align: center;
+    display: flex;
+    max-width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    text-overflow: ellipsis;
+    align-items: center;
+    cursor: pointer;
+}
+
+.release-name {
+    margin-top: 20px;
+    width: 100%;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.release-name p {
+    margin: 0;
+    padding: 0;
+}
+
+.release:hover .release-name {
+    visibility: visible;
+}
+
+.release:hover .cube10 {
+    animation: spin 5s linear infinite;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.links a {
+    padding: 1px 4px;
+}
+
+.links a:hover {
+    filter: invert(100%);
+}
+
+@-webkit-keyframes scrolling-background {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 332px;
+    }
+}
+
+.tandy-cube {
+    margin-left: -10px;
+    transform: translate(6px, -2px);
+}
+
+#intro-cube {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: shrink 3s cubic-bezier(0.075, 0.82, 0.165, 1) forwards 5s;
+}
+
+#intro-cube .cube10 {
+    animation: spin 5s linear 10;
+}
+
+.tandy-cube .cube10 {
+    width: 35px;
+    height: 35px;
+    animation: spin 5s linear infinite;
+}
+
+#intro-cube .qube-perspective {
+    animation: perspective-shift 2s ease-in 2s backwards;
+    z-index: 100;
+}
+
+.tandy-cube .cube10 img {
+    width: 35px;
+    height: 35px;
+}
+
+body {
+    background-image: url("../Assets/tandyOSbg.png");
+    background-size: 20px;
+    overflow: hidden;
+    margin: 0;
+    font-family: TandyOS;
+    display: flex;
+}
+
+.qube-perspective {
+    perspective: 600px;
+}
+
+.cube10 {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.cube10>* {
+    color: #000;
+    background: rgb(255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.cube10 img {
+    width: 100px;
+    height: 100px;
+}
+
+.cube10 {
+    width: 100px;
+    height: 100px;
+}
+
+.HUD {
+    width: 100%;
+    height: 60px;
+    color: var(--tandy-yellow);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16pt;
+    opacity: 0;
+    animation: fade .01s linear 2.2s forwards;
+}
+
+.datetime {
+    display: flex;
+    gap: 25px;
+    font-size: 16pt;
+    margin-left: 30px;
+}
+
+.home {
+    outline-offset: 1px;
+    background-color: rgb(213, 213, 213);
+    border: 2px solid rgb(150, 54, 26);
+    color: rgb(150, 54, 26);
+    padding: 2px 6px;
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 16pt;
+}
+
+.home:hover {
+    background-color: rgb(150, 54, 26);
+}
+
+.home:hover a {
+    color: rgb(213, 213, 213);
+}
+
+.home a {
+    text-decoration: none;
+    color: rgb(150, 54, 26);
+    font-size: 20pt;
+    border: gray;
+}
+
+@keyframes perspective-shift {
+    from {
+        perspective: 50px;
+    }
+
+    to {
+        perspective: 400px;
+    }
+}
+
+@keyframes move {
+    from {
+        transform: none;
+    }
+
+    to {
+        left: 0;
+        top: 0;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(1turn);
+    }
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1) translate(-50%, -50%);
+    }
+
+    to {
+        transform: scale(0) translate(-50%, -50%);
+    }
+}
+
+.mobile-home {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    aside {
+        animation: fade 1s linear 2.3s forwards;
+    }
+
+    #intro-cube .qube-perspective {
+        animation: perspective-shift 1s ease-in 5s backwards;
+    }
+
+    #intro-cube {
+        animation: shrink 1s cubic-bezier(0.215, 0.610, 0.355, 1) forwards 1.3s;
+    }
+
+    body {
+        display: block;
+        overflow: hidden;
+        max-height: 100vh;
+        max-height: -webkit-fill-available;
+    }
+
+    .close {
+        padding: 4px;
+        /* background-color: var(--tandy-yellow); */
+        background-color: red;
+        color: var(--tandy-yellow);
+        font-size: 24pt;
+        transform: rotate(.25turn);
+        padding-bottom: 0px;
+        top: -3px;
+        right: 20px;
+    }
+
+    html {
+        height: -webkit-fill-available;
+    }
+
+    aside {
+        width: calc(100vw - 16px);
+        max-height: 100%;
+        max-height: -moz-available;
+        max-height: -webkit-fill-available;
+        max-height: fill-available;
+    }
+
+    main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: unset;
+        transform: none;
+        max-height: -moz-available;
+        max-height: -webkit-fill-available;
+        max-height: fill-available;
+        pointer-events: none;
+    }
+
+    .window {
+        transform: none !important;
+        width: calc(100vw - 26px);
+        min-height: calc(var(--app-height) - 16px);
+        pointer-events: all;
+        left: 0;
+    }
+
+    header {
+        font-size: 14pt;
+    }
+
+    .release-info {
+        max-height: 75vh;
+    }
+
+    .release-name {
+        visibility: visible;
+    }
+
+    .release .cube10 {
+        animation: spin 10s linear infinite;
+    }
+
+    .HUD {
+        display: none;
+        animation: fade 1s linear 2.3s forwards;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .mobile-home {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+
+    .mobile-home a {
+        margin-left: 20px;
+        font-size: 1em;
+    }
+}

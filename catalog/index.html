@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="qube.css">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Assets/PCoTandyLogo.ico">
+    <script src="./catalog.js" type="text/javascript"></script>
+</head>
+
+<body onload="generateNewCatalog()">
+    <div id="intro-cube">
+        <div class="qube-perspective spin">
+            <ul class="qube faces no-shading cube10">
+                <li><img src="../Assets/PCoTandyLogo.png"></li>
+                <li><img src="../Assets/PCoTandyLogo.png"></li>
+                <li><img src="../Assets/PCoTandyLogo.png"></li>
+                <li><img src="../Assets/PCoTandyLogo.png"></li>
+                <li><img src="../Assets/PCoTandyLogo.png"></li>
+                <li><img src="../Assets/PCoTandyLogo.png"></li>
+            </ul>
+        </div>
+    </div>
+    <aside id="catalog-panel">
+        <div class="catalog-header">
+            <div class="mobile-home">
+                <div class="tandy-cube" onclick="window.location.href='./index.html'">
+                    <div class="qube-perspective spin">
+                        <ul class="qube faces no-shading cube10">
+                            <!-- Source order implies the faces here! -->
+                            <li><img src="../Assets/PCoTandyLogo.png"></li>
+                            <li><img src="../Assets/PCoTandyLogo.png"></li>
+                            <li><img src="../Assets/PCoTandyLogo.png"></li>
+                            <li><img src="../Assets/PCoTandyLogo.png"></li>
+                            <li><img src="../Assets/PCoTandyLogo.png"></li>
+                            <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="./index.html">HOME</a>
+            </div>
+            <div class="tandy-cube hide-mobile">
+                <div class="qube-perspective spin">
+                    <ul class="qube faces no-shading cube10">
+                        <!-- Source order implies the faces here! -->
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                    </ul>
+                </div>
+            </div>
+            <h1>Catalog</h1>
+            <div class="tandy-cube hide-mobile">
+                <div class="qube-perspective spin">
+                    <ul class="qube faces no-shading cube10">
+                        <!-- Source order implies the faces here! -->
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                        <li><img src="../Assets/PCoTandyLogo.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="catalog-list" id="catalog-list">
+        </div>
+    </aside>
+    <main id="main">
+        <div class="HUD">
+            <div class="datetime">
+                <div id="date"></div>
+                <div id="clock"></div>
+            </div>
+            <div class="home">
+                <a href="./index.html">HOME</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script>
+    const appDimensions = () => {
+        const doc = document.documentElement
+        const panel = document.getElementById('catalog-panel');
+
+        doc.style.setProperty('--app-height', `${panel.offsetHeight}px`)
+    }
+    window.addEventListener('resize', appDimensions)
+    appDimensions();
+</script>
+<script src="./hud.js" type="text/javascript"></script>
+
+
+</html>
