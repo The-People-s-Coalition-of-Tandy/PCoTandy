@@ -54,7 +54,7 @@ async function generateNewCatalog() {
         </ul>
       </div>
       <div class="release-name">
-        <p>${album.name}</p>
+        <p>${album.title}</p>
       </div>
     </div>
 `;
@@ -74,7 +74,7 @@ function addWindow(release) {
   windowDiv.classList.add("window");
 
   for (let i = 0; i < albumList.length; i++) {
-    if (albumList[i].name === releaseName) {
+    if (albumList[i].title === releaseName) {
       releaseNumber = `PCoT ${"0".repeat(
         3 - (Math.log10(((i + 1) ^ ((i + 1) >> 31)) - ((i + 1) >> 31)) | 0)
       )}${(i + 1).toString()}`;
@@ -87,7 +87,7 @@ function addWindow(release) {
       )}" onclick="closeWindow(this)">X</div></header>
         <div class="release-info">
         <img width="30%" src="${albumList[i].cover}">
-          <h2>${albumList[i].name}</h2>
+          <h2>${albumList[i].title}</h2>
           <h3>${albumList[i].artists}</h3>
           <p>${albumList[i].description}</p>
           <p class="credits">`;
