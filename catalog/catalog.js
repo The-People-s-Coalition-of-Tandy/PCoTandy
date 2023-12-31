@@ -31,7 +31,7 @@ let zindex = 1;
 let windows = 0;
 
 async function generateNewCatalog() {
-  albumList = await fetch('https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/PCoTandy/main/catalog/catalogData.json')
+  albumList = await fetch('./catalogData.json')
   .then((response) => response.json())
   .then((json) => {return json});
 
