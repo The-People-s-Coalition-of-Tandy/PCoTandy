@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="../Assets/PCoTandyLogo.ico">
+
+    <script
+        src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0">
+    </script>
+
+    <title>GM Verifier</title>
+</head>
+
+<body>
+    <canvas id="myCanvas"></canvas>
+
+    <midi-player src="../sparkle.mid" sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus"
+        id="mainPlayer">
+    </midi-player>
+
+    <img id="logoCenter"
+        src="data:image/png;base64,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">
+
+    </img>
+
+    <dialog id="dialog" open>
+        <div style="display: flex; align-items: center;">
+            <img src="./index_files/check.ICO"> 
+            <h1>
+                 Welcome to the People's Coalition of Tandy General MIDI Verification Tool     
+    
+            </h1>
+            <img src="./index_files/check.ICO">
+        </div>
+        <div id="browse">
+            <div id="file">
+                <label for="midiFile">Load MIDI file:</label>
+                <input type="file" id="midiFile" name="midiFile" accept="audio/midi, audio/x-midi">
+            </div>
+        </div>
+        <p>
+            Upload your .mid file, and the <i>PCoT GM Verification Tool</i> will play it back for you. This is a quick
+            way to see if your MIDI is configured correctly.
+
+            <div><span style="color: rgb(255, 166, 0);">Note:</span> The sound generator used on this site probably
+                sounds different than what you heard while composing. However, the instruments should be recognizable….
+                that is, as long as your Instruments have been properly indicated by the Program Changes in the General
+                MIDI standard. <b style="color: lightcoral;">Making sure your Program Changes are correct is the main
+                    goal
+                    of this Web-Tool.</b>
+                Ideally, the piano part should sound like some sort of piano, a woodblock some sort of woodblock, and a
+                "crystal" FX some sort of crystal FX.</div>
+
+            <br>Each of the 16 MIDI Channels is represented by a different color sprite.<br><br>
+            <i style="letter-spacing: 2px; color: red; font-weight: bold;">WARNING</i>: <b>The sound engine sometimes
+                omits notes</b>, especially in higher octaves. This is a known issue and will be fixed in a future
+            update. If some notes are omitted, this does not mean your MIDI file has an issue
+        </p>
+        <!-- <br><br>
+                
+                Thank you for checking your MIDI with the People’s Coalition of Tandy “General MIDI Verification Tool” -->
+        <hr>
+        <div class="logos">
+            <img src="./index_files/GMLOGO.GIF" alt="General MIDI Logo" width="50px" />
+            <img src="https://webring.pcotandy.org/Assets/TandyLogo.png" width="50px" />
+        </div>
+    </dialog>
+
+
+    <img class="droplet" src="https://webring.pcotandy.org/Assets/TandyLogo.png" style="display: none;" width="50"
+        height="60">
+
+    <img class="droplet"
+        src="https://github.com/The-People-s-Coalition-of-Tandy/PCoTandy/blob/main/Assets/PCoTandyLogo3.png?raw=true"
+        width="50" height="60" style="display: none;">
+    <img class="droplet" src="./index_files/SignupButtonOut1.png" style="display: none;">
+    <img class="droplet" width="60" height="60" src="./index_files/Advanced.ico" style="display: none;">
+
+    <img class="droplet"
+        src="https://github.com/The-People-s-Coalition-of-Tandy/PCoTandy/blob/main/Assets/PCoTandyLogo2.png?raw=true"
+        width="50" height="60" style="display: none;">
+    <img class="droplet"
+        src="https://github.com/The-People-s-Coalition-of-Tandy/PCoTandy/blob/main/Assets/PCoTandyLogo4.png?raw=true"
+        width="50" height="60" style="display: none;">
+    <img class="droplet" src="./index_files/submitbutton.png" style="display: none;">
+
+    <img class="droplet" src="./index_files/INFO.GIF" width="60" height="60" style="display: none;">
+    <img class="droplet" src="./index_files/THATCH.GIF" width="60" height="60" style="display: none;">
+
+    <img class="droplet" width="60" height="60" src="./index_files/check.ICO" style="display: none;">
+    <img class="droplet" width="60" height="60" src="./index_files/AnnualReport.ICO" style="display: none;">
+    <img class="droplet" src="./index_files/ENVE.GIF" style="display: none;">
+
+    <img class="droplet" src="./index_files/GMLOGO.GIF" width="60" height="42" style="display: none;">
+    <img class="droplet" width="60" height="60" src="https://www.pcotandy.org/Assets/Funny/CDROM-IC.GIF"
+        style="display: none;">
+    <img class="droplet" width="60" height="60" src="https://www.pcotandy.org/Assets/join.ICO" style="display: none;">
+    <img class="droplet" width="60" height="60" src="https://www.pcotandy.org/Assets/grasselit.ICO"
+        style="display: none;">
+
+    <script src="drawings.js"></script>
+    <script src="midi.js"></script>
+
+
+    <script>
+        function addText() {
+            const script = [
+                `<i>Introducing<i>         <div style="display: flex; align-items: center;">
+            <img src="./index_files/check.ICO"> 
+
+                <p> The PCoT <br>General MIDI <br>Verification Tool     </p>
+    
+
+            <img src="./index_files/check.ICO">
+        </div> `,
+                "Dear Friends,",
+                "As the 31st Annual General MIDI Competition deadline approaches",
+                "We are happy to offer you a new MIDI tool",
+                "Check that your program changes are correct",
+                "And confirm your MIDI file is configured properly",
+                "Providing ease of mind during this competition season",
+                "Available now, on all Tandy platforms",
+                "pcotandy.org/MidiVerify",
+                "Enjoy!",
+                "The People's Coalition of Tandy"
+            ]
+            const textContainer = document.createElement('div');
+            textContainer.id = 'textContainer';
+
+            const text = document.createElement('p');
+            document.body.appendChild(textContainer);
+            textContainer.appendChild(text);
+            text.innerHTML = script[0];
+            textContainer.classList.add('show');
+            let textIndex = 1;
+            const intervalId = setInterval(() => {
+                text.innerHTML = script[textIndex];
+                if (textIndex++ >= script.length - 1) {
+                    window.clearInterval(intervalId);
+                    setTimeout(() => {
+                        textContainer.classList.add('hide');
+                    }, 5000);
+                }
+            }, 4700);
+        }
+        window.addEventListener('DOMContentLoaded', function () {
+
+            for (const player of document.querySelectorAll('midi-player')) {
+                player.addEventListener('note', (note) => {
+
+                    test.push(new bounce(30, 40, "blue", note.detail.note.pitch, 0, note.detail.note
+                        .instrument))
+                });
+                // player.addEventListener('endOfTrack', (note) => {
+                //     const modal = document.getElementById('dialog');
+                //     modal.classList.remove('close');
+
+                // });
+            }
+        });
+
+        const fileInput = document.getElementById('midiFile');
+        if (fileInput) {
+            fileInput.addEventListener('change', (e) => {
+                window.core.blobToNoteSequence(e.target.files[0]).then((seq) => {
+                    const player = document.getElementById('mainPlayer')
+                    const modal = document.getElementById('dialog');
+                    const logo = document.getElementById('logoCenter');
+
+                    player.noteSequence = seq;
+                    modal.classList.add('close');
+                    logo.classList.add('show');
+
+                    setTimeout(() => {
+                        modal.close()
+                        logo.classList.remove('show');
+                        player.start();
+                    }, 3000);
+
+                    // Use this for making videos
+                    // setTimeout(() => {
+                    //     addText();
+                    // }, 5500);
+
+                }).catch((reason) => {
+                    alert('Failed to load MIDI file.');
+                    console.error(reason);
+                });
+            });
+        }
+    </script>
+</body>
+
+</html>
+
+
+<!-- Upload your .mid file, and [[THIS PROGRAM]] will play it back for you. This is a quick way to see if your MIDI is configured correctly.
+NOTE: The sound generator used on this site probably sounds different than what you heard while composing. However, the instruments should be recognizable…. that is, as long as your Instruments have been properly indicated by the Program Changes in the General MIDI standard. Making sure your Program Changes are correct is a main goal of this Web-Tool. Ideally, the piano part should sound like some sort of piano, a woodblock some sort of woodblock, and a "crystal" FX some sort of crystal FX.
+
+Each of the 16 MIDI Channels is represented by a different color sprite.
+
+Thank you for checking your MIDI with the People’s Coalition of Tandy “General MIDI Verification Tool” -->
