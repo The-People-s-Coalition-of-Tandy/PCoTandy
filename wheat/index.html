@@ -1,25 +1,42 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<title>Welcome to People’s Coalition of Tandy Wheat Redistribution Service!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
+    <script src="x3dom.js"></script>
+    <link rel="stylesheet" href="x3dom.css">
+    <link rel="stylesheet" href="index.css">
+    <script>
+        let seconds = 15;
+        function redirect() {
+            if (seconds === 0) {
+                window.location = "/redistribution"
+            }
+            
+            document.querySelector('#redirect').innerText = `Redirect in ${seconds}s`;
+            seconds--;
+        }
+        setInterval(redirect, 1000);
+    </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-<h1>Welcome to People’s Coalition of Tandy Wheat Redistribution Service</h1>
-<p>Question 1: Amount of wheat requested</p>
-    <p>Question 2: Explanation of need</p>
-    <p>All requests processed through the Wheatport discord</p>
-
-<p>For online documentation and support please refer to
-<a href="http://pcotandy.org/">http://pcotandy.org/</a>
-
-<p><em>Thank you for using People’s Coalition of Tandy Wheat Redistribution Service.</em></p>
-<a href="http://pcotandy.org"><img src="../Assets/tandyButton.gif" alt="Tandy Button" style="width: 100px; margin-top: 10px;"></a>
+    <h1 id="redirect">Redirect in 15s</h1>
+<!-- <x3d PrimitiveQuality='Medium' disableDoubleClick="true"><scene><inline url='assets/3D/intro.x3d'/></scene></x3d> -->
+<x3d PrimitiveQuality='Medium' disableDoubleClick="true"><scene><inline url='./assets/meta.x3d'/></scene></x3d>
+<!-- <x3d PrimitiveQuality='Medium' disableDoubleClick="true"><scene><inline url='assets/3D/space3.x3d'/></scene></x3d> -->
+<!-- <x3d PrimitiveQuality='Medium' disableDoubleClick="true"><scene><inline url='assets/3D/hand.x3d'/></scene></x3d> -->
 </body>
+<script>
+    function goToHomepage(){
+        window.location.href = "/redistribution";
+    }
+
+    let emojis = ["🌑","🌒","🌓","🌔","🌕","🌖","🌗","🌘"]
+    let i = 0;
+
+    // setInterval(()=>{
+    //     window.location.hash = emojis[i];
+    //     i = (i+1)%emojis.length;
+    // }, 100);
+</script>
 </html>
