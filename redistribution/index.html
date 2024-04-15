@@ -1,25 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Welcome to People’s Coalition of Tandy Wheat Redistribution Service!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="icon" href="../Assets/PCoTandyLogo.ico">
+
+    <title>PCoTandy</title>
 </head>
+
 <body>
-<h1>Welcome to People’s Coalition of Tandy Wheat Redistribution Service</h1>
-<p>Question 1: Amount of wheat requested</p>
-    <p>Question 2: Explanation of need</p>
-    <p>All requests processed through the Wheatport discord</p>
+    <script src="./transitions.js"></script>
+    <div class="chiron">
+        <div class="type">
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;pcotandy wheat redistribution service: OK</div>
+        </div>
+        <div class="type">
+            <div>&nbsp;&nbsp;&nbsp;&nbsp;status: online</div>
+        </div>
+    </div>
 
-<p>For online documentation and support please refer to
-<a href="http://pcotandy.org/">http://pcotandy.org/</a>
+    <div id="wrapper">
+        <div class="container active" id="home">
+            <label class="title initial">WELCOME
+                <!-- <label style="opacity: .75;" class="title initial">.</label>
+                <label style="opacity: .65;" class="title initial">.</label>
+                <label style="opacity: .55;" class="title initial">.</label>
+                <label style="opacity: .3;" class="title initial">juli</label> -->
+            </label>
+            <div class="nav-container">
+                <span onclick="transition(this,4)" class="css-link">File Wheat Inquiry</span><br>
+      
 
-<p><em>Thank you for using People’s Coalition of Tandy Wheat Redistribution Service.</em></p>
-<a href="http://pcotandy.org"><img src="../Assets/tandyButton.gif" alt="Tandy Button" style="width: 100px; margin-top: 10px;"></a>
+            </div>
+            <div id="tandyWebring">
+                <script type="text/javascript" src="https://webring.pcotandy.org/variables.js"></script>
+                <script type="text/javascript" src="https://webring.pcotandy.org/webring.js"></script>
+            </div>
+        </div>
+
+        <div class="container" id="contact">
+            <label class="title">CONTACT</label>
+            <div class="nav-container">
+                <span class="back-button" onclick="transition(this,0)">Back</span>
+                <ul>
+                    <li>
+                        <div style="display: flex;align-items: center;"> <span>Email:&nbsp;</span><code
+                                style="background-color: gray; width: fit-content; padding: 5px; font-weight: bold;">juli
+                                at pcotandy dot net</code></div>
+                    </li>
+                    <li><a class="nav-link" href="https://www.instagram.com/julipode">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div class="container window-style" id="websites">
+            <label class="title">Wheat</label>
+            <div class="nav-container music-container">
+                <span class="back-button" style="min-height: 40px;" onclick="transition(this,0)">Back</span>
+                <div class="music-scroll-container">
+                    <h1>Welcome to People’s Coalition of Tandy Wheat Redistribution Service</h1>
+                    <p>Question 1: Amount of wheat requested</p>
+                        <p>Question 2: Explanation of need</p>
+                        <p>Message us on the Wheatport Discord channel with your answers</p>
+                    
+                    <p>For online documentation and support please refer to
+                    <a href="http://pcotandy.org/" id="tandylink" style="color: rgba(0, 0, 255, 0.563); background-color: rgba(255, 192, 203, 0.413);">http://pcotandy.org/</a>
+                    
+                    <p><em>Thank you for using People’s Coalition of Tandy Wheat Redistribution Service.</em></p>
+                    <a href="http://pcotandy.org"><img src="../Assets/tandyButton.gif" alt="Tandy Button" style="width: 100px; margin-top: 10px;"></a>
+            </div>
+            </div>
+
+        </div>
+
+        <script src="./index.js"></script>
 </body>
+
 </html>
