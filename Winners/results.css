@@ -1,0 +1,151 @@
+html {
+    /* background-image: url(https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/PCoTandy/main/Assets/Albums/midi2022/cover/coverFullTransparency.png); */
+    background-size: 150px;
+    display: inline-block;
+}
+
+table.award-table, .award-table th, .award-table td {
+    border:1px solid black;
+    text-align: center;
+  }
+
+  .award-div {
+    border: 2px ridge purple;
+    background-color: rgb(181, 171, 181);
+    color: black;
+    transition:all .6s ease-out;
+  }
+
+  .main-div {
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    border: 4px ridge lightblue;
+    width: 500px;
+    background-color: white;
+    opacity:0.8;
+  }
+
+  @keyframes rainbow {
+      0% {
+          filter: hue-rotate(0deg);
+      }
+
+      100%{
+          filter: hue-rotate(360deg);
+      }
+  }
+
+  /* .award-div:hover {
+      transform: scale(1.5) rotate(360deg);
+transition: all .6s ease-out;
+box-shadow: 5px 5px 15px 5px #000000;
+cursor: help;
+  } */
+
+  .icon {
+      cursor: pointer;
+  }
+
+  .rainbow {
+      animation: rainbow 2s linear  infinite;
+      width: 40px;
+  }
+
+  .header b {
+      padding: 0 15px;
+  }
+
+  .thanks {
+    width: 400px;
+    border: 2px ridge yellow;
+    padding: 20px;
+    font-size:14px;
+    margin: auto;
+    background-color: white;
+  }
+
+  .releases {
+    width: 400px;
+    border: 2px ridge lightgreen;
+    padding: 20px;
+    font-size:14px;
+    margin: auto;
+    background-color: white;
+  }
+
+  .header {
+    color: blue;
+    margin: auto;
+    margin-top: 5%;
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.753);
+    width: fit-content;
+    padding: 5px 15px;
+    display: flex;
+  }
+
+  @media (max-width:499px) {
+
+    body {
+        margin: 0;
+    }
+    .award-div {
+        margin: auto;
+        border: 4px ridge purple;
+        background-color: lightblue;
+        color: black;
+      }
+
+      .award-div:hover {
+        transform: none;
+  box-shadow: none;
+  cursor: help;
+    }
+
+      .main-div {
+        margin: auto;
+        margin-top: 2%;
+        border: 4px ridge lightblue;
+        width: unset;
+        background-color: white;
+        opacity:0.8;
+      }
+
+      .thanks {
+        width: unset;
+        border: 2px ridge yellow;
+        padding: 20px;
+        font-size:14px;
+        margin: auto;
+        background-color: white;
+      }
+
+      .releases {
+        width: unset;
+        border: 2px ridge lightgreen;
+        padding: 20px;
+        font-size:14px;
+        margin: auto;
+        background-color: white;
+      }
+      .header {
+          width: unset;
+          font-size: 24pt;
+          text-align: center;
+          margin: auto;
+          margin-top: 2%;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .header b {
+          padding: 0;
+      }
+
+      .rainbow {
+          width: 10%;
+          height: auto;
+          padding: 5px;
+      }
+  }

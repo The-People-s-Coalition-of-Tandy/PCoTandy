@@ -12,54 +12,299 @@
     </script>
 
     <title>GM Verifier</title>
+    <link rel="stylesheet" href="results.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>GM COMPETITION AWARDS 2022</title>
+    <meta name="description" content="GM COMPETITION AWARDS 2022">
+    <meta name="author" content="The People's Coalition of Tandy">
+  
+    <meta property="og:title" content="GM COMPETITION AWARDS 2022">
+    <meta property="og:type" content="email">
+    <meta property="og:description" content="GM COMPETITION AWARDS 2022">
+  
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  
+    <!-- button click javascript -->
+    <script>
+      //Submit Button
+      function buttonClick(e) {
+        e.src = "./index_files/submitInFixed1.png";
+      }
+  
+      function buttonNormal(e) {
+        e.src = "./index_files/submitFixed1.png";
+      }
+  
+      function buttonReturn(e) {
+        window.location = "https://forms.gle/HJ1eoGcQpQohZCWG9";
+        e.src = "./index_files/submitFixed1.png";
+      }
+  
+  
+      //Signup Button
+      function button2Click(e) {
+        e.src = "./index_files/SignupButtonIn2.png";
+      }
+  
+      function button2Normal(e) {
+        e.src = "./index_files/SignupButtonOut2.png";
+      }
+  
+      function button2Return(e) {
+        window.location = "https://docs.google.com/forms/d/1q1_S66F7YRoDrbmUd51Jf24yH_shd5GC5Gs_gki3H7E/edit?usp=sharing";
+        e.src = "./index_files/SignupButtonOut2.png";
+      }
+    </script>
 </head>
 
 <body>
     <canvas id="myCanvas"></canvas>
-
     <midi-player src="../sparkle.mid" sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus"
         id="mainPlayer">
     </midi-player>
 
-    <img id="logoCenter"
-        src="data:image/png;base64,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">
+    <!-- BODY START -->
 
-    </img>
-
-    <dialog id="dialog" open>
-        <div style="display: flex; align-items: center;">
-            <img src="./index_files/check.ICO"> 
-            <h1>
-                 Congratulations!
     
-            </h1>
-            <img src="./index_files/check.ICO">
-        </div>
-
-        <ul>
-            <li><button class="midiSubmission" data-filename="Oratorical Orator — GM Rarebus FIXED.mid">GM Rarebus</button></li>
-            <li><button class="midiSubmission" data-filename="Reuben Son - Model Prediction - Reuben Son.mid">Model Prediction</button></li>
-            <li><button class="midiSubmission" data-filename="jack-pcotandy2024.MID">TALES FROM THE MIDIOPOLIS</button></li>
-            <li><button class="midiSubmission" data-filename="Shine (Spike) - icepode.mid">Shine (Spike)</button></li>
-            <li><button class="midiSubmission" data-filename="Beaz - Eli Zeger.mid">Beaz</button></li>
-            <li><button class="midiSubmission" data-filename="takeatrain - Kat Mazur.mid">Take the A Train</button></li>
-            <li><button class="midiSubmission" data-filename="eochaid_ok-trytohaveanokmorning - Piper Hill.midi">Decree: You must try to have an Okay Morning</button></li>
-            <li><button class="midiSubmission" data-filename="2024-1 (1) - Joe Misterovich.midi">pooh-pooh no.2</button></li>
-            <li><button class="midiSubmission" data-filename="sea, son - Tucker (smileyface).midi">sea son</button></li>
-            <li><button class="midiSubmission" data-filename="Kyrie Liaison - Opus Impetus.mid">Kyrie Liaison</button></li>
-            <li><button class="midiSubmission" data-filename="Additive Music - Tuesday - Olivia Hamilton.mid">Additive Music</button></li>
-            <li><button class="midiSubmission" data-filename="Lullabyfinal (10) (1) - Joohee Park.midi">Bippi’s Lullaby</button></li>
-            <li><button class="midiSubmission" data-filename="2024_elie_NoSunOnMainStreet - elie.mid">No Sun On Main Street</button></li>
-        </ul>
-        <!-- <br><br>
+      <br>
+      <div class="header"> <img class="rainbow"
+          src="https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/PCoTandy/main/Assets/PCoTandyLogoGreen.png"
+          alt="">
+        <b>
+    
+          ANNOUNCEMENT
+    
+        </b>
+        <img class="rainbow"
+          src="https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/PCoTandy/main/Assets/PCoTandyLogoGreen.png"
+          alt="">
+      </div>
+    
+    
+      <div class="main-div">
+        <!-- background-image: url('/Users/elie/Documents/GitHub/PCoTandy/Assets/Albums/midi2022/cover/coverFullTransparency.png');
+      opacity: 0.7; -->
+        <br>
+    
+        <img style="width: 60px;"
+          src="https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/PCoTandy/main/Assets/PCoTandyLogoGreen.png"
+          alt="">
+    
+        <br>
+        <br>
+    
+        <i style="font-size:18pt">
+          THE RESULTS ARE <b>IN!</b>
+        </i>
+    
+        <br>
+        <br>
+    
+    
+        <div class="award-div">
+    
+          <br>
+          <b> !!!<i style="font-size: 14pt;">GM 2022 RESULTS</i>!!! </b>
+    
+          <br>
+          <table class="award-table">
+            <tr>
+              <th>Award</th>
+              <th>Recipient</th>
+              <th>Play Song</th>
+            </tr>
+            <tr>
+              <td>Metaball-Lyke Hero Award</td>
+              <td>Microbial Matrix
+            </td>
+            <td> 
+                <button class="midiSubmission" data-filename="Oratorical Orator — GM Rarebus FIXED.mid">GM Rarebus</button>
+            </td>
+            </tr>
+            <tr>
+              <td>Metaball-Lyke Squire Award</td>
+              <td>Reuben Son</td>
+              <td>
+                <button class="midiSubmission" data-filename="Reuben Son - Model Prediction - Reuben Son.mid">Model Prediction</button>
+              </td>
+            </tr>
+    
+            <tr>
+              <td>Metaball-Lyke Steed Award</td>
+              <td>
+                jack hamill</td>
+                <td>
+                    <button class="midiSubmission" data-filename="jack-pcotandy2024.MID">TALES FROM THE MIDIOPOLIS</button>
+                </td>
                 
-                Thank you for checking your MIDI with the People’s Coalition of Tandy “General MIDI Verification Tool” -->
-        <hr>
+            </tr>
+    
+            <tr>
+              <td>Winner: Adventure & Transportation </td>
+              <td>icepode</td>
+              <td>          <button class="midiSubmission" data-filename="Shine (Spike) - icepode.mid">Shine (Spike)</button>
+              </td>
+            </tr>
+    
+            <tr>
+              <td>Winner º Chamber Music </td>
+              <td>Eli Zeger</td>
+              <td>          <button class="midiSubmission" data-filename="Beaz - Eli Zeger.mid">Beaz</button>
+              </td>
+            </tr>
+    
+            <tr>
+                <td>Winner: Jazz Arrangement</td>
+                <td>ramptoe )( genius</td>
+                <td>
+                    <button class="midiSubmission" data-filename="takeatrain - Kat Mazur.mid">Take the A Train</button>
+                </td>
+            </tr>
+    
+            <tr>
+              <td>Winner: Rumination/Inspiration</td>
+              <td>Sir Eochaid Okay</td>
+              <td>
+                <button class="midiSubmission" data-filename="eochaid_ok-trytohaveanokmorning - Piper Hill.midi">Decree: You must try to have an Okay Morning</button>
+              </td>
+            </tr>
+    
+            <tr>
+              <td>Winner — American Classics</td>
+              <td>jervis mitch poohes</td>
+              <td>
+                <button class="midiSubmission" data-filename="2024-1 (1) - Joe Misterovich.midi">pooh-pooh no.2</button>
+              </td>
+            </tr>
+    
+            <tr>
+              <td>Winner: Vocal Performance</td>
+              <td>Tucker:)</td>
+              <td>
+                <button class="midiSubmission" data-filename="sea, son - Tucker (smileyface).midi">sea son</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Winner : Devotional Category Award
+              </td>
+              <td>Opus Impetus</td>
+              <td>
+                <button class="midiSubmission" data-filename="Kyrie Liaison - Opus Impetus.mid">Kyrie Liaison</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Magical Realism Award
+              </td>
+              <td>Tuesday</td>
+              <td>
+                <button class="midiSubmission" data-filename="Additive Music - Tuesday - Olivia Hamilton.mid">Additive Music</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                LAST PLACE AWARD! Grayking’s Goon
+              </td>
+              <td>Peepee Peters</td>
+              <td>
+                <button class="midiSubmission" data-filename="Lullabyfinal (10) (1) - Joohee Park.midi">Bippi’s Lullaby</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Winner: Community Engagement
+              </td>
+              <td>sudo echohex</td>
+              <td>
+                <button class="midiSubmission" data-filename="2024_elie_NoSunOnMainStreet - elie.mid">No Sun On Main Street</button>
+              </td>
+            </tr>
+          </table>
+          <br>
+    
+        </div>
+    
+        <br>
+    
+    
+        <a href="https://tandy.bandcamp.com/releases" target="_blank" style="font-size:30px"><i>
+            THE ALBUM IS <b>OUT!</b>
+          </i>
+        </a>
+    
+        <br>
+        <br>
+    
+    
+    
+    
+        <i> wow!</i>
+        <br>
+        <!-- <img style="  width: 15px;  margin: 0% 5px 0% 0%;" src="https://the-people-s-coalition-of-tandy.github.io/PCoTandy/Assets/PCoTandyLogoGreen.png" alt=""> -->
+        <br>
+    
+        <div class="thanks">
+          THANK YOU to everyone who submitted this year and thank YOU for celebrating with us!! Great work all around --
+          this was a very competitive year -- the BEST YEAR YET!
+          <br>
+          <br>
+          <a href="https://tandy.bandcamp.com/releases" target="_blank" style="font-size:16px">Check out the album of all
+            of this year's Award Winners</a>...
+          <!-- as a fun mega-celebrational move The People's Coalition provided a "Remix" of each
+          of the Award Winning MIDI arrangements! -->
+          <br>
+          <br>
+          If you download the Album, you will also get all of the
+          <br>
+          Winning submission's <i>source MIDI files</i> for your personal experimentation/study!
+          <br>
+          <!-- <a href="https://tandy.bandcamp.com/releases" target="_blank">Bandcamp</a>. -->
+          <br>
+        </div>
+    
+        <br>
+        <div class="releases">
+          As usual, more Tandy releases are on the horizon!
+    
+          <a href="https://pcotandy.org/signup">Sign up with our
+            email client to keep an eye out*</a>
+          <br>
+    
+        </div>
+    
+        <br>
+        <img style="  width: 60px;"
+          src="https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/PCoTandy/main/Assets/PCoTandyLogoGreen.png"
+          alt="">
+        <br>
+        <br>
+      </div>
+    
+      <br>
+    
+      <div style="font-family: 'TandyOS';  position: relative; margin: auto; width: fit-content;">
+        <img src="./index_files/SignupButtonOut2.png" class="icon" onmousedown="button2Click(this)"
+          onmouseup="button2Return(this)" onmouseout="button2Normal(this)">
+      </div>
+    
+    
+    
+      <div style="margin: auto; width: fit-content;">
+        <img src="https://the-people-s-coalition-of-tandy.github.io/PCoTandy/Assets/Funny/CLEF.GIF" width="80px" alt=""
+          style="margin:20px">
+      </div>
+      <br>
         <div class="logos">
             <img src="./index_files/GMLOGO.GIF" alt="General MIDI Logo" width="50px" />
             <img src="https://webring.pcotandy.org/Assets/TandyLogo.png" width="50px" />
         </div>
-    </dialog>
+
 
 
     <img class="droplet" src="https://webring.pcotandy.org/Assets/TandyLogo.png" style="display: none;" width="50"
@@ -92,7 +337,10 @@
     <img class="droplet" width="60" height="60" src="https://www.pcotandy.org/Assets/join.ICO" style="display: none;">
     <img class="droplet" width="60" height="60" src="https://www.pcotandy.org/Assets/grasselit.ICO"
         style="display: none;">
-
+    
+        <img id="logoCenter"
+        src="data:image/png;base64,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">
+    </img>
     <script src="drawings.js"></script>
     <script src="midi.js"></script>
 
@@ -115,11 +363,11 @@
                     const logo = document.getElementById('logoCenter');
 
                     player.noteSequence = seq;
-                    modal.classList.add('close');
+                    // modal.classList.add('close');
                     logo.classList.add('show');
 
                     setTimeout(() => {
-                        modal.close()
+                        // modal.close()
                         logo.classList.remove('show');
                         player.start();
                     }, 3000);
@@ -214,6 +462,7 @@
             });
         }
     </script>
+    
 </body>
 
 </html>

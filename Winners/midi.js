@@ -9,7 +9,7 @@ function draw() {
     ctx.canvas.width = window.innerWidth
     ctx.canvas.height = window.innerHeight
 
-    ctx.fillStyle = 'rgba(0,0,0,1.0)';
+    ctx.fillStyle = 'rgba(0,0,0,0.0)';
     ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
