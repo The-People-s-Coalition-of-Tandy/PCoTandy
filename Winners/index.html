@@ -30,35 +30,27 @@
         <div style="display: flex; align-items: center;">
             <img src="./index_files/check.ICO"> 
             <h1>
-                 Welcome to the People's Coalition of Tandy General MIDI Verification Tool     
+                 Congratulations!
     
             </h1>
             <img src="./index_files/check.ICO">
         </div>
-        <div id="browse">
-            <div id="file">
-                <label for="midiFile">Load MIDI file:</label>
-                <input type="file" id="midiFile" name="midiFile" accept="audio/midi, audio/x-midi">
-            </div>
-        </div>
-        <p>
-            Upload your .mid file, and the <i>PCoT GM Verification Tool</i> will play it back for you. This is a quick
-            way to see if your MIDI is configured correctly.
 
-            <div><span style="color: rgb(255, 166, 0);">Note:</span> The sound generator used on this site probably
-                sounds different than what you heard while composing. However, the instruments should be recognizable….
-                that is, as long as your Instruments have been properly indicated by the Program Changes in the General
-                MIDI standard. <b style="color: lightcoral;">Making sure your Program Changes are correct is the main
-                    goal
-                    of this Web-Tool.</b>
-                Ideally, the piano part should sound like some sort of piano, a woodblock some sort of woodblock, and a
-                "crystal" FX some sort of crystal FX.</div>
-
-            <br>Each of the 16 MIDI Channels is represented by a different color sprite.<br><br>
-            <i style="letter-spacing: 2px; color: red; font-weight: bold;">WARNING</i>: <b>The sound engine sometimes
-                omits notes</b>, especially in higher octaves. Note bends also are not read. This is a known issue and will be fixed in a future
-            update. If some notes are omitted, this does not mean your MIDI file has an issue
-        </p>
+        <ul>
+            <li><button class="midiSubmission" data-filename="Oratorical Orator — GM Rarebus FIXED.mid">GM Rarebus</button></li>
+            <li><button class="midiSubmission" data-filename="Reuben Son - Model Prediction - Reuben Son.mid">Model Prediction</button></li>
+            <li><button class="midiSubmission" data-filename="jack-pcotandy2024.MID">TALES FROM THE MIDIOPOLIS</button></li>
+            <li><button class="midiSubmission" data-filename="Shine (Spike) - icepode.mid">Shine (Spike)</button></li>
+            <li><button class="midiSubmission" data-filename="Beaz - Eli Zeger.mid">Beaz</button></li>
+            <li><button class="midiSubmission" data-filename="takeatrain - Kat Mazur.mid">Take the A Train</button></li>
+            <li><button class="midiSubmission" data-filename="eochaid_ok-trytohaveanokmorning - Piper Hill.midi">Decree: You must try to have an Okay Morning</button></li>
+            <li><button class="midiSubmission" data-filename="2024-1 (1) - Joe Misterovich.midi">pooh-pooh no.2</button></li>
+            <li><button class="midiSubmission" data-filename="sea, son - Tucker (smileyface).midi">sea son</button></li>
+            <li><button class="midiSubmission" data-filename="Kyrie Liaison - Opus Impetus.mid">Kyrie Liaison</button></li>
+            <li><button class="midiSubmission" data-filename="Additive Music - Tuesday - Olivia Hamilton.mid">Additive Music</button></li>
+            <li><button class="midiSubmission" data-filename="Lullabyfinal (10) (1) - Joohee Park.midi">Bippi’s Lullaby</button></li>
+            <li><button class="midiSubmission" data-filename="2024_elie_NoSunOnMainStreet - elie.mid">No Sun On Main Street</button></li>
+        </ul>
         <!-- <br><br>
                 
                 Thank you for checking your MIDI with the People’s Coalition of Tandy “General MIDI Verification Tool” -->
@@ -106,6 +98,36 @@
 
 
     <script>
+        const submissions = document.querySelectorAll('.midiSubmission');
+        for (const submission of submissions) {
+            submission.addEventListener('click', playSong);
+        }
+        async function playSong(e) {
+            console.log("hello");
+            console.log(e.target.dataset.filename);
+            const midiFile = await fetch(`./midi/${e.target.dataset.filename}`).then((response) => {
+                return response.blob();
+            })
+            console.log(midiFile);
+                window.core.blobToNoteSequence(midiFile).then((seq) => {
+                    const player = document.getElementById('mainPlayer')
+                    const modal = document.getElementById('dialog');
+                    const logo = document.getElementById('logoCenter');
+
+                    player.noteSequence = seq;
+                    modal.classList.add('close');
+                    logo.classList.add('show');
+
+                    setTimeout(() => {
+                        modal.close()
+                        logo.classList.remove('show');
+                        player.start();
+                    }, 3000);
+                }).catch((reason) => {
+                    alert('Failed to load MIDI file.');
+                    console.error(reason);
+                });
+            }
         function addText() {
             const script = [
                 `<i>Introducing<i>         <div style="display: flex; align-items: center;">
@@ -165,7 +187,6 @@
         const fileInput = document.getElementById('midiFile');
         if (fileInput) {
             fileInput.addEventListener('change', (e) => {
-                console.log(e.target.files[0]);
                 window.core.blobToNoteSequence(e.target.files[0]).then((seq) => {
                     const player = document.getElementById('mainPlayer')
                     const modal = document.getElementById('dialog');
