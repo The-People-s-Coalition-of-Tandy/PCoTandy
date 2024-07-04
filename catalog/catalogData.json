@@ -2,7 +2,7 @@
   {
     "cover": "../Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
     "color": "pink",
-    "title": "'30th Anniversary GM Smoidi Light General Midi Competition' by Various Artists",
+    "title": "30th Anniversary GM Smoidi Light General Midi Competition",
     "artists": " ",
     "description": "The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022\"\n    300 Competition!<br><br>\n\n    The annual celebration of General MIDI has borne fruit!<br><br>\n\n    10 tracks,<br>\n    10 remixes,<br>\n    and 10 General Midi compatible files!<br><br>\n\n    History time:<br>\n    The competition takes place in the Spring every year because March 7th is the MID-POINT between Ikutaru Kakehashi 's (from Roland) and Dave Smith's (from Sequential Circuits) birthdays<br>\n    This competition is meant to honor and spread appreciation<br>\n    for their dedicated work, along with all of those at the Japan MIDI Standards Committee(JMSC) and the American MIDI Manufacturers Association(MMA) !",
     "credits": [
@@ -231,7 +231,7 @@
   {
     "cover": "../Assets/Albums/Tuesdays Uni/Cover/tuesdayCover.png",
     "color": "purple",
-    "title": "Tuesday's Universe by Tuesday Hamilton",
+    "title": "'Tuesday's Universe' by Tuesday Hamilton",
     "artists": "",
     "description": "A virtual art gallery by Tuesday Hamilton, presented On-Line by a subset of the PCoTandy Web Division",
     "credits": [
@@ -644,7 +644,7 @@
     "cover": "https://tuesdayverse.pcotandy.org/Assets/Paintings/12.jpg",
     "title": "'Tuesday-verse: Sorcerer Central' by Tuesday Hamilton",
     "color": "#a254ff",
-    "artists": "Tuesday Hamilton",
+    "artists": "",
     "description": "The Tuesday-verse: Sorcerer Central is a physio-digital painting installation. The physical paintings are on display at the Looky Here gallery in Greenfield MA. With syber-support from one of the P.C.o.T Web workgroups, the Tuesday-verse is also a beautiful website! And you can view and make offers on these beautiful (& large) paintings on-line!",
     "contribution": "Website",
     "label": "Website",
@@ -722,7 +722,7 @@
   "description":"\"tupping time plus\" by Calvin Grad – a suite of five song-poems, a quintcycle of musical creativity – is out now exclusively on PCoTandy's Bandcamp site.","contribution":"album art","label":"Review in Gryllus Mag","link":"https://gryllus.world/tupping-time-plus/","background":"#ffaded","font":"#8c00ff","credits":[{"name":"Calvin Grad","contribution":"writing, vocals, instruments, co-production"},{"name":"Nick Bisceglia","contribution":"co-production, engineering, mixing, alto saxophone, vocals"},{"name":"Chris Weisman","contribution":"guitar solo on \"What Is Floating\", feedback on \"The One Who Moves\""},{"name":"Quentin Moore","contribution":"guitar on \"I'll Never Stop Believing In Love\""},{"name":"Caroline Bennett","contribution":"album art"}],"links":[{"label":"Bandcamp","link":"https://tandy.bandcamp.com/album/tupping-time-plus","background":"#2eb9ff","font":"#000000"},{"label":"Review in Gryllus Mag","link":"https://gryllus.world/tupping-time-plus/","background":"#ffaded","font":"#8c00ff"}]},
   {
     "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/MidiCompetition/2024/cover.png",
-    "title":"'33rd General MIDI Competition' by Various Artists","color":"#ff8ff9","artists":"Various Artists","description":"THE PCoT 33rd Annual GM Competition: The 2024 METABALL–LYKE BARON PRIME COMPETITION ZRAINBOW GEOMETRIE 740”\n\n13 tracks and 13 General Midi compatible files! ","contribution":"","label":"Bandcamp","link":"https://tandy.bandcamp.com/album/33rd-general-midi-competition-the-pcot-2024-metaball-lyke-baron-prime-competition-zrainbow-geometrie-740","background":"#ffffff","font":"#044eff","credits":[{"name":"","contribution":""}],"links":[{"label":"Official Website","link":"https://midicompetition.pcotandy.org/","background":"#a598ec","font":"#7ffff5"},{"label":"Bandcamp","link":"https://tandy.bandcamp.com/album/33rd-general-midi-competition-the-pcot-2024-metaball-lyke-baron-prime-competition-zrainbow-geometrie-740","background":"#ffffff","font":"#044eff"}]},
+    "title":"33rd General MIDI Competition","color":"#ff8ff9","artists":"","description":"THE PCoT 33rd Annual GM Competition: The 2024 METABALL–LYKE BARON PRIME COMPETITION ZRAINBOW GEOMETRIE 740”\n\n13 tracks and 13 General Midi compatible files! ","contribution":"","label":"Bandcamp","link":"https://tandy.bandcamp.com/album/33rd-general-midi-competition-the-pcot-2024-metaball-lyke-baron-prime-competition-zrainbow-geometrie-740","background":"#ffffff","font":"#044eff","credits":[{"name":"","contribution":""}],"links":[{"label":"Official Website","link":"https://midicompetition.pcotandy.org/","background":"#a598ec","font":"#7ffff5"},{"label":"Bandcamp","link":"https://tandy.bandcamp.com/album/33rd-general-midi-competition-the-pcot-2024-metaball-lyke-baron-prime-competition-zrainbow-geometrie-740","background":"#ffffff","font":"#044eff"}]},
 
     {
       "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/ChrisWeisman/TimeMachine/cover.png",
