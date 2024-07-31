@@ -754,5 +754,17 @@
   "font":"#fefefe",
   "credits":[{"name":"Katarina Mazur","contribution":"Composer, Performer"},{"name":"Tak Ensemble","contribution":"Performers"},{"name":"Hannah Brookman","contribution":"Video"}],"links":[{"label":"TandyLinx","link":"https://linx.pcotandy.org/kmazur","background":"#ff1433","font":"#6563ff"},
   {"label":"YouTube","link":"https://www.youtube.com/watch?v=2zfUIc63BZo","background":"#ff1923","font":"#d0d0d0"},{"label":"Bandcamp","link":"https://tandy.bandcamp.com/album/--2","background":"#2f70ff","font":"#fefefe"}]
-}
+},
+{"cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/ChrisWeisman/HowIWroteCertainOfMyHooks/cover.png",
+"title":"How I Wrote Certain Of My Hooks by Chris Weisman",
+"color":"#00fffc",
+"artists":"",
+"description":"Spiral-bound cardstock score book of Chris Weisman's 2022 album How I Wrote Certain Of My Hooks",
+"contribution":"Layout & design",
+"label":"Order Yours Today!",
+"link":"https://tandy.bandcamp.com/merch/how-i-wrote-certain-of-my-hooks-spiral-bound-cardstock-score-book-by-chris-weisman",
+"background":"#00edff",
+"font":"#000000",
+"credits":[{"name":"Chris Weisman","contribution":"Music"},{"name":"elie mcafee-hahn","contribution":"Layout & design"}],
+"links":[{"label":"Order Yours Today!","link":"https://tandy.bandcamp.com/merch/how-i-wrote-certain-of-my-hooks-spiral-bound-cardstock-score-book-by-chris-weisman","background":"#00edff","font":"#000000"}]}
 ]
