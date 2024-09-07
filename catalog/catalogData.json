@@ -19,12 +19,6 @@
         "link": "https://open.spotify.com/album/0eKj2UEuCP32Qh52KGV5jg?si=7D7aRkmzTEK5y53-uZi8zw",
         "background": "greenyellow",
         "font": "black"
-      },
-      {
-        "label": "Tandylinx",
-        "link": "https://www.pcotandy.org/CentreSt/",
-        "background": "#2ea67f",
-        "font": "white"
       }
     ]
   },
@@ -210,6 +204,11 @@
       }
     ],
     "links": [{
+      "label": "Tandylinx",
+      "link": "https://www.pcotandy.org/CentreSt/",
+      "background": "#2ea67f",
+      "font": "white"
+    },{
         "label": "Bandcamp",
         "link": "https://tandy.bandcamp.com/album/centre-st",
         "background": "teal",
@@ -226,6 +225,12 @@
         "link": "https://music.apple.com/us/album/centre-st/1643794151",
         "background": "black",
         "font": "white"
+      },
+      {
+        "label": "Visualizer",
+        "link": "https://www.pcotandy.org/visualizers/anotherDay ",
+        "background": "white",
+        "font": "black"
       }
     ]
   },
