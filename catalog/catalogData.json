@@ -1,18 +1,14 @@
-[
-  {
+[{
     "cover": "../Assets/Albums/midi2022/cover/cover2bluebordershadow.png",
     "color": "pink",
     "title": "30th Anniversary GM Smoidi Light General Midi Competition",
     "artists": " ",
     "description": "The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022\"\n    300 Competition!<br><br>\n\n    The annual celebration of General MIDI has borne fruit!<br><br>\n\n    10 tracks,<br>\n    10 remixes,<br>\n    and 10 General Midi compatible files!<br><br>\n\n    History time:<br>\n    The competition takes place in the Spring every year because March 7th is the MID-POINT between Ikutaru Kakehashi 's (from Roland) and Dave Smith's (from Sequential Circuits) birthdays<br>\n    This competition is meant to honor and spread appreciation<br>\n    for their dedicated work, along with all of those at the Japan MIDI Standards Committee(JMSC) and the American MIDI Manufacturers Association(MMA) !",
-    "credits": [
-      {
-        "name": "",
-        "contribution": "Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022\" 300 Competition!<br>\n      <br>\n      And congratulations to all of our Category Award Winners :<br><br>\n  \n        Devotional Category Award Winner: RAMPTOE)(GENIUS IS KAT MAZUR<br><br>\n  \n      Vocal Performance Category Award Winner: Oratorical Orator<br><br>\n  \n      Experimental Category Award Winner: Joe Misterovich<br><br>\n  \n      Chamber Music Award Winner: raef<br><br>\n  \n      Excellence in Solo Composition Award Winner: Emiliano Cruz<br><br>\n  \n      Cinematic Award Winner: Opus Impetus<br><br>\n  \n      Watercolors Award Winner: Scuzz McGuzz<br><br>\n  \n      Audio Engineering Award Winner: 31i3"
-      }
-    ],
-    "links": [
-      {
+    "credits": [{
+      "name": "",
+      "contribution": "Congrats to our Grand Prize Winners of this year 's The People’s Coalition of TANDY “GM General Midi, 30th Anniversary Warrior of the 30 SMoidi Light 30 ZRainbow Spectrume 2022\" 300 Competition!<br>\n      <br>\n      And congratulations to all of our Category Award Winners :<br><br>\n  \n        Devotional Category Award Winner: RAMPTOE)(GENIUS IS KAT MAZUR<br><br>\n  \n      Vocal Performance Category Award Winner: Oratorical Orator<br><br>\n  \n      Experimental Category Award Winner: Joe Misterovich<br><br>\n  \n      Chamber Music Award Winner: raef<br><br>\n  \n      Excellence in Solo Composition Award Winner: Emiliano Cruz<br><br>\n  \n      Cinematic Award Winner: Opus Impetus<br><br>\n  \n      Watercolors Award Winner: Scuzz McGuzz<br><br>\n  \n      Audio Engineering Award Winner: 31i3"
+    }],
+    "links": [{
         "label": "Bandcamp",
         "link": "https://tandy.bandcamp.com/album/30th-anniversary-gm-smoidi-light-zrainbow-spectrume-2022-general-midi-competition",
         "background": "teal",
@@ -23,6 +19,12 @@
         "link": "https://open.spotify.com/album/0eKj2UEuCP32Qh52KGV5jg?si=7D7aRkmzTEK5y53-uZi8zw",
         "background": "greenyellow",
         "font": "black"
+      },
+      {
+        "label": "Tandylinx",
+        "link": "https://www.pcotandy.org/CentreSt/",
+        "background": "#2ea67f",
+        "font": "white"
       }
     ]
   },
@@ -32,8 +34,7 @@
     "title": "'Tetso Cube Light Ride' by elie mcafee-hahn",
     "artists": " ",
     "description": "We call ourselves tandy so people know who we are",
-    "credits": [
-      {
+    "credits": [{
         "name": "elie mcafee-hahn",
         "contribution": "everything"
       },
@@ -42,8 +43,7 @@
         "contribution": "Mastering"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "Bandcamp",
         "link": "https://tandy.bandcamp.com/album/tetso-cube-lightride",
         "background": "teal",
@@ -75,8 +75,7 @@
     "title": "'Star Palm Tree' by Sam Walters",
     "artists": "",
     "description": "\"Let's get lost inside\"<br><br>\n        In August's twilight, secret bard Sam Walters emerges to lament our ancient founders, having written of what's now, what's then, and what's to come shakily but Shurely into a naked diary—bound by 7 years of dreams, boundless love and fear.<br><br>\n        \n        The disappearing ink sinks from page to page, wetting with wist and longing the parchment.<br><br>\n        \n        The soaked book dries from its extravagant, twisted shapes into warm, familiar cloth—every stage inscribed into the seams as harmonics in the soul of a bell. Neither method nor madness could stir the flutter of the heart like hummingbird wings in each character's tentative steps towards the beautiful, dreadful evening.",
-    "credits": [
-      {
+    "credits": [{
         "name": "Sam Walters",
         "contribution": "Music"
       },
@@ -93,8 +92,7 @@
         "contribution": "Mastering"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "Full Album",
         "link": "https://tandy.bandcamp.com/album/centre-st",
         "background": "pink",
@@ -132,8 +130,7 @@
     "title": "'Another Day' by Sam Walters",
     "artists": "",
     "description": "Secret bard Sam Walters has returned with his latest incantation from the upcoming album, Centre St.<br><br>\n\n    In the face great peril, you must now choose your own destiny. Will you rise to the occasion? Will the sands of regret be deposited back into your broken hourglass, renewed as crystals of possibility? Or will the cold crescendo of time wash us back to familiar shores?\n    <br><br>\n    Only you can decide…",
-    "credits": [
-      {
+    "credits": [{
         "name": "Sam Walters",
         "contribution": "Music"
       },
@@ -154,8 +151,7 @@
         "contribution": "Mastering"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "Full Album",
         "link": "https://tandy.bandcamp.com/album/centre-st",
         "background": "pink",
@@ -184,7 +180,14 @@
         "link": "https://www.pcotandy.org/visualizers/anotherDay ",
         "background": "white",
         "font": "black"
+      },
+      {
+        "label": "Linx",
+        "link": "https://www.pcotandy.org/AnotherDay/",
+        "background": "green",
+        "font": "white"
       }
+      
     ]
   },
   {
@@ -193,8 +196,7 @@
     "title": "'Centre St.' by Sam Walters",
     "artists": "",
     "description": "Sam Walters is a songwriter, recordist, nurse-in-training, and long time Coalition member based in Brooklyn, NY. Centre St was recorded with love and meticulous care over the course of 6 years and we are so happy that this deeply personal document of life is out in the world.",
-    "credits": [
-      {
+    "credits": [{
         "name": "Sam Walters",
         "contribution": "Music"
       },
@@ -207,8 +209,7 @@
         "contribution": "Mastering"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "Bandcamp",
         "link": "https://tandy.bandcamp.com/album/centre-st",
         "background": "teal",
@@ -234,8 +235,7 @@
     "title": "'Tuesday's Universe' by Tuesday Hamilton",
     "artists": "",
     "description": "A virtual art gallery by Tuesday Hamilton, presented On-Line by a subset of the PCoTandy Web Division",
-    "credits": [
-      {
+    "credits": [{
         "name": "Tuesday Hamilton",
         "contribution": "art"
       },
@@ -248,14 +248,12 @@
         "contribution": "music"
       }
     ],
-    "links": [
-      {
-        "label": "website",
-        "link": "https://tuesdaysuni.pcotandy.org/",
-        "background": "teal",
-        "font": "white"
-      }
-    ]
+    "links": [{
+      "label": "website",
+      "link": "https://tuesdaysuni.pcotandy.org/",
+      "background": "teal",
+      "font": "white"
+    }]
   },
   {
     "cover": "../Assets/Albums/Nick Bisceglia/Slow Gold/SlowGoldCover.png",
@@ -268,8 +266,7 @@
     "link": "https://pcotandy.itch.io/slow-gold",
     "background": "#c59eff",
     "font": "#000000",
-    "credits": [
-      {
+    "credits": [{
         "name": "Emily Dickinson",
         "contribution": "poetry"
       },
@@ -290,8 +287,7 @@
         "contribution": "daguerreotype"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "Bandcamp",
         "link": "https://tandy.bandcamp.com/album/slow-gold",
         "background": "#75d1ff",
@@ -316,8 +312,7 @@
     "link": "https://music.apple.com/us/artist/ko-t-c/1503270360",
     "background": "#004730",
     "font": "#bed5c4",
-    "credits": [
-      {
+    "credits": [{
         "name": "<a href='https://scottieharvey.com/'>Scottie Harvey</a>",
         "contribution": "Video direction"
       },
@@ -334,13 +329,19 @@
         "contribution": "Mastering <br><br> <iframe width='90%' height='auto' style='border: 6px ridge #651d87' src='https://www.youtube-nocookie.com/embed/X3XpQz00XVc?controls=0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "Youtube",
         "link": "https://www.youtube.com/watch?v=X3XpQz00XVc",
         "background": "#83089b",
         "font": "#0400ff"
       },
+      {
+        "label": "TandyLinx",
+        "link": "https://www.pcotandy.org/LandsEnd/",
+        "background": "purple",
+        "font": "black"
+      },
+  
       {
         "label": "Spotify",
         "link": "spotify:album:6kDTIofgNBfk6FB4ppnpFe",
@@ -378,8 +379,7 @@
     "link": "spotify:album:2eRgdkgZ1plZufuDXsZO00",
     "background": "#00a822",
     "font": "#ffffff",
-    "credits": [
-      {
+    "credits": [{
         "name": "Felix Davis @ Metropolis Studios",
         "contribution": "Mastering Engineer"
       },
@@ -388,8 +388,7 @@
         "contribution": "Everything Else"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "Visualizer",
         "link": "https://www.pcotandy.org/visualizers/EV1/",
         "background": "#4e00c2",
@@ -426,8 +425,7 @@
     "link": "https://music.apple.com/gy/album/into-the-blue-ep/1667128119",
     "background": "#ff0000",
     "font": "#ffffff",
-    "credits": [
-      {
+    "credits": [{
         "name": "Julie Bodian",
         "contribution": "Gut String"
       },
@@ -444,8 +442,7 @@
         "contribution": "Mixing (Tracks 1, 3, & 4) and Mastering"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "Bandcamp",
         "link": "https://tandy.bandcamp.com/album/into-the-blue",
         "background": "#0432ff",
@@ -488,8 +485,7 @@
     "link": "https://tandy.bandcamp.com/track/tubis",
     "background": "#008cd3",
     "font": "#000000",
-    "credits": [
-      {
+    "credits": [{
         "name": "Katarina Mazur",
         "contribution": "Composition, Video Direction"
       },
@@ -502,8 +498,7 @@
         "contribution": "Tuba"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "YouTube",
         "link": "https://youtu.be/PawICnqYctE",
         "background": "#fcfffd",
@@ -528,20 +523,16 @@
     "link": "https://tandy.bandcamp.com/merch/in-here-leah-jacobson",
     "background": "#0040ff",
     "font": "#ff0000",
-    "credits": [
-      {
-        "name": "Leah Jacobson",
-        "contribution": "Author/Artist"
-      }
-    ],
-    "links": [
-      {
-        "label": "Bandcamp Store",
-        "link": "https://tandy.bandcamp.com/merch/in-here-leah-jacobson",
-        "background": "#0040ff",
-        "font": "#ff0000"
-      }
-    ]
+    "credits": [{
+      "name": "Leah Jacobson",
+      "contribution": "Author/Artist"
+    }],
+    "links": [{
+      "label": "Bandcamp Store",
+      "link": "https://tandy.bandcamp.com/merch/in-here-leah-jacobson",
+      "background": "#0040ff",
+      "font": "#ff0000"
+    }]
   },
   {
     "cover": "https://f4.bcbits.com/img/a1616212468_13.jpg",
@@ -549,8 +540,7 @@
     "color": "#0310ff",
     "artists": "",
     "description": "Hand-designed, hand-assembled, hand-made, self-produced, the \"Deep Blue Triple Album\" includes a 16-page art booklet, the brand new 8-song album \"Deep Blue\", BLUE DISH's previous 2 releases \"Out of the Blue\" & \"Into the Blue\".\n\nHand-packaged in Recycled Jewel Cases and printed in a local print shop, this album is sure to soothe & satisfy. \n\n\"Now that you've gotten acquainted, please make yourself comfortable in the Deep Blue. This is the world birthed from our ongoing lives & relationships as musicians & – more importantly – as friends.\"\n– BLUE DISH, Deep Blue release memo '23 ",
-    "credits": [
-      {
+    "credits": [{
         "name": "Julie Bodian",
         "contribution": "Steel String"
       },
@@ -579,8 +569,7 @@
         "contribution": "Photos"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "App Store",
         "link": "https://apps.apple.com/us/app/blue-dish-soothing-music/id6450485327?mt=12",
         "background": "#ffffff",
@@ -617,8 +606,7 @@
     "link": "https://tandy.bandcamp.com/album/5",
     "background": "#c2c2c2",
     "font": "#000000",
-    "credits": [
-      {
+    "credits": [{
         "name": "Bones",
         "contribution": "Voice"
       },
@@ -631,13 +619,18 @@
         "contribution": "Mastering"
       }
     ],
-    "links": [
-      {
-        "label": "Bandcamp",
-        "link": "https://tandy.bandcamp.com/album/5",
-        "background": "#c2c2c2",
-        "font": "#000000"
-      }
+    "links": [{
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/5",
+      "background": "#c2c2c2",
+      "font": "#000000"
+    },
+    {
+      "label": "TandyLinx",
+      "link": "https://tandylinx.pcotandy.org/Artists/JackHamill/",
+      "background": "#000000",
+      "font": "#c2c2c2"
+    }
     ]
   },
   {
@@ -651,8 +644,7 @@
     "link": "https://tuesdayverse.pcotandy.org/",
     "background": "#007806",
     "font": "#ffffff",
-    "credits": [
-      {
+    "credits": [{
         "name": "Tuesday Hamilton",
         "contribution": "Art"
       },
@@ -661,8 +653,7 @@
         "contribution": "Website"
       }
     ],
-    "links": [
-      {
+    "links": [{
         "label": "Virtual Sorcerer Gallery",
         "link": "https://tuesdayverse.pcotandy.org/",
         "background": "#007806",
@@ -687,8 +678,7 @@
     "link": "https://tandylinx.pcotandy.org/Artists/Plaieboi/Diamant/",
     "background": "#e1bdff",
     "font": "#002aff",
-    "credits": [
-      {
+    "credits": [{
         "name": "Plaieboi",
         "contribution": "Voice, Lyrics, Co-writer"
       },
@@ -705,66 +695,230 @@
         "contribution": "Co-Writer, Mastering Engineer"
       }
     ],
-    "links": [
+    "links": [{
+      "label": "TANDYLINX",
+      "link": "https://tandylinx.pcotandy.org/Artists/Plaieboi/Diamant/",
+      "background": "#e1bdff",
+      "font": "#002aff"
+    }]
+  },
+  {
+    "cover": "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/CalvinGrad/tuppingTimePlus/cover.png",
+    "title": "'tupping time plus' by Calvin Grad",
+    "color": "#000000",
+    "artists": " ",
+    "description": "\"tupping time plus\" by Calvin Grad – a suite of five song-poems, a quintcycle of musical creativity – is out now exclusively on PCoTandy's Bandcamp site.",
+    "contribution": "album art",
+    "label": "Review in Gryllus Mag",
+    "link": "https://gryllus.world/tupping-time-plus/",
+    "background": "#ffaded",
+    "font": "#8c00ff",
+    "credits": [{
+      "name": "Calvin Grad",
+      "contribution": "writing, vocals, instruments, co-production"
+    }, {
+      "name": "Nick Bisceglia",
+      "contribution": "co-production, engineering, mixing, alto saxophone, vocals"
+    }, {
+      "name": "Chris Weisman",
+      "contribution": "guitar solo on \"What Is Floating\", feedback on \"The One Who Moves\""
+    }, {
+      "name": "Quentin Moore",
+      "contribution": "guitar on \"I'll Never Stop Believing In Love\""
+    }, {
+      "name": "Caroline Bennett",
+      "contribution": "album art"
+    }],
+    "links": [{
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/tupping-time-plus",
+      "background": "#2eb9ff",
+      "font": "#000000"
+    }, {
+      "label": "Review in Gryllus Mag",
+      "link": "https://gryllus.world/tupping-time-plus/",
+      "background": "#ffaded",
+      "font": "#8c00ff"
+    }, {
+      "label": "Promo Video",
+      "link": "https://www.youtube.com/watch?v=LhrnxmxOQ4w",
+      "background": "#000000",
+      "font": "#2eb9ff"
+    }, {
+      "label": "Review in Gryllus Mag",
+      "link": "https://gryllus.world/tupping-time-plus/",
+      "background": "#ffaded",
+      "font": "#8c00ff"
+    }]
+  },
+  {
+    "cover": "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/MidiCompetition/2024/cover.png",
+    "title": "33rd General MIDI Competition",
+    "color": "#ff8ff9",
+    "artists": "",
+    "description": "THE PCoT 33rd Annual GM Competition: The 2024 METABALL–LYKE BARON PRIME COMPETITION ZRAINBOW GEOMETRIE 740”\n\n13 tracks and 13 General Midi compatible files! ",
+    "contribution": "",
+    "label": "Bandcamp",
+    "link": "https://tandy.bandcamp.com/album/33rd-general-midi-competition-the-pcot-2024-metaball-lyke-baron-prime-competition-zrainbow-geometrie-740",
+    "background": "#ffffff",
+    "font": "#044eff",
+    "credits": [{
+      "name": "",
+      "contribution": ""
+    }],
+    "links": [{
+      "label": "Official Website",
+      "link": "https://midicompetition.pcotandy.org/",
+      "background": "#a598ec",
+      "font": "#7ffff5"
+    }, {
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/33rd-general-midi-competition-the-pcot-2024-metaball-lyke-baron-prime-competition-zrainbow-geometrie-740",
+      "background": "#ffffff",
+      "font": "#044eff"
+    }]
+  },
+
+  {
+    "cover": "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/ChrisWeisman/TimeMachine/cover.png",
+    "title": "'Time Machine (Kurt Rosenwinkel)' by Chris Weisman",
+    "color": "#00ff59",
+    "artists": " ",
+    "description": "Video Of Chris Weisman Covering An Unreleased Kurt Rosenwinkel Song\n\n\"I’m Chris Weisman. In 2008, I was interviewing Kurt Rosenwinkel for my blog, Camp Studio, and he sent me his recording (still unreleased as of May 2024) of his song “Time Machine.” From the moment I heard it preternaturally unspool, I knew—and this remains the case—“This is my favorite song.” Kurt is releasing his Ultimate Book of Compositions on his label, Heartcore Records. “Time Machine” is in there, along with 57 other unreleased songs, in the expansive digital materials that accompany the physical book. 💕 Here is my arrangement, featuring Inverted Tuning classical guitar and my beloved soprano Yamaha Venova.\" Video by Chris Weisman and elie mcafee-hahn. Brought to you by the People’s Coalition of Tandy. PCOT0019",
+    "contribution": "Co-Videomaker",
+    "label": "Youtube",
+    "link": "https://www.youtube.com/watch?v=C-Zrnf_oyuY",
+    "background": "#ff0bb3",
+    "font": "#02ff23",
+    "credits": [{
+      "name": "Chris Weisman",
+      "contribution": "Music, Co-Videomaker"
+    }, {
+      "name": "Kurt Rosenwinkel",
+      "contribution": "Songwriter"
+    }, {
+      "name": "elie mcafee-hahn",
+      "contribution": "Co-Videomaker"
+    }],
+    "links": [{
+      "label": "Youtube",
+      "link": "https://www.youtube.com/watch?v=C-Zrnf_oyuY",
+      "background": "#ff0bb3",
+      "font": "#02ff23"
+    }]
+  },
+
+  {
+    "cover": "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/elie/NoSunOnMainStreet/cover.png",
+    "title": "'No Sun On Main Street' by elie mcafee-hahn",
+    "color": "#79cbce",
+    "artists": " ",
+    "description": "9 song album!",
+    "contribution": "Lead Guitar (Track 3)",
+    "label": "Bandcamp",
+    "link": "https://tandy.bandcamp.com/album/no-sun-on-main-street",
+    "background": "#2f50ff",
+    "font": "#00fffa",
+    "credits": [{
+        "name": "elie mcafee-hahn",
+        "contribution": "Music"
+      },
       {
-        "label": "TANDYLINX",
-        "link": "https://tandylinx.pcotandy.org/Artists/Plaieboi/Diamant/",
-        "background": "#e1bdff",
-        "font": "#002aff"
+        "name": "Julie Bodian",
+        "contribution": "Lead Guitar (Track 3)"
+      }
+    ],
+    "links": [{
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/no-sun-on-main-street",
+      "background": "#2f50ff",
+      "font": "#00fffa"
+    }]
+  },
+
+  {
+    "cover": "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/KatMazur/2_Lullaby/cover.png",
+    "title": "'Ай ну люлі' by Katarina Mazur",
+    "color": "#ff2e00",
+    "artists": " ",
+    "description": "A re-imagined Ukranian Lullaby performed by Tak Ensemble with an accompanying video by Hannah Brookman.",
+    "contribution": "Video",
+    "label": "Bandcamp",
+    "link": "https://tandy.bandcamp.com/album/--2",
+    "background": "#2f70ff",
+    "font": "#fefefe",
+    "credits": [{
+      "name": "Katarina Mazur",
+      "contribution": "Composer, Performer"
+    }, {
+      "name": "Tak Ensemble",
+      "contribution": "Performers"
+    }, {
+      "name": "Hannah Brookman",
+      "contribution": "Video"
+    }],
+    "links": [{
+        "label": "TandyLinx",
+        "link": "https://linx.pcotandy.org/kmazur",
+        "background": "#ff1433",
+        "font": "#6563ff"
+      },
+      {
+        "label": "YouTube",
+        "link": "https://www.youtube.com/watch?v=2zfUIc63BZo",
+        "background": "#ff1923",
+        "font": "#d0d0d0"
+      }, {
+        "label": "Bandcamp",
+        "link": "https://tandy.bandcamp.com/album/--2",
+        "background": "#2f70ff",
+        "font": "#fefefe"
       }
     ]
   },
   {
-    "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/CalvinGrad/tuppingTimePlus/cover.png",
-  "title":"'tupping time plus' by Calvin Grad",
-  "color":"#000000",
-  "artists":" ",
-  "description":"\"tupping time plus\" by Calvin Grad – a suite of five song-poems, a quintcycle of musical creativity – is out now exclusively on PCoTandy's Bandcamp site.","contribution":"album art","label":"Review in Gryllus Mag","link":"https://gryllus.world/tupping-time-plus/","background":"#ffaded","font":"#8c00ff","credits":[{"name":"Calvin Grad","contribution":"writing, vocals, instruments, co-production"},{"name":"Nick Bisceglia","contribution":"co-production, engineering, mixing, alto saxophone, vocals"},{"name":"Chris Weisman","contribution":"guitar solo on \"What Is Floating\", feedback on \"The One Who Moves\""},{"name":"Quentin Moore","contribution":"guitar on \"I'll Never Stop Believing In Love\""},{"name":"Caroline Bennett","contribution":"album art"}],"links":[{"label":"Bandcamp","link":"https://tandy.bandcamp.com/album/tupping-time-plus","background":"#2eb9ff","font":"#000000"},{"label":"Review in Gryllus Mag","link":"https://gryllus.world/tupping-time-plus/","background":"#ffaded","font":"#8c00ff"}]},
-  {
-    "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/MidiCompetition/2024/cover.png",
-    "title":"33rd General MIDI Competition","color":"#ff8ff9","artists":"","description":"THE PCoT 33rd Annual GM Competition: The 2024 METABALL–LYKE BARON PRIME COMPETITION ZRAINBOW GEOMETRIE 740”\n\n13 tracks and 13 General Midi compatible files! ","contribution":"","label":"Bandcamp","link":"https://tandy.bandcamp.com/album/33rd-general-midi-competition-the-pcot-2024-metaball-lyke-baron-prime-competition-zrainbow-geometrie-740","background":"#ffffff","font":"#044eff","credits":[{"name":"","contribution":""}],"links":[{"label":"Official Website","link":"https://midicompetition.pcotandy.org/","background":"#a598ec","font":"#7ffff5"},{"label":"Bandcamp","link":"https://tandy.bandcamp.com/album/33rd-general-midi-competition-the-pcot-2024-metaball-lyke-baron-prime-competition-zrainbow-geometrie-740","background":"#ffffff","font":"#044eff"}]},
-
-    {
-      "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/ChrisWeisman/TimeMachine/cover.png",
-    "title":"'Time Machine (Kurt Rosenwinkel)' by Chris Weisman","color":"#00ff59",
-    "artists":" ",
-    "description":"Video Of Chris Weisman Covering An Unreleased Kurt Rosenwinkel Song\n\n\"I’m Chris Weisman. In 2008, I was interviewing Kurt Rosenwinkel for my blog, Camp Studio, and he sent me his recording (still unreleased as of May 2024) of his song “Time Machine.” From the moment I heard it preternaturally unspool, I knew—and this remains the case—“This is my favorite song.” Kurt is releasing his Ultimate Book of Compositions on his label, Heartcore Records. “Time Machine” is in there, along with 57 other unreleased songs, in the expansive digital materials that accompany the physical book. 💕 Here is my arrangement, featuring Inverted Tuning classical guitar and my beloved soprano Yamaha Venova.\" Video by Chris Weisman and elie mcafee-hahn. Brought to you by the People’s Coalition of Tandy. PCOT0019","contribution":"Co-Videomaker","label":"Youtube","link":"https://www.youtube.com/watch?v=C-Zrnf_oyuY","background":"#ff0bb3","font":"#02ff23","credits":[{"name":"Chris Weisman","contribution":"Music, Co-Videomaker"},{"name":"Kurt Rosenwinkel","contribution":"Songwriter"},{"name":"elie mcafee-hahn","contribution":"Co-Videomaker"}],
-    "links":[{"label":"Youtube","link":"https://www.youtube.com/watch?v=C-Zrnf_oyuY","background":"#ff0bb3","font":"#02ff23"}]
+    "cover": "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/ChrisWeisman/HowIWroteCertainOfMyHooks/cover.png",
+    "title": "How I Wrote Certain Of My Hooks by Chris Weisman",
+    "color": "#00fffc",
+    "artists": "",
+    "description": "Spiral-bound cardstock score book of Chris Weisman's 2022 album How I Wrote Certain Of My Hooks",
+    "contribution": "Layout & design",
+    "label": "Order Yours Today!",
+    "link": "https://tandy.bandcamp.com/merch/how-i-wrote-certain-of-my-hooks-spiral-bound-cardstock-score-book-by-chris-weisman",
+    "background": "#00edff",
+    "font": "#000000",
+    "credits": [{
+      "name": "Chris Weisman",
+      "contribution": "Music"
+    }, {
+      "name": "elie mcafee-hahn",
+      "contribution": "Layout & design"
+    }],
+    "links": [{
+      "label": "Order Yours Today!",
+      "link": "https://tandy.bandcamp.com/merch/how-i-wrote-certain-of-my-hooks-spiral-bound-cardstock-score-book-by-chris-weisman",
+      "background": "#00edff",
+      "font": "#000000"
+    }]
   },
-
-{
-    "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/elie/NoSunOnMainStreet/cover.png",
-    "title":"'No Sun On Main Street' by elie mcafee-hahn","color":"#79cbce",
-    "artists":" ",
-    "description":"9 song album!","contribution":"Lead Guitar (Track 3)","label":"Bandcamp","link":"https://tandy.bandcamp.com/album/no-sun-on-main-street","background":"#2f50ff","font":"#00fffa","credits":[{"name":"elie mcafee-hahn","contribution":"Music"},
-    {"name":"Julie Bodian","contribution":"Lead Guitar (Track 3)"}],
-    "links":[{"label":"Bandcamp","link":"https://tandy.bandcamp.com/album/no-sun-on-main-street","background":"#2f50ff","font":"#00fffa"}]
-  },
-
   {
-  "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/KatMazur/2_Lullaby/cover.png",
-  "title":"'Ай ну люлі' by Katarina Mazur",
-  "color":"#ff2e00",
-  "artists":" ",
-  "description":"A re-imagined Ukranian Lullaby performed by Tak Ensemble with an accompanying video by Hannah Brookman.",
-  "contribution":"Video",
-  "label":"Bandcamp",
-  "link":"https://tandy.bandcamp.com/album/--2",
-  "background":"#2f70ff",
-  "font":"#fefefe",
-  "credits":[{"name":"Katarina Mazur","contribution":"Composer, Performer"},{"name":"Tak Ensemble","contribution":"Performers"},{"name":"Hannah Brookman","contribution":"Video"}],"links":[{"label":"TandyLinx","link":"https://linx.pcotandy.org/kmazur","background":"#ff1433","font":"#6563ff"},
-  {"label":"YouTube","link":"https://www.youtube.com/watch?v=2zfUIc63BZo","background":"#ff1923","font":"#d0d0d0"},{"label":"Bandcamp","link":"https://tandy.bandcamp.com/album/--2","background":"#2f70ff","font":"#fefefe"}]
-},
-{"cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/ChrisWeisman/HowIWroteCertainOfMyHooks/cover.png",
-"title":"How I Wrote Certain Of My Hooks by Chris Weisman",
-"color":"#00fffc",
-"artists":"",
-"description":"Spiral-bound cardstock score book of Chris Weisman's 2022 album How I Wrote Certain Of My Hooks",
-"contribution":"Layout & design",
-"label":"Order Yours Today!",
-"link":"https://tandy.bandcamp.com/merch/how-i-wrote-certain-of-my-hooks-spiral-bound-cardstock-score-book-by-chris-weisman",
-"background":"#00edff",
-"font":"#000000",
-"credits":[{"name":"Chris Weisman","contribution":"Music"},{"name":"elie mcafee-hahn","contribution":"Layout & design"}],
-"links":[{"label":"Order Yours Today!","link":"https://tandy.bandcamp.com/merch/how-i-wrote-certain-of-my-hooks-spiral-bound-cardstock-score-book-by-chris-weisman","background":"#00edff","font":"#000000"}]}
+    "cover": "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/BLUE%20DISH/SongOfDish/CatalogCover.png",
+    "title": "Song of Blue, Knight of Dish",
+    "color": "#edbf53",
+    "artists": "BLUE DISH",
+    "description": "Summer is coming to an end, but the relief is everlasting. BLUE DISH usher in a new season of soothing music with the release of their new music video on YouTube today. <br><br> BLUE DISH is excited to release their new single Song of Blue, Knight of DISH. It's an acoustic guitar piece, performed by the duo known as BLUE DISH. <br><br>In this video, you will see them playing their guitars. The film is set in a small castle. The castle is not real but is made out of paper to create a playful medieval atmosphere.The musicians were shot alone and later added to the scene using green screen technology.<br><br>Although the setting is medieval, the songs are contemporary. This creates an interesting mix of old and new. <br> The video shows various parts of the castle as the musicians perform, and you 'll notice that the castle hasn't changed - it 's still very simple, like Focus on the music. Throughout the entire film, there are no other characters, just the musicians and the castle.It's a simple performance that highlights BLUE DISH's soundtrack and the unique setting they chose.The simplicity of the film lets you focus on the music as well as the creative visual style. <br><br>BLUE DISH hope you enjoy this video and their new song Song of blue, knight of dish.The video is now available for you to watch on YouTube.",
+    "link": "https://tandy.bandcamp.com/merch/how-i-wrote-certain-of-my-hooks-spiral-bound-cardstock-score-book-by-chris-weisman",
+    "background": "#00edff",
+    "font": "#000000",
+    "credits": [{
+      "name": "BLUE DISH",
+      "contribution": "Music, direction, production, editing"
+    }],
+    "links": [{
+      "label": "Youtube",
+      "link": "https://www.youtube.com/watch?v=t490mC5W7XE",
+      "background": "#edbf53",
+      "font": "#000000"
+    }]
+  }
 ]
