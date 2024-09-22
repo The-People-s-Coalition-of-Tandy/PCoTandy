@@ -925,5 +925,25 @@
       "background": "#edbf53",
       "font": "#000000"
     }]
+  },
+  {
+    "cover": "https://github.com/The-People-s-Coalition-of-Tandy/Assets/blob/main/Albums/elie/ChangeRingingInAmerica/cover_min.png?raw=true",
+    "title": "Change Ringing In America by elie mcafee-hahn",
+    "color": "#edbf53",
+    "artists": "",
+    "description": "8 songs!",
+    "link": "https://tandy.bandcamp.com/album/change-ringing-in-america",
+    "background": "#00edff",
+    "font": "#000000",
+    "credits": [{
+      "name": "elie mcafee-hahn",
+      "contribution": "Music"
+    }],
+    "links": [{
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/change-ringing-in-america",
+      "background": "#edbf53",
+      "font": "#000000"
+    }]
   }
 ]
