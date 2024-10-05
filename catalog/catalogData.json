@@ -945,5 +945,33 @@
       "background": "#edbf53",
       "font": "#000000"
     }]
+  },
+  {
+    "cover": "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/lentils/WhereUFOsFearToTread/cover.jpg",
+    "title": "Where UFOs fear to tread by the lentils",
+    "color": "#edbf53",
+    "artists": "",
+    "description": "The 9th album from LA-based band the lentils! Accompanied by writings & art by the lentils & a bespoke website.",
+    "link": "https://tandy.bandcamp.com/album/where-ufos-fear-to-tread",
+    "background": "#00edff",
+    "font": "#000000",
+    "credits": [{
+      "name": "the lentils",
+      "contribution": "Music"
+    }],
+    "links": [
+      {
+        "label": "Tandylinx",
+        "link": "https://ufo.pcotandy.org/",
+        "background": "#2f70ff",
+        "font": "#fefefe"
+      },
+      {
+      "label": "Bandcamp",
+      "link": "https://tandy.bandcamp.com/album/where-ufos-fear-to-tread",
+      "background": "#edbf53",
+      "font": "#000000"
+    }
+   ]
   }
 ]
