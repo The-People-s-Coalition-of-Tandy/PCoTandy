@@ -973,5 +973,26 @@
       "font": "#000000"
     }
    ]
-  }
+  },
+  {
+  "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/JooheePark/PinkRoomPastoral/cover.png",
+  "title":"Pink Room Pastoral by Joohee Park",
+  "color":"#eb8fff",
+  "artists":"",
+  "description":"The pink room <br> A faceless woman lying on the ground. <br> A rotating fan inflates and deflates her dress, simulating breath.<br>The cat stalks across the carpet.<br>Planes of feeling stutter and transmute,<br>silvery pools that bleed across the screen.<br>Violence seeps in through the window,<br>bubbling beneath the sleepy pastoral daydream <br>As quickly as the feeling comes it goes, <br>slipping softly from the room.<br><br>",
+  "contribution":"Web Implementation",
+  "label":"Online Gallery",
+  "link":"https://pinkroompastoral.pcotandy.org/",
+  "background":"#f5c7fb",
+  "font":"#000000",
+  "credits":[
+    {"name":"Credits","contribution":""},
+    {"name":"Joohee Park","contribution":"Director, Editor, Website Co-designer"},
+  {"name":"Ko T. C.","contribution":"Music & Audio"},
+  {"name":"The Prolan Kurfwen","contribution":"Web Implementation & Co-designer"}],
+  "links":[
+    {"label":"Online Gallery","link":"https://pinkroompastoral.pcotandy.org/",
+  "background":"#f5c7fb","font":"#000000"}
+  ]
+}
 ]
