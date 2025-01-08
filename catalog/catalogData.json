@@ -994,5 +994,20 @@
     {"label":"Online Gallery","link":"https://pinkroompastoral.pcotandy.org/",
   "background":"#f5c7fb","font":"#000000"}
   ]
+},
+{
+  "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/DagmarZuniga/1_inFilthYourMysteryIsKingdom/cover.png",
+  "title":"in filth your mystery is kingdom/ far-smile peasant in yellow music by Dagmar Zuniga",
+  "color":"#000000",
+  "artists":"",
+  "description":"Accompanied by a Limited Cassette Release!\n\n <br><br>  ‘the gdlo metal <br> must be rung <br> a bore is a well <br> lit mine where <br> neverything belongs <br> to me' \n\n",
+"contribution":"",
+"label":"Tandylinx",
+"link":"https://filth.pcotandy.org/",
+"background":"#f506a9","font":"#4beaff",
+"credits":[{"name":"","contribution":""}],
+"links":[{"label":"Tandylinx","link":"https://filth.pcotandy.org/",
+"background":"#f506a9","font":"#4beaff"}
+]
 }
 ]
