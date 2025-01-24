@@ -1009,5 +1009,18 @@
 "links":[{"label":"Tandylinx","link":"https://filth.pcotandy.org/",
 "background":"#f506a9","font":"#4beaff"}
 ]
-}
+},
+{"cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/frogluv/victimOfCars/cover.png",
+"title":"Victim of Cars by frogluv","color":"#000000",
+"artists":"",
+"description":"Victim of Cars is the debut album by Rubin Hohlbein’s frogluv! This released is accompanied by a CD release! <br><br> ​Order a CD while supplies last!",
+"contribution":"","label":"TandyLinx",
+"link":"https://tandylinx.pcotandy.org/Artists/frogluv/index.html",
+"background":"#0067ce","font":"#a6c47d",
+"credits":[{"name":"","contribution":""}],
+"links":[{"label":"TandyLinx",
+"link":"https://tandylinx.pcotandy.org/Artists/frogluv/index.html",
+"background":"#0067ce",
+"font":"#a6c47d"}]}
+
 ]
