@@ -14,7 +14,7 @@ uniform float u_time;
 #define MAX_DIST 100. 
 #define SURFACE_DIST 1. //EPSILON
 
-#define SKY_COLOR vec3(0., 0.1, 0.21)
+#define SKY_COLOR vec3(0.3, 0.1, 0.1)
 
 
 ///////////////////////
@@ -133,13 +133,13 @@ vec3 calcNormal( in vec3 p ) // for function f(p)
 vec3 phong(vec3 lightDir, vec3 normal, vec3 rd) {
   // ambient
   float k_a = 0.6;
-  vec3 i_a = vec3(0.1216, 0.051, 0.7255);
+  vec3 i_a = vec3(0.1216, 0.051, 0.255);
   vec3 ambient = k_a * i_a;
 
   // diffuse
   float k_d = 01.5;
   float dotLN = clamp(dot(lightDir, normal), 0., 1.);
-  vec3 i_d = vec3(0.7, 0.5, 0);
+  vec3 i_d = vec3(0.107, 0.815, 0.6);
   vec3 diffuse = k_d * dotLN * i_d;
 
   // specular
@@ -179,7 +179,7 @@ vec3 ray_march(in vec3 ray_origin, in vec3 ray_direction) {
           // the point of intersection to the light source
       vec3 direction_to_light1 = normalize(current_position - light1_position);
       float light1_diffuse_intensity = max(0.0, dot(normal, direction_to_light1));
-      vec3 light1_color = vec3(1.0, 1.,0.);
+      vec3 light1_color = vec3(1.0, 1.,01.);
       vec3 light1 = light1_color * light1_diffuse_intensity;
 
 
@@ -189,7 +189,7 @@ vec3 ray_march(in vec3 ray_origin, in vec3 ray_direction) {
           // the point of intersection to the light source
       vec3 direction_to_light2 = normalize(current_position - light2_position);
       float light2_diffuse_intensity = max(0.0, dot(normal, direction_to_light2));
-      vec3 light2_color = vec3(1., 0.,1.);
+      vec3 light2_color = vec3(0.2, 0.4,1.);
       vec3 light2 = light2_color * light2_diffuse_intensity;
 
         // We hit something! Return red for now
