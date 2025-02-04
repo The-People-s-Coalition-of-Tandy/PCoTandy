@@ -907,7 +907,7 @@
     }]
   },
   {
-    "cover": "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/BLUE%20DISH/SongOfDish/CatalogCover.png",
+    "cover": "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/main/Albums/BLUE%20DISH/SongOfDish/cover.png",
     "title": "Song of Blue, Knight of Dish",
     "color": "#edbf53",
     "artists": "BLUE DISH",
@@ -1010,6 +1010,26 @@
 "background":"#f506a9","font":"#4beaff"}
 ]
 },
+{"cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/BLUE%20DISH/elizabethVideo/cover.png",
+"title":"Elizabeth [Video] by BLUE DiSH",
+"color":"#000000",
+"artists":"",
+"description":"Hit BLUE DiSH single (from their 2nd album \"Into the Blue\") now has a video!\n\nBonus video included: lovingly created by \"Blueby\"! In this video, Blueby analyzes & expounds on the new video by BLUE DiSH.\n\nBlueby is *truly* here to stay! ",
+"contribution":"Creative Guidance & bonus video!",
+"label":"Blueby™'s Analysis Video",
+"link":"https://www.instagram.com/reel/DDxbs8uSbzB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+"background":"#7e81ff",
+"font":"#cfcfcf",
+"credits":[{"name":"BLUE DiSH","contribution":"Video & Music"},
+{"name":"Blueby","contribution":"Creative Guidance & bonus video!"}],
+"links":[{"label":"Elizabeth (the video)",
+"link":"https://www.youtube.com/watch?v=ePv4ufTSzog",
+"background":"#7e81ff","font":"#cfcfcf"},
+
+{"label":"Blueby™'s Analysis Video","link":"https://www.instagram.com/reel/DDxbs8uSbzB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==","background":"#ffffff","font":"#000000"}
+]
+}
+,
 {"cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/frogluv/victimOfCars/cover.png",
 "title":"Victim of Cars by frogluv","color":"#000000",
 "artists":"",
@@ -1021,6 +1041,11 @@
 "links":[{"label":"TandyLinx",
 "link":"https://tandylinx.pcotandy.org/Artists/frogluv/index.html",
 "background":"#0067ce",
-"font":"#a6c47d"}]}
+"font":"#a6c47d"}]},
+
+{"cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/OliviaHamilton/2024_Paintings/cover.png",
+"title":"Olivia Sage Hamilton Art Book: 2024 Paintings","color":"#ffa8fc","artists":"","description":"***OLIVIA SAGE HAMILTON: 2024 PAINTINGS ART BOOK (LIMITED EDITION)***\n\nReproductions of Olivia Sage Hamilton's 34 most recent paintings – all painted in 2024. 40 page booklet.\n\nOlivia Sage Hamilton is a painter based in New York City. ",
+"contribution":"Design & Layout",
+"label":"Olivia Sage Hamilton Website","link":"https://www.oliviasagehamilton.com/","background":"#5747cd","font":"#d2b76c","credits":[{"name":"Olivia Sage Hamilton","contribution":"All Art & Titles"},{"name":"elie mcafee-hahn","contribution":"Design & Layout"}],"links":[{"label":"Buy A Book!","link":"https://tandy.bandcamp.com/merch/olivia-sage-hamilton-art-book-2024-paintings","background":"#3dc9ff","font":"#ececec"},{"label":"Olivia Sage Hamilton Website","link":"https://www.oliviasagehamilton.com/","background":"#5747cd","font":"#d2b76c"}]}
 
 ]
