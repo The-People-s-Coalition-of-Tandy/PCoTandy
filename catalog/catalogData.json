@@ -1046,6 +1046,42 @@
 {"cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/OliviaHamilton/2024_Paintings/cover.png",
 "title":"Olivia Sage Hamilton Art Book: 2024 Paintings","color":"#ffa8fc","artists":"","description":"***OLIVIA SAGE HAMILTON: 2024 PAINTINGS ART BOOK (LIMITED EDITION)***\n\nReproductions of Olivia Sage Hamilton's 34 most recent paintings – all painted in 2024. 40 page booklet.\n\nOlivia Sage Hamilton is a painter based in New York City. ",
 "contribution":"Design & Layout",
-"label":"Olivia Sage Hamilton Website","link":"https://www.oliviasagehamilton.com/","background":"#5747cd","font":"#d2b76c","credits":[{"name":"Olivia Sage Hamilton","contribution":"All Art & Titles"},{"name":"elie mcafee-hahn","contribution":"Design & Layout"}],"links":[{"label":"Buy A Book!","link":"https://tandy.bandcamp.com/merch/olivia-sage-hamilton-art-book-2024-paintings","background":"#3dc9ff","font":"#ececec"},{"label":"Olivia Sage Hamilton Website","link":"https://www.oliviasagehamilton.com/","background":"#5747cd","font":"#d2b76c"}]}
+"label":"Olivia Sage Hamilton Website","link":"https://www.oliviasagehamilton.com/","background":"#5747cd","font":"#d2b76c","credits":[{"name":"Olivia Sage Hamilton","contribution":"All Art & Titles"},{"name":"elie mcafee-hahn","contribution":"Design & Layout"}],"links":[{"label":"Buy A Book!","link":"https://tandy.bandcamp.com/merch/olivia-sage-hamilton-art-book-2024-paintings","background":"#3dc9ff","font":"#ececec"},{"label":"Olivia Sage Hamilton Website",
+"link":"https://www.oliviasagehamilton.com/","background":"#5747cd","font":"#d2b76c"}
+ ]
+},
+{
+  "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/OldMaybe/TheWhiff/cover.png",
+  "title":"The Whiff by Old Maybe",
+  "color":"#000000",
+  "artists":"",
+  "description":"\n<br><br>Released on CD and Digitally!<br><br>\n\n***********************\n\nTHIS ALBUM IS DEDICATED TO STEVIE POHLMAN\n\nRELEASED AND DISTRIBUTED BY THE PEOPLE’S COALITION OF TANDY\n\nSPECIAL THANKS TO CAP, CHAR ESME,\nKO TAKASUGI-CZERNOWIN, NED PORTER, CELIA HILL,\nRED LYNCH, DAGMAR ZUNIGA, SCHOOL OF SONG,\nTHE PEOPLE’S COALITION OF TANDY, ONLINESEQUENCER.NET\n","contribution":"ALBUM COVER PHOTO EDITOR",
+  "label":"TandyLinx","link":"https://whiff.pcotandy.org/hand/",
+  "background":"#ffffff","font":"#000000",
+  "credits":[{"name":"JAZZ ADAM","contribution":"ALL SONGS WRITTEN, PRODUCED, AND PERFORMED"},{"name":"KO TAKASUGI-CZERNOWIN","contribution":"MIX AND MASTER"},{"name":"NED PORTER","contribution":"Co-MIX (on \"I Say No\")"},{"name":"CHAR ESME AND JAZZ ADAM","contribution":"ALBUM ART"},{"name":"EVAN BROCK","contribution":"ALBUM COVER PHOTO EDITOR"}],
+  "links":[{"label":"TandyLinx","link":"https://whiff.pcotandy.org/hand/","background":"#ffffff","font":"#000000"},
+  {"label":"Order Your CD Today!","link":"https://tandy.bandcamp.com/album/the-whiff","background":"#000000","font":"#ffffff"}
+    ]
+  },
+  {
+    "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/TalulahPaisley/Fool/whatIsItLike_cover.png",
+    "title":"Fool by Talulah Paisley","color":"#ea00ff","artists":"",
+    "description":"An upcoming album by Talulah Paisley!",
+    "contribution":"Music",
+    "label":"'What's It Like' (single) TandyLinx",
+    "link":"https://links.pcotandy.org/whatsitlike/",
+    "background":"#ff0044","font":"#e2f200",
+    "credits":[{"name":"Lyris Faron","contribution":"Music"}],
+    "links":[{"label":"'What's It Like' (single) TandyLinx",
+    "link":"https://links.pcotandy.org/whatsitlike/","background":"#ff0044","font":"#e2f200"}]
+  },
+  {
+    "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/MidiCompetition/2025/img1.png",
+  "title":"2025 General MIDI Competition: The Grand Meridian 2025 Competition Spherule ZRainbow Globe 810 [due June 5th]",
+  "color":"#088f00","artists":"",
+  "description":"The People's Coalition Of Tandy 2025 General MIDI Competition is now LIVE! YIPEEDEE","label":"Competition Webpage (Info, Rules, & Submission Guidelines)",
+  "link":"https://midicompetition.pcotandy.org/2025/signup.html",
+  "background":"#027500","font":"#00ff45","credits":[],"links":[{"label":"Competition Webpage (Info, Rules, & Submission Guidelines)",
+  "link":"https://midicompetition.pcotandy.org/2025/signup.html","background":"#027500","font":"#00ff45"}]}
 
 ]
