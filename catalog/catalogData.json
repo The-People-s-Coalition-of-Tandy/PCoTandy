@@ -1063,6 +1063,18 @@
   {"label":"Order Your CD Today!","link":"https://tandy.bandcamp.com/album/the-whiff","background":"#000000","font":"#ffffff"}
     ]
   },
+  {"cover":
+  "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/NickBisceglia/TwoHundredInches/cover.png",
+  "title":"Two Hundred Inches Of Gentle British Rain by Nick Bisceglia",
+  "color":"#64fffd",
+  "artists":"Nick Bisceglia",
+  "description":"Yet another amazing album by the great Nick Bisceglia.",
+  "contribution":"Everything (songwriting/performance/mix/master)",
+  "label":"Youtube","link":"https://www.youtube.com/watch?v=qtzBQ3ZZ5kw","background":"#ff0c00","font":"#000000",
+  "credits":[{"name":"Nick Bisceglia","contribution":"Everything (songwriting/performance/mix/master)"}],
+  "links":[{"label":"Bandcamp","link":"https://tandy.bandcamp.com/album/two-hundred-inches-of-gentle-british-rain","background":"#00ffd3","font":"#000000"},
+  {"label":"Youtube","link":"https://www.youtube.com/watch?v=qtzBQ3ZZ5kw","background":"#ff0c00","font":"#000000"}]},
+
   {
     "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/TalulahPaisley/Fool/cover.png",
     "title":"Fool by Talulah Paisley","color":"#ea00ff","artists":"",
