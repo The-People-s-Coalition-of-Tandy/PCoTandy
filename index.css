@@ -14,7 +14,7 @@
 }
 
 body {
-    background: url("./Assets/tandyhourPurp.gif") repeat;
+    background: url("./Assets/tandyhourPurp_CT.gif") repeat;
     -webkit-animation: scrolling-background 5s linear infinite;
     -moz-animation: scrolling-background 5s linear infinite;
     -o-animation: scrolling-background 5s linear infinite;
