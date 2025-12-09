@@ -1,0 +1,169 @@
+/* Mobile-responsive styles for Rei Harakami interview pages */
+
+/* Base styles - preserve desktop layout */
+main {
+  max-width: 100%;
+}
+
+/* Make tables responsive on mobile */
+@media screen and (max-width: 768px) {
+  /* Scale down main container tables */
+  table[width="630"],
+  table[width="595"],
+  table[width="600"],
+  table[width="596"] {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  
+  /* Make all tables responsive */
+  table {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Make table cells stack on mobile for side-by-side layouts */
+  /* Target cells in rows that have images alongside text */
+  table[width="595"] > tbody > tr > td[width="240"],
+  table[width="595"] > tbody > tr > td[width="260"],
+  table[width="595"] > tbody > tr > td[width="250"],
+  table[width="595"] > tbody > tr > td[width="200"],
+  table[width="595"] > tbody > tr > td[width="180"],
+  table[width="595"] > tbody > tr > td[width="150"],
+  table[width="595"] > tbody > tr > td[width="210"],
+  table[width="595"] > tbody > tr > td[width="356"],
+  table[width="595"] > tbody > tr > td[width="350"],
+  table[width="595"] > tbody > tr > td[width="340"],
+  table[width="595"] > tbody > tr > td[width="330"],
+  table[width="595"] > tbody > tr > td[width="420"],
+  table[width="595"] > tbody > tr > td[width="410"],
+  table[width="595"] > tbody > tr > td[width="375"],
+  table[width="596"] > tbody > tr > td[width="240"],
+  table[width="596"] > tbody > tr > td[width="356"] {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100%;
+  }
+  
+  /* Make rows with multiple cells display as block to allow stacking */
+  table[width="595"] > tbody > tr:has(> td[width="240"]),
+  table[width="595"] > tbody > tr:has(> td[width="260"]),
+  table[width="595"] > tbody > tr:has(> td[width="250"]),
+  table[width="596"] > tbody > tr:has(> td[width="240"]) {
+    display: block;
+  }
+  
+  /* Stack image and text vertically in rows with images */
+  table[width="595"] > tbody > tr > td img,
+  table[width="596"] > tbody > tr > td img {
+    display: block;
+    margin: 0 auto 1em;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Make all images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Adjust nested tables */
+  table[width="340"],
+  table[width="350"],
+  table[width="330"],
+  table[width="420"],
+  table[width="410"],
+  table[width="375"],
+  table[width="210"],
+  table[width="180"],
+  table[width="150"],
+  table[width="160"],
+  table[width="550"],
+  table[width="400"] {
+    width: 100% !important;
+    max-width: 100%;
+  }
+  
+  /* Center align text on mobile for better readability */
+  td[align="right"] {
+    text-align: left !important;
+  }
+  
+  /* Keep images centered */
+  td[align="right"] img,
+  td[align="center"] img {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Adjust font sizes slightly for mobile readability */
+  .small {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+  
+  .medium {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  /* Remove nowrap to allow text wrapping */
+  td[nowrap="nowrap"] {
+    white-space: normal !important;
+  }
+  
+  /* Make right-aligned image tables stack properly */
+  table[align="right"] {
+    float: none !important;
+    width: 100% !important;
+    margin: 0 auto;
+  }
+  
+  /* Ensure text wraps properly in cells */
+  td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* Handle the intro section with right-aligned image */
+  table[width="180"][align="right"] {
+    float: none !important;
+    width: 100% !important;
+    margin: 1em auto;
+  }
+}
+
+/* For very small screens */
+@media screen and (max-width: 480px) {
+  /* Further reduce font sizes if needed */
+  .small {
+    font-size: 0.85em;
+    line-height: 1.4;
+  }
+  
+  .medium {
+    font-size: 0.95em;
+    line-height: 1.5;
+  }
+  
+  /* Ensure images don't overflow */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add some padding to prevent edge-to-edge text */
+  main {
+    padding: 0 10px;
+  }
+  
+  body {
+    padding: 0 5px;
+  }
+  
+  /* Reduce spacing between elements */
+  table {
+    margin-bottom: 1em;
+  }
+}
