@@ -1063,6 +1063,8 @@
   {"label":"Order Your CD Today!","link":"https://tandy.bandcamp.com/album/the-whiff","background":"#000000","font":"#ffffff"}
     ]
   },
+
+
   {"cover":
   "https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/NickBisceglia/TwoHundredInches/cover.png",
   "title":"Two Hundred Inches Of Gentle British Rain by Nick Bisceglia",
@@ -1110,13 +1112,25 @@
   "links":[{"label":"Bandcamp","link":"https://31i3.bandcamp.com/album/share-the-music",
   "background":"#129c10","font":"#ffaf67"},{"label":"Youtube",
   "link":"https://www.youtube.com/watch?v=vdx31X4kCcI","background":"#000000","font":"#f7ffff"}]},
-  {
+
+
+    {
     "cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/MidiCompetition/2025/img1.png",
-  "title":"2025 General MIDI Competition: The Grand Meridian 2025 Competition Spherule ZRainbow Globe 810 [due June 5th]",
+  "title":"2025 General MIDI Competition: The Grand Meridian 2025 Competition Spherule ZRainbow Globe 810",
   "color":"#088f00","artists":"",
-  "description":"The People's Coalition Of Tandy 2025 General MIDI Competition is now LIVE! YIPEEDEE","label":"Competition Webpage (Info, Rules, & Submission Guidelines)",
+  "description":"The People's Coalition Of Tandy 2025 General MIDI Competition","label":"Competition Webpage (Info, Rules, & Submission Guidelines)",
   "link":"https://midicompetition.pcotandy.org/2025/signup.html",
   "background":"#027500","font":"#00ff45","credits":[],"links":[{"label":"Competition Webpage (Info, Rules, & Submission Guidelines)",
-  "link":"https://midicompetition.pcotandy.org/2025/signup.html","background":"#027500","font":"#00ff45"}]}
+  "link":"https://midicompetition.pcotandy.org/2025/signup.html","background":"#027500","font":"#00ff45"}]},
+
+
+
+  {"cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/KoTC/worldOfShadow/cover.png",
+  "title":"World of Shadow by Ko T. C.","color":"#7f4b00","artists":"",
+  "description":"Written mostly Fall/Winter 2020 in Guilford, VT.\nArranged/recorded 2021–2025 across various towns and cities.\nPublished by the People's Coalition of Tandy. \n\nPCOT 0037\n\n☁☁☁☁☁☁\n\n Releases January 15, 2026.","contribution":"Ko T. C.",
+  "label":"Pre-Order CD","link":"https://kot-c.bandcamp.com/album/world-of-shadow",
+  "background":"#000000","font":"#cd6d00","credits":[{"name":"All Music","contribution":"Ko T. C."},{"name":"Mixing (\"Tiny Glimpse 2\" and \"Slate Rock\")","contribution":"Kayla Reagan"},{"name":"Mastering","contribution":"Cleo Henman"},{"name":"Cover Art","contribution":"Sage Jenson"},{"name":"Special Thanks","contribution":"Leah Jacobson, Elie McAfee–Hahn, Julie Bodian, Joohee Park, Rubin Hohlbein, Jolee Gordon, Matthew Okun, Greg Lewis, Lina Tullgren, Emily Barr, Dylan Cloud, Kat Mazur, Bea Korsh, Dagmar Zuniga, Leeza, Mom, Dad, and The People's Coalition of Tandy"}],
+  "links":[{"label":"Pre-Order CD","link":"https://kot-c.bandcamp.com/album/world-of-shadow",
+  "background":"#000000","font":"#cd6d00"}]}
 
 ]
