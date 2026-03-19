@@ -19,6 +19,7 @@ body {
     -moz-animation: scrolling-background 5s linear infinite;
     -o-animation: scrolling-background 5s linear infinite;
     animation: scrolling-background 5s linear infinite;
+    overflow-x: hidden;
 }
 
 @keyframes webring-fade {
@@ -28,6 +29,90 @@ body {
 
     100% {
         opacity: 100%;
+    }
+}
+
+.pitchfork-banner {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 16px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    background-color: rgb(221, 218, 128);
+    background-image: url("./Assets/gold_bg.png");
+    color: white;
+    animation: pitchfork-banner-slide 1.5s ease-out backwards;
+    animation-delay: 1s;
+    transition: top 10s linear, opacity 10s linear;
+    will-change: top, opacity;
+    z-index: 1000;
+}
+
+.pitchfork-banner.float-down {
+    top: calc(100vh + 200px);
+    /* opacity: 0; */
+}
+
+.pitchfork-banner-text {
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0 0 10px black);
+    gap: 10px;
+}
+
+.pitchfork-banner-link a{
+    color: black;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    animation: banner-blink 1s steps(2, start) infinite;
+}
+
+.pitchfork-banner-title {
+    filter: drop-shadow(0 0 10px black);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@keyframes banner-blink {
+    0%,69% {
+        background-color: rgb(255, 97, 97);
+    }
+    70%,100% {
+        background-color: black;
+    }
+}
+
+.pitchfork-banner img {
+    width: 100px;
+    margin-left: -4px;
+}
+
+@keyframes pitchfork-banner-slide {
+    /* 0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    } */
+
+    0% {
+        transform: scale(0) rotateY(-360deg);
+    }
+
+    100% {
+        transform: scale(1) rotateY(0deg);
     }
 }
 

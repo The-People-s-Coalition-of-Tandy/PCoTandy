@@ -19,12 +19,31 @@
         window.location = link;
       }, 100);
     }
+
+    window.addEventListener("DOMContentLoaded", function () {
+      var pitchforkBanner = document.querySelector(".pitchfork-banner");
+      if (!pitchforkBanner) return;
+
+      setTimeout(function () {
+        pitchforkBanner.classList.add("float-down");
+      }, 4000);
+
+      setTimeout(function () {
+        pitchforkBanner.style.display = "none";
+      }, 12000);
+    });
   </script>
 </head>
 
 <body background="./Assets/tandyhourPurp_CT.png" style="padding-top: 50px;">
 
   <img class="center-items banner" src="./Assets/TandyBanner_CT.png">
+
+  <div class="pitchfork-banner">
+    <div class="pitchfork-banner-text"><span>Welcome</span> <img src="./Assets/pitchfork.png" alt="Pitchfork Logo"> <span>readers!</span></div>
+    <div class="pitchfork-banner-link"><a href="https://pitchfork.com/reviews/albums/dagmar-zuniga-in-filth-your-mystery-is-kingdom-far-smile-peasant-in-yellow-music/" target="_blank">Congratulations Dagmar Zuniga!</a></div>
+  <span class="pitchfork-banner-title">Tandy 2026</span>
+  </div>
 
   <div class="center-items">
     <!-- <div style="display: flex;"><img src="./MidiVerify/index_files/check.ICO" class="center-items" style="width: 50px; height: 50px; margin-top: 10px;"><a href="./MidiVerify/" class="center-items" style="font-size: 20px; margin-top: 10px;">MIDI Verifier</a></div> -->
