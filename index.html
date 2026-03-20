@@ -10,6 +10,33 @@
     data-goatcounter="https://pcotandy.goatcounter.com/count"
     async
     src="//gc.zgo.at/count.js"></script>
+  <script>
+    function buttonClick() {
+      var audio = document.getElementById("click");
+      audio.play();
+    }
+
+    function buttonReturn(link) {
+      var audio = document.getElementById("clack");
+      audio.play();
+      setTimeout(() => {
+        window.location = link;
+      }, 100);
+    }
+
+    window.addEventListener("DOMContentLoaded", function () {
+      var pitchforkBanner = document.querySelector(".pitchfork-banner");
+      if (!pitchforkBanner) return;
+
+      setTimeout(function () {
+        pitchforkBanner.classList.add("float-down");
+      }, 4000);
+
+      setTimeout(function () {
+        pitchforkBanner.style.display = "none";
+      }, 12000);
+    });
+  </script>
 </head>
 
 <body background="./Assets/tandyhourPurp_CT.png" style="padding-top: 50px;">
