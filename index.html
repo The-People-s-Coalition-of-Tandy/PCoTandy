@@ -11,6 +11,27 @@
     async
     src="//gc.zgo.at/count.js"></script>
   <script>
+    function trackPitchforkReferral(attempt) {
+
+      if (window.goatcounter && typeof window.goatcounter.count === "function") {
+        window.goatcounter.count({
+          path: function () {
+            return "/referrals/pitchfork";
+          },
+          title: "Referral: Pitchfork",
+          event: true
+        });
+        return;
+      }
+
+      if ((attempt || 0) < 10) {
+        setTimeout(function () {
+          trackPitchforkReferral((attempt || 0) + 1);
+        }, 500);
+      }
+    }
+    
+
     function buttonClick() {
       var audio = document.getElementById("click");
       audio.play();
@@ -25,6 +46,8 @@
     }
 
     window.addEventListener("DOMContentLoaded", function () {
+      trackPitchforkReferral();
+
       var pitchforkBanner = document.querySelector(".pitchfork-banner");
       if (!pitchforkBanner) return;
 
