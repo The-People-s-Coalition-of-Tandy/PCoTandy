@@ -10,57 +10,6 @@
     data-goatcounter="https://pcotandy.goatcounter.com/count"
     async
     src="//gc.zgo.at/count.js"></script>
-  <script>
-    function trackPitchforkReferral(attempt) {
-      var referrer = (document.referrer || "").toLowerCase();
-      if (!referrer.includes("pitchfork.com")) return;
-
-      if (window.goatcounter && typeof window.goatcounter.count === "function") {
-        window.goatcounter.count({
-          path: function () {
-            return "/referrals/pitchfork";
-          },
-          title: "Referral: Pitchfork",
-          event: true
-        });
-        return;
-      }
-
-      if ((attempt || 0) < 10) {
-        setTimeout(function () {
-          trackPitchforkReferral((attempt || 0) + 1);
-        }, 500);
-      }
-    }
-
-    function buttonClick() {
-      var audio = document.getElementById("click");
-      audio.play();
-    }
-
-    function buttonReturn(link) {
-      var audio = document.getElementById("clack");
-      audio.play();
-      setTimeout(() => {
-        window.location = link;
-      }, 100);
-    }
-
-    window.addEventListener("DOMContentLoaded", function () {
-      trackPitchforkReferral();
-
-      var pitchforkBanner = document.querySelector(".pitchfork-banner");
-      if (!pitchforkBanner) return;
-
-      setTimeout(function () {
-        pitchforkBanner.classList.add("float-down");
-      }, 4000);
-
-      setTimeout(function () {
-        pitchforkBanner.style.display = "none";
-      }, 12000);
-    });
-  </script>
 </head>
 
 <body background="./Assets/tandyhourPurp_CT.png" style="padding-top: 50px;">
