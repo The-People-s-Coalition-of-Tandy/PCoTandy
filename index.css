@@ -207,9 +207,31 @@ button.yt {
         margin-top: 3vh;
     }
 
-
+    /* Center pitchfork banner on narrow / portrait-style viewports (e.g. 4:5 phones) */
+    .pitchfork-banner {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        max-width: calc(100vw - 24px);
+        box-sizing: border-box;
+    }
 
     .popup {
         display: none;
+    }
+}
+
+/* Wider-but-still-portrait viewports (e.g. some tablets) where 4:5-style layout matters */
+@media only screen and (max-width: 900px) and (max-aspect-ratio: 4 / 5) {
+    .pitchfork-banner {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        max-width: calc(100vw - 24px);
+        box-sizing: border-box;
     }
 }
