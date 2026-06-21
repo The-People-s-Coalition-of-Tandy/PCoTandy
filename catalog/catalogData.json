@@ -1131,6 +1131,11 @@
   "label":"TandyLinx","link":"https://shadow.pcotandy.org/",
   "background":"#000000","font":"#cd6d00","credits":[{"name":"All Music","contribution":"Ko T. C."},{"name":"Mixing (\"Tiny Glimpse 2\" and \"Slate Rock\")","contribution":"Kayla Reagan"},{"name":"Mastering","contribution":"Cleo Henman"},{"name":"Cover Art","contribution":"Sage Jenson"},{"name":"Special Thanks","contribution":"Leah Jacobson, Elie McAfee–Hahn, Julie Bodian, Joohee Park, Rubin Hohlbein, Jolee Gordon, Matthew Okun, Greg Lewis, Lina Tullgren, Emily Barr, Dylan Cloud, Kat Mazur, Bea Korsh, Dagmar Zuniga, Leeza, Mom, Dad, and The People's Coalition of Tandy"}],
   "links":[{"label":"TandyLinx","link":"https://shadow.pcotandy.org/",
-  "background":"#000000","font":"#cd6d00"}]}
+  "background":"#000000","font":"#cd6d00"}]},
+
+  {"cover":"https://raw.githubusercontent.com/The-People-s-Coalition-of-Tandy/Assets/refs/heads/main/Albums/BeaKorsh/IntrusiveThots/cover.png",
+  "title":"Intrusive Thots (book) by Bea Korsh","color":"#000000",
+  "artists":"Bea Korsh",
+  "description":"PCOT0038\n40-page newsprint broadside comic book.\n1st Edition, run of 100.\n\n\nA note from the author:\n\"Intrusive Thots is the personal record I started in August 2024, anxiously awaiting my admittance into an intensive outpatient program for personality disorders. I concluded both the program and IT a year later, no longer needing either to survive.\n\nFor a while IT was just for me, but by the time I stopped, I intended to publish it. The result is a twisted assemblage of revelation and redaction, neither a chronicle nor a journal. I depict self harm, masturbation, childhood trauma, and dissociative episodes. I continue hiding deep secrets. I redact names and only include information concerning my peers with their consent.\n\nAs I whirl through painful cycles of joy and dread, love and paranoia, introspection and psychoticism, new desires emerge: to embrace reality, to be understood, to relax. Nothing resolves, but everything evolves, most of all my sense of self, others, and our collective safety.\n\n– B\"","contribution":"","label":"Bea Korsh Website","link":"https://beakorsh.com/","background":"#e82eff","font":"#ffffff","credits":[{"name":"Bea Korsh","contribution":"Everything!!!!"},{"name":"","contribution":""}],"links":[{"label":"Buy a copy now!","link":"https://tandy.bandcamp.com/merch/intrusive-thots-by-bea-korsh","background":"#000adc","font":"#f9fcff"},{"label":"Bea Korsh Website","link":"https://beakorsh.com/","background":"#e82eff","font":"#ffffff"}]}
 
 ]
