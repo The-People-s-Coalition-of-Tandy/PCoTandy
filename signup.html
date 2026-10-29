@@ -13,21 +13,21 @@
     <main>
             <h1>Sign Up </h1>
             <div class="feedback-form">
-                <form action="https://riku.miso.town/submit?user_id=5&label=Tandy" method="post">
-                    
+                <!-- Kit form 10111350; Kit's form settings redirect to /signup-success after subscribing -->
+                <form action="https://app.kit.com/forms/10111350/subscriptions" method="post">
+
 
                     <div class="field">
                         <label for="email">Email</label><br>
-                        <input type="email" name="email" id="email" require placeholder="Email">
+                        <input type="email" name="email_address" id="email" required placeholder="Email">
                     </div><br>
 
                     <div class="field">
                         <label for="username">Username</label><br>
-                        <input type="text" name="username" id="username" required placeholder="Username">
+                        <input type="text" name="fields[username]" id="username" required placeholder="Username">
                     </div>
 <br>
                     <input type="submit" value="Submit" class="submit-button">
-                    <input type="hidden" name="redirect" value="https://pcotandy.org/success">
                 </form>
             </div>
         </main>
